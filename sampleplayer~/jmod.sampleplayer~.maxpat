@@ -164,13 +164,13 @@
 ,
 					"patching_rect" : [ 77.0, 309.0, 27.0, 19.0 ],
 					"saved_object_attributes" : 					{
+						"default_fontsize" : 10.0,
+						"fontname" : "Verdana",
+						"globalpatchername" : "",
+						"fontface" : 0,
 						"fontsize" : 10.0,
 						"default_fontface" : 0,
-						"default_fontname" : "Verdana",
-						"fontname" : "Verdana",
-						"default_fontsize" : 10.0,
-						"globalpatchername" : "",
-						"fontface" : 0
+						"default_fontname" : "Verdana"
 					}
 ,
 					"text" : "p"
@@ -620,7 +620,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 5,
 					"outlettype" : [ "", "", "", "", "" ],
-					"patching_rect" : [ 53.0, 431.0, 406.0, 19.0 ],
+					"patching_rect" : [ 53.0, 431.0, 404.0, 19.0 ],
 					"text" : "jcom.oscroute /sample/start /sample/stop /sample/buffername /info/filename"
 				}
 
@@ -1866,13 +1866,13 @@
 ,
 									"patching_rect" : [ 332.0, 302.0, 50.0, 17.0 ],
 									"saved_object_attributes" : 									{
+										"default_fontsize" : 10.0,
+										"fontname" : "Arial",
+										"globalpatchername" : "",
+										"fontface" : 0,
 										"fontsize" : 10.0,
 										"default_fontface" : 0,
-										"default_fontname" : "Arial",
-										"fontname" : "Arial",
-										"default_fontsize" : 10.0,
-										"globalpatchername" : "",
-										"fontface" : 0
+										"default_fontname" : "Arial"
 									}
 ,
 									"text" : "p wfkeys"
@@ -1935,7 +1935,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 601.0, 621.0, 61.0, 17.0 ],
-									"save" : [ "#N", "thispatcher", ";", "#Q", "window", "flags", "grow", "close", "zoom", "nofloat", "menu", "minimize", ";", "#Q", "window", "constrain", 2, 2, 32768, 32768, ";", "#Q", "window", "size", 194, 44, 716, 367, ";", "#Q", "window", "title", ";", "#Q", "window", "exec", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
+									"save" : [ "#N", "thispatcher", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
 									"text" : "thispatcher"
 								}
 
@@ -2624,13 +2624,13 @@
 ,
 					"patching_rect" : [ 16.0, 529.0, 91.0, 19.0 ],
 					"saved_object_attributes" : 					{
+						"default_fontsize" : 10.0,
+						"fontname" : "Verdana",
+						"globalpatchername" : "",
+						"fontface" : 0,
 						"fontsize" : 10.0,
 						"default_fontface" : 0,
-						"default_fontname" : "Verdana",
-						"fontname" : "Verdana",
-						"default_fontsize" : 10.0,
-						"globalpatchername" : "",
-						"fontface" : 0
+						"default_fontname" : "Verdana"
 					}
 ,
 					"text" : "p panel"
