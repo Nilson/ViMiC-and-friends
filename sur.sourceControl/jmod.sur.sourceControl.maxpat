@@ -142,13 +142,13 @@
 ,
 									"patching_rect" : [ 588.0, 167.0, 48.0, 19.0 ],
 									"saved_object_attributes" : 									{
+										"default_fontface" : 0,
 										"globalpatchername" : "",
+										"default_fontname" : "Verdana",
 										"fontface" : 0,
 										"fontsize" : 10.0,
-										"default_fontface" : 0,
-										"default_fontname" : "Verdana",
-										"fontname" : "Verdana",
-										"default_fontsize" : 10.0
+										"default_fontsize" : 10.0,
+										"fontname" : "Verdana"
 									}
 ,
 									"text" : "p script"
@@ -283,13 +283,13 @@
 ,
 					"patching_rect" : [ 778.0, 273.0, 48.0, 19.0 ],
 					"saved_object_attributes" : 					{
+						"default_fontface" : 0,
 						"globalpatchername" : "",
+						"default_fontname" : "Verdana",
 						"fontface" : 0,
 						"fontsize" : 10.0,
-						"default_fontface" : 0,
-						"default_fontname" : "Verdana",
-						"fontname" : "Verdana",
-						"default_fontsize" : 10.0
+						"default_fontsize" : 10.0,
+						"fontname" : "Verdana"
 					}
 ,
 					"text" : "p panel"
@@ -936,13 +936,13 @@
 ,
 					"patching_rect" : [ 605.0, 219.0, 168.0, 31.0 ],
 					"saved_object_attributes" : 					{
+						"default_fontface" : 0,
 						"globalpatchername" : "",
+						"default_fontname" : "Verdana",
 						"fontface" : 0,
 						"fontsize" : 10.0,
-						"default_fontface" : 0,
-						"default_fontname" : "Verdana",
-						"fontname" : "Verdana",
-						"default_fontsize" : 10.0
+						"default_fontsize" : 10.0,
+						"fontname" : "Verdana"
 					}
 ,
 					"text" : "p jcom.position2ambimonitor @prefix source @radius 10"
@@ -1011,7 +1011,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 12.0, 200.0, 371.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.0, 187.0, 364.0, 25.0 ]
+					"presentation_rect" : [ 4.0, 187.0, 394.0, 25.0 ]
 				}
 
 			}
@@ -1026,7 +1026,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 12.0, 172.0, 371.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.0, 163.0, 364.0, 25.0 ]
+					"presentation_rect" : [ 4.0, 163.0, 394.0, 25.0 ]
 				}
 
 			}
@@ -1041,7 +1041,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 10.0, 148.0, 371.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.0, 139.0, 364.0, 25.0 ]
+					"presentation_rect" : [ 4.0, 139.0, 394.0, 25.0 ]
 				}
 
 			}
@@ -1056,7 +1056,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 12.0, 124.0, 371.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.0, 115.0, 364.0, 25.0 ]
+					"presentation_rect" : [ 4.0, 115.0, 394.0, 25.0 ]
 				}
 
 			}
@@ -1071,7 +1071,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 12.0, 98.0, 371.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.0, 91.0, 364.0, 25.0 ]
+					"presentation_rect" : [ 4.0, 91.0, 394.0, 25.0 ]
 				}
 
 			}
@@ -1086,7 +1086,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 12.0, 74.0, 371.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.0, 67.0, 364.0, 25.0 ]
+					"presentation_rect" : [ 4.0, 67.0, 394.0, 25.0 ]
 				}
 
 			}
@@ -1101,7 +1101,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 12.0, 50.0, 371.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.0, 43.0, 364.0, 25.0 ]
+					"presentation_rect" : [ 4.0, 43.0, 394.0, 25.0 ]
 				}
 
 			}
@@ -1116,7 +1116,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 12.0, 26.0, 377.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.0, 19.0, 364.0, 25.0 ]
+					"presentation_rect" : [ 4.0, 19.0, 394.0, 25.0 ]
 				}
 
 			}
