@@ -1,23 +1,9 @@
 ###############################################################
 CUE "1 init 8 microphones"
 ###############################################################
-# Module /jmod.control
-/control/audio 0
 
-# Module /jmod.multi.aux
-	/jmod.multi.aux/aux.1/active 0
-	/jmod.multi.aux/aux.1/description "to reverb"
-	/jmod.multi.aux/aux.1/gain 100.000
-	/jmod.multi.aux/aux.2/active 1
-	/jmod.multi.aux/aux.2/description "to output"
-	/jmod.multi.aux/aux.2/gain 100.000
-	/jmod.multi.aux/aux.3/active 0
-	/jmod.multi.aux/aux.3/description "_"
-	/jmod.multi.aux/aux.3/gain 100.000
-	/jmod.multi.aux/audio/gain 100.000
-	/jmod.multi.aux/audio/mute 0
-	/jmod.multi.aux/view/freeze 0
-	/jmod.multi.aux/channels 8
+/output~/audio/active 0
+
 # Module /jmod.sur.vimic~
     /jmod.sur.vimic~/microphones/amount 8
 	/jmod.sur.vimic~/room/reflection/order 1
@@ -124,20 +110,20 @@ CUE "1 init 8 microphones"
 	/reverb~/audio/gain 0.0
 	/reverb~/audio/meters/freeze 0
 	/reverb~/audio/mute 0
-	/reverb~/delaylength 30.000 76.000
-	/reverb~/fdn_eq/cf 732.239
-	/reverb~/fdn_eq/filtergain 0.000
-	/reverb~/fdn_eq/filtertype bandpass
-	/reverb~/fdn_eq/q 0.054
-	/reverb~/input_eq/cf 2444.000
-	/reverb~/input_eq/filtergain 0.000
-	/reverb~/input_eq/filtertype lowpass
-	/reverb~/input_eq/q 0.607
+	/reverb~/fdn/delaylength 30.000 76.000
+	/reverb~/fdn/frequency 732.239
+	/reverb~/fdn/filtergain 0.000
+	/reverb~/fdn/filtertype bandpass
+	/reverb~/fdn/q 0.054
+	/reverb~/input/frequency 2444.000
+	/reverb~/input/filtergain 0.000
+	/reverb~/input/filtertype lowpass
+	/reverb~/input/q 0.607
 	/reverb~/inputs 8
 	/reverb~/interpolationtime 20.000
-	/reverb~/modulation/active 1
-	/reverb~/modulation/amplitude 0.350 5.060
-	/reverb~/modulation/frequency 0.320 1.400
+	/reverb~/fdn/modulation/active 1
+	/reverb~/fdn/modulation/amplitude 0.350 5.060
+	/reverb~/fdn/modulation/frequency 0.320 1.400
 	/reverb~/outputs 8
 	/reverb~/predelay 0.000
 	/reverb~/t60 2.300	
@@ -150,14 +136,14 @@ CUE "1 init 8 microphones"
 ######################################################
 CUE 2_fadein_Direct_Sound
 ######################################################
-/control/audio 1
+/output~/audio/active 1
 /jmod.sur.vimic~/room/reflection/gain.0  100.0
 /jmod.sur.vimic~/audio/gain 100.0 ramp 2000
 
 ######################################################
 CUE "3 add early reflections"
 ######################################################
-/jmod.control/audio 1
+/output~/audio/active 1
 /jmod.sur.vimic~/room/absorption.left/preset brick
 /jmod.sur.vimic~/room/reflection/gain.1  81.0 ramp 2000
 
@@ -165,31 +151,30 @@ CUE "3 add early reflections"
 ############################################################
 CUE "4 add late reverb"
 ############################################################
-/jmod.multi.aux/aux.1/gain 0.0
 
-/reverb~/audio/gain 100.
+/reverb~/audio/gain 60. ramp 4000
 /reverb~/audio/mute 0
-/reverb~/delaylength 30. 76.
-/reverb~/fdn_eq/cf 732.239014
-/reverb~/fdn_eq/filtergain 0.
-/reverb~/fdn_eq/filtertype bandpass
-/reverb~/fdn_eq/q 0.054
-/reverb~/input_eq/cf 2444.
-/reverb~/input_eq/filtergain 0.
-/reverb~/input_eq/filtertype lowpass
-/reverb~/input_eq/q 0.607
+/reverb~/fdn/delaylength 30. 76.
+/reverb~/fdn/frequency 732.239014
+/reverb~/fdn/filtergain 0.
+/reverb~/fdn/filtertype bandpass
+/reverb~/fdn/q 0.054
+/reverb~/input/frequency 2444.
+/reverb~/input/filtergain 0.
+/reverb~/input/filtertype lowpass
+/reverb~/input/q 0.607
 /reverb~/inputs 8
 /reverb~/interpolationtime 20.
-/reverb~/modulation/active 1
-/reverb~/modulation/amplitude 0.35 5.06
-/reverb~/modulation/frequency 0.32 1.4
+/reverb~/fdn/modulation/active 1
+/reverb~/fdn/modulation/amplitude 0.35 5.06
+/reverb~/fdn/modulation/frequency 0.32 1.4
 /reverb~/outputs 8
 /reverb~/predelay 20.
 /reverb~/t60 2.3
 
-/jmod.multi.aux/aux.1/active 1
+
 /reverb~/audio/mute 0
-/jmod.multi.aux/aux.1/gain 100 ramp 2000
+
 
 
 
@@ -212,22 +197,8 @@ CUE "init 24 speakers"
 /output~/view/freeze 0
 /output~/numSpeakers 24
 
-# Module /jmod.control
-/jmod.control/audio 0
-# Module /jmod.multi.aux
-	/jmod.multi.aux/aux.1/active 0
-	/jmod.multi.aux/aux.1/description "to /reverb~"
-	/jmod.multi.aux/aux.1/gain 100.0
-	/jmod.multi.aux/aux.2/active 1
-	/jmod.multi.aux/aux.2/description "to /output~"
-	/jmod.multi.aux/aux.2/gain 100.0
-	/jmod.multi.aux/aux.3/active 0
-	/jmod.multi.aux/aux.3/description "_"
-	/jmod.multi.aux/aux.3/gain 100.0
-	/jmod.multi.aux/audio/gain 100.0
-	/jmod.multi.aux/audio/mute 0
-	/jmod.multi.aux/view/freeze 0
-	/jmod.multi.aux/channels 24
+
+/output~/audio/active 0
 # Module /jmod.sur.vimic~
     /jmod.sur.vimic~/microphones/amount 24
 	/jmod.sur.vimic~/room/reflection/order 1
@@ -386,20 +357,20 @@ WAIT 200
 	/reverb~/audio/gain 0.000
 	/reverb~/audio/meters/freeze 0
 	/reverb~/audio/mute 0
-	/reverb~/delaylength 30.000 76.000
-	/reverb~/fdn_eq/cf 732.239
-	/reverb~/fdn_eq/filtergain 0.000
-	/reverb~/fdn_eq/filtertype bandpass
-	/reverb~/fdn_eq/q 0.054
-	/reverb~/input_eq/cf 2444.000
-	/reverb~/input_eq/filtergain 0.000
-	/reverb~/input_eq/filtertype lowpass
-	/reverb~/input_eq/q 0.607
+	/reverb~/fdn/delaylength 30.000 76.000
+	/reverb~/fdn/frequency 732.239
+	/reverb~/fdn/filtergain 0.000
+	/reverb~/fdn/filtertype bandpass
+	/reverb~/fdn/q 0.054
+	/reverb~/input/frequency 2444.000
+	/reverb~/input/filtergain 0.000
+	/reverb~/input/filtertype lowpass
+	/reverb~/input/q 0.607
 	/reverb~/inputs 16
 	/reverb~/interpolationtime 20.000
-	/reverb~/modulation/active 1
-	/reverb~/modulation/amplitude 0.350 5.060
-	/reverb~/modulation/frequency 0.320 1.400
+	/reverb~/fdn/modulation/active 1
+	/reverb~/fdn/modulation/amplitude 0.350 5.060
+	/reverb~/fdn/modulation/frequency 0.320 1.400
 	/reverb~/outputs 16
 	/reverb~/predelay 0.000
 	/reverb~/t60 2.300	
@@ -409,7 +380,7 @@ WAIT 200
 	
 WAIT 200
 
-# Module /jmod.control
-	/jmod.control/audio 1
+
+/output~/audio/active 1
 
 
