@@ -54,7 +54,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 520.0, 204.0, 32.5, 18.0 ],
+					"patching_rect" : [ 457.0, 205.0, 32.5, 18.0 ],
 					"text" : "int"
 				}
 
@@ -707,13 +707,13 @@
 ,
 									"patching_rect" : [ 280.0, 224.0, 68.0, 19.0 ],
 									"saved_object_attributes" : 									{
-										"fontsize" : 10.0,
 										"default_fontface" : 0,
-										"default_fontname" : "Verdana",
-										"fontname" : "Verdana",
-										"default_fontsize" : 10.0,
 										"globalpatchername" : "",
-										"fontface" : 0
+										"fontface" : 0,
+										"default_fontname" : "Verdana",
+										"fontsize" : 10.0,
+										"default_fontsize" : 10.0,
+										"fontname" : "Verdana"
 									}
 ,
 									"text" : "p create_to"
@@ -877,13 +877,13 @@
 ,
 									"patching_rect" : [ 351.0, 225.0, 132.0, 19.0 ],
 									"saved_object_attributes" : 									{
-										"fontsize" : 10.0,
 										"default_fontface" : 0,
-										"default_fontname" : "Verdana",
-										"fontname" : "Verdana",
-										"default_fontsize" : 10.0,
 										"globalpatchername" : "",
-										"fontface" : 0
+										"fontface" : 0,
+										"default_fontname" : "Verdana",
+										"fontsize" : 10.0,
+										"default_fontsize" : 10.0,
+										"fontname" : "Verdana"
 									}
 ,
 									"text" : "p create_new_jcom_out"
@@ -1204,13 +1204,13 @@
 ,
 					"patching_rect" : [ 83.0, 198.0, 51.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"fontsize" : 10.0,
 						"default_fontface" : 0,
-						"default_fontname" : "Verdana",
-						"fontname" : "Verdana",
-						"default_fontsize" : 10.0,
 						"globalpatchername" : "",
-						"fontface" : 0
+						"fontface" : 0,
+						"default_fontname" : "Verdana",
+						"fontsize" : 10.0,
+						"default_fontsize" : 10.0,
+						"fontname" : "Verdana"
 					}
 ,
 					"text" : "p adapt"
@@ -1265,7 +1265,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
-					"patching_rect" : [ 483.0, 204.0, 30.0, 19.0 ],
+					"patching_rect" : [ 451.0, 185.0, 30.0, 19.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 62.0, 23.0, 30.0, 19.0 ],
 					"types" : [  ],
@@ -1595,13 +1595,13 @@
 ,
 					"patching_rect" : [ 161.0, 255.0, 142.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"fontsize" : 10.0,
 						"default_fontface" : 0,
-						"default_fontname" : "Verdana",
-						"fontname" : "Verdana",
-						"default_fontsize" : 10.0,
 						"globalpatchername" : "",
-						"fontface" : 0
+						"fontface" : 0,
+						"default_fontname" : "Verdana",
+						"fontsize" : 10.0,
+						"default_fontsize" : 10.0,
+						"fontname" : "Verdana"
 					}
 ,
 					"text" : "p control~"
@@ -2355,13 +2355,13 @@
 ,
 									"patching_rect" : [ 1003.299988, 579.200012, 100.0, 17.0 ],
 									"saved_object_attributes" : 									{
-										"fontsize" : 10.0,
 										"default_fontface" : 0,
-										"default_fontname" : "Arial",
-										"fontname" : "Arial",
-										"default_fontsize" : 10.0,
 										"globalpatchername" : "",
-										"fontface" : 0
+										"fontface" : 0,
+										"default_fontname" : "Arial",
+										"fontsize" : 10.0,
+										"default_fontsize" : 10.0,
+										"fontname" : "Arial"
 									}
 ,
 									"text" : "p DecodeFilterGraph"
@@ -2619,13 +2619,13 @@
 ,
 									"patching_rect" : [ 985.299988, 800.200012, 124.0, 17.0 ],
 									"saved_object_attributes" : 									{
-										"fontsize" : 10.0,
 										"default_fontface" : 0,
-										"default_fontname" : "Arial",
-										"fontname" : "Arial",
-										"default_fontsize" : 10.0,
 										"globalpatchername" : "",
-										"fontface" : 0
+										"fontface" : 0,
+										"default_fontname" : "Arial",
+										"fontsize" : 10.0,
+										"default_fontsize" : 10.0,
+										"fontname" : "Arial"
 									}
 ,
 									"text" : "p PrepareForFiltergraph~"
@@ -3171,13 +3171,13 @@
 ,
 									"patching_rect" : [ 486.299988, 581.200012, 100.0, 17.0 ],
 									"saved_object_attributes" : 									{
-										"fontsize" : 10.0,
 										"default_fontface" : 0,
-										"default_fontname" : "Arial",
-										"fontname" : "Arial",
-										"default_fontsize" : 10.0,
 										"globalpatchername" : "",
-										"fontface" : 0
+										"fontface" : 0,
+										"default_fontname" : "Arial",
+										"fontsize" : 10.0,
+										"default_fontsize" : 10.0,
+										"fontname" : "Arial"
 									}
 ,
 									"text" : "p DecodeFilterGraph"
@@ -3435,13 +3435,13 @@
 ,
 									"patching_rect" : [ 468.299988, 802.200012, 124.0, 17.0 ],
 									"saved_object_attributes" : 									{
-										"fontsize" : 10.0,
 										"default_fontface" : 0,
-										"default_fontname" : "Arial",
-										"fontname" : "Arial",
-										"default_fontsize" : 10.0,
 										"globalpatchername" : "",
-										"fontface" : 0
+										"fontface" : 0,
+										"default_fontname" : "Arial",
+										"fontsize" : 10.0,
+										"default_fontsize" : 10.0,
+										"fontname" : "Arial"
 									}
 ,
 									"text" : "p PrepareForFiltergraph~"
@@ -4598,13 +4598,13 @@
 ,
 					"patching_rect" : [ 20.0, 293.0, 67.0, 17.0 ],
 					"saved_object_attributes" : 					{
-						"fontsize" : 10.0,
 						"default_fontface" : 0,
-						"default_fontname" : "Verdana",
-						"fontname" : "Verdana",
-						"default_fontsize" : 10.0,
 						"globalpatchername" : "",
-						"fontface" : 0
+						"fontface" : 0,
+						"default_fontname" : "Verdana",
+						"fontsize" : 10.0,
+						"default_fontsize" : 10.0,
+						"fontname" : "Verdana"
 					}
 ,
 					"text" : "p inspector",
@@ -5003,15 +5003,6 @@
 					"hidden" : 0,
 					"midpoints" : [  ],
 					"source" : [ "obj-40", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-33", 0 ],
-					"hidden" : 0,
-					"midpoints" : [  ],
-					"source" : [ "obj-43", 0 ]
 				}
 
 			}
