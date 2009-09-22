@@ -1,9 +1,9 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
-		"rect" : [ 384.0, 68.0, 824.0, 556.0 ],
+		"rect" : [ 280.0, 72.0, 824.0, 556.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 384.0, 68.0, 824.0, 556.0 ],
+		"defrect" : [ 280.0, 72.0, 824.0, 556.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -77,12 +77,13 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-4",
+					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 42.0, 346.0, 137.0, 18.0 ],
-					"text" : "/gain.24 0.166667"
+					"patching_rect" : [ 42.0, 346.0, 137.0, 32.0 ],
+					"text" : "/view/color/border 0.62 0. 0.36 1."
 				}
 
 			}
@@ -178,7 +179,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-6", 0 ],
 					"hidden" : 0,
-					"midpoints" : [ 195.5, 399.0, 321.5, 399.0, 321.5, 335.0, 345.5, 335.0 ],
+					"midpoints" : [ 195.5, 393.0, 329.5, 393.0, 329.5, 335.0, 345.5, 335.0 ],
 					"source" : [ "obj-5", 0 ]
 				}
 
