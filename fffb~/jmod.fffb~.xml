@@ -17,6 +17,14 @@
     <item name='frequency.7' type='array' priority='3'>13938</item>
     <item name='frequency.8' type='array' priority='3'>16000</item>
     <item name='frequencyRatio' type='array' priority='0'>0</item>
+    <item name='gain.1' type='array' priority='2'>127.000000</item>
+    <item name='gain.2' type='array' priority='2'>127.000000</item>
+    <item name='gain.3' type='array' priority='2'>127.000000</item>
+    <item name='gain.4' type='array' priority='2'>127.000000</item>
+    <item name='gain.5' type='array' priority='2'>127.000000</item>
+    <item name='gain.6' type='array' priority='2'>127.000000</item>
+    <item name='gain.7' type='array' priority='2'>127.000000</item>
+    <item name='gain.8' type='array' priority='2'>127.000000</item>
     <item name='numBands' type='integer' priority='0'>8</item>
     <item name='q.1' type='array' priority='1'>100</item>
     <item name='q.2' type='array' priority='1'>100</item>

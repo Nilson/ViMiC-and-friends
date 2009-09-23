@@ -727,8 +727,8 @@
 						"fontname" : "Arial",
 						"default_fontname" : "Arial",
 						"globalpatchername" : "",
-						"fontface" : 0,
 						"default_fontsize" : 12.0,
+						"fontface" : 0,
 						"fontsize" : 12.0
 					}
 ,
@@ -1088,8 +1088,8 @@
 						"fontname" : "Verdana",
 						"default_fontname" : "Verdana",
 						"globalpatchername" : "",
-						"fontface" : 0,
 						"default_fontsize" : 10.0,
+						"fontface" : 0,
 						"fontsize" : 10.0
 					}
 ,
@@ -1475,8 +1475,8 @@
 						"fontname" : "Verdana",
 						"default_fontname" : "Verdana",
 						"globalpatchername" : "",
-						"fontface" : 0,
 						"default_fontsize" : 10.0,
+						"fontface" : 0,
 						"fontsize" : 10.0
 					}
 ,
@@ -1856,8 +1856,8 @@
 						"fontname" : "Arial",
 						"default_fontname" : "Arial",
 						"globalpatchername" : "",
-						"fontface" : 0,
 						"default_fontsize" : 12.0,
+						"fontface" : 0,
 						"fontsize" : 12.0
 					}
 ,
@@ -2209,8 +2209,8 @@
 						"fontname" : "Arial",
 						"default_fontname" : "Arial",
 						"globalpatchername" : "",
-						"fontface" : 0,
 						"default_fontsize" : 12.0,
+						"fontface" : 0,
 						"fontsize" : 12.0
 					}
 ,
@@ -2562,8 +2562,8 @@
 						"fontname" : "Arial",
 						"default_fontname" : "Arial",
 						"globalpatchername" : "",
-						"fontface" : 0,
 						"default_fontsize" : 12.0,
+						"fontface" : 0,
 						"fontsize" : 12.0
 					}
 ,
@@ -2651,12 +2651,12 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-14",
-					"linecount" : 3,
+					"linecount" : 4,
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 648.0, 296.0, 580.0, 48.0 ],
+					"patching_rect" : [ 648.0, 296.0, 443.0, 62.0 ],
 					"text" : "jcom.parameter.array 8 gain @type array @dataspace gain @priority 2 @dataspace/unit/native midi @dataspace/unit/display midi @dataspace/unit/active midi @ramp/drive scheduler @range/bounds 0. 127. @range/clipmode both @repetitions/allow 0 @description \"gain of the Nth Band\""
 				}
 
@@ -2666,12 +2666,13 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-13",
+					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 618.0, 189.0, 454.0, 20.0 ],
-					"text" : "jcom.parameter.array 8 q @type array @priority 1 @description \"q of the Nth Band\""
+					"patching_rect" : [ 618.0, 189.0, 382.0, 34.0 ],
+					"text" : "jcom.parameter.array 8 q @type array @priority 1 @description \"q of the Nth Band\" @range/bounds 0. 100. @range/clipmode both"
 				}
 
 			}
@@ -3038,7 +3039,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-13", 1 ],
 					"hidden" : 0,
-					"midpoints" : [ 990.5, 147.0, 1062.5, 147.0 ],
+					"midpoints" : [ 990.5, 147.0, 990.5, 147.0 ],
 					"source" : [ "obj-22", 0 ]
 				}
 
@@ -3047,7 +3048,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-14", 1 ],
 					"hidden" : 0,
-					"midpoints" : [ 990.5, 147.0, 1218.5, 147.0 ],
+					"midpoints" : [ 990.5, 147.0, 1081.5, 147.0 ],
 					"source" : [ "obj-22", 0 ]
 				}
 
@@ -3128,7 +3129,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-13", 1 ],
 					"hidden" : 0,
-					"midpoints" : [ 717.5, 187.0, 1062.5, 187.0 ],
+					"midpoints" : [ 717.5, 187.0, 990.5, 187.0 ],
 					"source" : [ "obj-30", 1 ]
 				}
 
@@ -3146,7 +3147,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-14", 1 ],
 					"hidden" : 0,
-					"midpoints" : [ 715.5, 291.5, 1218.5, 291.5 ],
+					"midpoints" : [ 715.5, 291.5, 1081.5, 291.5 ],
 					"source" : [ "obj-31", 1 ]
 				}
 

@@ -1,9 +1,9 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
-		"rect" : [ 280.0, 72.0, 824.0, 556.0 ],
+		"rect" : [ 199.0, 44.0, 1045.0, 608.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 280.0, 72.0, 824.0, 556.0 ],
+		"defrect" : [ 199.0, 44.0, 1045.0, 608.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -26,7 +26,7 @@
 					"name" : "jcom.maxhelpui.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 0.0, 0.0, 824.0, 70.0 ]
+					"patching_rect" : [ 0.0, 0.0, 920.0, 70.0 ]
 				}
 
 			}
@@ -39,7 +39,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 186.0, 370.0, 109.0, 20.0 ],
+					"patching_rect" : [ 287.0, 439.0, 109.0, 20.0 ],
 					"text" : "prepend /channels"
 				}
 
@@ -53,22 +53,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 186.0, 344.0, 102.0, 20.0 ],
+					"patching_rect" : [ 287.0, 413.0, 102.0, 20.0 ],
 					"text" : "route /numBands"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"args" : [  ],
-					"id" : "obj-9",
-					"maxclass" : "bpatcher",
-					"name" : "jmod.sur.output~.maxpat",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 336.0, 485.0, 300.0, 70.0 ],
-					"presentation_rect" : [ 0.0, 0.0, 300.0, 70.0 ]
 				}
 
 			}
@@ -82,7 +68,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 42.0, 346.0, 137.0, 32.0 ],
+					"patching_rect" : [ 143.0, 415.0, 137.0, 32.0 ],
 					"text" : "/view/color/border 0.62 0. 0.36 1."
 				}
 
@@ -96,7 +82,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 336.0, 342.0, 300.0, 140.0 ],
+					"patching_rect" : [ 437.0, 412.0, 300.0, 140.0 ],
 					"presentation_rect" : [ 0.0, 0.0, 300.0, 140.0 ]
 				}
 
@@ -110,7 +96,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "signal", "signal" ],
-					"patching_rect" : [ 336.0, 82.0, 300.0, 140.0 ],
+					"patching_rect" : [ 437.0, 151.0, 300.0, 140.0 ],
 					"presentation_rect" : [ 0.0, 0.0, 300.0, 140.0 ]
 				}
 
@@ -124,7 +110,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 186.0, 226.0, 450.0, 105.0 ],
+					"patching_rect" : [ 287.0, 295.0, 450.0, 105.0 ],
 					"presentation_rect" : [ 0.0, 0.0, 450.0, 105.0 ]
 				}
 
@@ -179,17 +165,8 @@
 				"patchline" : 				{
 					"destination" : [ "obj-6", 0 ],
 					"hidden" : 0,
-					"midpoints" : [ 195.5, 393.0, 329.5, 393.0, 329.5, 335.0, 345.5, 335.0 ],
+					"midpoints" : [ 296.5, 462.0, 430.5, 462.0, 430.5, 404.0, 446.5, 404.0 ],
 					"source" : [ "obj-5", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-9", 1 ],
-					"hidden" : 0,
-					"midpoints" : [  ],
-					"source" : [ "obj-6", 1 ]
 				}
 
 			}
