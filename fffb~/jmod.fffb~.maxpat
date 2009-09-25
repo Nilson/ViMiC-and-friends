@@ -723,13 +723,13 @@
 ,
 					"patching_rect" : [ 498.0, 533.0, 129.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
 						"fontname" : "Arial",
-						"default_fontname" : "Arial",
 						"globalpatchername" : "",
-						"default_fontsize" : 12.0,
+						"default_fontface" : 0,
 						"fontface" : 0,
-						"fontsize" : 12.0
+						"default_fontname" : "Arial",
+						"fontsize" : 12.0,
+						"default_fontsize" : 12.0
 					}
 ,
 					"text" : "p jcom.list2parameter"
@@ -741,13 +741,13 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-48",
-					"linecount" : 7,
+					"linecount" : 4,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 685.0, 532.0, 328.0, 103.0 ],
-					"text" : "jcom.parameter frequencyRatio @type array @range/bounds 0.01 100. @ramp/drive scheduler @range/clipmode low @description \"sets the center frequency of the first filter to the first value in the list, and sets the frequencies of the remaining filters by repeatedly multiplying the first value by the second, so that the ratio of frequencies of successive filters is the second value.\""
+					"patching_rect" : [ 685.0, 532.0, 593.0, 62.0 ],
+					"text" : "jcom.parameter frequencyRatio @type array @priority 2 @range/bounds 0.01 100. @ramp/drive scheduler @range/clipmode low @description \"sets the center frequency of the first filter to the first value in the list, and sets the frequencies of the remaining filters by repeatedly multiplying the first value by the second, so that the ratio of frequencies of successive filters is the second value.\""
 				}
 
 			}
@@ -1084,13 +1084,13 @@
 ,
 					"patching_rect" : [ 1117.0, 92.0, 158.0, 19.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
 						"fontname" : "Verdana",
-						"default_fontname" : "Verdana",
 						"globalpatchername" : "",
-						"default_fontsize" : 10.0,
+						"default_fontface" : 0,
 						"fontface" : 0,
-						"fontsize" : 10.0
+						"default_fontname" : "Verdana",
+						"fontsize" : 10.0,
+						"default_fontsize" : 10.0
 					}
 ,
 					"text" : "p delete_jcom.meter_receive"
@@ -1471,13 +1471,13 @@
 ,
 					"patching_rect" : [ 845.0, 91.0, 158.0, 19.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
 						"fontname" : "Verdana",
-						"default_fontname" : "Verdana",
 						"globalpatchername" : "",
-						"default_fontsize" : 10.0,
+						"default_fontface" : 0,
 						"fontface" : 0,
-						"fontsize" : 10.0
+						"default_fontname" : "Verdana",
+						"fontsize" : 10.0,
+						"default_fontsize" : 10.0
 					}
 ,
 					"text" : "p create_jcom.meter_receive"
@@ -1852,13 +1852,13 @@
 ,
 					"patching_rect" : [ 616.0, 270.0, 109.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
 						"fontname" : "Arial",
-						"default_fontname" : "Arial",
 						"globalpatchername" : "",
-						"default_fontsize" : 12.0,
+						"default_fontface" : 0,
 						"fontface" : 0,
-						"fontsize" : 12.0
+						"default_fontname" : "Arial",
+						"fontsize" : 12.0,
+						"default_fontsize" : 12.0
 					}
 ,
 					"text" : "p adapt"
@@ -2205,13 +2205,13 @@
 ,
 					"patching_rect" : [ 618.0, 166.0, 109.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
 						"fontname" : "Arial",
-						"default_fontname" : "Arial",
 						"globalpatchername" : "",
-						"default_fontsize" : 12.0,
+						"default_fontface" : 0,
 						"fontface" : 0,
-						"fontsize" : 12.0
+						"default_fontname" : "Arial",
+						"fontsize" : 12.0,
+						"default_fontsize" : 12.0
 					}
 ,
 					"text" : "p adapt"
@@ -2558,13 +2558,13 @@
 ,
 					"patching_rect" : [ 618.0, 430.0, 109.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
 						"fontname" : "Arial",
-						"default_fontname" : "Arial",
 						"globalpatchername" : "",
-						"default_fontsize" : 12.0,
+						"default_fontface" : 0,
 						"fontface" : 0,
-						"fontsize" : 12.0
+						"default_fontname" : "Arial",
+						"fontsize" : 12.0,
+						"default_fontsize" : 12.0
 					}
 ,
 					"text" : "p adapt"
@@ -2642,7 +2642,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 368.0, 8.0, 593.0, 34.0 ],
-					"text" : "jcom.parameter numBands @type integer @range/bounds 1 32 @range/clipmode both @description \"set the number of bands the signal is spectrally devided\" @priority 0"
+					"text" : "jcom.parameter numBands @type integer @range/bounds 1 32 @range/clipmode both @description \"set the number of bands the signal is spectrally devided\" @priority 1"
 				}
 
 			}
@@ -2651,13 +2651,13 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-14",
-					"linecount" : 4,
+					"linecount" : 3,
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 648.0, 296.0, 443.0, 62.0 ],
-					"text" : "jcom.parameter.array 8 gain @type array @dataspace gain @priority 2 @dataspace/unit/native midi @dataspace/unit/display midi @dataspace/unit/active midi @ramp/drive scheduler @range/bounds 0. 127. @range/clipmode both @repetitions/allow 0 @description \"gain of the Nth Band\""
+					"patching_rect" : [ 648.0, 296.0, 580.0, 48.0 ],
+					"text" : "jcom.parameter.array 8 gain @type decimal @dataspace gain @priority 4 @dataspace/unit/native midi @dataspace/unit/display midi @dataspace/unit/active midi @ramp/drive scheduler @range/bounds 0. 127. @range/clipmode both @repetitions/allow 0 @description \"gain of the Nth Band\""
 				}
 
 			}
@@ -2671,8 +2671,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 618.0, 189.0, 382.0, 34.0 ],
-					"text" : "jcom.parameter.array 8 q @type array @priority 1 @description \"q of the Nth Band\" @range/bounds 0. 100. @range/clipmode both"
+					"patching_rect" : [ 618.0, 189.0, 600.0, 34.0 ],
+					"text" : "jcom.parameter.array 8 q @type decimal @priority 3 @description \"q of the Nth Band\" @range/bounds 0. 100. @range/clipmode both"
 				}
 
 			}
@@ -2686,8 +2686,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 618.0, 454.0, 594.0, 48.0 ],
-					"text" : "jcom.parameter.array 8 frequency @type array @priority 3 @range/bounds 20 20000 @ramp/drive scheduler @range/clipmode both @repetitions/allow 0 @dataspace pitch @dataspace/unit/native Hz @dataspace/unit/display Hz @dataspace/unit/active Hz @description \"frequency of the Nth Band\""
+					"patching_rect" : [ 618.0, 454.0, 553.0, 48.0 ],
+					"text" : "jcom.parameter.array 8 frequency @type decimal @priority 3 @range/bounds 20 20000 @ramp/drive scheduler @range/clipmode both @repetitions/allow 0 @dataspace pitch @dataspace/unit/native Hz @dataspace/unit/display Hz @dataspace/unit/active Hz @description \"frequency of the Nth Band\""
 				}
 
 			}
@@ -3030,7 +3030,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-12", 1 ],
 					"hidden" : 0,
-					"midpoints" : [ 990.5, 147.0, 1202.5, 147.0 ],
+					"midpoints" : [ 990.5, 147.0, 1161.5, 147.0 ],
 					"source" : [ "obj-22", 0 ]
 				}
 
@@ -3039,7 +3039,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-13", 1 ],
 					"hidden" : 0,
-					"midpoints" : [ 990.5, 147.0, 990.5, 147.0 ],
+					"midpoints" : [ 990.5, 147.0, 1208.5, 147.0 ],
 					"source" : [ "obj-22", 0 ]
 				}
 
@@ -3048,7 +3048,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-14", 1 ],
 					"hidden" : 0,
-					"midpoints" : [ 990.5, 147.0, 1081.5, 147.0 ],
+					"midpoints" : [ 990.5, 147.0, 1218.5, 147.0 ],
 					"source" : [ "obj-22", 0 ]
 				}
 
@@ -3093,7 +3093,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-12", 1 ],
 					"hidden" : 0,
-					"midpoints" : [ 717.5, 451.5, 1202.5, 451.5 ],
+					"midpoints" : [ 717.5, 451.5, 1161.5, 451.5 ],
 					"source" : [ "obj-28", 1 ]
 				}
 
@@ -3129,7 +3129,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-13", 1 ],
 					"hidden" : 0,
-					"midpoints" : [ 717.5, 187.0, 990.5, 187.0 ],
+					"midpoints" : [ 717.5, 187.0, 1208.5, 187.0 ],
 					"source" : [ "obj-30", 1 ]
 				}
 
@@ -3147,7 +3147,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-14", 1 ],
 					"hidden" : 0,
-					"midpoints" : [ 715.5, 291.5, 1081.5, 291.5 ],
+					"midpoints" : [ 715.5, 291.5, 1218.5, 291.5 ],
 					"source" : [ "obj-31", 1 ]
 				}
 
