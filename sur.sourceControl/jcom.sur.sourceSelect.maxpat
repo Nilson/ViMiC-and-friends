@@ -70,7 +70,7 @@
 					"outlettype" : [ "float", "bang" ],
 					"patching_rect" : [ 611.0, 543.0, 50.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 168.0, 3.0, 42.0, 19.0 ],
+					"presentation_rect" : [ 168.0, 2.0, 42.0, 19.0 ],
 					"triangle" : 0
 				}
 
@@ -290,13 +290,13 @@
 ,
 					"patching_rect" : [ 127.0, 161.0, 87.0, 19.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
-						"globalpatchername" : "",
-						"default_fontname" : "Verdana",
 						"fontface" : 0,
 						"fontsize" : 10.0,
-						"default_fontsize" : 10.0,
-						"fontname" : "Verdana"
+						"default_fontface" : 0,
+						"fontname" : "Verdana",
+						"default_fontname" : "Verdana",
+						"globalpatchername" : "",
+						"default_fontsize" : 10.0
 					}
 ,
 					"text" : "p disable-items"
@@ -375,7 +375,7 @@
 					"outlettype" : [ "", "", "int" ],
 					"patching_rect" : [ 626.0, 431.0, 28.0, 16.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1.0, 2.0, 20.0, 19.0 ],
+					"presentation_rect" : [ 1.0, 2.0, 20.0, 18.0 ],
 					"rounded" : 8.0,
 					"text" : "S",
 					"texton" : "S",
@@ -528,7 +528,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 787.0, 168.0, 150.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 365.0, 5.0, 30.0, 19.0 ],
+					"presentation_rect" : [ 365.0, 3.0, 30.0, 19.0 ],
 					"text" : "rev."
 				}
 
@@ -588,7 +588,7 @@
 					"outlinecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"patching_rect" : [ 669.0, 195.0, 27.0, 27.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 347.0, 2.0, 23.0, 23.0 ]
+					"presentation_rect" : [ 347.0, 0.0, 23.0, 23.0 ]
 				}
 
 			}
@@ -695,7 +695,7 @@
 				"box" : 				{
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
-					"frgb" : [ 0.2, 0.2, 0.2, 1.0 ],
+					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"id" : "obj-27",
 					"keymode" : 1,
 					"lines" : 1,
@@ -706,7 +706,7 @@
 					"outputmode" : 1,
 					"patching_rect" : [ 565.0, 316.0, 46.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 22.0, 2.0, 51.0, 19.0 ],
+					"presentation_rect" : [ 22.0, 2.0, 51.0, 18.0 ],
 					"text" : "S #1"
 				}
 
@@ -750,7 +750,7 @@
 					"outlettype" : [ "", "", "int" ],
 					"patching_rect" : [ 69.0, 395.0, 57.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 211.0, 2.0, 50.0, 20.0 ],
+					"presentation_rect" : [ 211.0, 2.0, 50.0, 19.0 ],
 					"rounded" : 8.0,
 					"text" : "show UI"
 				}
@@ -825,7 +825,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 516.0, 245.0, 46.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 263.0, 2.0, 84.0, 20.0 ],
+					"presentation_rect" : [ 263.0, 2.0, 84.0, 19.0 ],
 					"range" : [ 0.0, 127.0 ],
 					"text" : "Gain"
 				}
