@@ -19,14 +19,57 @@
 		"enablevscroll" : 1,
 		"boxes" : [ 			{
 				"box" : 				{
-					"args" : [ "@name", "jmod.fffb~", "@description", "filterbank based on fffb~ with multicable output" ],
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-10",
+					"linecount" : 2,
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 275.0, 544.0, 117.0, 32.0 ],
+					"text" : "/lfo.8/phase 0.217949"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-8",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 148.0, 454.0, 135.0, 20.0 ],
+					"text" : "prepend /numChannels"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"args" : [  ],
+					"id" : "obj-7",
+					"maxclass" : "bpatcher",
+					"name" : "jmod.sur.modulate~.maxpat",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 291.0, 335.0, 450.0, 105.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 450.0, 105.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"args" : [ "@name", "jmod.sur.modulate~", "@description", "modulates signals in an aoudiocable" ],
 					"bgmode" : 1,
 					"id" : "obj-21",
 					"maxclass" : "bpatcher",
 					"name" : "jcom.maxhelpui.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 0.0, 0.0, 920.0, 70.0 ]
+					"patching_rect" : [ 0.0, 0.0, 1045.0, 70.0 ]
 				}
 
 			}
@@ -39,7 +82,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 287.0, 439.0, 109.0, 20.0 ],
+					"patching_rect" : [ 154.0, 425.0, 109.0, 20.0 ],
 					"text" : "prepend /channels"
 				}
 
@@ -53,7 +96,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 287.0, 413.0, 102.0, 20.0 ],
+					"patching_rect" : [ 154.0, 399.0, 102.0, 20.0 ],
 					"text" : "route /numBands"
 				}
 
@@ -63,13 +106,12 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-4",
-					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 143.0, 415.0, 137.0, 32.0 ],
-					"text" : "/view/color/border 0.62 0. 0.36 1."
+					"patching_rect" : [ 147.0, 344.0, 137.0, 18.0 ],
+					"text" : "/audio/bypass 0"
 				}
 
 			}
@@ -82,7 +124,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 437.0, 412.0, 300.0, 140.0 ],
+					"patching_rect" : [ 441.0, 446.0, 300.0, 140.0 ],
 					"presentation_rect" : [ 0.0, 0.0, 300.0, 140.0 ]
 				}
 
@@ -96,7 +138,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "signal", "signal" ],
-					"patching_rect" : [ 437.0, 151.0, 300.0, 140.0 ],
+					"patching_rect" : [ 441.0, 80.0, 300.0, 140.0 ],
 					"presentation_rect" : [ 0.0, 0.0, 300.0, 140.0 ]
 				}
 
@@ -110,7 +152,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 287.0, 295.0, 450.0, 105.0 ],
+					"patching_rect" : [ 291.0, 224.0, 450.0, 105.0 ],
 					"presentation_rect" : [ 0.0, 0.0, 450.0, 105.0 ]
 				}
 
@@ -136,7 +178,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-6", 1 ],
+					"destination" : [ "obj-7", 1 ],
 					"hidden" : 0,
 					"midpoints" : [  ],
 					"source" : [ "obj-1", 1 ]
@@ -146,6 +188,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-5", 0 ],
+					"hidden" : 0,
+					"midpoints" : [  ],
+					"source" : [ "obj-2", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-8", 0 ],
 					"hidden" : 0,
 					"midpoints" : [  ],
 					"source" : [ "obj-2", 0 ]
@@ -165,8 +216,35 @@
 				"patchline" : 				{
 					"destination" : [ "obj-6", 0 ],
 					"hidden" : 0,
-					"midpoints" : [ 296.5, 462.0, 430.5, 462.0, 430.5, 404.0, 446.5, 404.0 ],
+					"midpoints" : [  ],
 					"source" : [ "obj-5", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-10", 1 ],
+					"hidden" : 0,
+					"midpoints" : [  ],
+					"source" : [ "obj-7", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-6", 1 ],
+					"hidden" : 0,
+					"midpoints" : [  ],
+					"source" : [ "obj-7", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-7", 0 ],
+					"hidden" : 0,
+					"midpoints" : [  ],
+					"source" : [ "obj-8", 0 ]
 				}
 
 			}

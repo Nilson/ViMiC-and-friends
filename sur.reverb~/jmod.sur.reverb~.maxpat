@@ -19,6 +19,20 @@
 		"enablevscroll" : 1,
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontname" : "Verdana",
+					"fontsize" : 10.0,
+					"id" : "obj-9",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 450.0, 98.0, 549.0, 19.0 ],
+					"text" : "jcom.message.array 24 output active @type boolean @description \"enables and disables a specific output\""
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
 					"id" : "obj-10",
@@ -709,8 +723,8 @@
 									"saved_object_attributes" : 									{
 										"default_fontface" : 0,
 										"globalpatchername" : "",
-										"fontface" : 0,
 										"default_fontname" : "Verdana",
+										"fontface" : 0,
 										"fontsize" : 10.0,
 										"default_fontsize" : 10.0,
 										"fontname" : "Verdana"
@@ -879,8 +893,8 @@
 									"saved_object_attributes" : 									{
 										"default_fontface" : 0,
 										"globalpatchername" : "",
-										"fontface" : 0,
 										"default_fontname" : "Verdana",
+										"fontface" : 0,
 										"fontsize" : 10.0,
 										"default_fontsize" : 10.0,
 										"fontname" : "Verdana"
@@ -1206,8 +1220,8 @@
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"globalpatchername" : "",
-						"fontface" : 0,
 						"default_fontname" : "Verdana",
+						"fontface" : 0,
 						"fontsize" : 10.0,
 						"default_fontsize" : 10.0,
 						"fontname" : "Verdana"
@@ -1597,8 +1611,8 @@
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"globalpatchername" : "",
-						"fontface" : 0,
 						"default_fontname" : "Verdana",
+						"fontface" : 0,
 						"fontsize" : 10.0,
 						"default_fontsize" : 10.0,
 						"fontname" : "Verdana"
@@ -2357,8 +2371,8 @@
 									"saved_object_attributes" : 									{
 										"default_fontface" : 0,
 										"globalpatchername" : "",
-										"fontface" : 0,
 										"default_fontname" : "Arial",
+										"fontface" : 0,
 										"fontsize" : 10.0,
 										"default_fontsize" : 10.0,
 										"fontname" : "Arial"
@@ -2621,8 +2635,8 @@
 									"saved_object_attributes" : 									{
 										"default_fontface" : 0,
 										"globalpatchername" : "",
-										"fontface" : 0,
 										"default_fontname" : "Arial",
+										"fontface" : 0,
 										"fontsize" : 10.0,
 										"default_fontsize" : 10.0,
 										"fontname" : "Arial"
@@ -3173,8 +3187,8 @@
 									"saved_object_attributes" : 									{
 										"default_fontface" : 0,
 										"globalpatchername" : "",
-										"fontface" : 0,
 										"default_fontname" : "Arial",
+										"fontface" : 0,
 										"fontsize" : 10.0,
 										"default_fontsize" : 10.0,
 										"fontname" : "Arial"
@@ -3437,8 +3451,8 @@
 									"saved_object_attributes" : 									{
 										"default_fontface" : 0,
 										"globalpatchername" : "",
-										"fontface" : 0,
 										"default_fontname" : "Arial",
+										"fontface" : 0,
 										"fontsize" : 10.0,
 										"default_fontsize" : 10.0,
 										"fontname" : "Arial"
@@ -4600,8 +4614,8 @@
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"globalpatchername" : "",
-						"fontface" : 0,
 						"default_fontname" : "Verdana",
+						"fontface" : 0,
 						"fontsize" : 10.0,
 						"default_fontsize" : 10.0,
 						"fontname" : "Verdana"
