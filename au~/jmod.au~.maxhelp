@@ -28,9 +28,9 @@
 					"numoutlets" : 0,
 					"patcher" : 					{
 						"fileversion" : 1,
-						"rect" : [ 50.0, 94.0, 640.0, 480.0 ],
+						"rect" : [ 50.0, 94.0, 641.0, 509.0 ],
 						"bglocked" : 0,
-						"defrect" : [ 50.0, 94.0, 640.0, 480.0 ],
+						"defrect" : [ 50.0, 94.0, 641.0, 509.0 ],
 						"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -85,7 +85,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 49.0, 9.0, 538.0, 89.0 ],
-									"text" : "the AU wrapper tries to migrate parameter attributes from the AU plugin into the Jamoma world. \nit uses the following informations provided by the AU:\n- minimum value\n- maximum value\n- default value\n- unit"
+									"text" : "the AU wrapper tries to migrate parameter attributes from the AU plugin into the Jamoma world. \nit uses the following informations from the AU, if provided by the plug-in:\n- minimum value\n- maximum value\n- default value\n- unit"
 								}
 
 							}
@@ -112,8 +112,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 66.0, 117.0, 37.5, 18.0 ],
-									"text" : "/au"
+									"patching_rect" : [ 66.0, 117.0, 34.0, 18.0 ],
+									"text" : "/au~"
 								}
 
 							}
@@ -298,13 +298,13 @@
 ,
 									"patching_rect" : [ 66.0, 144.0, 103.0, 19.0 ],
 									"saved_object_attributes" : 									{
-										"default_fontface" : 0,
-										"default_fontname" : "Verdana",
 										"fontname" : "Verdana",
-										"default_fontsize" : 10.0,
 										"globalpatchername" : "",
+										"default_fontface" : 0,
 										"fontface" : 0,
-										"fontsize" : 10.0
+										"default_fontname" : "Verdana",
+										"fontsize" : 10.0,
+										"default_fontsize" : 10.0
 									}
 ,
 									"text" : "p listOfParameters"
@@ -316,13 +316,13 @@
 									"fontname" : "Verdana",
 									"fontsize" : 10.0,
 									"id" : "obj-29",
-									"linecount" : 13,
+									"linecount" : 17,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 66.0, 296.0, 342.0, 162.0 ],
-									"text" : "/description \"wrapper of the AU parameter ' cutoff frequency '\";\r/value 10000.;\r/type decimal;\r/ramp/drive scheduler;\r/ramp/function linear;\r/range/bounds 10000. 22050.;\r/range/clipmode both;\r/repetitions/allow 0;\r/dataspace pitch;\r/dataspace/unit/native Hz;\r/dataspace/unit/active Hz;\r/view/freeze 0;\r/priority 3;\r"
+									"patching_rect" : [ 66.0, 296.0, 342.0, 211.0 ],
+									"text" : "/description \"wrapper of the AU parameter ' Midi channel '\";\r/dataspace none;\r/dataspace/unit/active none;\r/dataspace/unit/display none;\r/dataspace/unit/native none;\r/priority 3;\r/ramp/drive scheduler;\r/ramp/function linear;\r/range/bounds 0. 17.;\r/range/clipmode both;\r/repetitions/allow 0;\r/readonly 0;\r/type integer;\r/value 1.;\r/value/default 1.;\r/value/stepsize 1.;\r/view/freeze 0;\r"
 								}
 
 							}
@@ -467,13 +467,13 @@
 ,
 									"patching_rect" : [ 66.0, 261.0, 55.0, 19.0 ],
 									"saved_object_attributes" : 									{
-										"default_fontface" : 0,
-										"default_fontname" : "Verdana",
 										"fontname" : "Verdana",
-										"default_fontsize" : 10.0,
 										"globalpatchername" : "",
+										"default_fontface" : 0,
 										"fontface" : 0,
-										"fontsize" : 10.0
+										"default_fontname" : "Verdana",
+										"fontsize" : 10.0,
+										"default_fontsize" : 10.0
 									}
 ,
 									"text" : "p format"
@@ -482,16 +482,14 @@
 							}
 , 							{
 								"box" : 								{
-									"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"color" : [ 0.8, 0.84, 0.71, 1.0 ],
-									"fontname" : "Verdana",
-									"fontsize" : 10.0,
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
 									"id" : "obj-18",
 									"maxclass" : "newobj",
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 66.0, 231.0, 203.0, 19.0 ],
+									"patching_rect" : [ 66.0, 231.0, 206.0, 20.0 ],
 									"text" : "jcom.getAllAttributes"
 								}
 
@@ -515,7 +513,7 @@
 									"fontname" : "Verdana",
 									"fontsize" : 10.0,
 									"id" : "obj-16",
-									"items" : [ "/parameter/cutoff/frequency", ",", "/parameter/gain" ],
+									"items" : [ "/parameter/Band/1/Freq", ",", "/parameter/Band/1/Gain", ",", "/parameter/Band/1/Q", ",", "/parameter/Band/2/Freq", ",", "/parameter/Band/2/Gain", ",", "/parameter/Band/2/Q", ",", "/parameter/Band/3/Freq", ",", "/parameter/Band/3/Gain", ",", "/parameter/Band/3/Q", ",", "/parameter/Band/4/Freq", ",", "/parameter/Band/4/Gain", ",", "/parameter/Band/4/Q", ",", "/parameter/Band/5/Freq", ",", "/parameter/Band/5/Gain", ",", "/parameter/Band/5/Q", ",", "/parameter/Bit/Precision", ",", "/parameter/Midi/channel", ",", "/parameter/Midi/controller", ",", "/parameter/Midi/item" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -557,7 +555,7 @@
 								"patchline" : 								{
 									"destination" : [ "obj-18", 1 ],
 									"hidden" : 0,
-									"midpoints" : [ 75.5, 138.5, 259.5, 138.5 ],
+									"midpoints" : [ 75.5, 138.5, 262.5, 138.5 ],
 									"source" : [ "obj-3", 0 ]
 								}
 
@@ -612,13 +610,13 @@
 ,
 					"patching_rect" : [ 366.0, 450.0, 209.0, 24.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
 						"fontname" : "Arial",
-						"default_fontsize" : 12.0,
 						"globalpatchername" : "",
+						"default_fontface" : 0,
 						"fontface" : 0,
-						"fontsize" : 12.0
+						"default_fontname" : "Arial",
+						"fontsize" : 12.0,
+						"default_fontsize" : 12.0
 					}
 ,
 					"text" : "p \"AU parameter migration\""
@@ -890,13 +888,13 @@
 ,
 									"patching_rect" : [ 16.0, 9.0, 84.0, 19.0 ],
 									"saved_object_attributes" : 									{
-										"default_fontface" : 0,
-										"default_fontname" : "Verdana",
 										"fontname" : "Verdana",
-										"default_fontsize" : 10.0,
 										"globalpatchername" : "",
+										"default_fontface" : 0,
 										"fontface" : 0,
-										"fontsize" : 10.0
+										"default_fontname" : "Verdana",
+										"fontsize" : 10.0,
+										"default_fontsize" : 10.0
 									}
 ,
 									"text" : "p UnNormalize"
@@ -1082,13 +1080,13 @@
 ,
 									"patching_rect" : [ 280.0, 60.0, 121.0, 19.0 ],
 									"saved_object_attributes" : 									{
-										"default_fontface" : 0,
-										"default_fontname" : "Verdana",
 										"fontname" : "Verdana",
-										"default_fontsize" : 10.0,
 										"globalpatchername" : "",
+										"default_fontface" : 0,
 										"fontface" : 0,
-										"fontsize" : 10.0
+										"default_fontname" : "Verdana",
+										"fontsize" : 10.0,
+										"default_fontsize" : 10.0
 									}
 ,
 									"text" : "p make_osc_message"
@@ -1195,13 +1193,13 @@
 ,
 					"patching_rect" : [ 25.0, 245.0, 57.0, 19.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
-						"default_fontname" : "Verdana",
 						"fontname" : "Verdana",
-						"default_fontsize" : 10.0,
 						"globalpatchername" : "",
+						"default_fontface" : 0,
 						"fontface" : 0,
-						"fontsize" : 10.0
+						"default_fontname" : "Verdana",
+						"fontsize" : 10.0,
+						"default_fontsize" : 10.0
 					}
 ,
 					"text" : "p midi_in",
@@ -1427,13 +1425,13 @@
 ,
 					"patching_rect" : [ 366.0, 415.0, 150.0, 24.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
-						"default_fontname" : "Verdana",
 						"fontname" : "Verdana",
-						"default_fontsize" : 10.0,
 						"globalpatchername" : "",
+						"default_fontface" : 0,
 						"fontface" : 0,
-						"fontsize" : 10.0
+						"default_fontname" : "Verdana",
+						"fontsize" : 10.0,
+						"default_fontsize" : 10.0
 					}
 ,
 					"text" : "p \"Using jmod.au~\""
@@ -1450,7 +1448,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1.0, 500.0, 308.0, 17.0 ],
-					"text" : "/parameter/cutoff/frequency:/priority 3"
+					"text" : "/view/size 300 210"
 				}
 
 			}
@@ -1502,7 +1500,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "/au" ],
+					"args" : [ "/au~" ],
 					"id" : "obj-17",
 					"lockeddragscroll" : 1,
 					"maxclass" : "bpatcher",
