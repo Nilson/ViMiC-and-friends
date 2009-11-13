@@ -1,9 +1,9 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
-		"rect" : [ 573.0, 44.0, 654.0, 791.0 ],
+		"rect" : [ 320.0, 44.0, 662.0, 726.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 573.0, 44.0, 654.0, 791.0 ],
+		"defrect" : [ 320.0, 44.0, 662.0, 726.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -28,9 +28,9 @@
 					"numoutlets" : 0,
 					"patcher" : 					{
 						"fileversion" : 1,
-						"rect" : [ 50.0, 94.0, 641.0, 509.0 ],
+						"rect" : [ 50.0, 94.0, 643.0, 550.0 ],
 						"bglocked" : 0,
-						"defrect" : [ 50.0, 94.0, 641.0, 509.0 ],
+						"defrect" : [ 50.0, 94.0, 643.0, 550.0 ],
 						"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -84,8 +84,8 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 49.0, 9.0, 538.0, 89.0 ],
-									"text" : "the AU wrapper tries to migrate parameter attributes from the AU plugin into the Jamoma world. \nit uses the following informations from the AU, if provided by the plug-in:\n- minimum value\n- maximum value\n- default value\n- unit"
+									"patching_rect" : [ 49.0, 9.0, 578.0, 89.0 ],
+									"text" : "the AU wrapper tries to migrate parameter attributes from the AU plugin into the Jamoma world. \nit uses the following informations from the AU, if provided by the plug-in:\n- minimum value, maximum value, default value, unit.\n\nThe follwing jamoma attributes are set accordingly:\n- /dataspace.. /range/bounds; /type; /value/default; /value/stepsize;"
 								}
 
 							}
@@ -298,13 +298,13 @@
 ,
 									"patching_rect" : [ 66.0, 144.0, 103.0, 19.0 ],
 									"saved_object_attributes" : 									{
-										"fontname" : "Verdana",
 										"globalpatchername" : "",
 										"default_fontface" : 0,
 										"fontface" : 0,
-										"default_fontname" : "Verdana",
 										"fontsize" : 10.0,
-										"default_fontsize" : 10.0
+										"default_fontname" : "Verdana",
+										"default_fontsize" : 10.0,
+										"fontname" : "Verdana"
 									}
 ,
 									"text" : "p listOfParameters"
@@ -316,13 +316,11 @@
 									"fontname" : "Verdana",
 									"fontsize" : 10.0,
 									"id" : "obj-29",
-									"linecount" : 17,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 66.0, 296.0, 342.0, 211.0 ],
-									"text" : "/description \"wrapper of the AU parameter ' Midi channel '\";\r/dataspace none;\r/dataspace/unit/active none;\r/dataspace/unit/display none;\r/dataspace/unit/native none;\r/priority 3;\r/ramp/drive scheduler;\r/ramp/function linear;\r/range/bounds 0. 17.;\r/range/clipmode both;\r/repetitions/allow 0;\r/readonly 0;\r/type integer;\r/value 1.;\r/value/default 1.;\r/value/stepsize 1.;\r/view/freeze 0;\r"
+									"patching_rect" : [ 66.0, 296.0, 342.0, 17.0 ]
 								}
 
 							}
@@ -467,13 +465,13 @@
 ,
 									"patching_rect" : [ 66.0, 261.0, 55.0, 19.0 ],
 									"saved_object_attributes" : 									{
-										"fontname" : "Verdana",
 										"globalpatchername" : "",
 										"default_fontface" : 0,
 										"fontface" : 0,
-										"default_fontname" : "Verdana",
 										"fontsize" : 10.0,
-										"default_fontsize" : 10.0
+										"default_fontname" : "Verdana",
+										"default_fontsize" : 10.0,
+										"fontname" : "Verdana"
 									}
 ,
 									"text" : "p format"
@@ -513,7 +511,7 @@
 									"fontname" : "Verdana",
 									"fontsize" : 10.0,
 									"id" : "obj-16",
-									"items" : [ "/parameter/Band/1/Freq", ",", "/parameter/Band/1/Gain", ",", "/parameter/Band/1/Q", ",", "/parameter/Band/2/Freq", ",", "/parameter/Band/2/Gain", ",", "/parameter/Band/2/Q", ",", "/parameter/Band/3/Freq", ",", "/parameter/Band/3/Gain", ",", "/parameter/Band/3/Q", ",", "/parameter/Band/4/Freq", ",", "/parameter/Band/4/Gain", ",", "/parameter/Band/4/Q", ",", "/parameter/Band/5/Freq", ",", "/parameter/Band/5/Gain", ",", "/parameter/Band/5/Q", ",", "/parameter/Bit/Precision", ",", "/parameter/Midi/channel", ",", "/parameter/Midi/controller", ",", "/parameter/Midi/item" ],
+									"items" : [ "/parameter/azimuth", ",", "/parameter/coordinate/scale", ",", "/parameter/distance", ",", "/parameter/elevation", ",", "/parameter/gain", ",", "/parameter/reference/distance" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -610,13 +608,13 @@
 ,
 					"patching_rect" : [ 366.0, 450.0, 209.0, 24.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
 						"globalpatchername" : "",
 						"default_fontface" : 0,
 						"fontface" : 0,
-						"default_fontname" : "Arial",
 						"fontsize" : 12.0,
-						"default_fontsize" : 12.0
+						"default_fontname" : "Arial",
+						"default_fontsize" : 12.0,
+						"fontname" : "Arial"
 					}
 ,
 					"text" : "p \"AU parameter migration\""
@@ -647,7 +645,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 339.0, 568.0, 291.0, 34.0 ],
+					"patching_rect" : [ 334.0, 560.0, 291.0, 34.0 ],
 					"text" : "some plugins need some timing Info that can be provided in Max by the global transport"
 				}
 
@@ -662,7 +660,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 344.0, 608.0, 300.0, 70.0 ],
+					"patching_rect" : [ 339.0, 600.0, 300.0, 70.0 ],
 					"presentation_rect" : [ 30.0, 30.0, 300.0, 70.0 ],
 					"varname" : "jmod.bcf2000"
 				}
@@ -748,7 +746,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 40.0, 694.0, 545.0, 43.0 ],
+					"patching_rect" : [ 40.0, 680.0, 545.0, 43.0 ],
 					"text" : "Credits: The OSC namespace implementation of plug-in parameters is based on M. Zbyszynski and A. Freed: Control of VST Plug-ins using OSC. Proceedings of the ICMC 2005. The interface for the module was partly inspired by the brilliant Radial application."
 				}
 
@@ -888,13 +886,13 @@
 ,
 									"patching_rect" : [ 16.0, 9.0, 84.0, 19.0 ],
 									"saved_object_attributes" : 									{
-										"fontname" : "Verdana",
 										"globalpatchername" : "",
 										"default_fontface" : 0,
 										"fontface" : 0,
-										"default_fontname" : "Verdana",
 										"fontsize" : 10.0,
-										"default_fontsize" : 10.0
+										"default_fontname" : "Verdana",
+										"default_fontsize" : 10.0,
+										"fontname" : "Verdana"
 									}
 ,
 									"text" : "p UnNormalize"
@@ -1080,13 +1078,13 @@
 ,
 									"patching_rect" : [ 280.0, 60.0, 121.0, 19.0 ],
 									"saved_object_attributes" : 									{
-										"fontname" : "Verdana",
 										"globalpatchername" : "",
 										"default_fontface" : 0,
 										"fontface" : 0,
-										"default_fontname" : "Verdana",
 										"fontsize" : 10.0,
-										"default_fontsize" : 10.0
+										"default_fontname" : "Verdana",
+										"default_fontsize" : 10.0,
+										"fontname" : "Verdana"
 									}
 ,
 									"text" : "p make_osc_message"
@@ -1193,13 +1191,13 @@
 ,
 					"patching_rect" : [ 25.0, 245.0, 57.0, 19.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Verdana",
 						"globalpatchername" : "",
 						"default_fontface" : 0,
 						"fontface" : 0,
-						"default_fontname" : "Verdana",
 						"fontsize" : 10.0,
-						"default_fontsize" : 10.0
+						"default_fontname" : "Verdana",
+						"default_fontsize" : 10.0,
+						"fontname" : "Verdana"
 					}
 ,
 					"text" : "p midi_in",
@@ -1425,13 +1423,13 @@
 ,
 					"patching_rect" : [ 366.0, 415.0, 150.0, 24.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Verdana",
 						"globalpatchername" : "",
 						"default_fontface" : 0,
 						"fontface" : 0,
-						"default_fontname" : "Verdana",
 						"fontsize" : 10.0,
-						"default_fontsize" : 10.0
+						"default_fontname" : "Verdana",
+						"default_fontsize" : 10.0,
+						"fontname" : "Verdana"
 					}
 ,
 					"text" : "p \"Using jmod.au~\""
@@ -1448,7 +1446,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1.0, 500.0, 308.0, 17.0 ],
-					"text" : "/view/size 300 210"
+					"text" : "/parameter/feedback 50."
 				}
 
 			}
