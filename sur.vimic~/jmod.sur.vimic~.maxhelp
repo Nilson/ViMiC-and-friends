@@ -1,9 +1,9 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
-		"rect" : [ 50.0, 44.0, 1093.0, 687.0 ],
+		"rect" : [ 12.0, 44.0, 1145.0, 582.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 50.0, 44.0, 1093.0, 687.0 ],
+		"defrect" : [ 12.0, 44.0, 1145.0, 582.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -17,7 +17,50 @@
 		"imprint" : 0,
 		"enablehscroll" : 1,
 		"enablevscroll" : 1,
+		"devicewidth" : 0.0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Verdana",
+					"fontsize" : 10.0,
+					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"id" : "obj-30",
+					"linecount" : 3,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 419.0, 165.0, 85.0, 43.0 ],
+					"text" : "the input signal that will be spatialized"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"args" : [ "/input~" ],
+					"id" : "obj-23",
+					"maxclass" : "bpatcher",
+					"name" : "jmod.input~.maxpat",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "signal", "signal" ],
+					"patching_rect" : [ 507.0, 119.0, 300.0, 140.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 300.0, 140.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"args" : [ "@name", "jmod.sur.vimic~", "@description", "ViMiC - Virtual Microphone Control" ],
+					"bgmode" : 1,
+					"id" : "obj-14",
+					"maxclass" : "bpatcher",
+					"name" : "jcom.maxhelpui.maxpat",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 0.0, 0.0, 1145.0, 70.0 ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -43,6 +86,7 @@
 						"imprint" : 0,
 						"enablehscroll" : 1,
 						"enablevscroll" : 1,
+						"devicewidth" : 0.0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Verdana",
@@ -70,6 +114,7 @@
 										"imprint" : 0,
 										"enablehscroll" : 1,
 										"enablevscroll" : 1,
+										"devicewidth" : 0.0,
 										"boxes" : [ 											{
 												"box" : 												{
 													"fontname" : "Verdana",
@@ -1008,7 +1053,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 386.0, 141.0, 18.0, 20.0 ],
+					"patching_rect" : [ 507.0, 347.0, 18.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Verdana",
@@ -1034,7 +1079,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
-					"patching_rect" : [ 83.0, 547.0, 35.0, 17.0 ],
+					"patching_rect" : [ 98.0, 457.0, 35.0, 17.0 ],
 					"triscale" : 0.9
 				}
 
@@ -1048,23 +1093,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 427.0, 17.0, 154.0, 27.0 ],
+					"patching_rect" : [ 497.0, 86.0, 154.0, 27.0 ],
 					"text" : "A ViMiC example",
 					"underline" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 9.0,
-					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"id" : "obj-107",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 644.0, 44.0, 135.0, 17.0 ],
-					"text" : "the source to be spatialized:"
 				}
 
 			}
@@ -1077,7 +1108,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 102.0, 530.0, 20.0, 15.0 ],
+					"patching_rect" : [ 117.0, 440.0, 20.0, 15.0 ],
 					"text" : "24"
 				}
 
@@ -1108,6 +1139,7 @@
 						"imprint" : 0,
 						"enablehscroll" : 1,
 						"enablevscroll" : 1,
+						"devicewidth" : 0.0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -1135,6 +1167,7 @@
 										"imprint" : 0,
 										"enablehscroll" : 1,
 										"enablevscroll" : 1,
+										"devicewidth" : 0.0,
 										"boxes" : [ 											{
 												"box" : 												{
 													"fontname" : "Arial",
@@ -1282,6 +1315,7 @@
 										"imprint" : 0,
 										"enablehscroll" : 1,
 										"enablevscroll" : 1,
+										"devicewidth" : 0.0,
 										"boxes" : [ 											{
 												"box" : 												{
 													"fontname" : "Arial",
@@ -1803,7 +1837,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 520.0, 642.0, 66.0, 17.0 ],
+					"patching_rect" : [ 992.0, 405.0, 66.0, 17.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -1827,7 +1861,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 170.0, 231.0, 181.0, 17.0 ],
+					"patching_rect" : [ 185.0, 192.0, 181.0, 17.0 ],
 					"text" : "x-fade: x-fading between delays"
 				}
 
@@ -1841,7 +1875,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 43.0, 345.0, 344.0, 19.0 ],
+					"patching_rect" : [ 58.0, 306.0, 344.0, 19.0 ],
 					"text" : "NOTE: this updates only when DSP is switched off"
 				}
 
@@ -1856,7 +1890,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 218.0, 304.0, 149.0, 43.0 ],
+					"patching_rect" : [ 233.0, 265.0, 149.0, 43.0 ],
 					"text" : "changing the amount of mics and the order of calculated room reflections"
 				}
 
@@ -1874,7 +1908,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
-					"patching_rect" : [ 6.0, 329.0, 35.0, 17.0 ],
+					"patching_rect" : [ 21.0, 290.0, 35.0, 17.0 ],
 					"triscale" : 0.9
 				}
 
@@ -1888,7 +1922,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 42.0, 329.0, 174.0, 15.0 ],
+					"patching_rect" : [ 57.0, 290.0, 174.0, 15.0 ],
 					"text" : "/jmod.sur.vimic~/room/reflection/order $1"
 				}
 
@@ -1906,7 +1940,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
-					"patching_rect" : [ 4.0, 207.0, 100.0, 19.0 ],
+					"patching_rect" : [ 19.0, 168.0, 100.0, 19.0 ],
 					"togcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"types" : [  ]
 				}
@@ -1925,7 +1959,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
-					"patching_rect" : [ 6.0, 313.0, 35.0, 17.0 ],
+					"patching_rect" : [ 21.0, 274.0, 35.0, 17.0 ],
 					"triscale" : 0.9
 				}
 
@@ -1939,7 +1973,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 42.0, 313.0, 176.0, 15.0 ],
+					"patching_rect" : [ 57.0, 274.0, 176.0, 15.0 ],
 					"text" : "/jmod.sur.vimic~/microphones/amount $1"
 				}
 
@@ -1954,7 +1988,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 175.0, 368.0, 182.0, 31.0 ],
+					"patching_rect" : [ 216.0, 328.0, 182.0, 31.0 ],
 					"text" : "updaterate [Hz], how often ViMiC renders new instructions"
 				}
 
@@ -1972,21 +2006,21 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
-					"patching_rect" : [ 2.0, 376.0, 35.0, 17.0 ],
+					"patching_rect" : [ 17.0, 337.0, 35.0, 17.0 ],
 					"triscale" : 0.9
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 9.0,
+					"fontname" : "Helvetica",
+					"fontsize" : 11.0,
 					"id" : "obj-134",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 38.0, 376.0, 134.0, 15.0 ],
+					"patching_rect" : [ 53.0, 337.0, 162.0, 15.0 ],
 					"text" : "/jmod.sur.vimic~/updaterate $1"
 				}
 
@@ -2000,21 +2034,21 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 149.0, 141.0, 222.0, 19.0 ],
+					"patching_rect" : [ 164.0, 102.0, 222.0, 19.0 ],
 					"text" : "shows the inspector for extended settings"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 9.0,
+					"fontname" : "Helvetica",
+					"fontsize" : 11.0,
 					"id" : "obj-136",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 4.0, 145.0, 121.0, 15.0 ],
+					"patching_rect" : [ 19.0, 106.0, 147.0, 15.0 ],
 					"text" : "/jmod.sur.vimic~/view/panel"
 				}
 
@@ -2028,7 +2062,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 148.0, 162.0, 256.0, 19.0 ],
+					"patching_rect" : [ 163.0, 123.0, 225.0, 19.0 ],
 					"text" : "reports the state of the ViMiC environment"
 				}
 
@@ -2043,7 +2077,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 6.0, 404.0, 146.0, 17.0 ],
+					"patching_rect" : [ 228.0, 376.0, 146.0, 17.0 ],
 					"text" : "jcom.send jcom.remote.module.to"
 				}
 
@@ -2057,7 +2091,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 24.0, 530.0, 16.5, 15.0 ],
+					"patching_rect" : [ 39.0, 440.0, 16.5, 15.0 ],
 					"text" : "5"
 				}
 
@@ -2071,8 +2105,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 116.0, 127.0, 27.0 ],
-					"text" : "ViMiC control"
+					"patching_rect" : [ 18.0, 77.0, 127.0, 27.0 ],
+					"text" : "ViMiC control",
+					"underline" : 1
 				}
 
 			}
@@ -2085,7 +2120,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 113.0, 285.0, 263.0, 17.0 ],
+					"patching_rect" : [ 128.0, 246.0, 263.0, 17.0 ],
 					"text" : "Panning: amplitude panning, no delays, no room model"
 				}
 
@@ -2099,35 +2134,35 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 170.0, 215.0, 214.0, 17.0 ],
+					"patching_rect" : [ 185.0, 176.0, 214.0, 17.0 ],
 					"text" : "ViMiC: amplitude & time delay panning"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 10.0,
+					"fontname" : "Helvetica",
+					"fontsize" : 11.0,
 					"id" : "obj-166",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 3.0, 228.0, 154.0, 16.0 ],
+					"patching_rect" : [ 18.0, 189.0, 169.0, 15.0 ],
 					"text" : "/jmod.sur.vimic~/rendermode $1"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 9.0,
+					"fontname" : "Helvetica",
+					"fontsize" : 11.0,
 					"id" : "obj-168",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 5.0, 166.0, 112.0, 15.0 ],
+					"patching_rect" : [ 20.0, 127.0, 136.0, 15.0 ],
 					"text" : "/jmod.sur.vimic~/getState"
 				}
 
@@ -2141,7 +2176,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 420.0, 400.0, 95.0, 20.0 ],
+					"patching_rect" : [ 892.0, 163.0, 95.0, 20.0 ],
 					"text" : "r toAmbimonitor"
 				}
 
@@ -2156,7 +2191,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 386.0, 321.0, 300.0, 70.0 ],
+					"patching_rect" : [ 507.0, 468.0, 300.0, 70.0 ],
 					"presentation_rect" : [ 0.0, 0.0, 300.0, 70.0 ],
 					"varname" : "/output~"
 				}
@@ -2172,7 +2207,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 784.0, 319.0, 300.0, 70.0 ],
+					"patching_rect" : [ 828.0, 437.0, 300.0, 70.0 ],
 					"presentation_rect" : [ 0.0, 0.0, 300.0, 70.0 ],
 					"varname" : "/jmod.cuelist"
 				}
@@ -2187,7 +2222,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 866.0, 578.0, 150.0, 20.0 ],
+					"patching_rect" : [ 945.0, 531.0, 137.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 652.0, 602.0, 150.0, 20.0 ],
 					"text" : "July 2008, Montreal"
@@ -2204,7 +2239,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 599.0, 222.0, 300.0, 70.0 ],
+					"patching_rect" : [ 507.0, 372.0, 300.0, 70.0 ],
 					"presentation_rect" : [ 0.0, 0.0, 300.0, 70.0 ],
 					"varname" : "/reverb~"
 				}
@@ -2220,7 +2255,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 420.0, 423.0, 217.0, 217.0 ],
+					"patching_rect" : [ 892.0, 186.0, 217.0, 217.0 ],
 					"point_color" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"point_color1" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"presentation" : 1,
@@ -2237,7 +2272,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 73.0, 250.0, 298.0, 17.0 ],
+					"patching_rect" : [ 88.0, 211.0, 298.0, 17.0 ],
 					"text" : "lite-suffix: room model uses the wall propoerties of the left wall"
 				}
 
@@ -2252,7 +2287,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 386.0, 69.0, 300.0, 70.0 ],
+					"patching_rect" : [ 507.0, 271.0, 300.0, 70.0 ],
 					"presentation_rect" : [ 0.0, 0.0, 300.0, 70.0 ],
 					"varname" : "/jmod.sur.vimic~"
 				}
@@ -2267,7 +2302,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 149.0, 195.0, 216.0, 19.0 ],
+					"patching_rect" : [ 164.0, 156.0, 216.0, 19.0 ],
 					"text" : "change between the rendering types"
 				}
 
@@ -2281,7 +2316,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 72.0, 267.0, 293.0, 17.0 ],
+					"patching_rect" : [ 87.0, 228.0, 293.0, 17.0 ],
 					"text" : "XL-suffix: full room model, all walls can be defined separately"
 				}
 
@@ -2295,7 +2330,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 866.0, 558.0, 150.0, 20.0 ],
+					"patching_rect" : [ 945.0, 511.0, 137.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 652.0, 583.0, 150.0, 20.0 ],
 					"text" : "nils.peters@mcgill.ca"
@@ -2311,7 +2346,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 263.0, 489.0, 123.0, 15.0 ],
+					"patching_rect" : [ 278.0, 399.0, 123.0, 15.0 ],
 					"text" : "/jmod.sur.vimic~/panel/open"
 				}
 
@@ -2323,7 +2358,7 @@
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 302.0, 357.0, 60.0 ],
+					"patching_rect" : [ 19.0, 263.0, 357.0, 60.0 ],
 					"rounded" : 15
 				}
 
@@ -2337,7 +2372,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 5.0, 488.0, 264.0, 20.0 ],
+					"patching_rect" : [ 20.0, 398.0, 264.0, 20.0 ],
 					"text" : "Microphones can be set in the inspector menu:  "
 				}
 
@@ -2370,6 +2405,7 @@
 						"imprint" : 0,
 						"enablehscroll" : 1,
 						"enablevscroll" : 1,
+						"devicewidth" : 0.0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Verdana",
@@ -2378,7 +2414,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 0,
 									"numoutlets" : 1,
-									"outlettype" : [ "bang" ],
+									"outlettype" : [ "" ],
 									"patching_rect" : [ 229.0, 99.0, 197.0, 18.0 ],
 									"text" : "jcom.initialized /jmod.sur.vimic~ 200"
 								}
@@ -2431,7 +2467,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 784.0, 293.0, 44.0, 18.0 ],
+					"patching_rect" : [ 837.0, 405.0, 44.0, 18.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Verdana",
@@ -2448,288 +2484,6 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 9.0,
-					"id" : "obj-30",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
-					"patcher" : 					{
-						"fileversion" : 1,
-						"rect" : [ 10.0, 59.0, 600.0, 426.0 ],
-						"bglocked" : 0,
-						"defrect" : [ 10.0, 59.0, 600.0, 426.0 ],
-						"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
-						"openinpresentation" : 0,
-						"default_fontsize" : 12.0,
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"gridonopen" : 0,
-						"gridsize" : [ 15.0, 15.0 ],
-						"gridsnaponopen" : 0,
-						"toolbarvisible" : 1,
-						"boxanimatetime" : 200,
-						"imprint" : 0,
-						"enablehscroll" : 1,
-						"enablevscroll" : 1,
-						"boxes" : [ 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 9.0,
-									"id" : "obj-1",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 160.0, 50.0, 61.0, 17.0 ],
-									"text" : "append 100"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"comment" : "",
-									"id" : "obj-10",
-									"maxclass" : "outlet",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 255.0, 131.0, 15.0, 15.0 ]
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 9.0,
-									"id" : "obj-2",
-									"maxclass" : "newobj",
-									"numinlets" : 3,
-									"numoutlets" : 2,
-									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 163.0, 81.0, 40.0, 17.0 ],
-									"text" : "line 0."
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 9.0,
-									"id" : "obj-3",
-									"maxclass" : "message",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 110.0, 51.0, 23.0, 15.0 ],
-									"text" : "0.4"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 9.0,
-									"id" : "obj-4",
-									"maxclass" : "message",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 96.0, 70.0, 17.0, 15.0 ],
-									"text" : "0."
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 9.0,
-									"id" : "obj-5",
-									"maxclass" : "newobj",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "signal" ],
-									"patching_rect" : [ 255.0, 109.0, 35.0, 17.0 ],
-									"text" : "*~ 0."
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 9.0,
-									"id" : "obj-6",
-									"maxclass" : "newobj",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 51.0, 69.0, 44.0, 17.0 ],
-									"text" : "del 500"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 9.0,
-									"id" : "obj-7",
-									"maxclass" : "newobj",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 50.0, 50.0, 64.0, 17.0 ],
-									"text" : "metro 1000"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 9.0,
-									"id" : "obj-8",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "signal" ],
-									"patching_rect" : [ 255.0, 89.0, 39.0, 17.0 ],
-									"text" : "noise~"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"comment" : "",
-									"id" : "obj-9",
-									"maxclass" : "inlet",
-									"numinlets" : 0,
-									"numoutlets" : 1,
-									"outlettype" : [ "int" ],
-									"patching_rect" : [ 50.0, 30.0, 15.0, 15.0 ]
-								}
-
-							}
- ],
-						"lines" : [ 							{
-								"patchline" : 								{
-									"destination" : [ "obj-2", 0 ],
-									"hidden" : 0,
-									"midpoints" : [  ],
-									"source" : [ "obj-1", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-5", 1 ],
-									"hidden" : 0,
-									"midpoints" : [  ],
-									"source" : [ "obj-2", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-1", 0 ],
-									"hidden" : 0,
-									"midpoints" : [  ],
-									"source" : [ "obj-3", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-1", 0 ],
-									"hidden" : 0,
-									"midpoints" : [  ],
-									"source" : [ "obj-4", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-10", 0 ],
-									"hidden" : 0,
-									"midpoints" : [  ],
-									"source" : [ "obj-5", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-4", 0 ],
-									"hidden" : 0,
-									"midpoints" : [  ],
-									"source" : [ "obj-6", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-3", 0 ],
-									"hidden" : 0,
-									"midpoints" : [  ],
-									"source" : [ "obj-7", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-6", 0 ],
-									"hidden" : 0,
-									"midpoints" : [  ],
-									"source" : [ "obj-7", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-5", 0 ],
-									"hidden" : 0,
-									"midpoints" : [  ],
-									"source" : [ "obj-8", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-7", 0 ],
-									"hidden" : 0,
-									"midpoints" : [  ],
-									"source" : [ "obj-9", 0 ]
-								}
-
-							}
- ]
-					}
-,
-					"patching_rect" : [ 631.0, 14.0, 65.0, 17.0 ],
-					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"fontname" : "Arial",
-						"default_fontsize" : 12.0,
-						"globalpatchername" : "",
-						"fontface" : 0,
-						"fontsize" : 12.0
-					}
-,
-					"text" : "p noiseburst"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-31",
-					"maxclass" : "toggle",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
-					"patching_rect" : [ 605.0, 14.0, 25.0, 25.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"bgcolor" : [ 0.866667, 0.866667, 0.866667, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 9.0,
@@ -2740,7 +2494,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
-					"patching_rect" : [ 897.0, 176.0, 35.0, 17.0 ],
+					"patching_rect" : [ 827.0, 311.0, 35.0, 17.0 ],
 					"triscale" : 0.9
 				}
 
@@ -2754,7 +2508,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 880.0, 196.0, 36.0, 17.0 ],
+					"patching_rect" : [ 810.0, 331.0, 36.0, 17.0 ],
 					"text" : "*~ 0."
 				}
 
@@ -2768,52 +2522,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 7.0, 509.0, 337.0, 20.0 ],
+					"patching_rect" : [ 22.0, 419.0, 337.0, 20.0 ],
 					"text" : "this is a simple tool to arrange the mics in a circular fashion: "
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"args" : [ "/player" ],
-					"id" : "obj-35",
-					"lockeddragscroll" : 1,
-					"maxclass" : "bpatcher",
-					"name" : "jmod.sampleplayer~.maxpat",
-					"numinlets" : 1,
-					"numoutlets" : 4,
-					"outlettype" : [ "", "signal", "signal", "signal" ],
-					"patching_rect" : [ 787.0, 64.0, 300.0, 105.0 ],
-					"presentation_rect" : [ 0.0, 0.0, 300.0, 105.0 ],
-					"varname" : "/player"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"id" : "obj-36",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 13.0, 46.0, 207.0, 20.0 ],
-					"text" : "ViMiC - Virtual Microphone Control "
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 20.0,
-					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"id" : "obj-38",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 5.0, 16.0, 242.0, 29.0 ],
-					"text" : "jmod.sur.vimic~"
 				}
 
 			}
@@ -2826,7 +2536,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 650.0, 526.0, 104.0, 20.0 ],
+					"patching_rect" : [ 996.0, 160.0, 104.0, 20.0 ],
 					"text" : "move the source"
 				}
 
@@ -2834,14 +2544,14 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 10.0,
+					"fontsize" : 12.0,
 					"id" : "obj-5",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 407.0, 143.0, 272.0, 16.0 ],
-					"text" : "/getState"
+					"patching_rect" : [ 527.0, 347.0, 185.0, 18.0 ],
+					"text" : "/view/color/border 0.62 0. 0.36 1."
 				}
 
 			}
@@ -2855,7 +2565,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 691.0, 339.0, 90.0, 31.0 ],
+					"patching_rect" : [ 420.0, 487.0, 90.0, 31.0 ],
 					"text" : " multicable signal to dac~"
 				}
 
@@ -2866,11 +2576,11 @@
 					"fontsize" : 10.0,
 					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"id" : "obj-72",
-					"linecount" : 3,
+					"linecount" : 4,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 684.0, 78.0, 104.0, 43.0 ],
+					"patching_rect" : [ 420.0, 277.0, 93.0, 55.0 ],
 					"text" : "the ViMiC module,\npress on \"+\" for more control"
 				}
 
@@ -2888,7 +2598,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
-					"patching_rect" : [ 5.0, 628.0, 35.0, 17.0 ],
+					"patching_rect" : [ 20.0, 538.0, 35.0, 17.0 ],
 					"triscale" : 0.9
 				}
 
@@ -2906,7 +2616,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
-					"patching_rect" : [ 5.0, 611.0, 35.0, 17.0 ],
+					"patching_rect" : [ 20.0, 521.0, 35.0, 17.0 ],
 					"triscale" : 0.9
 				}
 
@@ -2921,7 +2631,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 693.0, 255.0, 76.0, 31.0 ],
+					"patching_rect" : [ 422.0, 394.0, 76.0, 31.0 ],
 					"text" : "multichannel reverb"
 				}
 
@@ -2936,7 +2646,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 242.0, 609.0, 151.0, 31.0 ],
+					"patching_rect" : [ 257.0, 519.0, 151.0, 31.0 ],
 					"text" : "due to distance ...\nand  microphone directivity"
 				}
 
@@ -2950,7 +2660,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 594.0, 384.0, 19.0 ],
+					"patching_rect" : [ 19.0, 504.0, 384.0, 19.0 ],
 					"text" : "determines how fast the amplitude of a virtual sound source attenuated"
 				}
 
@@ -2964,7 +2674,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 41.0, 628.0, 197.0, 15.0 ],
+					"patching_rect" : [ 56.0, 538.0, 197.0, 15.0 ],
 					"text" : "/jmod.sur.vimic~/microphones/direct/power $1"
 				}
 
@@ -2978,7 +2688,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 41.0, 611.0, 180.0, 15.0 ],
+					"patching_rect" : [ 56.0, 521.0, 180.0, 15.0 ],
 					"text" : "/jmod.sur.vimic~/room/distance/power $1"
 				}
 
@@ -2993,7 +2703,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 8.0, 562.0, 314.0, 31.0 ],
+					"patching_rect" : [ 23.0, 472.0, 314.0, 31.0 ],
 					"text" : "Directivity of the microphone can be adjusted from 1. (omni) up to 0. (figure-of-8). a Cardio directivity is at 0.5."
 				}
 
@@ -3024,6 +2734,7 @@
 						"imprint" : 0,
 						"enablehscroll" : 1,
 						"enablevscroll" : 1,
+						"devicewidth" : 0.0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -3051,6 +2762,7 @@
 										"imprint" : 0,
 										"enablehscroll" : 1,
 										"enablevscroll" : 1,
+										"devicewidth" : 0.0,
 										"boxes" : [ 											{
 												"box" : 												{
 													"comment" : "",
@@ -3129,6 +2841,7 @@
 										"imprint" : 0,
 										"enablehscroll" : 1,
 										"enablevscroll" : 1,
+										"devicewidth" : 0.0,
 										"boxes" : [ 											{
 												"box" : 												{
 													"fontname" : "Arial",
@@ -3391,6 +3104,7 @@
 														"imprint" : 0,
 														"enablehscroll" : 1,
 														"enablevscroll" : 1,
+														"devicewidth" : 0.0,
 														"boxes" : [ 															{
 																"box" : 																{
 																	"comment" : "",
@@ -3756,6 +3470,7 @@
 										"imprint" : 0,
 										"enablehscroll" : 1,
 										"enablevscroll" : 1,
+										"devicewidth" : 0.0,
 										"boxes" : [ 											{
 												"box" : 												{
 													"comment" : "",
@@ -4020,6 +3735,7 @@
 										"imprint" : 0,
 										"enablehscroll" : 1,
 										"enablevscroll" : 1,
+										"devicewidth" : 0.0,
 										"boxes" : [ 											{
 												"box" : 												{
 													"comment" : "",
@@ -4589,7 +4305,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 6.0, 548.0, 74.0, 17.0 ],
+					"patching_rect" : [ 21.0, 458.0, 74.0, 17.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -4613,7 +4329,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 124.0, 530.0, 149.0, 19.0 ],
+					"patching_rect" : [ 139.0, 440.0, 149.0, 19.0 ],
 					"text" : "Number of Microphones"
 				}
 
@@ -4627,7 +4343,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 120.0, 549.0, 182.0, 19.0 ],
+					"patching_rect" : [ 135.0, 459.0, 182.0, 19.0 ],
 					"text" : "radius of the microphone-ring"
 				}
 
@@ -4641,7 +4357,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 81.0, 530.0, 20.0, 15.0 ],
+					"patching_rect" : [ 96.0, 440.0, 20.0, 15.0 ],
 					"text" : "16"
 				}
 
@@ -4655,7 +4371,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 66.0, 530.0, 16.0, 15.0 ],
+					"patching_rect" : [ 81.0, 440.0, 16.0, 15.0 ],
 					"text" : "8"
 				}
 
@@ -4669,7 +4385,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 49.0, 530.0, 16.0, 15.0 ],
+					"patching_rect" : [ 64.0, 440.0, 16.0, 15.0 ],
 					"text" : "4"
 				}
 
@@ -4683,7 +4399,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 6.0, 530.0, 16.0, 15.0 ],
+					"patching_rect" : [ 21.0, 440.0, 16.0, 15.0 ],
 					"text" : "2"
 				}
 
@@ -4698,7 +4414,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 40.0, 646.0, 146.0, 17.0 ],
+					"patching_rect" : [ 55.0, 556.0, 146.0, 17.0 ],
 					"text" : "jcom.send jcom.remote.module.to"
 				}
 
@@ -4712,7 +4428,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 461.0, 257.0, 27.0 ],
+					"patching_rect" : [ 19.0, 371.0, 257.0, 27.0 ],
 					"text" : "Virtual microphones",
 					"underline" : 1
 				}
@@ -4725,44 +4441,66 @@
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 5.0, 506.0, 327.0, 87.0 ],
+					"patching_rect" : [ 20.0, 416.0, 327.0, 87.0 ],
 					"rounded" : 15
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"id" : "obj-36",
+					"maxclass" : "panel",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 619.0, 79.0, 204.0, 368.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"background" : 1,
+					"border" : 1,
+					"id" : "obj-35",
+					"maxclass" : "panel",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 670.0, 78.0, 452.0, 352.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"background" : 1,
+					"border" : 1,
 					"id" : "obj-29",
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 0.0, 455.0, 393.0, 215.0 ],
-					"rounded" : 15
+					"patching_rect" : [ 15.0, 365.0, 394.0, 190.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"background" : 1,
-					"id" : "obj-1",
-					"maxclass" : "panel",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 13.0, 381.0, 54.0 ],
-					"rounded" : 15
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"background" : 1,
+					"border" : 1,
 					"id" : "obj-18",
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 117.0, 374.0, 284.0 ],
-					"rounded" : 15
+					"patching_rect" : [ 17.0, 78.0, 391.0, 285.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"background" : 1,
+					"border" : 1,
+					"id" : "obj-31",
+					"maxclass" : "panel",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 418.0, 78.0, 406.0, 476.0 ]
 				}
 
 			}
@@ -4807,7 +4545,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-166", 0 ],
 					"hidden" : 0,
-					"midpoints" : [ 54.0, 225.0, 12.5, 225.0 ],
+					"midpoints" : [ 69.0, 186.0, 27.5, 186.0 ],
 					"source" : [ "obj-13", 1 ]
 				}
 
@@ -4904,10 +4642,10 @@
 			}
 , 			{
 				"patchline" : 				{
-					"color" : [ 1.0, 0.890196, 0.090196, 1.0 ],
+					"color" : [ 1.0, 0.090196, 0.090196, 1.0 ],
 					"destination" : [ "obj-176", 1 ],
 					"hidden" : 0,
-					"midpoints" : [ 889.5, 303.0, 676.5, 303.0 ],
+					"midpoints" : [ 797.5, 459.0, 797.5, 459.0 ],
 					"source" : [ "obj-190", 1 ]
 				}
 
@@ -4923,18 +4661,20 @@
 			}
 , 			{
 				"patchline" : 				{
+					"color" : [ 0.945098, 0.407843, 0.407843, 1.0 ],
 					"destination" : [ "obj-176", 1 ],
 					"hidden" : 0,
-					"midpoints" : [ 676.5, 196.0, 587.0, 196.0, 587.0, 303.0, 676.5, 303.0 ],
+					"midpoints" : [ 797.5, 358.0, 812.0, 358.0, 812.0, 461.0, 797.5, 461.0 ],
 					"source" : [ "obj-201", 1 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
+					"color" : [ 0.945098, 0.407843, 0.407843, 1.0 ],
 					"destination" : [ "obj-190", 1 ],
 					"hidden" : 0,
-					"midpoints" : [ 676.5, 196.5, 749.0, 196.5 ],
+					"midpoints" : [ 797.5, 367.5, 657.0, 367.5 ],
 					"source" : [ "obj-201", 1 ]
 				}
 
@@ -4952,8 +4692,26 @@
 				"patchline" : 				{
 					"destination" : [ "obj-5", 1 ],
 					"hidden" : 1,
-					"midpoints" : [  ],
+					"midpoints" : [ 516.5, 343.5, 702.5, 343.5 ],
 					"source" : [ "obj-201", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-201", 1 ],
+					"hidden" : 0,
+					"midpoints" : [  ],
+					"source" : [ "obj-23", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-33", 0 ],
+					"hidden" : 0,
+					"midpoints" : [ 797.5, 263.0, 819.5, 263.0 ],
+					"source" : [ "obj-23", 2 ]
 				}
 
 			}
@@ -4977,24 +4735,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-201", 1 ],
-					"hidden" : 0,
-					"midpoints" : [ 640.5, 63.0, 676.5, 63.0 ],
-					"source" : [ "obj-30", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-30", 0 ],
-					"hidden" : 0,
-					"midpoints" : [ 614.5, 39.0, 601.0, 39.0, 601.0, 9.0, 640.5, 9.0 ],
-					"source" : [ "obj-31", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-33", 1 ],
 					"hidden" : 0,
 					"midpoints" : [  ],
@@ -5006,26 +4746,8 @@
 				"patchline" : 				{
 					"destination" : [ "obj-190", 2 ],
 					"hidden" : 0,
-					"midpoints" : [ 889.5, 217.0, 889.5, 217.0 ],
+					"midpoints" : [ 819.5, 367.0, 797.5, 367.0 ],
 					"source" : [ "obj-33", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-201", 1 ],
-					"hidden" : 0,
-					"midpoints" : [ 890.166687, 175.0, 783.0, 175.0, 783.0, 63.0, 676.5, 63.0 ],
-					"source" : [ "obj-35", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-33", 0 ],
-					"hidden" : 0,
-					"midpoints" : [  ],
-					"source" : [ "obj-35", 1 ]
 				}
 
 			}
