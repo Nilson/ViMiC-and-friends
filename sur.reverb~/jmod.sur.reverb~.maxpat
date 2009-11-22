@@ -28,8 +28,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 550.0, 372.0, 551.0, 41.0 ],
-					"text" : "jcom.parameter.array 24 output gain @type decimal @repetitions/allow 0 @range/bounds 0 127 @range/clipmode both @description \"output gain for each output\" @dataspace gain @dataspace/unit/active midi @dataspace/unit/display midi @dataspace/unit/native midi @value/default 100."
+					"patching_rect" : [ 550.0, 372.0, 603.0, 41.0 ],
+					"text" : "jcom.parameter.array 24 output gain @type decimal @repetitions/allow 0 @range/bounds 0 127 @range/clipmode both @description \"output gain for each output\" @dataspace gain @dataspace/unit/active midi @dataspace/unit/display midi @dataspace/unit/native midi @value/default 100. @ramp/drive scheduler @ramp/function linear"
 				}
 
 			}
@@ -712,13 +712,13 @@
 ,
 									"patching_rect" : [ 280.0, 224.0, 68.0, 19.0 ],
 									"saved_object_attributes" : 									{
-										"default_fontname" : "Verdana",
-										"fontname" : "Verdana",
 										"default_fontsize" : 10.0,
-										"globalpatchername" : "",
 										"fontface" : 0,
 										"fontsize" : 10.0,
-										"default_fontface" : 0
+										"default_fontface" : 0,
+										"globalpatchername" : "",
+										"fontname" : "Verdana",
+										"default_fontname" : "Verdana"
 									}
 ,
 									"text" : "p create_to"
@@ -883,13 +883,13 @@
 ,
 									"patching_rect" : [ 351.0, 225.0, 132.0, 19.0 ],
 									"saved_object_attributes" : 									{
-										"default_fontname" : "Verdana",
-										"fontname" : "Verdana",
 										"default_fontsize" : 10.0,
-										"globalpatchername" : "",
 										"fontface" : 0,
 										"fontsize" : 10.0,
-										"default_fontface" : 0
+										"default_fontface" : 0,
+										"globalpatchername" : "",
+										"fontname" : "Verdana",
+										"default_fontname" : "Verdana"
 									}
 ,
 									"text" : "p create_new_jcom_out"
@@ -1210,13 +1210,13 @@
 ,
 					"patching_rect" : [ 107.0, 201.0, 51.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontname" : "Verdana",
-						"fontname" : "Verdana",
 						"default_fontsize" : 10.0,
-						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 10.0,
-						"default_fontface" : 0
+						"default_fontface" : 0,
+						"globalpatchername" : "",
+						"fontname" : "Verdana",
+						"default_fontname" : "Verdana"
 					}
 ,
 					"text" : "p adapt"
@@ -1598,13 +1598,13 @@
 ,
 					"patching_rect" : [ 197.0, 257.0, 142.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontname" : "Verdana",
-						"fontname" : "Verdana",
 						"default_fontsize" : 10.0,
-						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 10.0,
-						"default_fontface" : 0
+						"default_fontface" : 0,
+						"globalpatchername" : "",
+						"fontname" : "Verdana",
+						"default_fontname" : "Verdana"
 					}
 ,
 					"text" : "p control~"
@@ -1763,6 +1763,7 @@
 						"enablevscroll" : 1,
 						"devicewidth" : 0.0,
 						"title" : "jmod.sur.reverb~",
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Verdana",
@@ -2051,13 +2052,13 @@
 ,
 									"patching_rect" : [ 47.0, 565.5, 153.0, 19.0 ],
 									"saved_object_attributes" : 									{
-										"default_fontname" : "Arial",
-										"fontname" : "Arial",
 										"default_fontsize" : 12.0,
-										"globalpatchername" : "",
 										"fontface" : 0,
 										"fontsize" : 12.0,
-										"default_fontface" : 0
+										"default_fontface" : 0,
+										"globalpatchername" : "",
+										"fontname" : "Arial",
+										"default_fontname" : "Arial"
 									}
 ,
 									"text" : "p"
@@ -2117,7 +2118,8 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 231.0, 714.0, 150.0, 19.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 102.0, 336.0, 150.0, 19.0 ]
+									"presentation_rect" : [ 102.0, 336.0, 150.0, 19.0 ],
+									"text" : "output.8/gain 100.00"
 								}
 
 							}
@@ -2647,13 +2649,13 @@
 ,
 									"patching_rect" : [ 166.0, 691.0, 91.0, 18.0 ],
 									"saved_object_attributes" : 									{
-										"default_fontname" : "Arial",
-										"fontname" : "Arial",
 										"default_fontsize" : 12.0,
-										"globalpatchername" : "",
 										"fontface" : 0,
 										"fontsize" : 12.0,
-										"default_fontface" : 0
+										"default_fontface" : 0,
+										"globalpatchername" : "",
+										"fontname" : "Arial",
+										"default_fontname" : "Arial"
 									}
 ,
 									"text" : "p"
@@ -3294,13 +3296,13 @@
 ,
 									"patching_rect" : [ 1003.299988, 579.200012, 100.0, 17.0 ],
 									"saved_object_attributes" : 									{
-										"default_fontname" : "Arial",
-										"fontname" : "Arial",
 										"default_fontsize" : 10.0,
-										"globalpatchername" : "",
 										"fontface" : 0,
 										"fontsize" : 10.0,
-										"default_fontface" : 0
+										"default_fontface" : 0,
+										"globalpatchername" : "",
+										"fontname" : "Arial",
+										"default_fontname" : "Arial"
 									}
 ,
 									"text" : "p DecodeFilterGraph"
@@ -3561,13 +3563,13 @@
 ,
 									"patching_rect" : [ 985.299988, 800.200012, 124.0, 17.0 ],
 									"saved_object_attributes" : 									{
-										"default_fontname" : "Arial",
-										"fontname" : "Arial",
 										"default_fontsize" : 10.0,
-										"globalpatchername" : "",
 										"fontface" : 0,
 										"fontsize" : 10.0,
-										"default_fontface" : 0
+										"default_fontface" : 0,
+										"globalpatchername" : "",
+										"fontname" : "Arial",
+										"default_fontname" : "Arial"
 									}
 ,
 									"text" : "p PrepareForFiltergraph~"
@@ -3682,8 +3684,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 1144.299927, 679.200012, 382.0, 27.0 ],
-									"text" : "jcom.parameter input/filtergain @type decimal @range/bounds -24 24 @range/clipmode both @ramp/drive scheduler @repetitions/allow 1 @description \"Gain (dB)\"",
+									"patching_rect" : [ 1144.299927, 679.200012, 563.0, 27.0 ],
+									"text" : "jcom.parameter input/filtergain @type decimal @range/bounds -24 24 @range/clipmode both @ramp/drive scheduler @repetitions/allow 1 @description \"Gain (dB)\" @ramp/drive scheduler @ramp/function linear",
 									"varname" : "input/filtergain"
 								}
 
@@ -3699,8 +3701,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 1144.299927, 603.200012, 364.0, 27.0 ],
-									"text" : "jcom.parameter input/q @type decimal @ramp/drive scheduler @range/bounds 0. 100. @range/clipmode both @repetitions/allow 1 @description \"Resonance (Q)\"",
+									"patching_rect" : [ 1144.299927, 603.200012, 592.0, 27.0 ],
+									"text" : "jcom.parameter input/q @type decimal @ramp/drive scheduler @range/bounds 0. 100. @range/clipmode both @repetitions/allow 1 @description \"Resonance (Q)\" @ramp/drive scheduler @ramp/function linear",
 									"varname" : "input/q"
 								}
 
@@ -3716,8 +3718,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 1144.299927, 759.200012, 387.0, 27.0 ],
-									"text" : "jcom.parameter input/frequency @type decimal @range/bounds 30. 11025. @range/clipmode both @ramp/drive scheduler @repetitions/allow 1 @description \"Center frequency (Hz)\"",
+									"patching_rect" : [ 1144.299927, 759.200012, 586.0, 27.0 ],
+									"text" : "jcom.parameter input/frequency @type decimal @range/bounds 30. 11025. @range/clipmode both @ramp/drive scheduler @repetitions/allow 1 @description \"Center frequency (Hz)\" @ramp/drive scheduler @ramp/function linear",
 									"varname" : "input/frequency"
 								}
 
@@ -4116,13 +4118,13 @@
 ,
 									"patching_rect" : [ 486.299988, 581.200012, 100.0, 17.0 ],
 									"saved_object_attributes" : 									{
-										"default_fontname" : "Arial",
-										"fontname" : "Arial",
 										"default_fontsize" : 10.0,
-										"globalpatchername" : "",
 										"fontface" : 0,
 										"fontsize" : 10.0,
-										"default_fontface" : 0
+										"default_fontface" : 0,
+										"globalpatchername" : "",
+										"fontname" : "Arial",
+										"default_fontname" : "Arial"
 									}
 ,
 									"text" : "p DecodeFilterGraph"
@@ -4383,13 +4385,13 @@
 ,
 									"patching_rect" : [ 482.299988, 778.200012, 124.0, 17.0 ],
 									"saved_object_attributes" : 									{
-										"default_fontname" : "Arial",
-										"fontname" : "Arial",
 										"default_fontsize" : 10.0,
-										"globalpatchername" : "",
 										"fontface" : 0,
 										"fontsize" : 10.0,
-										"default_fontface" : 0
+										"default_fontface" : 0,
+										"globalpatchername" : "",
+										"fontname" : "Arial",
+										"default_fontname" : "Arial"
 									}
 ,
 									"text" : "p PrepareForFiltergraph~"
@@ -4504,8 +4506,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 627.299988, 681.200012, 378.0, 27.0 ],
-									"text" : "jcom.parameter fdn/filtergain @type decimal @range/bounds -24. 0. @range/clipmode both @ramp/drive scheduler @repetitions/allow 1 @description \"Gain (dB)\"",
+									"patching_rect" : [ 627.299988, 681.200012, 556.0, 27.0 ],
+									"text" : "jcom.parameter fdn/filtergain @type decimal @range/bounds -24. 0. @range/clipmode both @ramp/drive scheduler @repetitions/allow 1 @description \"Gain (dB)\" @ramp/drive scheduler @ramp/function linear",
 									"varname" : "fdn/filtergain"
 								}
 
@@ -4521,8 +4523,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 627.299988, 605.200012, 356.0, 27.0 ],
-									"text" : "jcom.parameter fdn/q @type decimal @ramp/drive scheduler @range/bounds 0. 100. @range/clipmode both @repetitions/allow 1 @description \"Resonance (Q)\"",
+									"patching_rect" : [ 627.299988, 605.200012, 585.0, 27.0 ],
+									"text" : "jcom.parameter fdn/q @type decimal @ramp/drive scheduler @range/bounds 0. 100. @range/clipmode both @repetitions/allow 1 @description \"Resonance (Q)\" @ramp/drive scheduler @ramp/function linear",
 									"varname" : "fdn/q"
 								}
 
@@ -4538,8 +4540,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 627.299988, 761.200012, 378.0, 27.0 ],
-									"text" : "jcom.parameter fdn/frequency @type decimal @range/bounds 30. 11025. @range/clipmode both @ramp/drive scheduler @repetitions/allow 1 @description \"Center frequency (Hz)\"",
+									"patching_rect" : [ 627.299988, 761.200012, 579.0, 27.0 ],
+									"text" : "jcom.parameter fdn/frequency @type decimal @range/bounds 30. 11025. @range/clipmode both @ramp/drive scheduler @repetitions/allow 1 @description \"Center frequency (Hz)\" @ramp/drive scheduler @ramp/function linear",
 									"varname" : "fdn/frequency"
 								}
 
@@ -4600,8 +4602,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 624.299988, 285.199982, 469.0, 27.0 ],
-									"text" : "jcom.parameter fdn/modulation/amplitude @type array @range/bounds 0. 10. @range/clipmode low @ramp/drive scheduler @description \"minimal and maximal amplitude of the feedback path's length modulation\"",
+									"patching_rect" : [ 624.299988, 285.199982, 599.0, 27.0 ],
+									"text" : "jcom.parameter fdn/modulation/amplitude @type array @range/bounds 0. 10. @range/clipmode low @ramp/drive scheduler @description \"minimal and maximal amplitude of the feedback path's length modulation\" @ramp/drive scheduler @ramp/function linear",
 									"varname" : "fdn/modulation/amplitude"
 								}
 
@@ -4671,13 +4673,13 @@
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
 									"id" : "obj-64",
-									"linecount" : 3,
+									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 622.299988, 172.199982, 386.0, 38.0 ],
-									"text" : "jcom.parameter fdn/modulation/frequency @type array @range/bounds 0. 10. @range/clipmode low @ramp/drive scheduler @description \"minimal and maximal modulation frequency of the feedback path's length\"",
+									"patching_rect" : [ 622.299988, 172.199982, 599.0, 27.0 ],
+									"text" : "jcom.parameter fdn/modulation/frequency @type array @range/bounds 0. 10. @range/clipmode low @ramp/drive scheduler @description \"minimal and maximal modulation frequency of the feedback path's length\" @ramp/drive scheduler @ramp/function linear",
 									"varname" : "fdn/modulation/frequency"
 								}
 
@@ -5645,13 +5647,13 @@
 ,
 					"patching_rect" : [ 44.0, 296.0, 67.0, 17.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontname" : "Verdana",
-						"fontname" : "Verdana",
 						"default_fontsize" : 10.0,
-						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 10.0,
-						"default_fontface" : 0
+						"default_fontface" : 0,
+						"globalpatchername" : "",
+						"fontname" : "Verdana",
+						"default_fontname" : "Verdana"
 					}
 ,
 					"text" : "p inspector",

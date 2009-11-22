@@ -1,9 +1,9 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
-		"rect" : [ 244.0, 64.0, 817.0, 603.0 ],
+		"rect" : [ 244.0, 64.0, 929.0, 629.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 244.0, 64.0, 817.0, 603.0 ],
+		"defrect" : [ 244.0, 64.0, 929.0, 629.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -17,6 +17,7 @@
 		"imprint" : 0,
 		"enablehscroll" : 1,
 		"enablevscroll" : 1,
+		"devicewidth" : 0.0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"fontname" : "Verdana",
@@ -27,7 +28,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 575.0, 37.0, 28.0, 19.0 ],
+					"patching_rect" : [ 725.0, 66.0, 28.0, 19.0 ],
 					"text" : "t 1."
 				}
 
@@ -42,7 +43,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 575.0, 15.0, 133.0, 19.0 ],
+					"patching_rect" : [ 725.0, 44.0, 133.0, 19.0 ],
 					"text" : "jcom.initialized /boids3d"
 				}
 
@@ -56,7 +57,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 42.0, 343.0, 371.0, 19.0 ],
+					"patching_rect" : [ 42.0, 372.0, 371.0, 19.0 ],
 					"text" : " /bird.#/position  ... position of the #th bird in cart. coordinates"
 				}
 
@@ -71,7 +72,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 9.0, 89.0, 150.0, 70.0 ],
+					"patching_rect" : [ 9.0, 118.0, 150.0, 70.0 ],
 					"presentation_rect" : [ 0.0, 0.0, 150.0, 70.0 ],
 					"varname" : "jmod.mouse.mxt"
 				}
@@ -89,7 +90,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
-					"patching_rect" : [ 575.0, 59.0, 35.0, 17.0 ],
+					"patching_rect" : [ 725.0, 88.0, 35.0, 17.0 ],
 					"triscale" : 0.9,
 					"varname" : "scale[1]"
 				}
@@ -104,7 +105,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 611.0, 59.0, 36.0, 19.0 ],
+					"patching_rect" : [ 761.0, 88.0, 36.0, 19.0 ],
 					"text" : "zoom"
 				}
 
@@ -119,7 +120,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 42.0, 369.0, 371.0, 31.0 ],
+					"patching_rect" : [ 42.0, 398.0, 371.0, 31.0 ],
 					"text" : " /flock  ... list style as outputed from eric singer's external\n              /flock is disabled by default, it can be switched on with "
 				}
 
@@ -137,7 +138,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 459.0, 80.0, 253.0, 506.0 ],
+					"patching_rect" : [ 609.0, 109.0, 253.0, 506.0 ],
 					"point_size" : 6.0,
 					"presentation_rect" : [ 0.0, 0.0, 100.0, 200.0 ]
 				}
@@ -170,6 +171,7 @@
 						"imprint" : 0,
 						"enablehscroll" : 1,
 						"enablevscroll" : 1,
+						"devicewidth" : 0.0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Verdana",
@@ -283,6 +285,7 @@
 										"imprint" : 0,
 										"enablehscroll" : 1,
 										"enablevscroll" : 1,
+										"devicewidth" : 0.0,
 										"boxes" : [ 											{
 												"box" : 												{
 													"fontname" : "Verdana",
@@ -411,13 +414,13 @@
 ,
 									"patching_rect" : [ 437.0, 323.0, 119.0, 19.0 ],
 									"saved_object_attributes" : 									{
-										"default_fontface" : 0,
-										"fontname" : "Verdana",
-										"default_fontname" : "Verdana",
-										"globalpatchername" : "",
 										"default_fontsize" : 10.0,
 										"fontface" : 0,
-										"fontsize" : 10.0
+										"fontsize" : 10.0,
+										"default_fontface" : 0,
+										"globalpatchername" : "",
+										"fontname" : "Verdana",
+										"default_fontname" : "Verdana"
 									}
 ,
 									"text" : "p show_/attractpoint"
@@ -682,15 +685,15 @@
  ]
 					}
 ,
-					"patching_rect" : [ 459.0, 59.0, 115.0, 19.0 ],
+					"patching_rect" : [ 609.0, 88.0, 115.0, 19.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
-						"fontname" : "Verdana",
-						"default_fontname" : "Verdana",
-						"globalpatchername" : "",
 						"default_fontsize" : 10.0,
 						"fontface" : 0,
-						"fontsize" : 10.0
+						"fontsize" : 10.0,
+						"default_fontface" : 0,
+						"globalpatchername" : "",
+						"fontname" : "Verdana",
+						"default_fontname" : "Verdana"
 					}
 ,
 					"text" : "p boids2ambimonitor"
@@ -706,7 +709,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 19.0, 214.0, 186.0, 17.0 ],
+					"patching_rect" : [ 19.0, 243.0, 186.0, 17.0 ],
 					"text" : "/attractpoint 0.026562 0.0225 0."
 				}
 
@@ -721,7 +724,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 9.0, 238.0, 300.0, 70.0 ],
+					"patching_rect" : [ 9.0, 267.0, 300.0, 70.0 ],
 					"presentation_rect" : [ 0.0, 0.0, 300.0, 70.0 ],
 					"varname" : "jmod.boids3d.mxt"
 				}
@@ -736,7 +739,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 317.0, 398.0, 91.0, 17.0 ],
+					"patching_rect" : [ 317.0, 427.0, 91.0, 17.0 ],
 					"text" : "/flock:/enable 1"
 				}
 
@@ -750,7 +753,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 207.0, 212.0, 112.0, 19.0 ],
+					"patching_rect" : [ 207.0, 241.0, 112.0, 19.0 ],
 					"text" : "Point of Attraction"
 				}
 
@@ -765,7 +768,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 11.0, 474.0, 349.0, 39.0 ],
+					"patching_rect" : [ 11.0, 503.0, 349.0, 39.0 ],
 					"text" : "Based on Simon Fraser's implementation of Craig Reynolds' Boids algorithm. Boids is free for non-commercial use. boids package released under Gnu GPL license."
 				}
 
@@ -780,48 +783,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 332.0, 166.0, 106.0, 55.0 ],
+					"patching_rect" : [ 332.0, 195.0, 106.0, 55.0 ],
 					"text" : "update from external command (module must be turned on)"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"background" : 1,
-					"id" : "obj-26",
-					"maxclass" : "panel",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 7.0, 3.0, 313.0, 66.0 ],
-					"rounded" : 15
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Verdana",
-					"fontsize" : 18.0,
-					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"id" : "obj-27",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 11.0, 7.0, 197.0, 28.0 ],
-					"text" : "jmod.boids3d"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Verdana",
-					"fontsize" : 10.0,
-					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"id" : "obj-29",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 38.0, 50.0, 257.0, 19.0 ],
-					"text" : "© 1995-98 Eric L. Singer (eric@ericsinger.com)"
 				}
 
 			}
@@ -834,22 +797,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 390.0, 204.0, 50.0, 17.0 ],
+					"patching_rect" : [ 390.0, 233.0, 50.0, 17.0 ],
 					"text" : "/update"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Verdana",
-					"fontsize" : 10.0,
-					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"id" : "obj-31",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 13.0, 34.0, 212.0, 19.0 ],
-					"text" : "bird flight and animal flock simulator."
 				}
 
 			}
@@ -863,7 +812,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 10.0, 521.0, 349.0, 28.0 ],
+					"patching_rect" : [ 10.0, 550.0, 349.0, 28.0 ],
 					"text" : "For more information about the Boids algorithm, see Craig Reynolds' Web site at \"http://reality.sgi.com/employees/craig/boids.html\"."
 				}
 
@@ -895,6 +844,7 @@
 						"imprint" : 0,
 						"enablehscroll" : 1,
 						"enablevscroll" : 1,
+						"devicewidth" : 0.0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"comment" : "",
@@ -1044,15 +994,15 @@
  ]
 					}
 ,
-					"patching_rect" : [ 9.0, 190.0, 86.0, 19.0 ],
+					"patching_rect" : [ 9.0, 219.0, 86.0, 19.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
-						"fontname" : "Verdana",
-						"default_fontname" : "Verdana",
-						"globalpatchername" : "",
 						"default_fontsize" : 10.0,
 						"fontface" : 0,
-						"fontsize" : 10.0
+						"fontsize" : 10.0,
+						"default_fontface" : 0,
+						"globalpatchername" : "",
+						"fontname" : "Verdana",
+						"default_fontname" : "Verdana"
 					}
 ,
 					"text" : "p mouse2boids"
@@ -1068,8 +1018,21 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 9.0, 167.0, 153.0, 19.0 ],
+					"patching_rect" : [ 9.0, 196.0, 153.0, 19.0 ],
 					"text" : "route /position/x /position/y"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"args" : [ "@name", "jmod.boids3d", "@description", "bird flight and animal flock simulator. © 1995-98 Eric L. Singer (eric@ericsinger.com)" ],
+					"bgmode" : 1,
+					"id" : "obj-5",
+					"maxclass" : "bpatcher",
+					"name" : "jcom.maxhelpui.maxpat",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 0.0, 0.0, 878.0, 70.0 ]
 				}
 
 			}
@@ -1082,7 +1045,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 11.0, 321.0, 150.0, 19.0 ],
+					"patching_rect" : [ 11.0, 350.0, 150.0, 19.0 ],
 					"text" : "outputs:"
 				}
 
@@ -1137,7 +1100,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-18", 0 ],
 					"hidden" : 0,
-					"midpoints" : [ 18.5, 314.0, 448.0, 314.0, 448.0, 51.0, 468.5, 51.0 ],
+					"midpoints" : [ 18.5, 343.0, 545.0, 343.0, 545.0, 80.0, 618.5, 80.0 ],
 					"source" : [ "obj-20", 0 ]
 				}
 
@@ -1155,7 +1118,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-20", 0 ],
 					"hidden" : 0,
-					"midpoints" : [ 399.5, 232.0, 18.5, 232.0 ],
+					"midpoints" : [ 399.5, 261.0, 18.5, 261.0 ],
 					"source" : [ "obj-3", 0 ]
 				}
 
@@ -1164,7 +1127,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-19", 1 ],
 					"hidden" : 0,
-					"midpoints" : [ 18.5, 210.5, 195.5, 210.5 ],
+					"midpoints" : [ 18.5, 239.5, 195.5, 239.5 ],
 					"source" : [ "obj-7", 0 ]
 				}
 

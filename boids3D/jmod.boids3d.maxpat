@@ -1,9 +1,9 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
-		"rect" : [ 147.0, 59.0, 1144.0, 360.0 ],
+		"rect" : [ 136.0, 59.0, 1144.0, 360.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 147.0, 59.0, 1144.0, 360.0 ],
+		"defrect" : [ 136.0, 59.0, 1144.0, 360.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -17,6 +17,7 @@
 		"imprint" : 0,
 		"enablehscroll" : 1,
 		"enablevscroll" : 1,
+		"devicewidth" : 0.0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"fontname" : "Verdana",
@@ -57,6 +58,7 @@
 						"imprint" : 0,
 						"enablehscroll" : 1,
 						"enablevscroll" : 1,
+						"devicewidth" : 0.0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"color" : [ 1.0, 0.890196, 0.090196, 1.0 ],
@@ -86,6 +88,7 @@
 										"imprint" : 0,
 										"enablehscroll" : 1,
 										"enablevscroll" : 1,
+										"devicewidth" : 0.0,
 										"boxes" : [ 											{
 												"box" : 												{
 													"color" : [ 1.0, 0.611765, 0.611765, 1.0 ],
@@ -184,13 +187,13 @@
 ,
 									"patching_rect" : [ 231.983444, 263.0, 30.0, 18.0 ],
 									"saved_object_attributes" : 									{
-										"default_fontface" : 0,
-										"fontname" : "Arial",
-										"default_fontname" : "Arial",
-										"globalpatchername" : "",
 										"default_fontsize" : 10.0,
 										"fontface" : 0,
-										"fontsize" : 10.0
+										"fontsize" : 10.0,
+										"default_fontface" : 0,
+										"globalpatchername" : "",
+										"fontname" : "Arial",
+										"default_fontname" : "Arial"
 									}
 ,
 									"text" : "p init"
@@ -538,8 +541,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 594.0, 596.0, 416.0, 39.0 ],
-									"text" : "jcom.parameter flyrect @type array @ramp/drive scheduler @repetitions/allow 1 @range/bounds -1. 1. @range/clipmode both @description \"bounding box (walls) in which to fly (left/top/right/bottom/front/back)\"",
+									"patching_rect" : [ 594.0, 596.0, 596.0, 39.0 ],
+									"text" : "jcom.parameter flyrect @ramp/drive scheduler @ramp/function linear @type array @ramp/drive scheduler @repetitions/allow 1 @range/bounds -1. 1. @range/clipmode both @description \"bounding box (walls) in which to fly (left/top/right/bottom/front/back)\"",
 									"varname" : "flyrect"
 								}
 
@@ -589,8 +592,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 494.0, 480.0, 375.0, 28.0 ],
-									"text" : "jcom.parameter prefdist @repetitions/allow 0 @type decimal @range/bounds 0. 100. @range/clipmode low @description \"preferred distance from neighbors\"",
+									"patching_rect" : [ 494.0, 480.0, 591.0, 28.0 ],
+									"text" : "jcom.parameter prefdist @ramp/drive scheduler @ramp/function linear @repetitions/allow 0 @type decimal @range/bounds 0. 100. @range/clipmode low @description \"preferred distance from neighbors\"",
 									"varname" : "prefdist"
 								}
 
@@ -605,8 +608,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 487.0, 443.0, 386.0, 28.0 ],
-									"text" : "jcom.parameter acceleration @repetitions/allow 0 @type decimal @range/bounds 0. 100. @range/clipmode low @description \"speed of acceleration\"",
+									"patching_rect" : [ 487.0, 443.0, 599.0, 28.0 ],
+									"text" : "jcom.parameter acceleration @ramp/drive scheduler @ramp/function linear @repetitions/allow 0 @type decimal @range/bounds 0. 100. @range/clipmode low @description \"speed of acceleration\"",
 									"varname" : "acceleration"
 								}
 
@@ -621,8 +624,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 490.0, 411.0, 393.0, 28.0 ],
-									"text" : "jcom.parameter inertia @repetitions/allow 0 @type decimal @range/bounds 0. 100. @range/clipmode low @description \"willingness to change speed and direction\"",
+									"patching_rect" : [ 490.0, 411.0, 585.0, 28.0 ],
+									"text" : "jcom.parameter inertia @ramp/drive scheduler @ramp/function linear @repetitions/allow 0 @type decimal @range/bounds 0. 100. @range/clipmode low @description \"willingness to change speed and direction\"",
 									"varname" : "inertia"
 								}
 
@@ -653,8 +656,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 490.0, 373.0, 350.0, 28.0 ],
-									"text" : "jcom.parameter speed @repetitions/allow 0 @type decimal @range/bounds 0. 100. @range/clipmode low @description \"overall speed\"",
+									"patching_rect" : [ 490.0, 373.0, 583.0, 28.0 ],
+									"text" : "jcom.parameter speed @ramp/drive scheduler @ramp/function linear @repetitions/allow 0 @type decimal @range/bounds 0. 100. @range/clipmode low @description \"overall speed\"",
 									"varname" : "speed"
 								}
 
@@ -669,8 +672,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 490.0, 329.0, 389.0, 28.0 ],
-									"text" : "jcom.parameter edgedist @repetitions/allow 0 @type decimal @range/bounds 0. 100. @range/clipmode low @description \"distance of vision for avoiding wall edges\"",
+									"patching_rect" : [ 490.0, 329.0, 595.0, 28.0 ],
+									"text" : "jcom.parameter edgedist @ramp/drive scheduler @ramp/function linear @repetitions/allow 0 @type decimal @range/bounds 0. 100. @range/clipmode low @description \"distance of vision for avoiding wall edges\"",
 									"varname" : "edgedist"
 								}
 
@@ -685,8 +688,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 490.0, 285.0, 367.0, 28.0 ],
-									"text" : "jcom.parameter repel @repetitions/allow 0 @type decimal @range/bounds 0. 100. @range/clipmode low @description \"strengh of wall avoidance instinct\"",
+									"patching_rect" : [ 490.0, 285.0, 603.0, 28.0 ],
+									"text" : "jcom.parameter repel @ramp/drive scheduler @ramp/function linear @repetitions/allow 0 @type decimal @range/bounds 0. 100. @range/clipmode low @description \"strengh of wall avoidance instinct\"",
 									"varname" : "repel"
 								}
 
@@ -701,8 +704,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 490.0, 250.0, 380.0, 28.0 ],
-									"text" : "jcom.parameter avoid @repetitions/allow 0 @type decimal @range/bounds 0. 100. @range/clipmode low @description \"strength of neighbor avoidance instinct\"",
+									"patching_rect" : [ 490.0, 250.0, 604.0, 28.0 ],
+									"text" : "jcom.parameter avoid @ramp/drive scheduler @ramp/function linear @repetitions/allow 0 @type decimal @range/bounds 0. 100. @range/clipmode low @description \"strength of neighbor avoidance instinct\"",
 									"varname" : "avoid"
 								}
 
@@ -797,8 +800,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 490.0, 212.0, 402.0, 28.0 ],
-									"text" : "jcom.parameter match @repetitions/allow 0 @type decimal @range/bounds 0. 100. @range/clipmode low @description \"strength of neighbor speed matching instinct\"",
+									"patching_rect" : [ 490.0, 212.0, 584.0, 28.0 ],
+									"text" : "jcom.parameter match @ramp/drive scheduler @ramp/function linear @repetitions/allow 0 @type decimal @range/bounds 0. 100. @range/clipmode low @description \"strength of neighbor speed matching instinct\"",
 									"varname" : "match"
 								}
 
@@ -813,8 +816,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 490.0, 180.0, 381.0, 28.0 ],
-									"text" : "jcom.parameter attract @repetitions/allow 0 @type decimal @range/bounds 0. 100. @range/clipmode low @description \"strength of attraction to 'attractpoint'\"",
+									"patching_rect" : [ 490.0, 180.0, 586.0, 28.0 ],
+									"text" : "jcom.parameter attract @ramp/drive scheduler @ramp/function linear @repetitions/allow 0 @type decimal @range/bounds 0. 100. @range/clipmode low @description \"strength of attraction to 'attractpoint'\"",
 									"varname" : "attract"
 								}
 
@@ -829,8 +832,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 490.0, 147.0, 369.0, 28.0 ],
-									"text" : "jcom.parameter center @repetitions/allow 0 @type decimal @range/bounds 0. 100. @range/clipmode low @description \"strength of centering instinct\"",
+									"patching_rect" : [ 490.0, 147.0, 585.0, 28.0 ],
+									"text" : "jcom.parameter center @ramp/drive scheduler @ramp/function linear @repetitions/allow 0 @type decimal @range/bounds 0. 100. @range/clipmode low @description \"strength of centering instinct\"",
 									"varname" : "center"
 								}
 
@@ -845,8 +848,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 490.0, 110.0, 384.0, 28.0 ],
-									"text" : "jcom.parameter minspeed @repetitions/allow 0 @type decimal @range/bounds 0. 100. @range/clipmode low @description \"minimum speed of speed range\"",
+									"patching_rect" : [ 490.0, 110.0, 600.0, 28.0 ],
+									"text" : "jcom.parameter minspeed @ramp/drive scheduler @ramp/function linear @repetitions/allow 0 @type decimal @range/bounds 0. 100. @range/clipmode low @description \"minimum speed of speed range\"",
 									"varname" : "minspeed"
 								}
 
@@ -861,8 +864,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 490.0, 80.0, 387.0, 28.0 ],
-									"text" : "jcom.parameter maxspeed @repetitions/allow 0 @type decimal @range/bounds 0. 100. @range/clipmode low @description \"maximum speed of speed range\"",
+									"patching_rect" : [ 490.0, 80.0, 602.0, 28.0 ],
+									"text" : "jcom.parameter maxspeed @ramp/drive scheduler @ramp/function linear @repetitions/allow 0 @type decimal @range/bounds 0. 100. @range/clipmode low @description \"maximum speed of speed range\"",
 									"varname" : "maxspeed"
 								}
 
@@ -877,8 +880,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 490.0, 49.0, 426.0, 28.0 ],
-									"text" : "jcom.parameter neighbors @repetitions/allow 0 @type decimal @range/bounds 0. 100. @range/clipmode low @description \"number of neighbors each boid consults when flocking\"",
+									"patching_rect" : [ 490.0, 49.0, 574.0, 28.0 ],
+									"text" : "jcom.parameter neighbors @repetitions/allow 0 @type decimal @range/bounds 0. 100. @range/clipmode low @ramp/drive scheduler @ramp/function linear @description \"number of neighbors each boid consults when flocking\"",
 									"varname" : "neighbors"
 								}
 
@@ -1130,7 +1133,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 207.0, 508.0, 59.0, 17.0 ],
-									"save" : [ "#N", "thispatcher", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
+									"save" : [ "#N", "thispatcher", ";", "#Q", "window", "flags", "grow", "close", "zoom", "nofloat", "menu", "minimize", ";", "#Q", "window", "constrain", 2, 2, 32768, 32768, ";", "#Q", "window", "size", 456, 106, 788, 569, ";", "#Q", "window", "title", ";", "#Q", "window", "exec", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
 									"text" : "thispatcher"
 								}
 
@@ -1651,13 +1654,13 @@
 ,
 					"patching_rect" : [ 49.0, 272.0, 48.0, 19.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
-						"fontname" : "Verdana",
-						"default_fontname" : "Verdana",
-						"globalpatchername" : "",
 						"default_fontsize" : 10.0,
 						"fontface" : 0,
-						"fontsize" : 10.0
+						"fontsize" : 10.0,
+						"default_fontface" : 0,
+						"globalpatchername" : "",
+						"fontname" : "Verdana",
+						"default_fontname" : "Verdana"
 					}
 ,
 					"text" : "p panel"
