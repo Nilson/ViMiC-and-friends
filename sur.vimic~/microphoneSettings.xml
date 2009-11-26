@@ -328,7 +328,7 @@
     <item name='microphones.4/orientation' type='array' priority='32'>150. 0.</item>
     <item name='microphones.4/position' type='array' priority='31'>0.9000 -0.90000 0.000000 </item>     
     <item name='microphones.5/active' type='boolean' priority='44'>1</item>
-    <item name='microphones.5/directivity/preset' type='string' priority='43'>omni</item>
+    <item name='microphones.5/directivity/preset' type='string' priority='43'>cardioid</item>
     <item name='microphones.5/gain' type='decimal' priority='45'>100.000000</item>
     <item name='microphones.5/orientation' type='array' priority='42'>-150. 0.</item>
     <item name='microphones.5/position' type='array' priority='41'>-0.9000 -0.90000 0.000000 </item> 
