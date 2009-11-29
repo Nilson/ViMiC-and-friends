@@ -877,13 +877,13 @@
 ,
 					"patching_rect" : [ 928.0, 110.0, 73.0, 17.0 ],
 					"saved_object_attributes" : 					{
+						"default_fontsize" : 12.0,
+						"fontface" : 0,
+						"fontsize" : 12.0,
+						"globalpatchername" : "",
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
-						"fontname" : "Arial",
-						"default_fontsize" : 12.0,
-						"globalpatchername" : "",
-						"fontface" : 0,
-						"fontsize" : 12.0
+						"fontname" : "Arial"
 					}
 ,
 					"text" : "p mic-presets",
@@ -970,7 +970,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 792.0, 544.0, 575.0, 43.0 ],
-					"text" : "jcom.parameter microphones.1/orientation @type array @repetitions/allow 0 @range/bounds -180. 180. @range/clipmode wrap @description \"orientation [yaw_pitch] of the Nth microphone\" @priority 2 @dataspace angle @dataspace/unit/active deg @dataspace/unit/native deg @dataspace/unit/display deg",
+					"text" : "jcom.parameter microphones.1/orientation @type array @repetitions/allow 0 @range/bounds -180. 180. @range/clipmode wrap @description \"orientation [yaw pitch] of the Nth microphone\" @priority 2 @dataspace angle @dataspace/unit/active deg @dataspace/unit/native deg @dataspace/unit/display deg",
 					"varname" : "parameter2"
 				}
 
@@ -1017,7 +1017,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 423.0, 35.0, 319.0, 67.0 ],
+					"patching_rect" : [ 423.0, 35.0, 321.0, 67.0 ],
 					"text" : "jcom.parameter microphones.1/gain @repetitions/allow 0 @ramp/drive scheduler @type decimal @range/bounds 0. 127. @range/clipmode both @ramp/drive scheduler @dataspace gain @dataspace/unit/active midi @dataspace/unit/native midi @dataspace/unit/display midi @description \"Gain of of the Nth microphone\" @priority 5",
 					"varname" : "parameter_gain"
 				}
@@ -1081,7 +1081,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 893.0, 61.0, 362.0, 31.0 ],
+					"patching_rect" : [ 893.0, 61.0, 364.0, 31.0 ],
 					"text" : "jcom.message microphones.1/directivity/preset @type string @repetitions/allow 1 @description \"load a directivity preset for the Nth microphone\" @priority 8",
 					"varname" : "directivity_preset"
 				}
