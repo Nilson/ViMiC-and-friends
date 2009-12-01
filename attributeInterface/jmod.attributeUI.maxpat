@@ -215,13 +215,13 @@
 ,
 					"patching_rect" : [ 507.0, 172.0, 58.0, 20.0 ],
 					"saved_object_attributes" : 					{
+						"fontname" : "Arial",
+						"default_fontsize" : 12.0,
+						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 12.0,
 						"default_fontface" : 0,
-						"fontname" : "Arial",
-						"default_fontname" : "Arial",
-						"globalpatchername" : "",
-						"default_fontsize" : 12.0
+						"default_fontname" : "Arial"
 					}
 ,
 					"text" : "p refresh"
@@ -558,13 +558,13 @@
 ,
 					"patching_rect" : [ 882.0, 344.0, 56.0, 20.0 ],
 					"saved_object_attributes" : 					{
+						"fontname" : "Arial",
+						"default_fontsize" : 12.0,
+						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 12.0,
 						"default_fontface" : 0,
-						"fontname" : "Arial",
-						"default_fontname" : "Arial",
-						"globalpatchername" : "",
-						"default_fontsize" : 12.0
+						"default_fontname" : "Arial"
 					}
 ,
 					"text" : "p history"
@@ -765,13 +765,13 @@
 ,
 					"patching_rect" : [ 674.0, 93.0, 79.0, 20.0 ],
 					"saved_object_attributes" : 					{
+						"fontname" : "Arial",
+						"default_fontsize" : 12.0,
+						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 12.0,
 						"default_fontface" : 0,
-						"fontname" : "Arial",
-						"default_fontname" : "Arial",
-						"globalpatchername" : "",
-						"default_fontsize" : 12.0
+						"default_fontname" : "Arial"
 					}
 ,
 					"text" : "p hide&show"
@@ -820,7 +820,7 @@
 					"framecolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"hidden" : 1,
 					"id" : "obj-114",
-					"items" : [ "/editing_this_module.1/view/color/contentBackground", ",", "/editing_this_module.1/view/color/toolbarBackground", ",", "/editing_this_module.1/view/color/toolbarText", ",", "/editing_this_module.1/view/freeze", ",", "/editing_this_module.1/view/size", ",", "/edge%/module_name", ",", "/attributeUI/module_name", ",", "/mapper/module_name", ",", "/editing_this_module/module_name", ",", "/editing_this_module.1/module_name" ],
+					"items" : [ "/editing_this_module/view/color/contentBackground", ",", "/editing_this_module/view/color/toolbarBackground", ",", "/editing_this_module/view/color/toolbarText", ",", "/editing_this_module/view/freeze", ",", "/editing_this_module/view/size", ",", "/editing_this_module/module_name", ",", "/sur.output~/module_name", ",", "/sur.meters~/module_name", ",", "/reverb/module_name", ",", "/attributeUI/module_name" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -862,7 +862,7 @@
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
 					"id" : "obj-13",
-					"items" : [ "/attributeUI", ",", "/edge%", ",", "/editing_this_module", ",", "/mapper" ],
+					"items" : [ "/attributeUI", ",", "/editing_this_module", ",", "/reverb", ",", "/sur.meters~", ",", "/sur.output~" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -901,20 +901,6 @@
 					"patching_rect" : [ 674.0, 122.0, 69.0, 20.0 ],
 					"save" : [ "#N", "thispatcher", ";", "#Q", "end", ";" ],
 					"text" : "thispatcher"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-6",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 402.0, 160.0, 79.0, 20.0 ],
-					"text" : "route refresh"
 				}
 
 			}
@@ -1404,13 +1390,13 @@
 ,
 					"patching_rect" : [ 461.0, 247.0, 159.0, 19.0 ],
 					"saved_object_attributes" : 					{
+						"fontname" : "Verdana",
+						"default_fontsize" : 10.0,
+						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 10.0,
 						"default_fontface" : 0,
-						"fontname" : "Verdana",
-						"default_fontname" : "Verdana",
-						"globalpatchername" : "",
-						"default_fontsize" : 10.0
+						"default_fontname" : "Verdana"
 					}
 ,
 					"text" : "p listOfParameters&Messages"
@@ -1425,7 +1411,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
-					"outlettype" : [ "", "clear" ],
+					"outlettype" : [ "", "" ],
 					"patcher" : 					{
 						"fileversion" : 1,
 						"rect" : [ 674.0, 205.0, 640.0, 480.0 ],
@@ -1604,13 +1590,13 @@
 ,
 					"patching_rect" : [ 494.0, 197.0, 87.0, 19.0 ],
 					"saved_object_attributes" : 					{
+						"fontname" : "Verdana",
+						"default_fontsize" : 10.0,
+						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 10.0,
 						"default_fontface" : 0,
-						"fontname" : "Verdana",
-						"default_fontname" : "Verdana",
-						"globalpatchername" : "",
-						"default_fontsize" : 10.0
+						"default_fontname" : "Verdana"
 					}
 ,
 					"text" : "p listOfModules"
@@ -1697,15 +1683,6 @@
 			}
  ],
 		"lines" : [ 			{
-				"patchline" : 				{
-					"destination" : [ "obj-6", 0 ],
-					"hidden" : 0,
-					"midpoints" : [  ],
-					"source" : [ "obj-10", 0 ]
-				}
-
-			}
-, 			{
 				"patchline" : 				{
 					"destination" : [ "obj-3", 0 ],
 					"hidden" : 0,
@@ -1990,15 +1967,6 @@
 					"hidden" : 0,
 					"midpoints" : [  ],
 					"source" : [ "obj-59", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-34", 0 ],
-					"hidden" : 0,
-					"midpoints" : [  ],
-					"source" : [ "obj-6", 0 ]
 				}
 
 			}
