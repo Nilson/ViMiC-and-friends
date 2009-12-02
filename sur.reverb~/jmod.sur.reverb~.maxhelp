@@ -1,9 +1,9 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
-		"rect" : [ 235.0, 58.0, 740.0, 661.0 ],
+		"rect" : [ 113.0, 53.0, 740.0, 661.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 235.0, 58.0, 740.0, 661.0 ],
+		"defrect" : [ 113.0, 53.0, 740.0, 661.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -27,7 +27,7 @@
 					"name" : "jcom.maxhelpui.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 0.0, 0.0, 732.0, 70.0 ]
+					"patching_rect" : [ 0.0, 0.0, 740.0, 70.0 ]
 				}
 
 			}
@@ -225,13 +225,13 @@
 ,
 					"patching_rect" : [ 210.0, 547.0, 44.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontsize" : 10.0,
-						"globalpatchername" : "",
-						"fontface" : 0,
-						"fontsize" : 10.0,
 						"default_fontface" : 0,
+						"globalpatchername" : "",
 						"default_fontname" : "Verdana",
-						"fontname" : "Verdana"
+						"fontname" : "Verdana",
+						"default_fontsize" : 10.0,
+						"fontface" : 0,
+						"fontsize" : 10.0
 					}
 ,
 					"text" : "p adapt"
@@ -248,7 +248,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 527.0, 450.0, 137.0, 17.0 ],
-					"text" : "/outputs 7"
+					"text" : "/fdn/delaylength 5. 96."
 				}
 
 			}
@@ -391,13 +391,13 @@
 ,
 					"patching_rect" : [ 210.0, 378.0, 44.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontsize" : 10.0,
-						"globalpatchername" : "",
-						"fontface" : 0,
-						"fontsize" : 10.0,
 						"default_fontface" : 0,
+						"globalpatchername" : "",
 						"default_fontname" : "Verdana",
-						"fontname" : "Verdana"
+						"fontname" : "Verdana",
+						"default_fontsize" : 10.0,
+						"fontface" : 0,
+						"fontsize" : 10.0
 					}
 ,
 					"text" : "p adapt"
@@ -413,7 +413,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 210.0, 570.0, 300.0, 70.0 ],
+					"patching_rect" : [ 210.0, 571.0, 300.0, 70.0 ],
 					"presentation_rect" : [ 0.0, 0.0, 300.0, 70.0 ]
 				}
 
