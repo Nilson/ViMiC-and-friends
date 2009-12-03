@@ -1975,7 +1975,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 982.0, 348.0, 179.0, 19.0 ],
-									"text" : "jmod.sur.ambipan~ ambipanning"
+									"text" : "jmod.sur.ambipanning~ ambipanning"
 								}
 
 							}
