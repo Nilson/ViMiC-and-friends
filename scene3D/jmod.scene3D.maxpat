@@ -1995,7 +1995,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 937.0, 252.0, 285.0, 19.0 ],
-									"text" : "jcom.return output/source.32/position @type array"
+									"text" : "jcom.return output/source.32/position @type array @dataspace position @dataspace/unit/native xyz"
 								}
 
 							}
@@ -2009,7 +2009,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 937.0, 223.0, 285.0, 19.0 ],
-									"text" : "jcom.return output/source.31/position @type array"
+									"text" : "jcom.return output/source.31/position @type array @dataspace position @dataspace/unit/native xyz"
 								}
 
 							}
@@ -2023,7 +2023,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 627.0, 491.0, 285.0, 19.0 ],
-									"text" : "jcom.return output/source.30/position @type array"
+									"text" : "jcom.return output/source.30/position @type array @dataspace position @dataspace/unit/native xyz"
 								}
 
 							}
@@ -2037,7 +2037,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 627.0, 460.0, 285.0, 19.0 ],
-									"text" : "jcom.return output/source.29/position @type array"
+									"text" : "jcom.return output/source.29/position @type array @dataspace position @dataspace/unit/native xyz"
 								}
 
 							}
@@ -2051,7 +2051,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 627.0, 430.0, 285.0, 19.0 ],
-									"text" : "jcom.return output/source.28/position @type array"
+									"text" : "jcom.return output/source.28/position @type array @dataspace position @dataspace/unit/native xyz"
 								}
 
 							}
@@ -2065,7 +2065,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 627.0, 399.0, 285.0, 19.0 ],
-									"text" : "jcom.return output/source.27/position @type array"
+									"text" : "jcom.return output/source.27/position @type array @dataspace position @dataspace/unit/native xyz"
 								}
 
 							}
@@ -2079,7 +2079,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 627.0, 369.0, 285.0, 19.0 ],
-									"text" : "jcom.return output/source.26/position @type array"
+									"text" : "jcom.return output/source.26/position @type array @dataspace position @dataspace/unit/native xyz"
 								}
 
 							}
@@ -2093,7 +2093,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 627.0, 340.0, 285.0, 19.0 ],
-									"text" : "jcom.return output/source.25/position @type array"
+									"text" : "jcom.return output/source.25/position @type array @dataspace position @dataspace/unit/native xyz"
 								}
 
 							}
@@ -2107,7 +2107,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 627.0, 311.0, 285.0, 19.0 ],
-									"text" : "jcom.return output/source.24/position @type array"
+									"text" : "jcom.return output/source.24/position @type array @dataspace position @dataspace/unit/native xyz"
 								}
 
 							}
@@ -2121,7 +2121,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 627.0, 282.0, 285.0, 19.0 ],
-									"text" : "jcom.return output/source.23/position @type array"
+									"text" : "jcom.return output/source.23/position @type array @dataspace position @dataspace/unit/native xyz"
 								}
 
 							}
@@ -2135,7 +2135,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 627.0, 252.0, 285.0, 19.0 ],
-									"text" : "jcom.return output/source.22/position @type array"
+									"text" : "jcom.return output/source.22/position @type array @dataspace position @dataspace/unit/native xyz"
 								}
 
 							}
@@ -2149,7 +2149,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 627.0, 223.0, 285.0, 19.0 ],
-									"text" : "jcom.return output/source.21/position @type array"
+									"text" : "jcom.return output/source.21/position @type array @dataspace position @dataspace/unit/native xyz"
 								}
 
 							}
@@ -2163,7 +2163,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 318.0, 490.0, 285.0, 19.0 ],
-									"text" : "jcom.return output/source.20/position @type array"
+									"text" : "jcom.return output/source.20/position @type array @dataspace position @dataspace/unit/native xyz"
 								}
 
 							}
@@ -2177,7 +2177,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 318.0, 460.0, 285.0, 19.0 ],
-									"text" : "jcom.return output/source.19/position @type array"
+									"text" : "jcom.return output/source.19/position @type array @dataspace position @dataspace/unit/native xyz"
 								}
 
 							}
@@ -2191,7 +2191,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 318.0, 430.0, 285.0, 19.0 ],
-									"text" : "jcom.return output/source.18/position @type array"
+									"text" : "jcom.return output/source.18/position @type array @dataspace position @dataspace/unit/native xyz"
 								}
 
 							}
@@ -2205,7 +2205,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 318.0, 399.0, 285.0, 19.0 ],
-									"text" : "jcom.return output/source.17/position @type array"
+									"text" : "jcom.return output/source.17/position @type array @dataspace position @dataspace/unit/native xyz"
 								}
 
 							}
@@ -2219,7 +2219,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 318.0, 369.0, 285.0, 19.0 ],
-									"text" : "jcom.return output/source.16/position @type array"
+									"text" : "jcom.return output/source.16/position @type array @dataspace position @dataspace/unit/native xyz"
 								}
 
 							}
@@ -2233,7 +2233,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 318.0, 340.0, 285.0, 19.0 ],
-									"text" : "jcom.return output/source.15/position @type array"
+									"text" : "jcom.return output/source.15/position @type array @dataspace position @dataspace/unit/native xyz"
 								}
 
 							}
@@ -2247,7 +2247,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 318.0, 311.0, 285.0, 19.0 ],
-									"text" : "jcom.return output/source.14/position @type array"
+									"text" : "jcom.return output/source.14/position @type array @dataspace position @dataspace/unit/native xyz"
 								}
 
 							}
@@ -2261,7 +2261,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 318.0, 282.0, 285.0, 19.0 ],
-									"text" : "jcom.return output/source.13/position @type array"
+									"text" : "jcom.return output/source.13/position @type array @dataspace position @dataspace/unit/native xyz"
 								}
 
 							}
@@ -2275,7 +2275,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 318.0, 251.0, 285.0, 19.0 ],
-									"text" : "jcom.return output/source.12/position @type array"
+									"text" : "jcom.return output/source.12/position @type array @dataspace position @dataspace/unit/native xyz"
 								}
 
 							}
@@ -2289,7 +2289,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 318.0, 223.0, 285.0, 19.0 ],
-									"text" : "jcom.return output/source.11/position @type array"
+									"text" : "jcom.return output/source.11/position @type array @dataspace position @dataspace/unit/native xyz"
 								}
 
 							}
@@ -2303,7 +2303,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 13.0, 490.0, 285.0, 19.0 ],
-									"text" : "jcom.return output/source.10/position @type array"
+									"text" : "jcom.return output/source.10/position @type array @dataspace position @dataspace/unit/native xyz"
 								}
 
 							}
@@ -2317,7 +2317,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 13.0, 460.0, 279.0, 19.0 ],
-									"text" : "jcom.return output/source.9/position @type array"
+									"text" : "jcom.return output/source.9/position @type array @dataspace position @dataspace/unit/native xyz"
 								}
 
 							}
@@ -2331,7 +2331,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 13.0, 430.0, 279.0, 19.0 ],
-									"text" : "jcom.return output/source.8/position @type array"
+									"text" : "jcom.return output/source.8/position @type array @dataspace position @dataspace/unit/native xyz"
 								}
 
 							}
@@ -2345,7 +2345,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 13.0, 399.0, 279.0, 19.0 ],
-									"text" : "jcom.return output/source.7/position @type array"
+									"text" : "jcom.return output/source.7/position @type array @dataspace position @dataspace/unit/native xyz"
 								}
 
 							}
@@ -2359,7 +2359,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 13.0, 369.0, 279.0, 19.0 ],
-									"text" : "jcom.return output/source.6/position @type array"
+									"text" : "jcom.return output/source.6/position @type array @dataspace position @dataspace/unit/native xyz"
 								}
 
 							}
@@ -2373,7 +2373,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 13.0, 340.0, 279.0, 19.0 ],
-									"text" : "jcom.return output/source.5/position @type array"
+									"text" : "jcom.return output/source.5/position @type array @dataspace position @dataspace/unit/native xyz"
 								}
 
 							}
@@ -2387,7 +2387,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 13.0, 311.0, 279.0, 19.0 ],
-									"text" : "jcom.return output/source.4/position @type array"
+									"text" : "jcom.return output/source.4/position @type array @dataspace position @dataspace/unit/native xyz"
 								}
 
 							}
@@ -2401,7 +2401,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 13.0, 282.0, 279.0, 19.0 ],
-									"text" : "jcom.return output/source.3/position @type array"
+									"text" : "jcom.return output/source.3/position @type array @dataspace position @dataspace/unit/native xyz"
 								}
 
 							}
@@ -2415,7 +2415,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 13.0, 252.0, 279.0, 19.0 ],
-									"text" : "jcom.return output/source.2/position @type array"
+									"text" : "jcom.return output/source.2/position @type array @dataspace position @dataspace/unit/native xyz"
 								}
 
 							}
@@ -2429,7 +2429,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 13.0, 222.0, 279.0, 19.0 ],
-									"text" : "jcom.return output/source.1/position @type array"
+									"text" : "jcom.return output/source.1/position @type array @dataspace position @dataspace/unit/native xyz"
 								}
 
 							}
