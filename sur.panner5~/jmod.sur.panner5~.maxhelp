@@ -28,7 +28,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 247.0, 83.0, 536.0, 62.0 ],
+					"patching_rect" : [ 253.0, 82.0, 471.0, 62.0 ],
 					"text" : "\"Continuous Surround Panning for 5-Speaker Reproduction\"\nPeter G. Craven; Meridian Audio Ltd., Huntingdon, UK\n24th International AES Conference: Multichannel Audio, The New Reality (June 2003)\nPaper Number: 9 "
 				}
 
@@ -160,13 +160,13 @@
 ,
 					"patching_rect" : [ 551.0, 187.0, 65.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontsize" : 12.0,
-						"fontface" : 0,
 						"fontsize" : 12.0,
 						"default_fontface" : 0,
-						"globalpatchername" : "",
+						"default_fontname" : "Arial",
 						"fontname" : "Arial",
-						"default_fontname" : "Arial"
+						"default_fontsize" : 12.0,
+						"globalpatchername" : "",
+						"fontface" : 0
 					}
 ,
 					"text" : "p signals~"
@@ -211,7 +211,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 85.0, 365.0, 155.0, 34.0 ],
+					"patching_rect" : [ 83.0, 387.0, 155.0, 34.0 ],
 					"text" : "jcom.ambimonitor2position @prefix source @radius 10"
 				}
 
@@ -221,13 +221,13 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-7",
-					"linecount" : 2,
+					"linecount" : 4,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 33.0, 118.0, 93.0, 32.0 ],
-					"text" : "aed 1 90 0 0.7, aed 2 -90 0 0.7"
+					"patching_rect" : [ 33.0, 115.0, 102.0, 60.0 ],
+					"text" : "aed 1 90 0 0.7, rename 1 phasor, aed 2 -90 0 0.7, rename 2 sine"
 				}
 
 			}
@@ -250,7 +250,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 130.0, 118.0, 37.0, 20.0 ],
+					"patching_rect" : [ 155.0, 121.0, 37.0, 20.0 ],
 					"text" : "dac~"
 				}
 
@@ -318,7 +318,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 32.0, 155.0, 204.0, 204.0 ],
+					"patching_rect" : [ 33.0, 177.0, 204.0, 204.0 ],
 					"presentation_rect" : [ 0.0, 0.0, 20.0, 20.0 ]
 				}
 
@@ -408,7 +408,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-24", 0 ],
 					"hidden" : 0,
-					"midpoints" : [ 42.5, 112.5, 139.5, 112.5 ],
+					"midpoints" : [ 42.5, 112.5, 164.5, 112.5 ],
 					"source" : [ "obj-26", 0 ]
 				}
 
@@ -426,7 +426,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-6", 0 ],
 					"hidden" : 0,
-					"midpoints" : [ 134.0, 363.0, 94.5, 363.0 ],
+					"midpoints" : [ 135.0, 385.0, 92.5, 385.0 ],
 					"source" : [ "obj-3", 1 ]
 				}
 
@@ -435,7 +435,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-10", 0 ],
 					"hidden" : 0,
-					"midpoints" : [ 94.5, 422.0, 247.0, 422.0, 247.0, 202.0, 279.5, 202.0 ],
+					"midpoints" : [ 92.5, 427.0, 247.0, 427.0, 247.0, 202.0, 279.5, 202.0 ],
 					"source" : [ "obj-6", 0 ]
 				}
 

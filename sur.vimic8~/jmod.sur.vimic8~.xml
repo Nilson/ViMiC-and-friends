@@ -275,7 +275,8 @@
     <item name='microphones.2/gain' type='decimal' priority='15'>100.000000</item>
     <item name='microphones.2/orientation' type='array' priority='12'>55.0 0.</item>
     <item name='microphones.2/position' type='array' priority='11'>0.0600000 0.000000 0.000000 </item> 
-    <item name='microphones/polarity' type='boolean' priority='0'>1</item> 
+    <item name='microphones/polarity' type='boolean' priority='0'>1</item>
+  	<item name='microphones/amount' type='integer' priority='301'>2</item> 
     <item name='microphones/directivity/power' type='integer' priority='0'>1</item>
   </preset>     
 
