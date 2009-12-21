@@ -131,7 +131,7 @@
     <item name='microphones/directivity/power' type='integer' priority='0'>1</item>
     <item name='microphones/polarity' type='boolean' priority='0'>1</item>
     <item name='parallelization/active' type='boolean' priority='0'>1</item>
-    <item name='parallelization/threads' type='integer' priority='0'>2</item>
+    <item name='parallelization/numThreads' type='integer' priority='0'>0</item>
     <item name='rendermode/interval' type='integer' priority='0'>20</item>
     <item name='rendermode/normalization/active' type='boolean' priority='0'>0</item>
     <item name='rendermode/threshold' type='decimal' priority='0'>0.000000</item>

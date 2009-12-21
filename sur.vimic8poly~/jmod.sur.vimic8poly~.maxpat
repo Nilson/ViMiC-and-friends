@@ -39193,7 +39193,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 966.0, 1040.0, 335.0, 31.0 ],
-									"text" : "jcom.parameter parallelization/threads @type integer @description \"number of threads in the poly~ environment\""
+									"text" : "jcom.parameter parallelization/numThreads @type integer @range/bounds 0 8 @range/clipmode both @description \"number of threads in the poly~ environment, '0'  will automatically select as many thread as you have cores.\""
 								}
 
 							}
