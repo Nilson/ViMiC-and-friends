@@ -55,7 +55,7 @@
 					"numoutlets" : 8,
 					"outlettype" : [ "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal" ],
 					"patching_rect" : [ 23.0, 648.0, 113.5, 19.0 ],
-					"text" : "VimicMax~ 8 1",
+					"text" : "jcom.vimic~ 8 1",
 					"varname" : "VIMIC"
 				}
 
@@ -3580,7 +3580,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 148.0, 265.0, 346.0, 17.0 ],
-													"text" : "sprintf script new VIMIC newex 92 635 105 196617 VimicMax~ %ld %ld;\r"
+													"text" : "sprintf script new VIMIC newex 92 635 105 196617 jcom.vimic~ %ld %ld;\r"
 												}
 
 											}
@@ -3594,7 +3594,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 58.0, 220.0, 356.0, 20.0 ],
-													"text" : "prepend script new VIMIC newex 92 635 105 196617 VimicMax~"
+													"text" : "prepend script new VIMIC newex 92 635 105 196617 jcom.vimic~"
 												}
 
 											}
