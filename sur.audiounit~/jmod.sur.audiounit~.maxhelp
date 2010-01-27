@@ -1,9 +1,9 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
-		"rect" : [ 25.0, 44.0, 662.0, 726.0 ],
+		"rect" : [ 245.0, 44.0, 662.0, 726.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 25.0, 44.0, 662.0, 726.0 ],
+		"defrect" : [ 245.0, 44.0, 662.0, 726.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -1466,7 +1466,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 46.0, 538.0, 251.0, 17.0 ],
-					"text" : "/numOutputs 5"
+					"text" : "/au/view generic"
 				}
 
 			}

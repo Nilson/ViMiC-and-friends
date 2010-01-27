@@ -62,7 +62,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
-					"patching_rect" : [ 581.0, 600.0, 34.0, 19.0 ],
+					"patching_rect" : [ 546.0, 65.0, 34.0, 19.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 263.0, 95.0, 33.0, 19.0 ],
 					"triangle" : 0
@@ -81,7 +81,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
-					"patching_rect" : [ 581.0, 530.0, 34.0, 19.0 ],
+					"patching_rect" : [ 546.0, 24.0, 34.0, 19.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 263.0, 75.0, 33.0, 19.0 ],
 					"triangle" : 0
@@ -98,7 +98,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 620.0, 526.0, 555.0, 31.0 ],
+					"patching_rect" : [ 585.0, 20.0, 555.0, 31.0 ],
 					"text" : "jcom.parameter numInputs @repetitions/allow 0 @type integer @range/bounds 1 8 @range/clipmode both @description \"Number of AU input signals.\" @priority 3",
 					"varname" : "destination/voices"
 				}
@@ -114,7 +114,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 620.0, 595.0, 563.0, 31.0 ],
+					"patching_rect" : [ 585.0, 60.0, 563.0, 31.0 ],
 					"text" : "jcom.parameter numOutputs @repetitions/allow 0 @type integer @range/bounds 1 8 @range/clipmode both @description \"Number of AU output signals\" @priority 1",
 					"varname" : "source/voices"
 				}
@@ -186,9 +186,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
-					"patching_rect" : [ 680.0, 210.0, 100.0, 20.0 ],
+					"patching_rect" : [ 675.0, 150.0, 100.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 245.0, 47.0, 48.0, 21.0 ],
+					"presentation_rect" : [ 240.0, 47.0, 55.0, 21.0 ],
 					"rounded" : 8.0,
 					"text" : "generic"
 				}
@@ -204,25 +204,11 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
-					"patching_rect" : [ 570.0, 210.0, 100.0, 20.0 ],
+					"patching_rect" : [ 565.0, 150.0, 100.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 245.0, 25.0, 48.0, 21.0 ],
+					"presentation_rect" : [ 240.0, 25.0, 55.0, 21.0 ],
 					"rounded" : 8.0,
-					"text" : "view"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Verdana",
-					"fontsize" : 10.0,
-					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"id" : "obj-21",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 555.0, 490.0, 150.0, 19.0 ],
-					"text" : "those don't have an effect "
+					"text" : "custom"
 				}
 
 			}
@@ -235,7 +221,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 465.0, 60.0, 86.0, 19.0 ],
+					"patching_rect" : [ 470.0, 360.0, 86.0, 19.0 ],
 					"text" : "jcom.savebang"
 				}
 
@@ -249,7 +235,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 590.0, 115.0, 104.0, 19.0 ],
+					"patching_rect" : [ 595.0, 415.0, 104.0, 19.0 ],
 					"text" : "r #0_plugin_menu"
 				}
 
@@ -319,7 +305,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 575.0, 660.0, 357.0, 19.0 ],
+					"patching_rect" : [ 575.0, 550.0, 357.0, 19.0 ],
 					"text" : "Receive MIDI CHannel messages wrapped as OSC messages"
 				}
 
@@ -335,52 +321,14 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
-					"patching_rect" : [ 575.0, 440.0, 90.0, 20.0 ],
+					"patching_rect" : [ 560.0, 235.0, 90.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 5.0, 46.0, 38.0, 18.0 ],
 					"prototypename" : "jamoma settings",
 					"rounded" : 8.0,
-					"text" : "Write Program",
-					"texton" : "recording",
-					"varname" : "Write Program"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"align" : 0,
-					"border" : 1,
-					"fontname" : "Verdana",
-					"fontsize" : 10.0,
-					"id" : "obj-6",
-					"maxclass" : "textbutton",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "int" ],
-					"patching_rect" : [ 575.0, 390.0, 90.0, 20.0 ],
-					"prototypename" : "jamoma settings",
-					"rounded" : 8.0,
-					"text" : "Write Bank",
-					"texton" : "recording",
-					"varname" : "Write Bank"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"align" : 0,
-					"border" : 1,
-					"fontname" : "Verdana",
-					"fontsize" : 10.0,
-					"id" : "obj-4",
-					"maxclass" : "textbutton",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "int" ],
-					"patching_rect" : [ 575.0, 340.0, 90.0, 20.0 ],
-					"prototypename" : "jamoma settings",
-					"rounded" : 8.0,
-					"text" : "Read Bank",
-					"texton" : "recording",
-					"varname" : "Read Bank"
+					"text" : "Write",
+					"texton" : "",
+					"varname" : "Write Preset"
 				}
 
 			}
@@ -389,40 +337,13 @@
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
 					"id" : "obj-3",
+					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 575.0, 465.0, 637.0, 19.0 ],
-					"text" : "jcom.message au/write/program @type generic @description \"Write current settings to an  individual effect program file.\""
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Verdana",
-					"fontsize" : 10.0,
-					"id" : "obj-5",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 575.0, 415.0, 575.0, 19.0 ],
-					"text" : "jcom.message au/write/bank @type generic @description \"Write current effect settings to a program bank file.\""
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Verdana",
-					"fontsize" : 10.0,
-					"id" : "obj-7",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 575.0, 366.0, 683.0, 19.0 ],
-					"text" : "jcom.message au/read @type generic @description \"Read a VS  file of effect programs, either in bank or individual program format.\""
+					"patching_rect" : [ 560.0, 260.0, 479.0, 31.0 ],
+					"text" : "jcom.message au/preset/save @repetitions/allow 1 @type generic @ramp/drive none @description \"Write current settings to an AU User preset file to ~/Library/Audio/Presets\""
 				}
 
 			}
@@ -504,7 +425,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 575.0, 680.0, 201.0, 19.0 ],
+					"patching_rect" : [ 575.0, 570.0, 201.0, 19.0 ],
 					"text" : "jcom.midi.channel_messages_receive"
 				}
 
@@ -520,7 +441,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 185.0, 25.0, 59.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 185.0, 25.0, 59.0, 19.0 ],
+					"presentation_rect" : [ 176.0, 25.0, 59.0, 19.0 ],
 					"text" : "Plug-In"
 				}
 
@@ -534,7 +455,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 520.0, 85.0, 35.0, 17.0 ],
+					"patching_rect" : [ 525.0, 385.0, 35.0, 17.0 ],
 					"text" : "clear"
 				}
 
@@ -549,9 +470,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
-					"patching_rect" : [ 575.0, 140.0, 100.0, 19.0 ],
+					"patching_rect" : [ 580.0, 440.0, 100.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 10.0, 25.0, 172.0, 19.0 ],
+					"presentation_rect" : [ 5.0, 25.0, 172.0, 19.0 ],
 					"types" : [  ]
 				}
 
@@ -565,7 +486,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 576.0, 9.0, 105.0, 19.0 ],
+					"patching_rect" : [ 581.0, 309.0, 105.0, 19.0 ],
 					"text" : "r #0_pgm_menu"
 				}
 
@@ -580,8 +501,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 560.0, 245.0, 599.0, 31.0 ],
-					"text" : "jcom.message au/open @type string @description \"Open the plug-in's edit window. \\\"view\\\" or \\\"generic\\\" specifies what interface will be shown.\" @repetitions/allow 1"
+					"patching_rect" : [ 555.0, 185.0, 564.0, 31.0 ],
+					"text" : "jcom.message au/view @type string @description \"Open the plug-in's edit window. \\\"custom\\\" or \\\"generic\\\" specifies what interface will be shown.\" @repetitions/allow 1"
 				}
 
 			}
@@ -2065,7 +1986,7 @@
 																									"numinlets" : 2,
 																									"numoutlets" : 1,
 																									"outlettype" : [ "" ],
-																									"patching_rect" : [ 50.0, 100.0, 587.0, 73.0 ],
+																									"patching_rect" : [ 50.0, 100.0, 590.0, 73.0 ],
 																									"text" : "store generic 1, store index 2, store boolean 3, store percent 4, store seconds 5, store \"sample frames\" 6, store phase 7, store rate 8, store hertz 9, store cents 10, store semitones 11, store \"midi pitch\" 12, store \"midi control\" 13, store decibels 14, store \"linear gain\" 15, store degrees 16, store crossfade 17, store fader 18, store pan 19, store meters 20, store \"absolute cents\" 21, store octaves 22, store bpm 23, store beats 24, store milliseconds 25, store ratio 26"
 																								}
 
@@ -5566,9 +5487,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
-					"patching_rect" : [ 576.0, 35.0, 100.0, 19.0 ],
+					"patching_rect" : [ 581.0, 335.0, 100.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 10.0, 45.0, 172.0, 19.0 ],
+					"presentation_rect" : [ 44.0, 46.0, 133.0, 19.0 ],
 					"types" : [  ]
 				}
 
@@ -5584,8 +5505,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 185.0, 45.0, 59.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 185.0, 45.0, 59.0, 19.0 ],
-					"text" : "Program"
+					"presentation_rect" : [ 176.0, 46.0, 59.0, 19.0 ],
+					"text" : "Preset"
 				}
 
 			}
@@ -5703,13 +5624,12 @@
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
 					"id" : "obj-47",
-					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 575.0, 65.0, 580.0, 31.0 ],
-					"text" : "jcom.parameter au/program @type string @priority 2 @ramp/drive none @repetitions/allow 1 @description \"AU presets.\"",
+					"patching_rect" : [ 580.0, 365.0, 646.0, 19.0 ],
+					"text" : "jcom.message au/preset/read @type string @priority 2 @ramp/drive none @repetitions/allow 1 @description \"AU presets.\"",
 					"varname" : "vst/program"
 				}
 
@@ -5803,7 +5723,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 570.0, 170.0, 599.0, 31.0 ],
+					"patching_rect" : [ 575.0, 470.0, 422.0, 31.0 ],
 					"text" : "jcom.parameter au/plug @type string @priority 1 @repetitions/allow 1 @description \"Load an AU plugin. must work with 2 audio ins and 2 audio outs.\"",
 					"varname" : "vst/plug"
 				}
@@ -5811,7 +5731,6 @@
 			}
 , 			{
 				"box" : 				{
-					"bordercolor" : [ 0.62, 0.0, 0.36, 1.0 ],
 					"has_bypass" : 1,
 					"has_gain" : 1,
 					"id" : "obj-57",
@@ -5825,16 +5744,6 @@
 					"presentation_rect" : [ 0.0, 0.0, 300.0, 210.0 ],
 					"text" : "/editing_this_module",
 					"varname" : "ui"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-10",
-					"maxclass" : "panel",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 525.0, 340.0, 724.0, 176.0 ]
 				}
 
 			}
@@ -5968,7 +5877,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-23", 0 ],
 					"hidden" : 0,
-					"midpoints" : [ 529.5, 115.5, 584.5, 115.5 ],
+					"midpoints" : [ 534.5, 415.5, 589.5, 415.5 ],
 					"source" : [ "obj-22", 0 ]
 				}
 
@@ -5977,7 +5886,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-31", 0 ],
 					"hidden" : 0,
-					"midpoints" : [ 529.5, 115.0, 557.5, 115.0, 557.5, 25.0, 585.5, 25.0 ],
+					"midpoints" : [ 534.5, 415.0, 562.5, 415.0, 562.5, 325.0, 590.5, 325.0 ],
 					"source" : [ "obj-22", 0 ]
 				}
 
@@ -5986,7 +5895,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-26", 0 ],
 					"hidden" : 0,
-					"midpoints" : [ 625.0, 166.5, 579.5, 166.5 ],
+					"midpoints" : [ 630.0, 466.5, 584.5, 466.5 ],
 					"source" : [ "obj-23", 1 ]
 				}
 
@@ -5995,7 +5904,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-31", 0 ],
 					"hidden" : 0,
-					"midpoints" : [ 585.5, 29.0, 585.5, 32.0 ],
+					"midpoints" : [ 590.5, 329.0, 590.5, 332.0 ],
 					"source" : [ "obj-24", 0 ]
 				}
 
@@ -6013,7 +5922,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-23", 0 ],
 					"hidden" : 0,
-					"midpoints" : [ 579.5, 195.0, 567.0, 195.0, 567.0, 132.0, 584.5, 132.0 ],
+					"midpoints" : [ 584.5, 503.0, 572.0, 503.0, 572.0, 432.0, 589.5, 432.0 ],
 					"source" : [ "obj-26", 0 ]
 				}
 
@@ -6049,7 +5958,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-47", 0 ],
 					"hidden" : 0,
-					"midpoints" : [ 626.0, 59.0, 584.5, 59.0 ],
+					"midpoints" : [ 631.0, 359.0, 589.5, 359.0 ],
 					"source" : [ "obj-31", 1 ]
 				}
 
@@ -6128,15 +6037,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-7", 0 ],
-					"hidden" : 0,
-					"midpoints" : [  ],
-					"source" : [ "obj-4", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-30", 0 ],
 					"hidden" : 0,
 					"midpoints" : [  ],
@@ -6184,7 +6084,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-31", 0 ],
 					"hidden" : 0,
-					"midpoints" : [ 584.5, 92.0, 562.0, 92.0, 562.0, 30.0, 585.5, 30.0 ],
+					"midpoints" : [ 589.5, 392.0, 567.0, 392.0, 567.0, 330.0, 590.5, 330.0 ],
 					"source" : [ "obj-47", 0 ]
 				}
 
@@ -6222,15 +6122,6 @@
 					"hidden" : 0,
 					"midpoints" : [  ],
 					"source" : [ "obj-49", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-5", 0 ],
-					"hidden" : 0,
-					"midpoints" : [  ],
-					"source" : [ "obj-6", 0 ]
 				}
 
 			}
