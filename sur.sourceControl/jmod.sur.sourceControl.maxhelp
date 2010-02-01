@@ -358,13 +358,13 @@
 ,
 					"patching_rect" : [ 68.0, 564.0, 49.0, 19.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
-						"default_fontname" : "Verdana",
 						"fontname" : "Verdana",
-						"default_fontsize" : 10.0,
+						"default_fontface" : 0,
 						"globalpatchername" : "",
+						"default_fontname" : "Verdana",
 						"fontface" : 0,
-						"fontsize" : 10.0
+						"fontsize" : 10.0,
+						"default_fontsize" : 10.0
 					}
 ,
 					"text" : "p adapt"
@@ -584,13 +584,13 @@
 ,
 					"patching_rect" : [ 89.0, 402.0, 62.0, 19.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
-						"default_fontname" : "Verdana",
 						"fontname" : "Verdana",
-						"default_fontsize" : 10.0,
+						"default_fontface" : 0,
 						"globalpatchername" : "",
+						"default_fontname" : "Verdana",
 						"fontface" : 0,
-						"fontsize" : 10.0
+						"fontsize" : 10.0,
+						"default_fontsize" : 10.0
 					}
 ,
 					"text" : "p"
@@ -602,15 +602,14 @@
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
 					"id" : "obj-25",
-					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 74.0, 247.0, 175.0, 29.0 ],
+					"patching_rect" : [ 74.0, 247.0, 175.0, 17.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 10.0, 216.0, 366.0, 17.0 ],
-					"text" : "/source.1/algorithm/doUI ambipanning"
+					"text" : "/source.8/position -1.9 1.4 0."
 				}
 
 			}
@@ -783,13 +782,13 @@
 ,
 					"patching_rect" : [ 700.0, 646.0, 47.0, 19.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
-						"default_fontname" : "Verdana",
 						"fontname" : "Verdana",
-						"default_fontsize" : 10.0,
+						"default_fontface" : 0,
 						"globalpatchername" : "",
+						"default_fontname" : "Verdana",
 						"fontface" : 0,
-						"fontsize" : 10.0
+						"fontsize" : 10.0,
+						"default_fontsize" : 10.0
 					}
 ,
 					"text" : "p vimic"
@@ -1032,13 +1031,13 @@
 ,
 					"patching_rect" : [ 870.0, 100.0, 36.0, 19.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
-						"default_fontname" : "Verdana",
 						"fontname" : "Verdana",
-						"default_fontsize" : 10.0,
+						"default_fontface" : 0,
 						"globalpatchername" : "",
+						"default_fontname" : "Verdana",
 						"fontface" : 0,
-						"fontsize" : 10.0
+						"fontsize" : 10.0,
+						"default_fontsize" : 10.0
 					}
 ,
 					"text" : "p init"
@@ -1397,13 +1396,13 @@
 ,
 					"patching_rect" : [ 718.0, 125.0, 43.0, 19.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
-						"default_fontname" : "Verdana",
 						"fontname" : "Verdana",
-						"default_fontsize" : 10.0,
+						"default_fontface" : 0,
 						"globalpatchername" : "",
+						"default_fontname" : "Verdana",
 						"fontface" : 0,
-						"fontsize" : 10.0
+						"fontsize" : 10.0,
+						"default_fontsize" : 10.0
 					}
 ,
 					"text" : "p rand"
@@ -1664,13 +1663,13 @@
 ,
 					"patching_rect" : [ 659.0, 413.0, 49.0, 19.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
-						"default_fontname" : "Verdana",
 						"fontname" : "Verdana",
-						"default_fontsize" : 10.0,
+						"default_fontface" : 0,
 						"globalpatchername" : "",
+						"default_fontname" : "Verdana",
 						"fontface" : 0,
-						"fontsize" : 10.0
+						"fontsize" : 10.0,
+						"default_fontsize" : 10.0
 					}
 ,
 					"text" : "p adapt"
@@ -1974,7 +1973,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 982.0, 348.0, 179.0, 19.0 ],
+									"patching_rect" : [ 982.0, 348.0, 197.0, 19.0 ],
 									"text" : "jmod.sur.ambipanning~ ambipanning"
 								}
 
@@ -1988,8 +1987,8 @@
 									"numinlets" : 10,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 733.0, 350.0, 140.5, 19.0 ],
-									"text" : "jmod.sur.vimic8~ vimic"
+									"patching_rect" : [ 733.0, 350.0, 149.0, 19.0 ],
+									"text" : "jmod.sur.vimic8poly~ vimic"
 								}
 
 							}
@@ -2152,13 +2151,13 @@
 ,
 									"patching_rect" : [ 710.0, 311.5, 49.0, 19.0 ],
 									"saved_object_attributes" : 									{
-										"default_fontface" : 0,
-										"default_fontname" : "Verdana",
 										"fontname" : "Verdana",
-										"default_fontsize" : 10.0,
+										"default_fontface" : 0,
 										"globalpatchername" : "",
+										"default_fontname" : "Verdana",
 										"fontface" : 0,
-										"fontsize" : 10.0
+										"fontsize" : 10.0,
+										"default_fontsize" : 10.0
 									}
 ,
 									"text" : "p adapt"
@@ -2635,13 +2634,13 @@
 ,
 									"patching_rect" : [ 20.0, 69.0, 622.0, 19.0 ],
 									"saved_object_attributes" : 									{
-										"default_fontface" : 0,
-										"default_fontname" : "Verdana",
 										"fontname" : "Verdana",
-										"default_fontsize" : 10.0,
+										"default_fontface" : 0,
 										"globalpatchername" : "",
+										"default_fontname" : "Verdana",
 										"fontface" : 0,
-										"fontsize" : 10.0
+										"fontsize" : 10.0,
+										"default_fontsize" : 10.0
 									}
 ,
 									"text" : "p route_speaker_&_source"
@@ -2910,13 +2909,13 @@
 ,
 													"patching_rect" : [ 68.0, 401.0, 49.0, 19.0 ],
 													"saved_object_attributes" : 													{
-														"default_fontface" : 0,
-														"default_fontname" : "Arial",
 														"fontname" : "Arial",
-														"default_fontsize" : 12.0,
+														"default_fontface" : 0,
 														"globalpatchername" : "",
+														"default_fontname" : "Arial",
 														"fontface" : 0,
-														"fontsize" : 12.0
+														"fontsize" : 12.0,
+														"default_fontsize" : 12.0
 													}
 ,
 													"text" : "p toRev"
@@ -4282,13 +4281,13 @@
 ,
 									"patching_rect" : [ 20.0, 115.5, 150.0, 19.0 ],
 									"saved_object_attributes" : 									{
-										"default_fontface" : 0,
-										"default_fontname" : "Verdana",
 										"fontname" : "Verdana",
-										"default_fontsize" : 10.0,
+										"default_fontface" : 0,
 										"globalpatchername" : "",
+										"default_fontname" : "Verdana",
 										"fontface" : 0,
-										"fontsize" : 10.0
+										"fontsize" : 10.0,
+										"default_fontsize" : 10.0
 									}
 ,
 									"text" : "p activate&mute&solo"
@@ -4508,7 +4507,7 @@
 									"color" : [ 0.945098, 0.913725, 0.407843, 1.0 ],
 									"destination" : [ "obj-61", 0 ],
 									"hidden" : 0,
-									"midpoints" : [ 864.0, 383.0, 1152.5, 383.0 ],
+									"midpoints" : [ 872.5, 383.0, 1152.5, 383.0 ],
 									"source" : [ "obj-40", 1 ]
 								}
 
@@ -4518,7 +4517,7 @@
 									"color" : [ 0.945098, 0.913725, 0.407843, 1.0 ],
 									"destination" : [ "obj-61", 0 ],
 									"hidden" : 0,
-									"midpoints" : [ 1151.5, 488.0, 1152.5, 488.0 ],
+									"midpoints" : [ 1169.5, 488.0, 1152.5, 488.0 ],
 									"source" : [ "obj-45", 1 ]
 								}
 
@@ -4634,7 +4633,7 @@
 									"color" : [ 0.945098, 0.913725, 0.407843, 1.0 ],
 									"destination" : [ "obj-40", 9 ],
 									"hidden" : 0,
-									"midpoints" : [ 1150.5, 340.0, 864.0, 340.0 ],
+									"midpoints" : [ 1150.5, 340.0, 872.5, 340.0 ],
 									"source" : [ "obj-68", 0 ]
 								}
 
@@ -4644,7 +4643,7 @@
 									"color" : [ 0.945098, 0.913725, 0.407843, 1.0 ],
 									"destination" : [ "obj-45", 1 ],
 									"hidden" : 0,
-									"midpoints" : [ 1150.5, 197.0, 1151.5, 197.0 ],
+									"midpoints" : [ 1150.5, 197.0, 1169.5, 197.0 ],
 									"source" : [ "obj-68", 0 ]
 								}
 
@@ -4854,13 +4853,13 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 664.0, 214.0, 300.0, 36.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
-						"default_fontname" : "Verdana",
 						"fontname" : "Verdana",
-						"default_fontsize" : 10.0,
+						"default_fontface" : 0,
 						"globalpatchername" : "",
+						"default_fontname" : "Verdana",
 						"fontface" : 0,
-						"fontsize" : 10.0
+						"fontsize" : 10.0,
+						"default_fontsize" : 10.0
 					}
 ,
 					"text" : "p renderer"
