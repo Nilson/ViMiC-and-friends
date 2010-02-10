@@ -6,7 +6,6 @@
 >
   <preset number='1' name='default'>
     <item name='au/plug' type='string' priority='1'>0</item>
-    <item name='au/program' type='string' priority='2'>0</item>
     <item name='audio/bypass' type='boolean' priority='0'>0</item>
     <item name='audio/gain' type='decimal' priority='0'>0.000000</item>
     <item name='numInputs' type='integer' priority='3'>2</item>
