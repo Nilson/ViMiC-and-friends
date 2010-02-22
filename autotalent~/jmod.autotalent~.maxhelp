@@ -319,7 +319,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 69.0, 657.0, 353.0, 19.0 ],
-					"text" : "http://olilarkin.blogspot.com/2010/01/autotalent-msp-port.html"
+					"text" : "http://www.olilarkin.co.uk/blog/files/"
 				}
 
 			}
