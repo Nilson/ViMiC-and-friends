@@ -17,7 +17,22 @@
 		"imprint" : 0,
 		"enablehscroll" : 1,
 		"enablevscroll" : 1,
+		"devicewidth" : 0.0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-27",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1158.0, 67.0, 49.0, 18.0 ],
+					"text" : "size $1"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -25,7 +40,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 32,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "multicore.connect" ],
 					"patching_rect" : [ 35.0, 376.0, 437.5, 20.0 ],
 					"text" : "jcom.multi.in~"
 				}
@@ -39,7 +54,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 32,
-					"outlettype" : [ "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "" ],
+					"outlettype" : [ "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal" ],
 					"patching_rect" : [ 32.0, 320.0, 472.5, 20.0 ],
 					"text" : "jcom.multi.out~"
 				}
@@ -123,6 +138,7 @@
 						"imprint" : 0,
 						"enablehscroll" : 1,
 						"enablevscroll" : 1,
+						"devicewidth" : 0.0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -781,7 +797,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 3,
 					"numoutlets" : 2,
-					"outlettype" : [ "", "int" ],
+					"outlettype" : [ "float", "int" ],
 					"patcher" : 					{
 						"fileversion" : 1,
 						"rect" : [ 264.0, 112.0, 600.0, 426.0 ],
@@ -800,6 +816,7 @@
 						"imprint" : 0,
 						"enablehscroll" : 1,
 						"enablevscroll" : 1,
+						"devicewidth" : 0.0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -1477,6 +1494,7 @@
 						"imprint" : 0,
 						"enablehscroll" : 1,
 						"enablevscroll" : 1,
+						"devicewidth" : 0.0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -2673,6 +2691,7 @@
 						"imprint" : 0,
 						"enablehscroll" : 1,
 						"enablevscroll" : 1,
+						"devicewidth" : 0.0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Verdana",
@@ -2922,6 +2941,7 @@
 						"imprint" : 0,
 						"enablehscroll" : 1,
 						"enablevscroll" : 1,
+						"devicewidth" : 0.0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Verdana",
@@ -3322,6 +3342,7 @@
 						"imprint" : 0,
 						"enablehscroll" : 1,
 						"enablevscroll" : 1,
+						"devicewidth" : 0.0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -3675,6 +3696,7 @@
 						"imprint" : 0,
 						"enablehscroll" : 1,
 						"enablevscroll" : 1,
+						"devicewidth" : 0.0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -4028,6 +4050,7 @@
 						"imprint" : 0,
 						"enablehscroll" : 1,
 						"enablevscroll" : 1,
+						"devicewidth" : 0.0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -4390,9 +4413,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 981.0, 122.0, 151.0, 20.0 ],
-					"text" : "prepend instancesNumber"
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 981.0, 122.0, 60.0, 20.0 ],
+					"text" : "jcom.thru"
 				}
 
 			}
@@ -4439,8 +4462,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 657.0, 408.0, 577.0, 34.0 ],
-					"text" : "jcom.parameter.array 8 lfo phase @type decimal @priority 2 @ramp/drive scheduler @range/bounds 0. 1. @range/clipmode both @repetitions/allow 0 @description \"LFO-phase of the Nth Band\""
+					"patching_rect" : [ 657.0, 408.0, 582.0, 34.0 ],
+					"text" : "jcom.parameterArray lfo.[8]/phase @type decimal @priority 2 @ramp/drive scheduler @range/bounds 0. 1. @range/clipmode both @repetitions/allow 0 @description \"LFO-phase of the Nth Band\""
 				}
 
 			}
@@ -4449,12 +4472,13 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-13",
+					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 635.0, 290.0, 866.0, 20.0 ],
-					"text" : "jcom.parameter.array 8 lfo depth @type decimal @priority 1 @description \"LFO-depth of the Nth signal in [%]\" @range/bounds 0. 100. @range/clipmode both"
+					"patching_rect" : [ 635.0, 290.0, 602.0, 34.0 ],
+					"text" : "jcom.parameterArray lfo.[8]/depth @type decimal @priority 1 @description \"LFO-depth of the Nth signal in [%]\" @range/bounds 0. 100. @range/clipmode both"
 				}
 
 			}
@@ -4468,8 +4492,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 618.0, 544.0, 581.0, 48.0 ],
-					"text" : "jcom.parameter.array 8 lfo frequency @type decimal @priority 3 @range/bounds 0. 20. @ramp/drive scheduler @range/clipmode low @repetitions/allow 0 @dataspace pitch @dataspace/unit/native Hz @dataspace/unit/display Hz @dataspace/unit/active Hz @description \"LFO-frequency of the Nth Band\""
+					"patching_rect" : [ 618.0, 544.0, 558.0, 48.0 ],
+					"text" : "jcom.parameterArray lfo.[8]/frequency @type decimal @priority 3 @range/bounds 0. 20. @ramp/drive scheduler @range/clipmode low @repetitions/allow 0 @dataspace pitch @dataspace/unit/native Hz @dataspace/unit/display Hz @dataspace/unit/active Hz @description \"LFO-frequency of the Nth Band\""
 				}
 
 			}
@@ -4527,7 +4551,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 32,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "multicore.connect" ],
 					"patching_rect" : [ 30.0, 462.0, 437.5, 20.0 ],
 					"text" : "jcom.multi.in~"
 				}
@@ -4713,7 +4737,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-13", 1 ],
 					"hidden" : 0,
-					"midpoints" : [ 1311.5, 285.5, 1491.5, 285.5 ],
+					"midpoints" : [ 1311.5, 285.5, 1227.5, 285.5 ],
 					"source" : [ "obj-101", 1 ]
 				}
 
@@ -4780,6 +4804,15 @@
 					"hidden" : 0,
 					"midpoints" : [  ],
 					"source" : [ "obj-15", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-27", 0 ],
+					"hidden" : 0,
+					"midpoints" : [  ],
+					"source" : [ "obj-15", 1 ]
 				}
 
 			}
@@ -5166,7 +5199,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-12", 1 ],
 					"hidden" : 0,
-					"midpoints" : [ 990.5, 147.0, 1189.5, 147.0 ],
+					"midpoints" : [ 990.5, 147.0, 1166.5, 147.0 ],
 					"source" : [ "obj-22", 0 ]
 				}
 
@@ -5175,7 +5208,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-13", 1 ],
 					"hidden" : 0,
-					"midpoints" : [ 990.5, 147.0, 1491.5, 147.0 ],
+					"midpoints" : [ 990.5, 147.0, 1227.5, 147.0 ],
 					"source" : [ "obj-22", 0 ]
 				}
 
@@ -5184,7 +5217,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-14", 1 ],
 					"hidden" : 0,
-					"midpoints" : [ 990.5, 147.0, 1224.5, 147.0 ],
+					"midpoints" : [ 990.5, 147.0, 1229.5, 147.0 ],
 					"source" : [ "obj-22", 0 ]
 				}
 
@@ -5236,9 +5269,36 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-12", 0 ],
+					"hidden" : 0,
+					"midpoints" : [  ],
+					"source" : [ "obj-27", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-13", 0 ],
+					"hidden" : 0,
+					"midpoints" : [  ],
+					"source" : [ "obj-27", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-14", 0 ],
+					"hidden" : 0,
+					"midpoints" : [  ],
+					"source" : [ "obj-27", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-12", 1 ],
 					"hidden" : 0,
-					"midpoints" : [ 717.5, 541.5, 1189.5, 541.5 ],
+					"midpoints" : [ 717.5, 541.5, 1166.5, 541.5 ],
 					"source" : [ "obj-28", 1 ]
 				}
 
@@ -5553,7 +5613,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-13", 1 ],
 					"hidden" : 0,
-					"midpoints" : [ 734.5, 288.0, 1491.5, 288.0 ],
+					"midpoints" : [ 734.5, 288.0, 1227.5, 288.0 ],
 					"source" : [ "obj-30", 1 ]
 				}
 
@@ -5571,7 +5631,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-14", 1 ],
 					"hidden" : 0,
-					"midpoints" : [ 740.5, 404.5, 1224.5, 404.5 ],
+					"midpoints" : [ 740.5, 404.5, 1229.5, 404.5 ],
 					"source" : [ "obj-31", 1 ]
 				}
 

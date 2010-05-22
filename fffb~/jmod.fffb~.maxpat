@@ -17,7 +17,22 @@
 		"imprint" : 0,
 		"enablehscroll" : 1,
 		"enablevscroll" : 1,
+		"devicewidth" : 0.0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-24",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 909.0, 45.0, 49.0, 18.0 ],
+					"text" : "size $1"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -381,6 +396,7 @@
 						"imprint" : 0,
 						"enablehscroll" : 1,
 						"enablevscroll" : 1,
+						"devicewidth" : 0.0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -723,13 +739,13 @@
 ,
 					"patching_rect" : [ 498.0, 533.0, 129.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
-						"globalpatchername" : "",
 						"default_fontface" : 0,
-						"fontface" : 0,
 						"default_fontname" : "Arial",
-						"fontsize" : 12.0,
-						"default_fontsize" : 12.0
+						"fontname" : "Arial",
+						"default_fontsize" : 12.0,
+						"globalpatchername" : "",
+						"fontface" : 0,
+						"fontsize" : 12.0
 					}
 ,
 					"text" : "p jcom.list2parameter"
@@ -890,6 +906,7 @@
 						"imprint" : 0,
 						"enablehscroll" : 1,
 						"enablevscroll" : 1,
+						"devicewidth" : 0.0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Verdana",
@@ -1084,13 +1101,13 @@
 ,
 					"patching_rect" : [ 1117.0, 92.0, 158.0, 19.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Verdana",
-						"globalpatchername" : "",
 						"default_fontface" : 0,
-						"fontface" : 0,
 						"default_fontname" : "Verdana",
-						"fontsize" : 10.0,
-						"default_fontsize" : 10.0
+						"fontname" : "Verdana",
+						"default_fontsize" : 10.0,
+						"globalpatchername" : "",
+						"fontface" : 0,
+						"fontsize" : 10.0
 					}
 ,
 					"text" : "p delete_jcom.meter_receive"
@@ -1139,6 +1156,7 @@
 						"imprint" : 0,
 						"enablehscroll" : 1,
 						"enablevscroll" : 1,
+						"devicewidth" : 0.0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Verdana",
@@ -1471,13 +1489,13 @@
 ,
 					"patching_rect" : [ 845.0, 91.0, 158.0, 19.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Verdana",
-						"globalpatchername" : "",
 						"default_fontface" : 0,
-						"fontface" : 0,
 						"default_fontname" : "Verdana",
-						"fontsize" : 10.0,
-						"default_fontsize" : 10.0
+						"fontname" : "Verdana",
+						"default_fontsize" : 10.0,
+						"globalpatchername" : "",
+						"fontface" : 0,
+						"fontsize" : 10.0
 					}
 ,
 					"text" : "p create_jcom.meter_receive"
@@ -1539,6 +1557,7 @@
 						"imprint" : 0,
 						"enablehscroll" : 1,
 						"enablevscroll" : 1,
+						"devicewidth" : 0.0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -1852,13 +1871,13 @@
 ,
 					"patching_rect" : [ 616.0, 270.0, 109.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
-						"globalpatchername" : "",
 						"default_fontface" : 0,
-						"fontface" : 0,
 						"default_fontname" : "Arial",
-						"fontsize" : 12.0,
-						"default_fontsize" : 12.0
+						"fontname" : "Arial",
+						"default_fontsize" : 12.0,
+						"globalpatchername" : "",
+						"fontface" : 0,
+						"fontsize" : 12.0
 					}
 ,
 					"text" : "p adapt"
@@ -1892,6 +1911,7 @@
 						"imprint" : 0,
 						"enablehscroll" : 1,
 						"enablevscroll" : 1,
+						"devicewidth" : 0.0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -2205,13 +2225,13 @@
 ,
 					"patching_rect" : [ 618.0, 166.0, 109.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
-						"globalpatchername" : "",
 						"default_fontface" : 0,
-						"fontface" : 0,
 						"default_fontname" : "Arial",
-						"fontsize" : 12.0,
-						"default_fontsize" : 12.0
+						"fontname" : "Arial",
+						"default_fontsize" : 12.0,
+						"globalpatchername" : "",
+						"fontface" : 0,
+						"fontsize" : 12.0
 					}
 ,
 					"text" : "p adapt"
@@ -2245,6 +2265,7 @@
 						"imprint" : 0,
 						"enablehscroll" : 1,
 						"enablevscroll" : 1,
+						"devicewidth" : 0.0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -2558,13 +2579,13 @@
 ,
 					"patching_rect" : [ 618.0, 430.0, 109.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
-						"globalpatchername" : "",
 						"default_fontface" : 0,
-						"fontface" : 0,
 						"default_fontname" : "Arial",
-						"fontsize" : 12.0,
-						"default_fontsize" : 12.0
+						"fontname" : "Arial",
+						"default_fontsize" : 12.0,
+						"globalpatchername" : "",
+						"fontface" : 0,
+						"fontsize" : 12.0
 					}
 ,
 					"text" : "p adapt"
@@ -2607,9 +2628,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 981.0, 122.0, 151.0, 20.0 ],
-					"text" : "prepend instancesNumber"
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 981.0, 122.0, 60.0, 20.0 ],
+					"text" : "jcom.thru"
 				}
 
 			}
@@ -2657,7 +2678,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 648.0, 296.0, 580.0, 48.0 ],
-					"text" : "jcom.parameter.array 8 gain @type decimal @dataspace gain @priority 4 @dataspace/unit/native midi @dataspace/unit/display midi @dataspace/unit/active midi @ramp/drive scheduler @range/bounds 0. 127. @range/clipmode both @repetitions/allow 0 @description \"gain of the Nth Band\""
+					"text" : "jcom.parameterArray gain.[8] @type decimal @dataspace gain @priority 4 @dataspace/unit/native midi @dataspace/unit/display midi @dataspace/unit/active midi @ramp/drive scheduler @range/bounds 0. 127. @range/clipmode both @repetitions/allow 0 @description \"gain of the Nth Band\""
 				}
 
 			}
@@ -2671,8 +2692,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 618.0, 189.0, 600.0, 34.0 ],
-					"text" : "jcom.parameter.array 8 q @type decimal @priority 3 @description \"q of the Nth Band\" @range/bounds 0. 100. @range/clipmode both"
+					"patching_rect" : [ 618.0, 189.0, 605.0, 34.0 ],
+					"text" : "jcom.parameterArray q.[8] @type decimal @priority 3 @description \"q of the Nth Band\" @range/bounds 0. 100. @range/clipmode both"
 				}
 
 			}
@@ -2686,8 +2707,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 618.0, 454.0, 553.0, 48.0 ],
-					"text" : "jcom.parameter.array 8 frequency @type decimal @priority 3 @range/bounds 20 20000 @ramp/drive scheduler @range/clipmode both @repetitions/allow 0 @dataspace pitch @dataspace/unit/native Hz @dataspace/unit/display Hz @dataspace/unit/active Hz @description \"frequency of the Nth Band\""
+					"patching_rect" : [ 618.0, 454.0, 557.0, 48.0 ],
+					"text" : "jcom.parameterArray frequency.[8] @type decimal @priority 3 @range/bounds 20 20000 @ramp/drive scheduler @range/clipmode both @repetitions/allow 0 @dataspace pitch @dataspace/unit/native Hz @dataspace/unit/display Hz @dataspace/unit/active Hz @description \"frequency of the Nth Band\""
 				}
 
 			}
@@ -2744,10 +2765,10 @@
 					"id" : "obj-6",
 					"maxclass" : "newobj",
 					"numinlets" : 32,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"numoutlets" : 2,
+					"outlettype" : [ "multicore.connect", "" ],
 					"patching_rect" : [ 30.0, 462.0, 437.5, 20.0 ],
-					"text" : "jcom.multi.in~"
+					"text" : "jcom.pack≈ 32"
 				}
 
 			}
@@ -2796,6 +2817,7 @@
 , 			{
 				"box" : 				{
 					"background" : 1,
+					"bordercolor" : [ 0.62, 0.0, 0.36, 1.0 ],
 					"has_bypass" : 1,
 					"has_gain" : 1,
 					"has_mute" : 1,
@@ -2965,6 +2987,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-24", 0 ],
+					"hidden" : 0,
+					"midpoints" : [ 664.5, 43.0, 918.5, 43.0 ],
+					"source" : [ "obj-15", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-11", 0 ],
 					"hidden" : 0,
 					"midpoints" : [ 1126.5, 114.5, 854.5, 114.5 ],
@@ -3030,7 +3061,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-12", 1 ],
 					"hidden" : 0,
-					"midpoints" : [ 990.5, 147.0, 1161.5, 147.0 ],
+					"midpoints" : [ 990.5, 147.0, 1165.5, 147.0 ],
 					"source" : [ "obj-22", 0 ]
 				}
 
@@ -3039,7 +3070,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-13", 1 ],
 					"hidden" : 0,
-					"midpoints" : [ 990.5, 147.0, 1208.5, 147.0 ],
+					"midpoints" : [ 990.5, 147.0, 1213.5, 147.0 ],
 					"source" : [ "obj-22", 0 ]
 				}
 
@@ -3082,6 +3113,33 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-12", 0 ],
+					"hidden" : 0,
+					"midpoints" : [  ],
+					"source" : [ "obj-24", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-13", 0 ],
+					"hidden" : 0,
+					"midpoints" : [  ],
+					"source" : [ "obj-24", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-14", 0 ],
+					"hidden" : 0,
+					"midpoints" : [  ],
+					"source" : [ "obj-24", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-31", 0 ],
 					"hidden" : 0,
 					"midpoints" : [  ],
@@ -3093,7 +3151,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-12", 1 ],
 					"hidden" : 0,
-					"midpoints" : [ 717.5, 451.5, 1161.5, 451.5 ],
+					"midpoints" : [ 717.5, 451.5, 1165.5, 451.5 ],
 					"source" : [ "obj-28", 1 ]
 				}
 
@@ -3129,7 +3187,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-13", 1 ],
 					"hidden" : 0,
-					"midpoints" : [ 717.5, 187.0, 1208.5, 187.0 ],
+					"midpoints" : [ 717.5, 187.0, 1213.5, 187.0 ],
 					"source" : [ "obj-30", 1 ]
 				}
 
