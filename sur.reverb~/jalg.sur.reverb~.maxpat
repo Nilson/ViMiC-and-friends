@@ -5772,7 +5772,7 @@
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 14.0, 27.0, 400.0, 19.0 ],
-									"text" : "jcom.oscroute /outputs /audio/mute /audio/gain"
+									"text" : "jcom.oscroute /numOutputs /audio/mute /audio/gain"
 								}
 
 							}

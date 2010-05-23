@@ -137,7 +137,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 32,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "multicore.connect" ],
 					"patching_rect" : [ 212.0, 420.0, 472.5, 17.0 ],
 					"text" : "jcom.multi.in~",
 					"varname" : "multi"
@@ -182,8 +182,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 449.0, 148.0, 526.0, 17.0 ],
-					"text" : "jcom.parameter outputs @priority 2 @type integer @range/bounds 1 24 @range/clipmode both @description \"number of outputs\"",
+					"patching_rect" : [ 449.0, 148.0, 546.0, 17.0 ],
+					"text" : "jcom.parameter numOutputs @priority 2 @type integer @range/bounds 1 24 @range/clipmode both @description \"number of outputs\"",
 					"varname" : "outputs[1]"
 				}
 
@@ -197,8 +197,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 449.0, 124.0, 543.0, 17.0 ],
-					"text" : "jcom.parameter inputs @priority 1 @type integer @range/bounds 1 16 @range/clipmode both @description \"number of input signals\"",
+					"patching_rect" : [ 449.0, 124.0, 559.0, 17.0 ],
+					"text" : "jcom.parameter numInputs @priority 1 @type integer @range/bounds 1 16 @range/clipmode both @description \"number of input signals\"",
 					"varname" : "inputs[1]"
 				}
 
@@ -602,13 +602,13 @@
 ,
 									"patching_rect" : [ 47.0, 565.5, 153.0, 19.0 ],
 									"saved_object_attributes" : 									{
-										"globalpatchername" : "",
-										"fontname" : "Arial",
-										"default_fontface" : 0,
 										"default_fontname" : "Arial",
 										"fontface" : 0,
+										"default_fontsize" : 12.0,
 										"fontsize" : 12.0,
-										"default_fontsize" : 12.0
+										"globalpatchername" : "",
+										"fontname" : "Arial",
+										"default_fontface" : 0
 									}
 ,
 									"text" : "p"
@@ -1199,13 +1199,13 @@
 ,
 									"patching_rect" : [ 166.0, 691.0, 91.0, 18.0 ],
 									"saved_object_attributes" : 									{
-										"globalpatchername" : "",
-										"fontname" : "Arial",
-										"default_fontface" : 0,
 										"default_fontname" : "Arial",
 										"fontface" : 0,
+										"default_fontsize" : 12.0,
 										"fontsize" : 12.0,
-										"default_fontsize" : 12.0
+										"globalpatchername" : "",
+										"fontname" : "Arial",
+										"default_fontface" : 0
 									}
 ,
 									"text" : "p"
@@ -1846,13 +1846,13 @@
 ,
 									"patching_rect" : [ 1003.299988, 579.200012, 100.0, 17.0 ],
 									"saved_object_attributes" : 									{
-										"globalpatchername" : "",
-										"fontname" : "Arial",
-										"default_fontface" : 0,
 										"default_fontname" : "Arial",
 										"fontface" : 0,
+										"default_fontsize" : 10.0,
 										"fontsize" : 10.0,
-										"default_fontsize" : 10.0
+										"globalpatchername" : "",
+										"fontname" : "Arial",
+										"default_fontface" : 0
 									}
 ,
 									"text" : "p DecodeFilterGraph"
@@ -2113,13 +2113,13 @@
 ,
 									"patching_rect" : [ 985.299988, 800.200012, 124.0, 17.0 ],
 									"saved_object_attributes" : 									{
-										"globalpatchername" : "",
-										"fontname" : "Arial",
-										"default_fontface" : 0,
 										"default_fontname" : "Arial",
 										"fontface" : 0,
+										"default_fontsize" : 10.0,
 										"fontsize" : 10.0,
-										"default_fontsize" : 10.0
+										"globalpatchername" : "",
+										"fontname" : "Arial",
+										"default_fontface" : 0
 									}
 ,
 									"text" : "p PrepareForFiltergraph~"
@@ -2668,13 +2668,13 @@
 ,
 									"patching_rect" : [ 486.299988, 581.200012, 100.0, 17.0 ],
 									"saved_object_attributes" : 									{
-										"globalpatchername" : "",
-										"fontname" : "Arial",
-										"default_fontface" : 0,
 										"default_fontname" : "Arial",
 										"fontface" : 0,
+										"default_fontsize" : 10.0,
 										"fontsize" : 10.0,
-										"default_fontsize" : 10.0
+										"globalpatchername" : "",
+										"fontname" : "Arial",
+										"default_fontface" : 0
 									}
 ,
 									"text" : "p DecodeFilterGraph"
@@ -2935,13 +2935,13 @@
 ,
 									"patching_rect" : [ 482.299988, 778.200012, 124.0, 17.0 ],
 									"saved_object_attributes" : 									{
-										"globalpatchername" : "",
-										"fontname" : "Arial",
-										"default_fontface" : 0,
 										"default_fontname" : "Arial",
 										"fontface" : 0,
+										"default_fontsize" : 10.0,
 										"fontsize" : 10.0,
-										"default_fontsize" : 10.0
+										"globalpatchername" : "",
+										"fontname" : "Arial",
+										"default_fontface" : 0
 									}
 ,
 									"text" : "p PrepareForFiltergraph~"
@@ -4197,13 +4197,13 @@
 ,
 					"patching_rect" : [ 44.0, 296.0, 67.0, 17.0 ],
 					"saved_object_attributes" : 					{
-						"globalpatchername" : "",
-						"fontname" : "Verdana",
-						"default_fontface" : 0,
 						"default_fontname" : "Verdana",
 						"fontface" : 0,
+						"default_fontsize" : 10.0,
 						"fontsize" : 10.0,
-						"default_fontsize" : 10.0
+						"globalpatchername" : "",
+						"fontname" : "Verdana",
+						"default_fontface" : 0
 					}
 ,
 					"text" : "p inspector",
@@ -4450,22 +4450,6 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 300.0, 70.0 ],
 					"text" : "/editing_this_module"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 10.0,
-					"hidden" : 1,
-					"id" : "obj-70",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "signal", "" ],
-					"patching_rect" : [ 42.0, 328.0, 62.0, 18.0 ],
-					"text" : "jcom.out~ 0",
-					"varname" : "jcom_out"
 				}
 
 			}

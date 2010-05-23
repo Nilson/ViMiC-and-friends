@@ -119,12 +119,12 @@ CUE "1 init 8 microphones"
 	/reverb~/input/filtergain 0.000
 	/reverb~/input/filtertype lowpass
 	/reverb~/input/q 0.607
-	/reverb~/inputs 8
+	/reverb~/numInputs 8
 	/reverb~/interpolationtime 20.000
 	/reverb~/fdn/modulation/active 1
 	/reverb~/fdn/modulation/amplitude 0.350 5.060
 	/reverb~/fdn/modulation/frequency 0.320 1.400
-	/reverb~/outputs 8
+	/reverb~/numOutputs 8
 	/reverb~/predelay 0.000
 	/reverb~/t60 2.300	
 	/reverb~/view/freeze 0
@@ -163,12 +163,12 @@ CUE "4 add late reverb"
 /reverb~/input/filtergain 0.
 /reverb~/input/filtertype lowpass
 /reverb~/input/q 0.607
-/reverb~/inputs 8
+/reverb~/numInputs 8
 /reverb~/interpolationtime 20.
 /reverb~/fdn/modulation/active 1
 /reverb~/fdn/modulation/amplitude 0.35 5.06
 /reverb~/fdn/modulation/frequency 0.32 1.4
-/reverb~/outputs 8
+/reverb~/numOutputs 8
 /reverb~/predelay 20.
 /reverb~/t60 2.3
 
@@ -366,12 +366,12 @@ WAIT 200
 	/reverb~/input/filtergain 0.000
 	/reverb~/input/filtertype lowpass
 	/reverb~/input/q 0.607
-	/reverb~/inputs 16
+	/reverb~/numInputs 16
 	/reverb~/interpolationtime 20.000
 	/reverb~/fdn/modulation/active 1
 	/reverb~/fdn/modulation/amplitude 0.350 5.060
 	/reverb~/fdn/modulation/frequency 0.320 1.400
-	/reverb~/outputs 16
+	/reverb~/numOutputs 16
 	/reverb~/predelay 0.000
 	/reverb~/t60 2.300	
 	/reverb~/view/freeze 0

@@ -225,13 +225,13 @@
 ,
 					"patching_rect" : [ 210.0, 547.0, 44.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
-						"globalpatchername" : "",
 						"default_fontname" : "Verdana",
-						"fontname" : "Verdana",
-						"default_fontsize" : 10.0,
 						"fontface" : 0,
-						"fontsize" : 10.0
+						"default_fontsize" : 10.0,
+						"fontsize" : 10.0,
+						"globalpatchername" : "",
+						"fontname" : "Verdana",
+						"default_fontface" : 0
 					}
 ,
 					"text" : "p adapt"
@@ -248,7 +248,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 527.0, 450.0, 137.0, 17.0 ],
-					"text" : "/fdn/delaylength 5. 96."
+					"text" : "/input/frequency 2548."
 				}
 
 			}
@@ -341,8 +341,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 60.0, 90.0, 83.0, 19.0 ],
-									"text" : "route /outputs"
+									"patching_rect" : [ 60.0, 90.0, 107.0, 19.0 ],
+									"text" : "route /numOutputs"
 								}
 
 							}
@@ -391,13 +391,13 @@
 ,
 					"patching_rect" : [ 210.0, 378.0, 44.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
-						"globalpatchername" : "",
 						"default_fontname" : "Verdana",
-						"fontname" : "Verdana",
-						"default_fontsize" : 10.0,
 						"fontface" : 0,
-						"fontsize" : 10.0
+						"default_fontsize" : 10.0,
+						"fontsize" : 10.0,
+						"globalpatchername" : "",
+						"fontname" : "Verdana",
+						"default_fontface" : 0
 					}
 ,
 					"text" : "p adapt"

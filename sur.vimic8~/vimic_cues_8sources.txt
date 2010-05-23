@@ -80,12 +80,12 @@ CUE setup1
 	/reverb/input/filtergain 0.000
 	/reverb/input/filtertype lowpass
 	/reverb/input/q 0.607
-	/reverb/inputs 16
+	/reverb/numInputs 16
 	/reverb/interpolationtime 20.000
 	/reverb/fdn/modulation/active 1
 	/reverb/fdn/modulation/amplitude 0.350 5.060
 	/reverb/fdn/modulation/frequency 0.320 1.400
-	/reverb/outputs 24
+	/reverb/numOutputs 24
 	/reverb/predelay 30.000
 	/reverb/t60 1.300
 

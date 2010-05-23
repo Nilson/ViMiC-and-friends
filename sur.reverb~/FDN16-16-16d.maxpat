@@ -230,7 +230,7 @@
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 218.0, 41.0, 320.0, 17.0 ],
-									"text" : "jcom.oscroute /inputs /predelay /PreEQ"
+									"text" : "jcom.oscroute /numInputs /predelay /PreEQ"
 								}
 
 							}
@@ -15430,7 +15430,7 @@
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 470.0, 42.0, 320.0, 17.0 ],
-									"text" : "jcom.oscroute /inputs /predelay /PreEQ"
+									"text" : "jcom.oscroute /numInputs /predelay /PreEQ"
 								}
 
 							}
