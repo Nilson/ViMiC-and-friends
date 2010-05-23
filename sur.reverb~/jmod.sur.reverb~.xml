@@ -19,9 +19,9 @@
     <item name='input/filtertype' type='string' priority='0'>lowpass</item>
     <item name='input/frequency' type='decimal' priority='0'>2548.000000</item>
     <item name='input/q' type='decimal' priority='0'>0.606826</item>
-    <item name='inputs' type='integer' priority='1'>8</item>
+    <item name='numInputs' type='integer' priority='1'>8</item>
     <item name='interpolationtime' type='decimal' priority='0'>20.000000</item>
-    <item name='outputs' type='integer' priority='2'>8</item>
+    <item name='numOutputs' type='integer' priority='2'>8</item>
     <item name='predelay' type='decimal' priority='0'>0.000000</item>
     <item name='t60' type='decimal' priority='0'>1.700000</item>
     <item name='view/color/border' type='array' priority='0'>0</item>
