@@ -22,6 +22,20 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
+					"id" : "obj-10",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 582.0, 181.0, 42.0, 16.0 ],
+					"text" : "size $1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
 					"id" : "obj-7",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -238,15 +252,15 @@
  ]
 					}
 ,
-					"patching_rect" : [ 703.0, 168.0, 56.0, 18.0 ],
+					"patching_rect" : [ 713.0, 168.0, 56.0, 18.0 ],
 					"saved_object_attributes" : 					{
+						"default_fontface" : 0,
 						"fontname" : "Arial",
+						"default_fontname" : "Arial",
+						"globalpatchername" : "",
 						"default_fontsize" : 12.0,
 						"fontface" : 0,
-						"fontsize" : 12.0,
-						"default_fontface" : 0,
-						"globalpatchername" : "",
-						"default_fontname" : "Arial"
+						"fontsize" : 12.0
 					}
 ,
 					"text" : "p scripting"
@@ -262,7 +276,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 703.0, 190.0, 59.0, 18.0 ],
+					"patching_rect" : [ 713.0, 190.0, 59.0, 18.0 ],
 					"save" : [ "#N", "thispatcher", ";", "#Q", "end", ";" ],
 					"text" : "thispatcher"
 				}
@@ -311,8 +325,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 392.0, 211.0, 603.0, 41.0 ],
-					"text" : "jcom.parameter.array 24 output gain @type decimal @repetitions/allow 0 @range/bounds 0 127 @range/clipmode both @description \"output gain for each output\" @dataspace gain @dataspace/unit/active midi @dataspace/unit/display midi @dataspace/unit/native midi @value/default 100. @ramp/drive scheduler @ramp/function linear"
+					"patching_rect" : [ 613.0, 229.0, 546.0, 41.0 ],
+					"text" : "jcom.parameterArray output.[24]/gain @type decimal @repetitions/allow 0 @range/bounds 0 127 @range/clipmode both @description \"output gain for each output\" @dataspace gain @dataspace/unit/active midi @dataspace/unit/display midi @dataspace/unit/native midi @value/default 100. @ramp/drive scheduler @ramp/function linear"
 				}
 
 			}
@@ -325,8 +339,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 449.0, 98.0, 549.0, 19.0 ],
-					"text" : "jcom.message.array 24 output active @type boolean @description \"enables and disables a specific output\""
+					"patching_rect" : [ 613.0, 273.0, 556.0, 19.0 ],
+					"text" : "jcom.messageArray output.[24]/active @type boolean @description \"enables and disables a specific output\""
 				}
 
 			}
@@ -432,8 +446,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 449.0, 148.0, 526.0, 17.0 ],
-					"text" : "jcom.parameter outputs @priority 2 @type integer @range/bounds 1 24 @range/clipmode both @description \"number of outputs\"",
+					"patching_rect" : [ 449.0, 148.0, 546.0, 17.0 ],
+					"text" : "jcom.parameter numOutputs @priority 2 @type integer @range/bounds 1 24 @range/clipmode both @description \"number of outputs\"",
 					"varname" : "outputs[1]"
 				}
 
@@ -447,8 +461,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 449.0, 124.0, 543.0, 17.0 ],
-					"text" : "jcom.parameter inputs @priority 1 @type integer @range/bounds 1 16 @range/clipmode both @description \"number of input signals\"",
+					"patching_rect" : [ 449.0, 124.0, 559.0, 17.0 ],
+					"text" : "jcom.parameter numInputs @priority 1 @type integer @range/bounds 1 16 @range/clipmode both @description \"number of input signals\"",
 					"varname" : "inputs[1]"
 				}
 
@@ -852,13 +866,13 @@
 ,
 									"patching_rect" : [ 47.0, 565.5, 153.0, 19.0 ],
 									"saved_object_attributes" : 									{
+										"default_fontface" : 0,
 										"fontname" : "Arial",
+										"default_fontname" : "Arial",
+										"globalpatchername" : "",
 										"default_fontsize" : 12.0,
 										"fontface" : 0,
-										"fontsize" : 12.0,
-										"default_fontface" : 0,
-										"globalpatchername" : "",
-										"default_fontname" : "Arial"
+										"fontsize" : 12.0
 									}
 ,
 									"text" : "p"
@@ -1449,13 +1463,13 @@
 ,
 									"patching_rect" : [ 166.0, 691.0, 91.0, 18.0 ],
 									"saved_object_attributes" : 									{
+										"default_fontface" : 0,
 										"fontname" : "Arial",
+										"default_fontname" : "Arial",
+										"globalpatchername" : "",
 										"default_fontsize" : 12.0,
 										"fontface" : 0,
-										"fontsize" : 12.0,
-										"default_fontface" : 0,
-										"globalpatchername" : "",
-										"default_fontname" : "Arial"
+										"fontsize" : 12.0
 									}
 ,
 									"text" : "p"
@@ -2096,13 +2110,13 @@
 ,
 									"patching_rect" : [ 1003.299988, 579.200012, 100.0, 17.0 ],
 									"saved_object_attributes" : 									{
+										"default_fontface" : 0,
 										"fontname" : "Arial",
+										"default_fontname" : "Arial",
+										"globalpatchername" : "",
 										"default_fontsize" : 10.0,
 										"fontface" : 0,
-										"fontsize" : 10.0,
-										"default_fontface" : 0,
-										"globalpatchername" : "",
-										"default_fontname" : "Arial"
+										"fontsize" : 10.0
 									}
 ,
 									"text" : "p DecodeFilterGraph"
@@ -2363,13 +2377,13 @@
 ,
 									"patching_rect" : [ 985.299988, 800.200012, 124.0, 17.0 ],
 									"saved_object_attributes" : 									{
+										"default_fontface" : 0,
 										"fontname" : "Arial",
+										"default_fontname" : "Arial",
+										"globalpatchername" : "",
 										"default_fontsize" : 10.0,
 										"fontface" : 0,
-										"fontsize" : 10.0,
-										"default_fontface" : 0,
-										"globalpatchername" : "",
-										"default_fontname" : "Arial"
+										"fontsize" : 10.0
 									}
 ,
 									"text" : "p PrepareForFiltergraph~"
@@ -2918,13 +2932,13 @@
 ,
 									"patching_rect" : [ 486.299988, 581.200012, 100.0, 17.0 ],
 									"saved_object_attributes" : 									{
+										"default_fontface" : 0,
 										"fontname" : "Arial",
+										"default_fontname" : "Arial",
+										"globalpatchername" : "",
 										"default_fontsize" : 10.0,
 										"fontface" : 0,
-										"fontsize" : 10.0,
-										"default_fontface" : 0,
-										"globalpatchername" : "",
-										"default_fontname" : "Arial"
+										"fontsize" : 10.0
 									}
 ,
 									"text" : "p DecodeFilterGraph"
@@ -3185,13 +3199,13 @@
 ,
 									"patching_rect" : [ 482.299988, 778.200012, 124.0, 17.0 ],
 									"saved_object_attributes" : 									{
+										"default_fontface" : 0,
 										"fontname" : "Arial",
+										"default_fontname" : "Arial",
+										"globalpatchername" : "",
 										"default_fontsize" : 10.0,
 										"fontface" : 0,
-										"fontsize" : 10.0,
-										"default_fontface" : 0,
-										"globalpatchername" : "",
-										"default_fontname" : "Arial"
+										"fontsize" : 10.0
 									}
 ,
 									"text" : "p PrepareForFiltergraph~"
@@ -4447,13 +4461,13 @@
 ,
 					"patching_rect" : [ 44.0, 296.0, 67.0, 17.0 ],
 					"saved_object_attributes" : 					{
+						"default_fontface" : 0,
 						"fontname" : "Verdana",
+						"default_fontname" : "Verdana",
+						"globalpatchername" : "",
 						"default_fontsize" : 10.0,
 						"fontface" : 0,
-						"fontsize" : 10.0,
-						"default_fontface" : 0,
-						"globalpatchername" : "",
-						"default_fontname" : "Verdana"
+						"fontsize" : 10.0
 					}
 ,
 					"text" : "p inspector",
@@ -4706,10 +4720,37 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
+					"destination" : [ "obj-11", 0 ],
+					"hidden" : 0,
+					"midpoints" : [  ],
+					"source" : [ "obj-10", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-9", 0 ],
+					"hidden" : 0,
+					"midpoints" : [  ],
+					"source" : [ "obj-10", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-54", 0 ],
 					"hidden" : 1,
 					"midpoints" : [  ],
 					"source" : [ "obj-2", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-10", 0 ],
+					"hidden" : 0,
+					"midpoints" : [  ],
+					"source" : [ "obj-21", 1 ]
 				}
 
 			}
