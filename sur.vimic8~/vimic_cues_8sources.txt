@@ -51,19 +51,19 @@ CUE setup1
 	/output/setup 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32
 	/output/numSpeakers 24
 
-# Module /jmod.sur.multi.aux~.mxt
-	/jmod.sur.multi.aux~.mxt/aux.1/active 0
-	/jmod.sur.multi.aux~.mxt/aux.1/description to_reverb
-	/jmod.sur.multi.aux~.mxt/aux.1/gain 100.0
-	/jmod.sur.multi.aux~.mxt/aux.2/active 1
-	/jmod.sur.multi.aux~.mxt/aux.2/description to_output
-	/jmod.sur.multi.aux~.mxt/aux.2/gain 100.0
-	/jmod.sur.multi.aux~.mxt/aux.3/active 0
-	/jmod.sur.multi.aux~.mxt/aux.3/description Aux_3
-	/jmod.sur.multi.aux~.mxt/aux.3/gain 100.0
-	/jmod.sur.multi.aux~.mxt/audio/gain 100.0
-	/jmod.sur.multi.aux~.mxt/active 1
-	/jmod.sur.multi.aux~.mxt/channels 24
+# Module /jmod.sur.aux~.mxt
+	/jmod.sur.aux~.mxt/aux.1/active 0
+	/jmod.sur.aux~.mxt/aux.1/description to_reverb
+	/jmod.sur.aux~.mxt/aux.1/gain 100.0
+	/jmod.sur.aux~.mxt/aux.2/active 1
+	/jmod.sur.aux~.mxt/aux.2/description to_output
+	/jmod.sur.aux~.mxt/aux.2/gain 100.0
+	/jmod.sur.aux~.mxt/aux.3/active 0
+	/jmod.sur.aux~.mxt/aux.3/description Aux_3
+	/jmod.sur.aux~.mxt/aux.3/gain 100.0
+	/jmod.sur.aux~.mxt/audio/gain 100.0
+	/jmod.sur.aux~.mxt/active 1
+	/jmod.sur.aux~.mxt/channels 24
 
 
 

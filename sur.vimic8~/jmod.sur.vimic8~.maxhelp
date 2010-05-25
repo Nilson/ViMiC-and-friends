@@ -5580,11 +5580,11 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "jmod.sur.multi.aux~" ],
+					"args" : [ "jmod.sur.aux~" ],
 					"id" : "obj-3",
 					"lockeddragscroll" : 1,
 					"maxclass" : "bpatcher",
-					"name" : "jmod.sur.multi.aux~.maxpat",
+					"name" : "jmod.sur.aux~.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
