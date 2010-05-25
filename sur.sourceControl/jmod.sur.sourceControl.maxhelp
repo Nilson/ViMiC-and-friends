@@ -1740,7 +1740,7 @@
 					"args" : [ "8track" ],
 					"id" : "obj-3",
 					"maxclass" : "bpatcher",
-					"name" : "jmod.sur.multi.input~.maxpat",
+					"name" : "jmod.sur.input~.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
