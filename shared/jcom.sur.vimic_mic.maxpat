@@ -22,13 +22,73 @@
 				"box" : 				{
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
+					"id" : "obj-3",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 2.0, 347.0, 214.0, 19.0 ],
+					"text" : "sprintf name microphone.%ld/position/x"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Geneva",
+					"fontsize" : 9.0,
+					"id" : "obj-4",
+					"linecount" : 4,
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 2.0, 368.0, 367.0, 55.0 ],
+					"text" : "jcom.message microphone.1/position/x @type decimal @range/bounds -20. 20. @ramp/drive scheduler @range/clipmode both @repetitions/allow 0 @description \"X coordinate of the Nth microphone position\" @priority 9 @dataspace distance @dataspace/unit/active m @dataspace/unit/native m @dataspace/unit/display m",
+					"varname" : "message_z[2]"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Verdana",
+					"fontsize" : 10.0,
+					"id" : "obj-1",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 2.0, 433.0, 214.0, 19.0 ],
+					"text" : "sprintf name microphone.%ld/position/y"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Geneva",
+					"fontsize" : 9.0,
+					"id" : "obj-2",
+					"linecount" : 4,
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 2.0, 454.0, 368.0, 55.0 ],
+					"text" : "jcom.message microphone.1/position/y @type decimal @range/bounds -20. 20. @ramp/drive scheduler @range/clipmode both @repetitions/allow 0 @description \"Y coordinate of the Nth microphone position\" @priority 9 @dataspace distance @dataspace/unit/active m @dataspace/unit/native m @dataspace/unit/display m",
+					"varname" : "message_z[1]"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Verdana",
+					"fontsize" : 10.0,
 					"id" : "obj-35",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 829.0, 130.0, 247.0, 19.0 ],
-					"text" : "sprintf name microphones.%ld/directivity/ratio"
+					"text" : "sprintf name microphone.%ld/directivity/ratio"
 				}
 
 			}
@@ -42,7 +102,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 893.0, 37.0, 256.0, 19.0 ],
-					"text" : "sprintf name microphones.%ld/directivity/preset"
+					"text" : "sprintf name microphone.%ld/directivity/preset"
 				}
 
 			}
@@ -56,7 +116,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 433.0, 256.0, 190.0, 19.0 ],
-					"text" : "sprintf name microphones.%ld/solo"
+					"text" : "sprintf name microphone.%ld/solo"
 				}
 
 			}
@@ -70,7 +130,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 424.0, 118.0, 200.0, 19.0 ],
-					"text" : "sprintf name microphones.%ld/active"
+					"text" : "sprintf name microphone.%ld/active"
 				}
 
 			}
@@ -84,7 +144,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 422.0, 13.0, 191.0, 19.0 ],
-					"text" : "sprintf name microphones.%ld/gain"
+					"text" : "sprintf name microphone.%ld/gain"
 				}
 
 			}
@@ -98,7 +158,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 750.0, 427.0, 249.0, 19.0 ],
-					"text" : "sprintf name microphones.%ld/orientation/yaw"
+					"text" : "sprintf name microphone.%ld/orientation/yaw"
 				}
 
 			}
@@ -112,7 +172,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 751.0, 343.0, 253.0, 19.0 ],
-					"text" : "sprintf name microphones.%ld/orientation/pitch"
+					"text" : "sprintf name microphone.%ld/orientation/pitch"
 				}
 
 			}
@@ -126,7 +186,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 795.0, 519.0, 224.0, 19.0 ],
-					"text" : "sprintf name microphones.%ld/orientation"
+					"text" : "sprintf name microphone.%ld/orientation"
 				}
 
 			}
@@ -140,7 +200,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 447.0, 593.0, 209.0, 19.0 ],
-					"text" : "sprintf name microphones.%ld/position"
+					"text" : "sprintf name microphone.%ld/position"
 				}
 
 			}
@@ -154,7 +214,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 374.0, 431.0, 219.0, 19.0 ],
-					"text" : "sprintf name microphones.%ld/position/z"
+					"text" : "sprintf name microphone.%ld/position/z"
 				}
 
 			}
@@ -168,7 +228,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 370.0, 346.0, 232.0, 19.0 ],
-					"text" : "sprintf name microphones.%ld/position/aed"
+					"text" : "sprintf name microphone.%ld/position/aed"
 				}
 
 			}
@@ -230,7 +290,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 17.0, 293.0, 129.0, 19.0 ],
+					"patching_rect" : [ 4.0, 88.0, 129.0, 19.0 ],
 					"text" : "jcom.meter_receive #1"
 				}
 
@@ -284,7 +344,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 32.0, 355.0, 21.0, 20.0 ],
+					"patching_rect" : [ 148.0, 89.0, 21.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 245.0, 0.0, 18.0, 20.0 ],
 					"text" : "|"
@@ -300,7 +360,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 47.0, 370.0, 21.0, 20.0 ],
+					"patching_rect" : [ 163.0, 104.0, 21.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 328.0, 0.0, 18.0, 20.0 ],
 					"text" : "|"
@@ -335,7 +395,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 18.0, 315.0, 100.0, 12.0 ],
+					"patching_rect" : [ 5.0, 110.0, 100.0, 12.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 493.0, 5.0, 98.0, 13.0 ]
 				}
@@ -350,7 +410,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 62.0, 385.0, 21.0, 20.0 ],
+					"patching_rect" : [ 178.0, 119.0, 21.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 435.0, 0.0, 18.0, 20.0 ],
 					"text" : "|"
@@ -877,13 +937,13 @@
 ,
 					"patching_rect" : [ 928.0, 110.0, 73.0, 17.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontsize" : 12.0,
+						"fontname" : "Arial",
+						"default_fontface" : 0,
+						"globalpatchername" : "",
+						"default_fontname" : "Arial",
 						"fontface" : 0,
 						"fontsize" : 12.0,
-						"globalpatchername" : "",
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"fontname" : "Arial"
+						"default_fontsize" : 12.0
 					}
 ,
 					"text" : "p mic-presets",
@@ -938,7 +998,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 433.0, 276.0, 475.0, 19.0 ],
-					"text" : "jcom.message microphones.1/solo @type boolean @description \"activates solo mode for this microphone\"",
+					"text" : "jcom.message microphone.1/solo @type boolean @description \"activates solo mode for this microphone\"",
 					"varname" : "soloparameter"
 				}
 
@@ -954,7 +1014,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 441.0, 616.0, 590.0, 31.0 ],
-					"text" : "jcom.parameter microphones.1/position @type array @repetitions/allow 0 @description \"Position in xyz coodinate of the Nth microphone\" @priority 1 @dataspace position @dataspace/unit/active xyz @dataspace/unit/native xyz @dataspace/unit/display xyz",
+					"text" : "jcom.parameter microphone.1/position @type array @repetitions/allow 0 @description \"Position in xyz coodinate of the Nth microphone\" @priority 1 @dataspace position @dataspace/unit/active xyz @dataspace/unit/native xyz @dataspace/unit/display xyz",
 					"varname" : "parameter"
 				}
 
@@ -970,7 +1030,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 792.0, 544.0, 575.0, 43.0 ],
-					"text" : "jcom.parameter microphones.1/orientation @type array @repetitions/allow 0 @range/bounds -180. 180. @range/clipmode wrap @description \"orientation [yaw pitch] of the Nth microphone\" @priority 2 @dataspace angle @dataspace/unit/active deg @dataspace/unit/native deg @dataspace/unit/display deg",
+					"text" : "jcom.parameter microphone.1/orientation @type array @repetitions/allow 0 @range/bounds -180. 180. @range/clipmode wrap @description \"orientation [yaw pitch] of the Nth microphone\" @priority 2 @dataspace angle @dataspace/unit/active deg @dataspace/unit/native deg @dataspace/unit/display deg",
 					"varname" : "parameter2"
 				}
 
@@ -986,7 +1046,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 840.0, 154.0, 290.0, 55.0 ],
-					"text" : "jcom.parameter microphones.1/directivity/ratio @type decimal @ramp/drive scheduler @range/bounds 0. 1. @range/clipmode both @repetitions/allow 0 @value/default 0.123 @description \"Directivity value of the Nth microphone\" @priority 3",
+					"text" : "jcom.parameter microphone.1/directivity/ratio @type decimal @ramp/drive scheduler @range/bounds 0. 1. @range/clipmode both @repetitions/allow 0 @value/default 0.123 @description \"Directivity value of the Nth microphone\" @priority 3",
 					"varname" : "parameter_directivity"
 				}
 
@@ -1002,7 +1062,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 420.0, 139.0, 352.0, 43.0 ],
-					"text" : "jcom.parameter microphones.1/active @type boolean @range/bounds 0 1 @range/clipmode both @value 0 @repetitions/allow 1 @description \"if active is set to 0 then the Nth microphone is muted\" @priority 4",
+					"text" : "jcom.parameter microphone.1/active @type boolean @range/bounds 0 1 @range/clipmode both @value 0 @repetitions/allow 1 @description \"if active is set to 0 then the Nth microphone is muted\" @priority 4",
 					"varname" : "parameter_aktive"
 				}
 
@@ -1018,7 +1078,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 423.0, 35.0, 321.0, 67.0 ],
-					"text" : "jcom.parameter microphones.1/gain @repetitions/allow 0 @ramp/drive scheduler @type decimal @range/bounds 0. 127. @range/clipmode both @ramp/drive scheduler @dataspace gain @dataspace/unit/active midi @dataspace/unit/native midi @dataspace/unit/display midi @description \"Gain of of the Nth microphone\" @priority 5",
+					"text" : "jcom.parameter microphone.1/gain @repetitions/allow 0 @ramp/drive scheduler @type decimal @range/bounds 0. 127. @range/clipmode both @ramp/drive scheduler @dataspace gain @dataspace/unit/active midi @dataspace/unit/native midi @dataspace/unit/display midi @description \"Gain of of the Nth microphone\" @priority 5",
 					"varname" : "parameter_gain"
 				}
 
@@ -1034,7 +1094,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 370.0, 368.0, 368.0, 55.0 ],
-					"text" : "jcom.message microphones.1/position/aed @type array @repetitions/allow 1 @description \"Position in spherical coodinate of the Nth microphone\" @priority 5 @dataspace position @dataspace/unit/active aed @dataspace/unit/native aed @dataspace/unit/display aed",
+					"text" : "jcom.message microphone.1/position/aed @type array @repetitions/allow 1 @description \"Position in spherical coodinate of the Nth microphone\" @priority 5 @dataspace position @dataspace/unit/active aed @dataspace/unit/native aed @dataspace/unit/display aed",
 					"varname" : "message_aed"
 				}
 
@@ -1050,7 +1110,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 750.0, 364.0, 591.0, 43.0 ],
-					"text" : "jcom.message microphones.1/orientation/pitch @type decimal @range/bounds -180. 180. @ramp/drive scheduler @range/clipmode wrap @repetitions/allow 0 @description \"Pitch angle of the Nth microphone\" @priority 6 @dataspace angle @dataspace/unit/active deg @dataspace/unit/native deg @dataspace/unit/display deg",
+					"text" : "jcom.message microphone.1/orientation/pitch @type decimal @range/bounds -180. 180. @ramp/drive scheduler @range/clipmode wrap @repetitions/allow 0 @description \"Pitch angle of the Nth microphone\" @priority 6 @dataspace angle @dataspace/unit/active deg @dataspace/unit/native deg @dataspace/unit/display deg",
 					"varname" : "message_ele"
 				}
 
@@ -1066,7 +1126,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 750.0, 450.0, 579.0, 43.0 ],
-					"text" : "jcom.message microphones.1/orientation/yaw @type decimal @range/bounds -180. 180. @range/clipmode wrap @ramp/drive scheduler @repetitions/allow 0 @description \"Yaw angle for the orientation of the Nth microphone\" @priority 7 @dataspace angle @dataspace/unit/active deg @dataspace/unit/native deg @dataspace/unit/display deg",
+					"text" : "jcom.message microphone.1/orientation/yaw @type decimal @range/bounds -180. 180. @range/clipmode wrap @ramp/drive scheduler @repetitions/allow 0 @description \"Yaw angle for the orientation of the Nth microphone\" @priority 7 @dataspace angle @dataspace/unit/active deg @dataspace/unit/native deg @dataspace/unit/display deg",
 					"varname" : "message_azi"
 				}
 
@@ -1082,7 +1142,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 893.0, 61.0, 364.0, 31.0 ],
-					"text" : "jcom.message microphones.1/directivity/preset @type string @repetitions/allow 1 @description \"load a directivity preset for the Nth microphone\" @priority 8",
+					"text" : "jcom.message microphone.1/directivity/preset @type string @repetitions/allow 1 @description \"load a directivity preset for the Nth microphone\" @priority 8",
 					"varname" : "directivity_preset"
 				}
 
@@ -1097,8 +1157,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 371.0, 452.0, 371.0, 55.0 ],
-					"text" : "jcom.message microphones.1/position/z @type decimal @range/bounds -20. 20. @ramp/drive scheduler @range/clipmode both @repetitions/allow 0 @description \"Z coordinate of the Nth microphone position\" @priority 9 @dataspace distance @dataspace/unit/active m @dataspace/unit/native m @dataspace/unit/display m",
+					"patching_rect" : [ 371.0, 452.0, 377.0, 55.0 ],
+					"text" : "jcom.message microphone.1/position/z @type decimal @range/bounds -20. 20. @ramp/drive scheduler @range/clipmode both @repetitions/allow 0 @description \"Z coordinate of the Nth microphone position\" @priority 9 @dataspace distance @dataspace/unit/active m @dataspace/unit/native m @dataspace/unit/display m",
 					"varname" : "message_z"
 				}
 
@@ -1106,10 +1166,280 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
+					"destination" : [ "obj-2", 0 ],
+					"hidden" : 0,
+					"midpoints" : [  ],
+					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-29", 0 ],
 					"hidden" : 0,
 					"midpoints" : [  ],
 					"source" : [ "obj-11", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-48", 10 ],
+					"hidden" : 0,
+					"midpoints" : [  ],
+					"source" : [ "obj-13", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-42", 10 ],
+					"hidden" : 0,
+					"midpoints" : [  ],
+					"source" : [ "obj-14", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-39", 0 ],
+					"hidden" : 1,
+					"midpoints" : [  ],
+					"source" : [ "obj-15", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-91", 0 ],
+					"hidden" : 1,
+					"midpoints" : [  ],
+					"source" : [ "obj-16", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-36", 0 ],
+					"hidden" : 0,
+					"midpoints" : [  ],
+					"source" : [ "obj-17", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-7", 0 ],
+					"hidden" : 0,
+					"midpoints" : [  ],
+					"source" : [ "obj-18", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-42", 1 ],
+					"hidden" : 0,
+					"midpoints" : [  ],
+					"source" : [ "obj-19", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-48", 1 ],
+					"hidden" : 0,
+					"midpoints" : [  ],
+					"source" : [ "obj-2", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-42", 0 ],
+					"hidden" : 0,
+					"midpoints" : [  ],
+					"source" : [ "obj-20", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-24", 0 ],
+					"hidden" : 0,
+					"midpoints" : [  ],
+					"source" : [ "obj-21", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-8", 0 ],
+					"hidden" : 0,
+					"midpoints" : [  ],
+					"source" : [ "obj-21", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-48", 2 ],
+					"hidden" : 0,
+					"midpoints" : [  ],
+					"source" : [ "obj-22", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-22", 0 ],
+					"hidden" : 0,
+					"midpoints" : [  ],
+					"source" : [ "obj-23", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-21", 0 ],
+					"hidden" : 0,
+					"midpoints" : [  ],
+					"source" : [ "obj-24", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-18", 0 ],
+					"hidden" : 0,
+					"midpoints" : [  ],
+					"source" : [ "obj-25", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-13", 0 ],
+					"hidden" : 0,
+					"midpoints" : [  ],
+					"source" : [ "obj-26", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-14", 0 ],
+					"hidden" : 0,
+					"midpoints" : [  ],
+					"source" : [ "obj-27", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-19", 0 ],
+					"hidden" : 0,
+					"midpoints" : [  ],
+					"source" : [ "obj-28", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-4", 0 ],
+					"hidden" : 0,
+					"midpoints" : [  ],
+					"source" : [ "obj-3", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-20", 0 ],
+					"hidden" : 0,
+					"midpoints" : [  ],
+					"source" : [ "obj-30", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-17", 0 ],
+					"hidden" : 0,
+					"midpoints" : [  ],
+					"source" : [ "obj-31", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-16", 0 ],
+					"hidden" : 0,
+					"midpoints" : [  ],
+					"source" : [ "obj-32", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-5", 0 ],
+					"hidden" : 0,
+					"midpoints" : [  ],
+					"source" : [ "obj-33", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-21", 0 ],
+					"hidden" : 0,
+					"midpoints" : [  ],
+					"source" : [ "obj-34", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-15", 0 ],
+					"hidden" : 0,
+					"midpoints" : [  ],
+					"source" : [ "obj-35", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-17", 0 ],
+					"hidden" : 1,
+					"midpoints" : [  ],
+					"source" : [ "obj-36", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-15", 0 ],
+					"hidden" : 1,
+					"midpoints" : [  ],
+					"source" : [ "obj-39", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-48", 0 ],
+					"hidden" : 0,
+					"midpoints" : [  ],
+					"source" : [ "obj-4", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-14", 0 ],
+					"hidden" : 0,
+					"midpoints" : [  ],
+					"source" : [ "obj-42", 10 ]
 				}
 
 			}
@@ -1151,6 +1481,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-13", 0 ],
+					"hidden" : 0,
+					"midpoints" : [  ],
+					"source" : [ "obj-48", 10 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-52", 0 ],
 					"hidden" : 0,
 					"midpoints" : [ 258.5, 643.0, 189.0, 643.0, 189.0, 568.0, 319.5, 568.0 ],
@@ -1173,6 +1512,15 @@
 					"hidden" : 0,
 					"midpoints" : [ 217.5, 635.0, 199.0, 635.0, 199.0, 579.0, 217.5, 579.0 ],
 					"source" : [ "obj-48", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"hidden" : 0,
+					"midpoints" : [  ],
+					"source" : [ "obj-49", 0 ]
 				}
 
 			}
@@ -1259,6 +1607,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-3", 0 ],
+					"hidden" : 0,
+					"midpoints" : [  ],
+					"source" : [ "obj-49", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-30", 0 ],
 					"hidden" : 0,
 					"midpoints" : [  ],
@@ -1308,6 +1665,15 @@
 					"hidden" : 0,
 					"midpoints" : [  ],
 					"source" : [ "obj-49", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-12", 0 ],
+					"hidden" : 0,
+					"midpoints" : [  ],
+					"source" : [ "obj-5", 0 ]
 				}
 
 			}
@@ -1407,258 +1773,6 @@
 					"hidden" : 0,
 					"midpoints" : [  ],
 					"source" : [ "obj-12", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-48", 10 ],
-					"hidden" : 0,
-					"midpoints" : [  ],
-					"source" : [ "obj-13", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-42", 10 ],
-					"hidden" : 0,
-					"midpoints" : [  ],
-					"source" : [ "obj-14", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-39", 0 ],
-					"hidden" : 1,
-					"midpoints" : [  ],
-					"source" : [ "obj-15", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-91", 0 ],
-					"hidden" : 1,
-					"midpoints" : [  ],
-					"source" : [ "obj-16", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-36", 0 ],
-					"hidden" : 0,
-					"midpoints" : [  ],
-					"source" : [ "obj-17", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-7", 0 ],
-					"hidden" : 0,
-					"midpoints" : [  ],
-					"source" : [ "obj-18", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-42", 1 ],
-					"hidden" : 0,
-					"midpoints" : [  ],
-					"source" : [ "obj-19", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-42", 0 ],
-					"hidden" : 0,
-					"midpoints" : [  ],
-					"source" : [ "obj-20", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-24", 0 ],
-					"hidden" : 0,
-					"midpoints" : [  ],
-					"source" : [ "obj-21", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-8", 0 ],
-					"hidden" : 0,
-					"midpoints" : [  ],
-					"source" : [ "obj-21", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-48", 2 ],
-					"hidden" : 0,
-					"midpoints" : [  ],
-					"source" : [ "obj-22", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-22", 0 ],
-					"hidden" : 0,
-					"midpoints" : [  ],
-					"source" : [ "obj-23", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-21", 0 ],
-					"hidden" : 0,
-					"midpoints" : [  ],
-					"source" : [ "obj-24", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-18", 0 ],
-					"hidden" : 0,
-					"midpoints" : [  ],
-					"source" : [ "obj-25", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-13", 0 ],
-					"hidden" : 0,
-					"midpoints" : [  ],
-					"source" : [ "obj-26", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-14", 0 ],
-					"hidden" : 0,
-					"midpoints" : [  ],
-					"source" : [ "obj-27", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-19", 0 ],
-					"hidden" : 0,
-					"midpoints" : [  ],
-					"source" : [ "obj-28", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-20", 0 ],
-					"hidden" : 0,
-					"midpoints" : [  ],
-					"source" : [ "obj-30", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-17", 0 ],
-					"hidden" : 0,
-					"midpoints" : [  ],
-					"source" : [ "obj-31", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-16", 0 ],
-					"hidden" : 0,
-					"midpoints" : [  ],
-					"source" : [ "obj-32", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-5", 0 ],
-					"hidden" : 0,
-					"midpoints" : [  ],
-					"source" : [ "obj-33", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-21", 0 ],
-					"hidden" : 0,
-					"midpoints" : [  ],
-					"source" : [ "obj-34", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-15", 0 ],
-					"hidden" : 0,
-					"midpoints" : [  ],
-					"source" : [ "obj-35", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-17", 0 ],
-					"hidden" : 1,
-					"midpoints" : [  ],
-					"source" : [ "obj-36", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-15", 0 ],
-					"hidden" : 1,
-					"midpoints" : [  ],
-					"source" : [ "obj-39", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-14", 0 ],
-					"hidden" : 0,
-					"midpoints" : [  ],
-					"source" : [ "obj-42", 10 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-13", 0 ],
-					"hidden" : 0,
-					"midpoints" : [  ],
-					"source" : [ "obj-48", 10 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-12", 0 ],
-					"hidden" : 0,
-					"midpoints" : [  ],
-					"source" : [ "obj-5", 0 ]
 				}
 
 			}

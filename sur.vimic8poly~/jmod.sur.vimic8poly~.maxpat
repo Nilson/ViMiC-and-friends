@@ -42775,7 +42775,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 124.0, 192.0, 130.0, 20.0 ],
-													"text" : "prepend microphones."
+													"text" : "prepend microphone."
 												}
 
 											}
@@ -43417,7 +43417,7 @@
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
 													"patching_rect" : [ 15.0, 225.0, 290.0, 20.0 ],
-													"text" : "combine microphones. 1 /directivity/ratio @triggers 1"
+													"text" : "combine microphone. 1 /directivity/ratio @triggers 1"
 												}
 
 											}
@@ -43734,7 +43734,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 124.0, 178.0, 130.0, 20.0 ],
-													"text" : "prepend microphones."
+													"text" : "prepend microphone."
 												}
 
 											}
@@ -44064,7 +44064,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 125.0, 178.0, 130.0, 20.0 ],
-													"text" : "prepend microphones."
+													"text" : "prepend microphone."
 												}
 
 											}
@@ -44391,7 +44391,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 124.0, 193.0, 130.0, 20.0 ],
-													"text" : "prepend microphones."
+													"text" : "prepend microphone."
 												}
 
 											}
@@ -44732,7 +44732,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 124.0, 178.0, 130.0, 20.0 ],
-													"text" : "prepend microphones."
+													"text" : "prepend microphone."
 												}
 
 											}
