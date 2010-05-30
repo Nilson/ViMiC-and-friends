@@ -1,9 +1,9 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
-		"rect" : [ 84.0, 45.0, 1145.0, 582.0 ],
+		"rect" : [ -1275.0, 266.0, 1145.0, 582.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 84.0, 45.0, 1145.0, 582.0 ],
+		"defrect" : [ -1275.0, 266.0, 1145.0, 582.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -336,8 +336,8 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
-													"patching_rect" : [ 182.0, 82.0, 154.0, 19.0 ],
-													"text" : "jcom.oscroute /microphones"
+													"patching_rect" : [ 182.0, 82.0, 149.0, 19.0 ],
+													"text" : "jcom.oscroute /microphone"
 												}
 
 											}
@@ -592,13 +592,13 @@
 ,
 									"patching_rect" : [ 60.0, 277.0, 130.0, 19.0 ],
 									"saved_object_attributes" : 									{
-										"fontface" : 0,
-										"fontsize" : 10.0,
 										"default_fontface" : 0,
 										"default_fontname" : "Verdana",
 										"fontname" : "Verdana",
 										"default_fontsize" : 10.0,
-										"globalpatchername" : ""
+										"globalpatchername" : "",
+										"fontface" : 0,
+										"fontsize" : 10.0
 									}
 ,
 									"text" : "p position2ambimonitor"
@@ -672,8 +672,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 56.0, 43.0, 299.0, 19.0 ],
-									"text" : "jcom.route @searchstring /microphones @partialmatch 1"
+									"patching_rect" : [ 56.0, 43.0, 294.0, 19.0 ],
+									"text" : "jcom.route @searchstring /microphone @partialmatch 1"
 								}
 
 							}
@@ -738,13 +738,12 @@
 									"fontname" : "Verdana",
 									"fontsize" : 10.0,
 									"id" : "obj-11",
-									"linecount" : 2,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 289.0, 204.0, 123.0, 29.0 ],
-									"text" : "set orientation 30 -180 0."
+									"patching_rect" : [ 289.0, 204.0, 123.0, 17.0 ],
+									"text" : "set orientation 30 0 0."
 								}
 
 							}
@@ -972,7 +971,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-4", 0 ],
+									"destination" : [ "obj-13", 0 ],
 									"hidden" : 0,
 									"midpoints" : [  ],
 									"source" : [ "obj-3", 0 ]
@@ -999,15 +998,6 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-13", 0 ],
-									"hidden" : 0,
-									"midpoints" : [  ],
-									"source" : [ "obj-4", 1 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
 									"destination" : [ "obj-11", 1 ],
 									"hidden" : 0,
 									"midpoints" : [  ],
@@ -1021,6 +1011,15 @@
 									"hidden" : 0,
 									"midpoints" : [  ],
 									"source" : [ "obj-5", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-4", 0 ],
+									"hidden" : 0,
+									"midpoints" : [  ],
+									"source" : [ "obj-6", 0 ]
 								}
 
 							}
@@ -1074,13 +1073,13 @@
 ,
 					"patching_rect" : [ 507.0, 347.0, 18.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"fontface" : 0,
-						"fontsize" : 10.0,
 						"default_fontface" : 0,
 						"default_fontname" : "Verdana",
 						"fontname" : "Verdana",
 						"default_fontsize" : 10.0,
-						"globalpatchername" : ""
+						"globalpatchername" : "",
+						"fontface" : 0,
+						"fontsize" : 10.0
 					}
 ,
 					"text" : "p"
@@ -1280,13 +1279,13 @@
 ,
 									"patching_rect" : [ 24.0, 290.0, 65.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"fontface" : 0,
-										"fontsize" : 10.0,
 										"default_fontface" : 0,
 										"default_fontname" : "Verdana",
 										"fontname" : "Verdana",
 										"default_fontsize" : 10.0,
-										"globalpatchername" : ""
+										"globalpatchername" : "",
+										"fontface" : 0,
+										"fontsize" : 10.0
 									}
 ,
 									"text" : "p position"
@@ -1359,7 +1358,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 50.0, 112.0, 259.0, 18.0 ],
-													"text" : "/jmod.sur.vimic~/microphones. $1 /orientation"
+													"text" : "/jmod.sur.vimic~/microphone. $1 /orientation"
 												}
 
 											}
@@ -1460,13 +1459,13 @@
 ,
 									"patching_rect" : [ 99.0, 290.0, 77.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"fontface" : 0,
-										"fontsize" : 10.0,
 										"default_fontface" : 0,
 										"default_fontname" : "Verdana",
 										"fontname" : "Verdana",
 										"default_fontsize" : 10.0,
-										"globalpatchername" : ""
+										"globalpatchername" : "",
+										"fontface" : 0,
+										"fontsize" : 10.0
 									}
 ,
 									"text" : "p orientation"
@@ -1844,13 +1843,13 @@
 ,
 					"patching_rect" : [ 992.0, 405.0, 66.0, 17.0 ],
 					"saved_object_attributes" : 					{
-						"fontface" : 0,
-						"fontsize" : 12.0,
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
 						"default_fontsize" : 12.0,
-						"globalpatchername" : ""
+						"globalpatchername" : "",
+						"fontface" : 0,
+						"fontsize" : 12.0
 					}
 ,
 					"text" : "p xyz2vimic"
@@ -2229,7 +2228,7 @@
 					"name" : "jmod.sur.reverb~.maxpat",
 					"numinlets" : 3,
 					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
+					"outlettype" : [ "", "multicore.connect" ],
 					"patching_rect" : [ 507.0, 372.0, 300.0, 70.0 ],
 					"presentation_rect" : [ 0.0, 0.0, 300.0, 70.0 ],
 					"varname" : "/reverb~"
@@ -2277,7 +2276,7 @@
 					"name" : "jmod.sur.vimic~.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
+					"outlettype" : [ "", "multicore.connect" ],
 					"patching_rect" : [ 507.0, 271.0, 300.0, 70.0 ],
 					"presentation_rect" : [ 0.0, 0.0, 300.0, 70.0 ],
 					"varname" : "/jmod.sur.vimic~"
@@ -2460,13 +2459,13 @@
 ,
 					"patching_rect" : [ 837.0, 405.0, 44.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"fontface" : 0,
-						"fontsize" : 10.0,
 						"default_fontface" : 0,
 						"default_fontname" : "Verdana",
 						"fontname" : "Verdana",
 						"default_fontsize" : 10.0,
-						"globalpatchername" : ""
+						"globalpatchername" : "",
+						"fontface" : 0,
+						"fontsize" : 10.0
 					}
 ,
 					"text" : "p demo"
@@ -2537,13 +2536,12 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-5",
-					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 527.0, 347.0, 185.0, 32.0 ],
-					"text" : "/microphones.11/position/aed -32.727295 0. 6."
+					"patching_rect" : [ 528.0, 347.0, 261.0, 18.0 ],
+					"text" : "/microphone.8/position/aed -45. 0. 1.83"
 				}
 
 			}
@@ -2793,13 +2791,13 @@
 ,
 									"patching_rect" : [ 192.0, 585.0, 37.0, 17.0 ],
 									"saved_object_attributes" : 									{
-										"fontface" : 0,
-										"fontsize" : 12.0,
 										"default_fontface" : 0,
 										"default_fontname" : "Arial",
 										"fontname" : "Arial",
 										"default_fontsize" : 12.0,
-										"globalpatchername" : ""
+										"globalpatchername" : "",
+										"fontface" : 0,
+										"fontsize" : 12.0
 									}
 ,
 									"text" : "p thru"
@@ -2817,9 +2815,9 @@
 									"outlettype" : [ "" ],
 									"patcher" : 									{
 										"fileversion" : 1,
-										"rect" : [ 179.0, 136.0, 903.0, 636.0 ],
+										"rect" : [ -828.0, 128.0, 903.0, 636.0 ],
 										"bglocked" : 0,
-										"defrect" : [ 179.0, 136.0, 903.0, 636.0 ],
+										"defrect" : [ -828.0, 128.0, 903.0, 636.0 ],
 										"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 										"openinpresentation" : 0,
 										"default_fontsize" : 10.0,
@@ -2838,13 +2836,13 @@
 												"box" : 												{
 													"fontname" : "Verdana",
 													"fontsize" : 10.0,
-													"id" : "obj-29",
+													"id" : "obj-31",
 													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "", "" ],
-													"patching_rect" : [ 389.0, 87.0, 238.0, 19.0 ],
-													"text" : "route /jmod.sur.vimic~/microphones/amount"
+													"numinlets" : 2,
+													"numoutlets" : 1,
+													"outlettype" : [ "int" ],
+													"patching_rect" : [ 389.0, 65.0, 32.5, 19.0 ],
+													"text" : "int"
 												}
 
 											}
@@ -2852,13 +2850,13 @@
 												"box" : 												{
 													"fontname" : "Verdana",
 													"fontsize" : 10.0,
-													"id" : "obj-28",
+													"id" : "obj-29",
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
-													"patching_rect" : [ 389.0, 64.0, 210.0, 19.0 ],
-													"text" : "jcom.receive jcom.remote.module.from"
+													"patching_rect" : [ 389.0, 44.0, 276.0, 19.0 ],
+													"text" : "jcom.receive /jmod.sur.vimic~/microphones/amount"
 												}
 
 											}
@@ -2901,7 +2899,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 19.0, 206.0, 148.0, 29.0 ],
-													"text" : "/jmod.sur.vimic~/microphones. $1 /position/aed"
+													"text" : "/jmod.sur.vimic~/microphone. $1 /position/aed"
 												}
 
 											}
@@ -2929,7 +2927,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 145.0, 372.0, 272.0, 17.0 ],
-													"text" : "/jmod.sur.vimic~/microphones. $1 /orientation/yaw"
+													"text" : "/jmod.sur.vimic~/microphone. $1 /orientation/yaw"
 												}
 
 											}
@@ -3277,13 +3275,13 @@
 ,
 													"patching_rect" : [ 133.0, 95.0, 130.0, 20.0 ],
 													"saved_object_attributes" : 													{
-														"fontface" : 0,
-														"fontsize" : 12.0,
 														"default_fontface" : 0,
 														"default_fontname" : "Arial",
 														"fontname" : "Arial",
 														"default_fontsize" : 12.0,
-														"globalpatchername" : ""
+														"globalpatchername" : "",
+														"fontface" : 0,
+														"fontsize" : 12.0
 													}
 ,
 													"text" : "p clearingAmbimonitor"
@@ -3503,7 +3501,7 @@
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 1,
-													"outlettype" : [ "float" ],
+													"outlettype" : [ "" ],
 													"patching_rect" : [ 372.0, 276.0, 60.0, 20.0 ],
 													"text" : "jcom.thru"
 												}
@@ -3727,16 +3725,7 @@
 											}
 , 											{
 												"patchline" : 												{
-													"destination" : [ "obj-29", 0 ],
-													"hidden" : 0,
-													"midpoints" : [  ],
-													"source" : [ "obj-28", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-6", 1 ],
+													"destination" : [ "obj-31", 0 ],
 													"hidden" : 0,
 													"midpoints" : [  ],
 													"source" : [ "obj-29", 0 ]
@@ -3758,6 +3747,15 @@
 													"hidden" : 0,
 													"midpoints" : [  ],
 													"source" : [ "obj-3", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-6", 1 ],
+													"hidden" : 0,
+													"midpoints" : [  ],
+													"source" : [ "obj-31", 0 ]
 												}
 
 											}
@@ -3874,13 +3872,13 @@
 ,
 									"patching_rect" : [ 165.0, 145.0, 272.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"fontface" : 0,
-										"fontsize" : 10.0,
 										"default_fontface" : 0,
 										"default_fontname" : "Verdana",
 										"fontname" : "Verdana",
 										"default_fontsize" : 10.0,
-										"globalpatchername" : ""
+										"globalpatchername" : "",
+										"fontface" : 0,
+										"fontsize" : 10.0
 									}
 ,
 									"text" : "p equal_distro"
@@ -3908,7 +3906,7 @@
 									"maxclass" : "inlet",
 									"numinlets" : 0,
 									"numoutlets" : 1,
-									"outlettype" : [ "" ],
+									"outlettype" : [ "int" ],
 									"patching_rect" : [ 133.0, 40.0, 15.0, 15.0 ]
 								}
 
@@ -4003,7 +4001,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 53.0, 225.0, 561.0, 18.0 ],
-													"text" : "/jmod.sur.vimic~/microphones.2/orientation/yaw 30, /jmod.sur.vimic~/microphones.1/orientation/yaw -30"
+													"text" : "/jmod.sur.vimic~/microphone.2/orientation/yaw 30, /jmod.sur.vimic~/microphone.1/orientation/yaw -30"
 												}
 
 											}
@@ -4028,7 +4026,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 153.0, 163.0, 323.0, 20.0 ],
-													"text" : "pack /jmod.sur.vimic~/microphones.2/position/aed 30. 0. 2."
+													"text" : "pack /jmod.sur.vimic~/microphone.2/position/aed 30. 0. 2."
 												}
 
 											}
@@ -4042,7 +4040,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 120.0, 192.0, 327.0, 20.0 ],
-													"text" : "pack /jmod.sur.vimic~/microphones.1/position/aed -30. 0. 2."
+													"text" : "pack /jmod.sur.vimic~/microphone.1/position/aed -30. 0. 2."
 												}
 
 											}
@@ -4151,13 +4149,13 @@
 ,
 									"patching_rect" : [ 558.0, 147.0, 56.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"fontface" : 0,
-										"fontsize" : 12.0,
 										"default_fontface" : 0,
 										"default_fontname" : "Arial",
 										"fontname" : "Arial",
 										"default_fontsize" : 12.0,
-										"globalpatchername" : ""
+										"globalpatchername" : "",
+										"fontface" : 0,
+										"fontsize" : 12.0
 									}
 ,
 									"text" : "p Stereo"
@@ -4242,7 +4240,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 148.0, 228.0, 323.0, 20.0 ],
-													"text" : "pack /jmod.sur.vimic~/microphones.3/position/aed 30. 0. 2."
+													"text" : "pack /jmod.sur.vimic~/microphone.3/position/aed 30. 0. 2."
 												}
 
 											}
@@ -4256,7 +4254,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 126.0, 248.0, 334.0, 20.0 ],
-													"text" : "pack /jmod.sur.vimic~/microphones.4/position/aed -110. 0. 2."
+													"text" : "pack /jmod.sur.vimic~/microphone.4/position/aed -110. 0. 2."
 												}
 
 											}
@@ -4298,7 +4296,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 107.0, 269.0, 330.0, 20.0 ],
-													"text" : "pack /jmod.sur.vimic~/microphones.5/position/aed 110. 0. 2."
+													"text" : "pack /jmod.sur.vimic~/microphone.5/position/aed 110. 0. 2."
 												}
 
 											}
@@ -4336,7 +4334,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 22.0, 291.0, 305.0, 73.0 ],
-													"text" : "/jmod.sur.vimic~/microphones.1/orientation/yaw -30, /jmod.sur.vimic~/microphones.2/orientation/yaw 0, /jmod.sur.vimic~/microphones.3/orientation/yaw 30, /jmod.sur.vimic~/microphones.4/orientation/yaw -110, /jmod.sur.vimic~/microphones.5/orientation/yaw 110"
+													"text" : "/jmod.sur.vimic~/microphone.1/orientation/yaw -30, /jmod.sur.vimic~/microphone.2/orientation/yaw 0, /jmod.sur.vimic~/microphone.3/orientation/yaw 30, /jmod.sur.vimic~/microphone.4/orientation/yaw -110, /jmod.sur.vimic~/microphone.5/orientation/yaw 110"
 												}
 
 											}
@@ -4350,7 +4348,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 181.0, 183.0, 327.0, 20.0 ],
-													"text" : "pack /jmod.sur.vimic~/microphones.1/position/aed -30. 0. 2."
+													"text" : "pack /jmod.sur.vimic~/microphone.1/position/aed -30. 0. 2."
 												}
 
 											}
@@ -4364,7 +4362,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 170.0, 207.0, 316.0, 20.0 ],
-													"text" : "pack /jmod.sur.vimic~/microphones.2/position/aed 0. 0. 2."
+													"text" : "pack /jmod.sur.vimic~/microphone.2/position/aed 0. 0. 2."
 												}
 
 											}
@@ -4568,13 +4566,13 @@
 ,
 									"patching_rect" : [ 616.0, 147.0, 57.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"fontface" : 0,
-										"fontsize" : 10.0,
 										"default_fontface" : 0,
 										"default_fontname" : "Verdana",
 										"fontname" : "Verdana",
 										"default_fontsize" : 10.0,
-										"globalpatchername" : ""
+										"globalpatchername" : "",
+										"fontface" : 0,
+										"fontsize" : 10.0
 									}
 ,
 									"text" : "p ITU5.1"
@@ -4777,13 +4775,13 @@
 ,
 					"patching_rect" : [ 21.0, 458.0, 74.0, 17.0 ],
 					"saved_object_attributes" : 					{
-						"fontface" : 0,
-						"fontsize" : 12.0,
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
 						"default_fontsize" : 12.0,
-						"globalpatchername" : ""
+						"globalpatchername" : "",
+						"fontface" : 0,
+						"fontsize" : 12.0
 					}
 ,
 					"text" : "p equal_distro"
@@ -5097,7 +5095,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-5", 1 ],
 					"hidden" : 1,
-					"midpoints" : [ 516.5, 343.5, 702.5, 343.5 ],
+					"midpoints" : [ 516.5, 343.5, 779.5, 343.5 ],
 					"source" : [ "obj-201", 0 ]
 				}
 

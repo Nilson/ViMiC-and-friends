@@ -19,29 +19,29 @@ WAIT 100
     /vimic/audio/mute 0 
     /vimic/rendermode/interval 25   
 
-    /vimic/microphones.1/directivity/ratio 0.500
-    /vimic/microphones.1/gain 100.000
-    /vimic/microphones.1/active 1
-    /vimic/microphones.1/orientation 135.0 0.0
-    /vimic/microphones.1/position -1.00 1.00 0.000
+    /vimic/microphone.1/directivity/ratio 0.500
+    /vimic/microphone.1/gain 100.000
+    /vimic/microphone.1/active 1
+    /vimic/microphone.1/orientation 135.0 0.0
+    /vimic/microphone.1/position -1.00 1.00 0.000
    
-    /vimic/microphones.2/directivity/ratio 0.500
-    /vimic/microphones.2/gain 100.000
-    /vimic/microphones.2/active 1
-    /vimic/microphones.2/orientation -135.0 0.0
-    /vimic/microphones.2/position 1.00 1.00 0.000
+    /vimic/microphone.2/directivity/ratio 0.500
+    /vimic/microphone.2/gain 100.000
+    /vimic/microphone.2/active 1
+    /vimic/microphone.2/orientation -135.0 0.0
+    /vimic/microphone.2/position 1.00 1.00 0.000
     
-    /vimic/microphones.3/directivity/ratio 0.500
-    /vimic/microphones.3/gain 100.000
-    /vimic/microphones.3/active 1
-    /vimic/microphones.3/orientation -45.0 0.0
-    /vimic/microphones.3/position 1.00 -1.00 0.000
+    /vimic/microphone.3/directivity/ratio 0.500
+    /vimic/microphone.3/gain 100.000
+    /vimic/microphone.3/active 1
+    /vimic/microphone.3/orientation -45.0 0.0
+    /vimic/microphone.3/position 1.00 -1.00 0.000
 
-    /vimic/microphones.4/directivity/ratio 0.500
-    /vimic/microphones.4/gain 100.000
-    /vimic/microphones.4/active 1
-    /vimic/microphones.4/orientation 45.0 0.0
-    /vimic/microphones.4/position -1.00 -1.00 0.000
+    /vimic/microphone.4/directivity/ratio 0.500
+    /vimic/microphone.4/gain 100.000
+    /vimic/microphone.4/active 1
+    /vimic/microphone.4/orientation 45.0 0.0
+    /vimic/microphone.4/position -1.00 -1.00 0.000
    
      
     /vimic/microphones/directivity/power 1
