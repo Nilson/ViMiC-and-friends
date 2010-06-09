@@ -41062,7 +41062,7 @@
 									"patching_rect" : [ 468.0, 973.0, 92.0, 19.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 111.0, 716.0, 90.0, 19.0 ],
-									"text" : "Roomize x/y/z:"
+									"text" : "Roomsize x/y/z:"
 								}
 
 							}
