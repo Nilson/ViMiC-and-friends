@@ -7231,7 +7231,7 @@
 , 							{
 								"box" : 								{
 									"embedstate" : [ [ "CreateNFunctions", 2, "Trumpet", 50, 0.0, 1.0, 0.0, 360.0, "nan", "nan", 0.7943, "nan" ], [ "SetColor", 0, "brgb", 204, 204, 204 ], [ "SetColor", 0, "frgb", 82, 82, 82 ], [ "SetColor", 0, "rgb2", 107, 107, 107 ], [ "SetColor", 0, "rgb3", 255, 0, 0 ], [ "SetColor", 0, "rgb4", 51, 51, 51 ], [ "SetColor", 0, "rgb5", 128, 128, 128 ], [ "SetColor", 0, "rgb6", 107, 107, 107 ], [ "SetColor", 1, "brgb", 204, 204, 204 ], [ "SetColor", 1, "frgb", 82, 82, 82 ], [ "SetColor", 1, "rgb2", 107, 107, 107 ], [ "SetColor", 1, "rgb3", 255, 0, 0 ], [ "SetColor", 1, "rgb4", 51, 51, 51 ], [ "SetColor", 1, "rgb5", 128, 128, 128 ], [ "SetColor", 1, "rgb6", 107, 107, 107 ], [ "fsaa", 1 ], [ "redrawon" ], [ "clicksustain", 1 ], [ "notifyrecalled", 0 ], [ "nbfunction", 2 ], [ "hiddenpoint", 0 ], [ "autocursor", 1 ], [ "numcurvepoints", 12 ], [ "legend", 1 ], [ "grid", 3 ], [ "clickmove", 1 ], [ "ghost", 20 ], [ "snap2grid", 0 ], [ "autosustain", 0 ], [ "mode", 1 ], [ "timedisplay", 0 ], [ "mousereport", 1 ], [ "clickadd", 1 ], [ "bordersync", 1 ], [ "movemode", 0 ] ],
-									"filename" : "ej.function.js",
+									"filename" : "npej.function.js",
 									"id" : "obj-40",
 									"jsarguments" : [  ],
 									"maxclass" : "jsui",
@@ -11379,7 +11379,7 @@
 , 							{
 								"box" : 								{
 									"embedstate" : [ [ "CreateNFunctions", 2, "Trumpet", 50, 0.0, 1.0, 0.0, 360.0, "nan", "nan", 0.7943, "nan" ], [ "SetColor", 0, "brgb", 204, 204, 204 ], [ "SetColor", 0, "frgb", 82, 82, 82 ], [ "SetColor", 0, "rgb2", 107, 107, 107 ], [ "SetColor", 0, "rgb3", 255, 0, 0 ], [ "SetColor", 0, "rgb4", 51, 51, 51 ], [ "SetColor", 0, "rgb5", 128, 128, 128 ], [ "SetColor", 0, "rgb6", 107, 107, 107 ], [ "SetColor", 1, "brgb", 204, 204, 204 ], [ "SetColor", 1, "frgb", 82, 82, 82 ], [ "SetColor", 1, "rgb2", 107, 107, 107 ], [ "SetColor", 1, "rgb3", 255, 0, 0 ], [ "SetColor", 1, "rgb4", 51, 51, 51 ], [ "SetColor", 1, "rgb5", 128, 128, 128 ], [ "SetColor", 1, "rgb6", 107, 107, 107 ], [ "fsaa", 1 ], [ "redrawon" ], [ "clicksustain", 1 ], [ "notifyrecalled", 0 ], [ "nbfunction", 2 ], [ "hiddenpoint", 0 ], [ "autocursor", 1 ], [ "numcurvepoints", 12 ], [ "legend", 1 ], [ "grid", 3 ], [ "clickmove", 1 ], [ "ghost", 20 ], [ "snap2grid", 0 ], [ "autosustain", 0 ], [ "mode", 1 ], [ "timedisplay", 0 ], [ "mousereport", 1 ], [ "clickadd", 1 ], [ "bordersync", 1 ], [ "movemode", 0 ] ],
-									"filename" : "ej.function.js",
+									"filename" : "npej.function.js",
 									"id" : "obj-40",
 									"jsarguments" : [  ],
 									"maxclass" : "jsui",
@@ -15527,7 +15527,7 @@
 , 							{
 								"box" : 								{
 									"embedstate" : [ [ "CreateNFunctions", 2, "Trumpet", 50, 0.0, 1.0, 0.0, 360.0, "nan", "nan", 0.7943, "nan" ], [ "SetColor", 0, "brgb", 204, 204, 204 ], [ "SetColor", 0, "frgb", 82, 82, 82 ], [ "SetColor", 0, "rgb2", 107, 107, 107 ], [ "SetColor", 0, "rgb3", 255, 0, 0 ], [ "SetColor", 0, "rgb4", 51, 51, 51 ], [ "SetColor", 0, "rgb5", 128, 128, 128 ], [ "SetColor", 0, "rgb6", 107, 107, 107 ], [ "SetColor", 1, "brgb", 204, 204, 204 ], [ "SetColor", 1, "frgb", 82, 82, 82 ], [ "SetColor", 1, "rgb2", 107, 107, 107 ], [ "SetColor", 1, "rgb3", 255, 0, 0 ], [ "SetColor", 1, "rgb4", 51, 51, 51 ], [ "SetColor", 1, "rgb5", 128, 128, 128 ], [ "SetColor", 1, "rgb6", 107, 107, 107 ], [ "fsaa", 1 ], [ "redrawon" ], [ "clicksustain", 1 ], [ "notifyrecalled", 0 ], [ "nbfunction", 2 ], [ "hiddenpoint", 0 ], [ "autocursor", 1 ], [ "numcurvepoints", 12 ], [ "legend", 1 ], [ "grid", 3 ], [ "clickmove", 1 ], [ "ghost", 20 ], [ "snap2grid", 0 ], [ "autosustain", 0 ], [ "mode", 1 ], [ "timedisplay", 0 ], [ "mousereport", 1 ], [ "clickadd", 1 ], [ "bordersync", 1 ], [ "movemode", 0 ] ],
-									"filename" : "ej.function.js",
+									"filename" : "npej.function.js",
 									"id" : "obj-40",
 									"jsarguments" : [  ],
 									"maxclass" : "jsui",
@@ -19675,7 +19675,7 @@
 , 							{
 								"box" : 								{
 									"embedstate" : [ [ "CreateNFunctions", 2, "Trumpet", 50, 0.0, 1.0, 0.0, 360.0, "nan", "nan", 0.7943, "nan" ], [ "SetColor", 0, "brgb", 204, 204, 204 ], [ "SetColor", 0, "frgb", 82, 82, 82 ], [ "SetColor", 0, "rgb2", 107, 107, 107 ], [ "SetColor", 0, "rgb3", 255, 0, 0 ], [ "SetColor", 0, "rgb4", 51, 51, 51 ], [ "SetColor", 0, "rgb5", 128, 128, 128 ], [ "SetColor", 0, "rgb6", 107, 107, 107 ], [ "SetColor", 1, "brgb", 204, 204, 204 ], [ "SetColor", 1, "frgb", 82, 82, 82 ], [ "SetColor", 1, "rgb2", 107, 107, 107 ], [ "SetColor", 1, "rgb3", 255, 0, 0 ], [ "SetColor", 1, "rgb4", 51, 51, 51 ], [ "SetColor", 1, "rgb5", 128, 128, 128 ], [ "SetColor", 1, "rgb6", 107, 107, 107 ], [ "fsaa", 1 ], [ "redrawon" ], [ "clicksustain", 1 ], [ "notifyrecalled", 0 ], [ "nbfunction", 2 ], [ "hiddenpoint", 0 ], [ "autocursor", 1 ], [ "numcurvepoints", 12 ], [ "legend", 1 ], [ "grid", 3 ], [ "clickmove", 1 ], [ "ghost", 20 ], [ "snap2grid", 0 ], [ "autosustain", 0 ], [ "mode", 1 ], [ "timedisplay", 0 ], [ "mousereport", 1 ], [ "clickadd", 1 ], [ "bordersync", 1 ], [ "movemode", 0 ] ],
-									"filename" : "ej.function.js",
+									"filename" : "npej.function.js",
 									"id" : "obj-40",
 									"jsarguments" : [  ],
 									"maxclass" : "jsui",
@@ -23814,7 +23814,7 @@
 , 							{
 								"box" : 								{
 									"embedstate" : [ [ "CreateNFunctions", 2, "Trumpet", 50, 0.0, 1.0, 0.0, 360.0, "nan", "nan", 0.7943, "nan" ], [ "SetColor", 0, "brgb", 204, 204, 204 ], [ "SetColor", 0, "frgb", 82, 82, 82 ], [ "SetColor", 0, "rgb2", 84, 84, 84 ], [ "SetColor", 0, "rgb3", 255, 0, 0 ], [ "SetColor", 0, "rgb4", 51, 51, 51 ], [ "SetColor", 0, "rgb5", 128, 128, 128 ], [ "SetColor", 0, "rgb6", 107, 107, 107 ], [ "SetColor", 1, "brgb", 204, 204, 204 ], [ "SetColor", 1, "frgb", 82, 82, 82 ], [ "SetColor", 1, "rgb2", 107, 107, 107 ], [ "SetColor", 1, "rgb3", 255, 0, 0 ], [ "SetColor", 1, "rgb4", 51, 51, 51 ], [ "SetColor", 1, "rgb5", 128, 128, 128 ], [ "SetColor", 1, "rgb6", 107, 107, 107 ], [ "fsaa", 1 ], [ "redrawon" ], [ "clicksustain", 1 ], [ "notifyrecalled", 0 ], [ "nbfunction", 2 ], [ "hiddenpoint", 0 ], [ "autocursor", 1 ], [ "numcurvepoints", 12 ], [ "legend", 1 ], [ "grid", 3 ], [ "clickmove", 1 ], [ "ghost", 20 ], [ "snap2grid", 0 ], [ "autosustain", 0 ], [ "mode", 1 ], [ "timedisplay", 0 ], [ "mousereport", 1 ], [ "clickadd", 1 ], [ "bordersync", 1 ], [ "movemode", 0 ] ],
-									"filename" : "ej.function.js",
+									"filename" : "npej.function.js",
 									"id" : "obj-40",
 									"jsarguments" : [  ],
 									"maxclass" : "jsui",
@@ -27932,7 +27932,7 @@
 , 							{
 								"box" : 								{
 									"embedstate" : [ [ "CreateNFunctions", 2, "Trumpet", 50, 0.0, 1.0, 0.0, 360.0, "nan", "nan", 0.7943, "nan" ], [ "SetColor", 0, "brgb", 204, 204, 204 ], [ "SetColor", 0, "frgb", 82, 82, 82 ], [ "SetColor", 0, "rgb2", 84, 84, 84 ], [ "SetColor", 0, "rgb3", 255, 0, 0 ], [ "SetColor", 0, "rgb4", 51, 51, 51 ], [ "SetColor", 0, "rgb5", 128, 128, 128 ], [ "SetColor", 0, "rgb6", 107, 107, 107 ], [ "SetColor", 1, "brgb", 204, 204, 204 ], [ "SetColor", 1, "frgb", 82, 82, 82 ], [ "SetColor", 1, "rgb2", 107, 107, 107 ], [ "SetColor", 1, "rgb3", 255, 0, 0 ], [ "SetColor", 1, "rgb4", 51, 51, 51 ], [ "SetColor", 1, "rgb5", 128, 128, 128 ], [ "SetColor", 1, "rgb6", 107, 107, 107 ], [ "fsaa", 1 ], [ "redrawon" ], [ "clicksustain", 1 ], [ "notifyrecalled", 0 ], [ "nbfunction", 2 ], [ "hiddenpoint", 0 ], [ "autocursor", 1 ], [ "numcurvepoints", 12 ], [ "legend", 1 ], [ "grid", 3 ], [ "clickmove", 1 ], [ "ghost", 20 ], [ "snap2grid", 0 ], [ "autosustain", 0 ], [ "mode", 1 ], [ "timedisplay", 0 ], [ "mousereport", 1 ], [ "clickadd", 1 ], [ "bordersync", 1 ], [ "movemode", 0 ] ],
-									"filename" : "ej.function.js",
+									"filename" : "npej.function.js",
 									"id" : "obj-40",
 									"jsarguments" : [  ],
 									"maxclass" : "jsui",
@@ -32064,7 +32064,7 @@
 , 							{
 								"box" : 								{
 									"embedstate" : [ [ "CreateNFunctions", 2, "Trumpet", 50, 0.0, 1.0, 0.0, 360.0, "nan", "nan", 0.7943, "nan" ], [ "SetColor", 0, "brgb", 204, 204, 204 ], [ "SetColor", 0, "frgb", 82, 82, 82 ], [ "SetColor", 0, "rgb2", 84, 84, 84 ], [ "SetColor", 0, "rgb3", 255, 0, 0 ], [ "SetColor", 0, "rgb4", 51, 51, 51 ], [ "SetColor", 0, "rgb5", 128, 128, 128 ], [ "SetColor", 0, "rgb6", 107, 107, 107 ], [ "SetColor", 1, "brgb", 204, 204, 204 ], [ "SetColor", 1, "frgb", 82, 82, 82 ], [ "SetColor", 1, "rgb2", 107, 107, 107 ], [ "SetColor", 1, "rgb3", 255, 0, 0 ], [ "SetColor", 1, "rgb4", 51, 51, 51 ], [ "SetColor", 1, "rgb5", 128, 128, 128 ], [ "SetColor", 1, "rgb6", 107, 107, 107 ], [ "fsaa", 1 ], [ "redrawon" ], [ "clicksustain", 1 ], [ "notifyrecalled", 0 ], [ "nbfunction", 2 ], [ "hiddenpoint", 0 ], [ "autocursor", 1 ], [ "numcurvepoints", 12 ], [ "legend", 1 ], [ "grid", 3 ], [ "clickmove", 1 ], [ "ghost", 20 ], [ "snap2grid", 0 ], [ "autosustain", 0 ], [ "mode", 1 ], [ "timedisplay", 0 ], [ "mousereport", 1 ], [ "clickadd", 1 ], [ "bordersync", 1 ], [ "movemode", 0 ] ],
-									"filename" : "ej.function.js",
+									"filename" : "npej.function.js",
 									"id" : "obj-40",
 									"jsarguments" : [  ],
 									"maxclass" : "jsui",
@@ -36200,7 +36200,7 @@
 , 							{
 								"box" : 								{
 									"embedstate" : [ [ "CreateNFunctions", 2, "Trumpet", 50, 0.0, 1.0, 0.0, 360.0, "nan", "nan", 0.7943, "nan" ], [ "SetColor", 0, "brgb", 204, 204, 204 ], [ "SetColor", 0, "frgb", 82, 82, 82 ], [ "SetColor", 0, "rgb2", 84, 84, 84 ], [ "SetColor", 0, "rgb3", 255, 0, 0 ], [ "SetColor", 0, "rgb4", 51, 51, 51 ], [ "SetColor", 0, "rgb5", 128, 128, 128 ], [ "SetColor", 0, "rgb6", 107, 107, 107 ], [ "SetColor", 1, "brgb", 204, 204, 204 ], [ "SetColor", 1, "frgb", 82, 82, 82 ], [ "SetColor", 1, "rgb2", 107, 107, 107 ], [ "SetColor", 1, "rgb3", 255, 0, 0 ], [ "SetColor", 1, "rgb4", 51, 51, 51 ], [ "SetColor", 1, "rgb5", 128, 128, 128 ], [ "SetColor", 1, "rgb6", 107, 107, 107 ], [ "fsaa", 1 ], [ "redrawon" ], [ "clicksustain", 1 ], [ "notifyrecalled", 0 ], [ "nbfunction", 2 ], [ "hiddenpoint", 0 ], [ "autocursor", 1 ], [ "numcurvepoints", 12 ], [ "legend", 1 ], [ "grid", 3 ], [ "clickmove", 1 ], [ "ghost", 20 ], [ "snap2grid", 0 ], [ "autosustain", 0 ], [ "mode", 1 ], [ "timedisplay", 0 ], [ "mousereport", 1 ], [ "clickadd", 1 ], [ "bordersync", 1 ], [ "movemode", 0 ] ],
-									"filename" : "ej.function.js",
+									"filename" : "npej.function.js",
 									"id" : "obj-40",
 									"jsarguments" : [  ],
 									"maxclass" : "jsui",
