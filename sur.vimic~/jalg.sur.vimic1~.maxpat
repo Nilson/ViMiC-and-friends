@@ -1136,7 +1136,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 364.0, 192.0, 181.0, 20.0 ],
-									"text" : "prepend /source/orientation/yaw"
+									"text" : "prepend /source.1/orientation/yaw"
 								}
 
 							}
@@ -11356,7 +11356,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 421.0, 238.0, 45.0, 17.0 ],
-					"text" : "/source"
+					"text" : "/source.1"
 				}
 
 			}
@@ -12383,7 +12383,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 75.0, 128.0, 181.0, 17.0 ],
-					"text" : "jcom.oscroute /room /source /microphones"
+					"text" : "jcom.oscroute /room /source.1 /microphones"
 				}
 
 			}

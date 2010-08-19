@@ -40,7 +40,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"hint" : "microphones/amount",
+					"hint" : "number of microphones",
 					"id" : "obj-6",
 					"maxclass" : "number",
 					"mouseup" : 1,
@@ -3438,7 +3438,7 @@
 													"numoutlets" : 3,
 													"outlettype" : [ "", "", "" ],
 													"patching_rect" : [ 569.0, 51.0, 299.0, 28.0 ],
-													"text" : "jcom.message source/directivity/loadFile @repetitions/allow 1 @type generic @description \"sound source directivity preset\""
+													"text" : "jcom.message source.1/directivity/loadFile @repetitions/allow 1 @type generic @description \"sound source directivity preset\""
 												}
 
 											}
@@ -4996,8 +4996,8 @@
 													"numoutlets" : 3,
 													"outlettype" : [ "", "", "" ],
 													"patching_rect" : [ 880.0, 64.0, 335.0, 28.0 ],
-													"text" : "jcom.message source/directivity/preset @type string @repetitions/allow 1 @description \"sound source directivity preset\"",
-													"varname" : "source/directivity/azimuth/preset"
+													"text" : "jcom.message source.1/directivity/preset @type string @repetitions/allow 1 @description \"sound source directivity preset\"",
+													"varname" : "source.1/directivity/azimuth/preset"
 												}
 
 											}
@@ -5962,7 +5962,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 419.0, 329.0, 169.0, 17.0 ],
-													"text" : "prepend /source/directivity/create"
+													"text" : "prepend /source.1/directivity/create"
 												}
 
 											}
@@ -6011,7 +6011,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 149.0, 385.0, 205.0, 15.0 ],
-													"text" : "/source/directivity/create #0-directivity"
+													"text" : "/source.1/directivity/create #0-directivity"
 												}
 
 											}
@@ -6672,8 +6672,8 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 2038.5, 1119.5, 372.0, 28.0 ],
-									"text" : "jcom.parameter source/orientation/active @type boolean @repetitions/allow 0 @description \"when ticked, source directivity is calculated\"",
-									"varname" : "source/orientation/active"
+									"text" : "jcom.parameter source.1/orientation/active @type boolean @repetitions/allow 0 @description \"when ticked, source directivity is calculated\"",
+									"varname" : "source.1/orientation/active"
 								}
 
 							}
@@ -6689,8 +6689,8 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 2014.5, 1064.5, 379.0, 28.0 ],
-									"text" : "jcom.parameter source/orientation/mode @type string @repetitions/allow 1 @description \"source orientation mode (center, static, or follow)\"",
-									"varname" : "source/orientation/mode"
+									"text" : "jcom.parameter source.1/orientation/mode @type string @repetitions/allow 1 @description \"source orientation mode (center, static, or follow)\"",
+									"varname" : "source.1/orientation/mode"
 								}
 
 							}
@@ -6978,8 +6978,8 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 2164.0, 952.5, 603.0, 28.0 ],
-									"text" : "jcom.parameter source/orientation/yaw @type integer @range/bounds -180 180 @range/clipmode wrap @ramp/drive scheduler @description \"orientation of the sound source (yaw-angle)\"",
-									"varname" : "source/orientation/yaw"
+									"text" : "jcom.parameter source.1/orientation/yaw @type integer @range/bounds -180 180 @range/clipmode wrap @ramp/drive scheduler @description \"orientation of the sound source (yaw-angle)\"",
+									"varname" : "source.1/orientation/yaw"
 								}
 
 							}
@@ -6994,7 +6994,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 2120.0, 834.0, 482.0, 17.0 ],
-									"text" : "jcom.message source/directivity/openEditor @type none @description \"opens the directiviy editor\"",
+									"text" : "jcom.message source.1/directivity/openEditor @type none @description \"opens the directiviy editor\"",
 									"varname" : "report_all[1]"
 								}
 
@@ -15743,8 +15743,8 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 630.0, 214.0, 589.0, 27.0 ],
-					"text" : "jcom.message source/position @ramp/drive scheduler @description \"Sourceposition in the virtual room - spatDIF compliant\" @type array @dataspace position @dataspace/unit/active xyz @dataspace/unit/native xyz",
-					"varname" : "source/position/absolute"
+					"text" : "jcom.message source.1/position @ramp/drive scheduler @description \"Sourceposition in the virtual room - spatDIF compliant\" @type array @dataspace position @dataspace/unit/active xyz @dataspace/unit/native xyz",
+					"varname" : "source.1/position/absolute"
 				}
 
 			}

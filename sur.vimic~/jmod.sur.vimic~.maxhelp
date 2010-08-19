@@ -785,7 +785,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 196.0, 67.0, 123.0, 19.0 ],
-									"text" : "jcom.oscroute /source"
+									"text" : "jcom.oscroute /source.1"
 								}
 
 							}
@@ -1524,7 +1524,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 295.0, 159.0, 204.0, 17.0 ],
-									"text" : "prepend /jmod.sur.vimic~/source/orientation/yaw"
+									"text" : "prepend /jmod.sur.vimic~/source.1/orientation/yaw"
 								}
 
 							}
@@ -1662,7 +1662,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 107.0, 184.0, 174.0, 17.0 ],
-									"text" : "prepend /jmod.sur.vimic~/source/position"
+									"text" : "prepend /jmod.sur.vimic~/source.1/position"
 								}
 
 							}
@@ -2541,7 +2541,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 527.0, 347.0, 266.0, 18.0 ],
-					"text" : "/source/position -0.460828 5.253457 0."
+					"text" : "/source.1/position -0.460828 5.253457 0."
 				}
 
 			}
