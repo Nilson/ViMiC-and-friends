@@ -1,9 +1,9 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
-		"rect" : [ -4.0, 44.0, 775.0, 690.0 ],
+		"rect" : [ 299.0, 44.0, 775.0, 690.0 ],
 		"bglocked" : 0,
-		"defrect" : [ -4.0, 44.0, 775.0, 690.0 ],
+		"defrect" : [ 299.0, 44.0, 775.0, 690.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -19,6 +19,48 @@
 		"enablevscroll" : 1,
 		"devicewidth" : 0.0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-9",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 174.0, 530.0, 46.0, 20.0 ],
+					"text" : "noise~"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-5",
+					"maxclass" : "newobj",
+					"numinlets" : 33,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 146.0, 557.0, 451.0, 20.0 ],
+					"text" : "jmod.sur.multi.in~"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"args" : [  ],
+					"id" : "obj-4",
+					"maxclass" : "bpatcher",
+					"name" : "jmod.sur.output~.maxpat",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 269.0, 394.0, 300.0, 70.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 300.0, 70.0 ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -130,13 +172,13 @@
 ,
 					"patching_rect" : [ 269.0, 218.0, 51.0, 20.0 ],
 					"saved_object_attributes" : 					{
+						"fontname" : "Arial",
 						"default_fontname" : "Arial",
-						"globalpatchername" : "",
 						"default_fontsize" : 12.0,
+						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 12.0,
-						"default_fontface" : 0,
-						"fontname" : "Arial"
+						"default_fontface" : 0
 					}
 ,
 					"text" : "p adapt"
@@ -169,30 +211,6 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 37.0, 76.0, 150.0, 70.0 ],
 					"presentation_rect" : [ 0.0, 0.0, 150.0, 70.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-11",
-					"maxclass" : "ezdac~",
-					"numinlets" : 2,
-					"numoutlets" : 0,
-					"patching_rect" : [ 278.0, 427.0, 45.0, 45.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"args" : [  ],
-					"id" : "obj-9",
-					"maxclass" : "bpatcher",
-					"name" : "jmod.sur.multi.out~.maxpat",
-					"numinlets" : 2,
-					"numoutlets" : 33,
-					"outlettype" : [ "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "" ],
-					"patching_rect" : [ 269.0, 375.0, 300.0, 35.0 ],
-					"presentation_rect" : [ 0.0, 0.0, 300.0, 35.0 ]
 				}
 
 			}
@@ -268,7 +286,7 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
-					"destination" : [ "obj-9", 1 ],
+					"destination" : [ "obj-4", 1 ],
 					"hidden" : 0,
 					"midpoints" : [  ],
 					"source" : [ "obj-10", 1 ]
@@ -340,19 +358,10 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-11", 1 ],
-					"hidden" : 0,
-					"midpoints" : [ 296.0625, 411.5, 313.5, 411.5 ],
-					"source" : [ "obj-9", 2 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-11", 0 ],
+					"destination" : [ "obj-5", 3 ],
 					"hidden" : 0,
 					"midpoints" : [  ],
-					"source" : [ "obj-9", 1 ]
+					"source" : [ "obj-9", 0 ]
 				}
 
 			}

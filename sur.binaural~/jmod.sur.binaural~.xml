@@ -8,6 +8,7 @@
     <item name='audio/gain' type='decimal' priority='0'>75.000000</item>
     <item name='audio/mute' type='boolean' priority='0'>0</item>
     <item name='filterSet' type='boolean' priority='1'>0</item>
+    <item name='headtracker/active' type='boolean' priority='0'>0</item>
     <item name='numSpeakers' type='integer' priority='1'>8</item>
     <item name='view/color/border' type='array' priority='0'>0</item>
     <item name='view/color/contentBackground' type='array' priority='0'>0</item>
