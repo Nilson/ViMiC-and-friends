@@ -5,14 +5,14 @@
 		xsi:schemaLocation='http://jamoma.org/ file:jamoma.xsd'
 >
   <preset number='1' name='default'>
-    <item name='bug/source.1/gain' type='decimal' priority='0'>0.000000</item>
-    <item name='bug/source.2/gain' type='decimal' priority='0'>0.000000</item>
-    <item name='bug/source.3/gain' type='decimal' priority='0'>0.000000</item>
-    <item name='bug/source.4/gain' type='decimal' priority='0'>0.000000</item>
-    <item name='bug/source.5/gain' type='decimal' priority='0'>0.000000</item>
-    <item name='bug/source.6/gain' type='decimal' priority='0'>0.000000</item>
-    <item name='bug/source.7/gain' type='decimal' priority='0'>0.000000</item>
-    <item name='bug/source.8/gain' type='decimal' priority='0'>0.000000</item>
+    <item name='source.1/gain' type='decimal' priority='0'>0.000000</item>
+    <item name='source.2/gain' type='decimal' priority='0'>0.000000</item>
+    <item name='source.3/gain' type='decimal' priority='0'>0.000000</item>
+    <item name='source.4/gain' type='decimal' priority='0'>0.000000</item>
+    <item name='source.5/gain' type='decimal' priority='0'>0.000000</item>
+    <item name='source.6/gain' type='decimal' priority='0'>0.000000</item>
+    <item name='source.7/gain' type='decimal' priority='0'>0.000000</item>
+    <item name='source.8/gain' type='decimal' priority='0'>0.000000</item>
     <item name='numSources' type='integer' priority='0'>0</item>
     <item name='source.1/algorithm' type='string' priority='0'>none</item>
     <item name='source.1/name' type='string' priority='0'>S1</item>

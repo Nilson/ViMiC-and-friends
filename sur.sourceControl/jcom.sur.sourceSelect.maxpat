@@ -17,6 +17,7 @@
 		"imprint" : 0,
 		"enablehscroll" : 1,
 		"enablevscroll" : 1,
+		"devicewidth" : 0.0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"fontname" : "Verdana",
@@ -131,6 +132,7 @@
 						"imprint" : 0,
 						"enablehscroll" : 1,
 						"enablevscroll" : 1,
+						"devicewidth" : 0.0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Verdana",
@@ -319,13 +321,13 @@
 ,
 					"patching_rect" : [ 127.0, 161.0, 87.0, 19.0 ],
 					"saved_object_attributes" : 					{
-						"fontsize" : 10.0,
+						"default_fontsize" : 10.0,
+						"fontname" : "Verdana",
 						"globalpatchername" : "",
 						"default_fontface" : 0,
-						"default_fontname" : "Verdana",
-						"fontname" : "Verdana",
-						"default_fontsize" : 10.0,
-						"fontface" : 0
+						"fontface" : 0,
+						"fontsize" : 10.0,
+						"default_fontname" : "Verdana"
 					}
 ,
 					"text" : "p disable-items"
@@ -762,8 +764,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 142.0, 342.0, 150.0, 17.0 ],
-					"text" : "source. #1 /algorithm/doUI"
+					"patching_rect" : [ 142.0, 342.0, 109.0, 17.0 ],
+					"text" : "source. #1 /openUI"
 				}
 
 			}
@@ -789,7 +791,7 @@
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
 					"id" : "obj-17",
-					"items" : [ "none", ",", "vbap", ",", "ambisonics", ",", "ambipanning", ",", "vimic", ",", "dbap", ",", "WFS-plane", ",", "WF-point" ],
+					"items" : [ "none", ",", "ambisonics", ",", "ambipanning", ",", "dbap", ",", "vbap", ",", "vimic", ",", "WFS-plane", ",", "WF-point" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -838,8 +840,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 568.0, 124.0, 118.0, 17.0 ],
-					"text" : "bug/source. #1 /gain"
+					"patching_rect" : [ 568.0, 124.0, 95.0, 17.0 ],
+					"text" : "source. #1 /gain"
 				}
 
 			}
