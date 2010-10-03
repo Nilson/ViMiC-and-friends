@@ -137,7 +137,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 32,
 					"numoutlets" : 1,
-					"outlettype" : [ "multicore.connect" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 212.0, 420.0, 472.5, 17.0 ],
 					"text" : "jcom.multi.in~",
 					"varname" : "multi"
@@ -295,10 +295,10 @@
 					"outlettype" : [ "" ],
 					"patcher" : 					{
 						"fileversion" : 1,
-						"rect" : [ 50.0, 44.0, 303.0, 480.0 ],
+						"rect" : [ 69.0, 66.0, 303.0, 480.0 ],
 						"bgcolor" : [ 0.313726, 0.313726, 0.313726, 1.0 ],
 						"bglocked" : 0,
-						"defrect" : [ 50.0, 44.0, 303.0, 480.0 ],
+						"defrect" : [ 69.0, 66.0, 303.0, 480.0 ],
 						"openrect" : [ 0.0, 44.0, 303.0, 480.0 ],
 						"openinpresentation" : 1,
 						"default_fontsize" : 10.0,
@@ -449,8 +449,8 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
-													"patching_rect" : [ 126.0, 131.5, 72.0, 18.0 ],
-													"text" : "route /outputs"
+													"patching_rect" : [ 126.0, 131.5, 93.0, 18.0 ],
+													"text" : "route /numOutputs"
 												}
 
 											}
@@ -602,11 +602,11 @@
 ,
 									"patching_rect" : [ 47.0, 565.5, 153.0, 19.0 ],
 									"saved_object_attributes" : 									{
+										"globalpatchername" : "",
 										"default_fontname" : "Arial",
 										"fontface" : 0,
-										"default_fontsize" : 12.0,
 										"fontsize" : 12.0,
-										"globalpatchername" : "",
+										"default_fontsize" : 12.0,
 										"fontname" : "Arial",
 										"default_fontface" : 0
 									}
@@ -1199,11 +1199,11 @@
 ,
 									"patching_rect" : [ 166.0, 691.0, 91.0, 18.0 ],
 									"saved_object_attributes" : 									{
+										"globalpatchername" : "",
 										"default_fontname" : "Arial",
 										"fontface" : 0,
-										"default_fontsize" : 12.0,
 										"fontsize" : 12.0,
-										"globalpatchername" : "",
+										"default_fontsize" : 12.0,
 										"fontname" : "Arial",
 										"default_fontface" : 0
 									}
@@ -1846,11 +1846,11 @@
 ,
 									"patching_rect" : [ 1003.299988, 579.200012, 100.0, 17.0 ],
 									"saved_object_attributes" : 									{
+										"globalpatchername" : "",
 										"default_fontname" : "Arial",
 										"fontface" : 0,
-										"default_fontsize" : 10.0,
 										"fontsize" : 10.0,
-										"globalpatchername" : "",
+										"default_fontsize" : 10.0,
 										"fontname" : "Arial",
 										"default_fontface" : 0
 									}
@@ -2113,11 +2113,11 @@
 ,
 									"patching_rect" : [ 985.299988, 800.200012, 124.0, 17.0 ],
 									"saved_object_attributes" : 									{
+										"globalpatchername" : "",
 										"default_fontname" : "Arial",
 										"fontface" : 0,
-										"default_fontsize" : 10.0,
 										"fontsize" : 10.0,
-										"globalpatchername" : "",
+										"default_fontsize" : 10.0,
 										"fontname" : "Arial",
 										"default_fontface" : 0
 									}
@@ -2668,11 +2668,11 @@
 ,
 									"patching_rect" : [ 486.299988, 581.200012, 100.0, 17.0 ],
 									"saved_object_attributes" : 									{
+										"globalpatchername" : "",
 										"default_fontname" : "Arial",
 										"fontface" : 0,
-										"default_fontsize" : 10.0,
 										"fontsize" : 10.0,
-										"globalpatchername" : "",
+										"default_fontsize" : 10.0,
 										"fontname" : "Arial",
 										"default_fontface" : 0
 									}
@@ -2935,11 +2935,11 @@
 ,
 									"patching_rect" : [ 482.299988, 778.200012, 124.0, 17.0 ],
 									"saved_object_attributes" : 									{
+										"globalpatchername" : "",
 										"default_fontname" : "Arial",
 										"fontface" : 0,
-										"default_fontsize" : 10.0,
 										"fontsize" : 10.0,
-										"globalpatchername" : "",
+										"default_fontsize" : 10.0,
 										"fontname" : "Arial",
 										"default_fontface" : 0
 									}
@@ -4197,11 +4197,11 @@
 ,
 					"patching_rect" : [ 44.0, 296.0, 67.0, 17.0 ],
 					"saved_object_attributes" : 					{
+						"globalpatchername" : "",
 						"default_fontname" : "Verdana",
 						"fontface" : 0,
-						"default_fontsize" : 10.0,
 						"fontsize" : 10.0,
-						"globalpatchername" : "",
+						"default_fontsize" : 10.0,
 						"fontname" : "Verdana",
 						"default_fontface" : 0
 					}
