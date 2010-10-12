@@ -1,6 +1,0 @@
-;lores~.def
-
-LIBRARY binaural~.mxe
-
-EXPORTS
-	main
