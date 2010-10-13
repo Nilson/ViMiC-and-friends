@@ -54,12 +54,12 @@ WAIT 100
     /vimic/room/distance/power 1.000
     /vimic/room/reflection/gain.0 100.0
     
-    /vimic/source/orientation/active 1
-    /vimic/source/orientation/mode static    
+    /vimic/source.1/orientation/active 1
+    /vimic/source.1/orientation/mode static    
     	   
    	WAIT 100                           
 
-	/vimic/source/directivity/loadFile "speaker.txt" 
+	/vimic/source.1/directivity/loadFile "speaker.txt" 
 	
 ########
 CUE "Noise on"

@@ -926,7 +926,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 3.0, 198.0, 164.0, 31.0 ],
-									"text" : "prepend /vimic/source/orientation/yaw"
+									"text" : "prepend /vimic/source.1/orientation/yaw"
 								}
 
 							}
@@ -1010,7 +1010,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 168.0, 190.0, 168.0, 19.0 ],
-									"text" : "prepend /vimic/source/position"
+									"text" : "prepend /vimic/source.1/position"
 								}
 
 							}
