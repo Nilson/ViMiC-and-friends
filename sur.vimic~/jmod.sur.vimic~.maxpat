@@ -15921,7 +15921,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 630.0, 240.0, 589.0, 27.0 ],
-					"text" : "jcom.message source.1/position @ramp/drive scheduler @description \"Sourceposition in the virtual room - spatDIF compliant\" @type array @dataspace position @dataspace/unit/active xyz @dataspace/unit/native xyz",
+					"text" : "jcom.message source.1/position @type array @ramp/drive scheduler @dataspace position @dataspace/unit/active xyz @dataspace/unit/native xyz @description \"Sourceposition in the virtual room - spatDIF compliant\" ",
 					"varname" : "source.1/position/absolute"
 				}
 
