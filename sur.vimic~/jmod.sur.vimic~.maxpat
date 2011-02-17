@@ -1075,6 +1075,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 178.0, 52.0, 120.0, 14.0 ],
 					"range" : [ 0.0, 127.0 ],
+					"defaultvalue" : 100,
 					"text" : "gain 2nd order refl.",
 					"textpos" : [ 2.0, 0.0 ]
 				}
@@ -1091,6 +1092,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 178.0, 37.0, 120.0, 14.0 ],
 					"range" : [ 0.0, 127.0 ],
+					"defaultvalue" : 100,
 					"text" : "gain 1st order refl.",
 					"textpos" : [ 2.0, 0.0 ]
 				}
@@ -1107,6 +1109,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 178.0, 22.0, 120.0, 14.0 ],
 					"range" : [ 0.0, 127.0 ],
+					"defaultvalue" : 100,
 					"text" : "gain direct sound",
 					"textpos" : [ 2.0, 0.0 ]
 				}
