@@ -2323,7 +2323,7 @@
 					"patching_rect" : [ 945.0, 511.0, 137.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 652.0, 583.0, 150.0, 20.0 ],
-					"text" : "nils.peters@mcgill.ca"
+					"text" : "nils@music.mcgill.ca"
 				}
 
 			}
