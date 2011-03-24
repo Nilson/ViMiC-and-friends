@@ -131,7 +131,8 @@
     <item name='microphones/directivity/power' type='integer' priority='0'>1</item>
     <item name='microphones/polarity' type='boolean' priority='0'>1</item>
     <item name='rendermode/interval' type='integer' priority='0'>50</item>
-    <item name='rendermode/normalization/active' type='boolean' priority='0'>0</item>
+    <item name='rendermode/minimizeDelay/active' type='boolean' priority='0'>1</item>
+    <item name='rendermode/normalizeGain/active' type='boolean' priority='0'>0</item>
     <item name='rendermode/threshold/active' type='boolean' priority='0'>0</item>
     <item name='rendermode/threshold' type='decimal' priority='0'>0</item>
     <item name='rendermode/xfade/fadefunction' type='string' priority='0'>0</item>

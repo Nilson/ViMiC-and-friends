@@ -133,7 +133,8 @@
     <item name='parallelization/active' type='boolean' priority='0'>1</item>
     <item name='parallelization/numThreads' type='integer' priority='0'>0</item>
     <item name='rendermode/interval' type='integer' priority='0'>20</item>
-    <item name='rendermode/normalization/active' type='boolean' priority='0'>0</item>
+    <item name='rendermode/minimizeDelay/active' type='boolean' priority='0'>1</item>
+    <item name='rendermode/normalizeGain/active' type='boolean' priority='0'>0</item>
     <item name='rendermode/threshold' type='decimal' priority='0'>0.000000</item>
     <item name='rendermode/threshold/active' type='boolean' priority='0'>0</item>
     <item name='rendermode/xfade/fadefunction' type='string' priority='0'>cosine</item>
