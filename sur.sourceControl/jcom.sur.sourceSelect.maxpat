@@ -84,8 +84,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 667.0, 469.0, 177.0, 17.0 ],
-					"text" : "source. #1 /distance/attenuation"
+					"patching_rect" : [ 667.0, 469.0, 138.0, 17.0 ],
+					"text" : "source. #1 /distancedrop"
 				}
 
 			}
@@ -321,13 +321,13 @@
 ,
 					"patching_rect" : [ 127.0, 161.0, 87.0, 19.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontsize" : 10.0,
-						"fontname" : "Verdana",
-						"globalpatchername" : "",
 						"default_fontface" : 0,
+						"fontname" : "Verdana",
+						"default_fontname" : "Verdana",
+						"globalpatchername" : "",
+						"default_fontsize" : 10.0,
 						"fontface" : 0,
-						"fontsize" : 10.0,
-						"default_fontname" : "Verdana"
+						"fontsize" : 10.0
 					}
 ,
 					"text" : "p disable-items"
