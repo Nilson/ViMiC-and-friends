@@ -4469,7 +4469,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 618.0, 544.0, 581.0, 48.0 ],
-					"text" : "jcom.parameter.array 8 lfo frequency @type decimal @priority 3 @range/bounds 0. 20. @ramp/drive scheduler @range/clipmode low @repetitions/allow 0 @dataspace pitch @dataspace/unit/native Hz @dataspace/unit/display Hz @dataspace/unit/active Hz @description \"LFO-frequency of the Nth Band\""
+					"text" : "jcom.parameter.array 8 lfo frequency @type decimal @priority 3 @range/bounds 0. 20. @ramp/drive scheduler @range/clipmode low @repetitions/allow 0 @dataspace time @dataspace/unit/native Hz @dataspace/unit/display Hz @dataspace/unit/active Hz @description \"LFO-frequency of the Nth Band\""
 				}
 
 			}

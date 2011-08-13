@@ -43,7 +43,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 440.0, 312.0, 233.0, 62.0 ],
-					"text" : "jcom.return frequency @type float @range/bounds 0 1 @description \"analyzed input pitch value\" @dataspace pitch @dataspace/unit/native Hz"
+					"text" : "jcom.return frequency @type float @range/bounds 0 1 @description \"analyzed input pitch value\" @dataspace time @dataspace/unit/native Hz"
 				}
 
 			}

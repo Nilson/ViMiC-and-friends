@@ -8535,7 +8535,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 1720.0, 770.0, 643.0, 27.0 ],
-									"text" : "jcom.parameter room/absorption.ceiling/mid_high_frequency @type integer @repetitions/allow 1 @range/bounds 10 9999 @range/clipmode both @dataspace pitch @dataspace/unit/active Hz @dataspace/unit/native Hz @dataspace/unit/display Hz @description \"mid-high crossover frequencies for the ceiling filter\""
+									"text" : "jcom.parameter room/absorption.ceiling/mid_high_frequency @type integer @repetitions/allow 1 @range/bounds 10 9999 @range/clipmode both @dataspace time @dataspace/unit/active Hz @dataspace/unit/native Hz @dataspace/unit/display Hz @description \"mid-high crossover frequencies for the ceiling filter\""
 								}
 
 							}
@@ -8550,7 +8550,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 1721.0, 714.0, 646.0, 27.0 ],
-									"text" : "jcom.parameter room/absorption.ceiling/low_mid_frequency @type integer @repetitions/allow 1 @range/bounds 10 9999 @range/clipmode both @dataspace pitch @dataspace/unit/active Hz @dataspace/unit/native Hz @dataspace/unit/display Hz @description \"low-mid crossover frequencies for the ceiling wall filter\""
+									"text" : "jcom.parameter room/absorption.ceiling/low_mid_frequency @type integer @repetitions/allow 1 @range/bounds 10 9999 @range/clipmode both @dataspace time @dataspace/unit/active Hz @dataspace/unit/native Hz @dataspace/unit/display Hz @description \"low-mid crossover frequencies for the ceiling wall filter\""
 								}
 
 							}
@@ -8786,7 +8786,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 1724.0, 633.0, 637.0, 27.0 ],
-									"text" : "jcom.parameter room/absorption.floor/mid_high_frequency @type integer @repetitions/allow 1 @range/bounds 10 9999 @range/clipmode both @dataspace pitch @dataspace/unit/active Hz @dataspace/unit/native Hz @dataspace/unit/display Hz @description \"mid-high crossover frequencies for the floor filter\""
+									"text" : "jcom.parameter room/absorption.floor/mid_high_frequency @type integer @repetitions/allow 1 @range/bounds 10 9999 @range/clipmode both @dataspace time @dataspace/unit/active Hz @dataspace/unit/native Hz @dataspace/unit/display Hz @description \"mid-high crossover frequencies for the floor filter\""
 								}
 
 							}
@@ -8801,7 +8801,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 1725.0, 577.0, 638.0, 27.0 ],
-									"text" : "jcom.parameter room/absorption.floor/low_mid_frequency @type integer @repetitions/allow 1 @range/bounds 10 9999 @range/clipmode both @dataspace pitch @dataspace/unit/active Hz @dataspace/unit/native Hz @dataspace/unit/display Hz @description \"low-mid crossover frequencies for the floor filter\""
+									"text" : "jcom.parameter room/absorption.floor/low_mid_frequency @type integer @repetitions/allow 1 @range/bounds 10 9999 @range/clipmode both @dataspace time @dataspace/unit/active Hz @dataspace/unit/native Hz @dataspace/unit/display Hz @description \"low-mid crossover frequencies for the floor filter\""
 								}
 
 							}
@@ -9037,7 +9037,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 1725.0, 500.0, 638.0, 27.0 ],
-									"text" : "jcom.parameter room/absorption.right/mid_high_frequency @type integer @repetitions/allow 1 @range/bounds 10 9999 @range/clipmode both @dataspace pitch @dataspace/unit/active Hz @dataspace/unit/native Hz @dataspace/unit/display Hz @description \"mid-high crossover frequencies for the right wall filter\""
+									"text" : "jcom.parameter room/absorption.right/mid_high_frequency @type integer @repetitions/allow 1 @range/bounds 10 9999 @range/clipmode both @dataspace time @dataspace/unit/active Hz @dataspace/unit/native Hz @dataspace/unit/display Hz @description \"mid-high crossover frequencies for the right wall filter\""
 								}
 
 							}
@@ -9052,7 +9052,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 1725.0, 438.0, 633.0, 27.0 ],
-									"text" : "jcom.parameter room/absorption.right/low_mid_frequency @type integer @repetitions/allow 1 @range/bounds 10 9999 @range/clipmode both @dataspace pitch @dataspace/unit/active Hz @dataspace/unit/native Hz @dataspace/unit/display Hz @description \"low-mid crossover frequencies for the right wall filter\""
+									"text" : "jcom.parameter room/absorption.right/low_mid_frequency @type integer @repetitions/allow 1 @range/bounds 10 9999 @range/clipmode both @dataspace time @dataspace/unit/active Hz @dataspace/unit/native Hz @dataspace/unit/display Hz @description \"low-mid crossover frequencies for the right wall filter\""
 								}
 
 							}
@@ -9288,7 +9288,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 1724.0, 357.0, 631.0, 27.0 ],
-									"text" : "jcom.parameter room/absorption.left/mid_high_frequency @type integer @repetitions/allow 1 @range/bounds 10 9999 @range/clipmode both @dataspace pitch @dataspace/unit/active Hz @dataspace/unit/native Hz @dataspace/unit/display Hz @description \"mid-high crossover frequencies for the left wall filter\""
+									"text" : "jcom.parameter room/absorption.left/mid_high_frequency @type integer @repetitions/allow 1 @range/bounds 10 9999 @range/clipmode both @dataspace time @dataspace/unit/active Hz @dataspace/unit/native Hz @dataspace/unit/display Hz @description \"mid-high crossover frequencies for the left wall filter\""
 								}
 
 							}
@@ -9303,7 +9303,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 1723.0, 295.0, 627.0, 27.0 ],
-									"text" : "jcom.parameter room/absorption.left/low_mid_frequency @type integer @repetitions/allow 1 @range/bounds 10 9999 @range/clipmode both @dataspace pitch @dataspace/unit/active Hz @dataspace/unit/native Hz @dataspace/unit/display Hz @description \"low-mid crossover frequencies for the left wall filter\""
+									"text" : "jcom.parameter room/absorption.left/low_mid_frequency @type integer @repetitions/allow 1 @range/bounds 10 9999 @range/clipmode both @dataspace time @dataspace/unit/active Hz @dataspace/unit/native Hz @dataspace/unit/display Hz @description \"low-mid crossover frequencies for the left wall filter\""
 								}
 
 							}
@@ -9539,7 +9539,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 1723.0, 224.0, 634.0, 27.0 ],
-									"text" : "jcom.parameter room/absorption.rear/mid_high_frequency @type integer @repetitions/allow 1 @range/bounds 10 9999 @range/clipmode both @dataspace pitch @dataspace/unit/active Hz @dataspace/unit/native Hz @dataspace/unit/display Hz@description \"mid-high crossover frequencies for the rear wall filter\""
+									"text" : "jcom.parameter room/absorption.rear/mid_high_frequency @type integer @repetitions/allow 1 @range/bounds 10 9999 @range/clipmode both @dataspace time @dataspace/unit/active Hz @dataspace/unit/native Hz @dataspace/unit/display Hz@description \"mid-high crossover frequencies for the rear wall filter\""
 								}
 
 							}
@@ -9554,7 +9554,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 1722.0, 162.0, 631.0, 27.0 ],
-									"text" : "jcom.parameter room/absorption.rear/low_mid_frequency @type integer @repetitions/allow 1 @range/bounds 10 9999 @range/clipmode both @dataspace pitch @dataspace/unit/active Hz @dataspace/unit/native Hz @dataspace/unit/display Hz @description \"low-mid crossover frequencies for the rear wall filter\""
+									"text" : "jcom.parameter room/absorption.rear/low_mid_frequency @type integer @repetitions/allow 1 @range/bounds 10 9999 @range/clipmode both @dataspace time @dataspace/unit/active Hz @dataspace/unit/native Hz @dataspace/unit/display Hz @description \"low-mid crossover frequencies for the rear wall filter\""
 								}
 
 							}
@@ -9790,7 +9790,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 1727.0, 98.0, 639.0, 27.0 ],
-									"text" : "jcom.parameter room/absorption.front/mid_high_frequency @type integer @repetitions/allow 1 @range/bounds 10 9999 @range/clipmode both @dataspace pitch @dataspace/unit/active Hz @dataspace/unit/native Hz @dataspace/unit/display Hz @description \" mid-high crossover frequencies for the front wall filter\""
+									"text" : "jcom.parameter room/absorption.front/mid_high_frequency @type integer @repetitions/allow 1 @range/bounds 10 9999 @range/clipmode both @dataspace time @dataspace/unit/active Hz @dataspace/unit/native Hz @dataspace/unit/display Hz @description \" mid-high crossover frequencies for the front wall filter\""
 								}
 
 							}
@@ -9805,7 +9805,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 1726.0, 36.0, 636.0, 27.0 ],
-									"text" : "jcom.parameter room/absorption.front/low_mid_frequency @type integer @repetitions/allow 1 @range/bounds 10 9999 @range/clipmode both @dataspace pitch @dataspace/unit/active Hz @dataspace/unit/native Hz @dataspace/unit/display Hz @description \"low-mid  crossover frequencies for the front wall filter\""
+									"text" : "jcom.parameter room/absorption.front/low_mid_frequency @type integer @repetitions/allow 1 @range/bounds 10 9999 @range/clipmode both @dataspace time @dataspace/unit/active Hz @dataspace/unit/native Hz @dataspace/unit/display Hz @description \"low-mid  crossover frequencies for the front wall filter\""
 								}
 
 							}
@@ -13560,7 +13560,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 1409.0, 1007.0, 335.0, 48.0 ],
-									"text" : "jcom.parameter room/reflection/airfilter @type integer @range/bounds 500 19000 @range/clipmode both @repetitions/allow 0 @dataspace pitch @dataspace/unit/active Hz @dataspace/unit/native Hz @dataspace/unit/display Hz @description \"damping frequency of the early reflections due to air absorption\"",
+									"text" : "jcom.parameter room/reflection/airfilter @type integer @range/bounds 500 19000 @range/clipmode both @repetitions/allow 0 @dataspace time @dataspace/unit/active Hz @dataspace/unit/native Hz @dataspace/unit/display Hz @description \"damping frequency of the early reflections due to air absorption\"",
 									"varname" : "room/reflection/airfilter"
 								}
 
