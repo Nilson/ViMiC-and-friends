@@ -91,6 +91,7 @@ CUE "1 init 8 microphones"
 
 # Module /output~
 /output~/audio/mute 0
+/output~/audio/gain 100.
 /output~/limiter/active 0
 /output~/limiter/dcblocker/active 1
 /output~/limiter/lookahead 64

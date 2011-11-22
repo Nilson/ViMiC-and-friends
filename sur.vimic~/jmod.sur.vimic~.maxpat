@@ -1232,7 +1232,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 625.0, 160.0, 589.0, 27.0 ],
-					"text" : "jcom.parameter room/reflection/gain.2 @dataspace gain @dataspace/unit/active midi @dataspace/unit/native midi @dataspace/unit/native midi @repetitions/allow 0 @ramp/drive scheduler @type decimal @description \"gain of the early reflections 2nd order\"",
+					"text" : "jcom.parameter room/reflection/gain.2 @type decimal @dataspace gain @dataspace/unit/active midi @dataspace/unit/native midi @dataspace/unit/native midi @repetitions/allow 0 @ramp/drive scheduler @description \"gain of the early reflections 2nd order\"",
 					"varname" : "room/reflection/2/gain"
 				}
 
@@ -1248,7 +1248,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 614.0, 102.0, 589.0, 27.0 ],
-					"text" : "jcom.parameter room/reflection/gain.1 @dataspace gain @dataspace/unit/active midi @dataspace/unit/native midi @dataspace/unit/native midi @repetitions/allow 0 @ramp/drive scheduler @type decimal @description \"gain of the early reflections 1st order\"",
+					"text" : "jcom.parameter room/reflection/gain.1 @type decimal @dataspace gain @dataspace/unit/active midi @dataspace/unit/native midi @dataspace/unit/native midi @repetitions/allow 0 @ramp/drive scheduler @description \"gain of the early reflections 1st order\"",
 					"varname" : "room/reflection/1/gain"
 				}
 
@@ -1264,7 +1264,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 616.0, 38.0, 589.0, 27.0 ],
-					"text" : "jcom.parameter room/reflection/gain.0 @dataspace gain @dataspace/unit/active midi @dataspace/unit/native midi @dataspace/unit/native midi @repetitions/allow 0 @ramp/drive scheduler @type decimal @description \"gain of the direct sound component\"",
+					"text" : "jcom.parameter room/reflection/gain.0 @type decimal @dataspace gain @dataspace/unit/active midi @dataspace/unit/native midi @dataspace/unit/native midi @repetitions/allow 0 @ramp/drive scheduler @description \"gain of the direct sound component\"",
 					"varname" : "room/reflection/0/gain"
 				}
 
