@@ -5,128 +5,128 @@
 		xsi:schemaLocation='http://jamoma.org/ file:jamoma.xsd'
 >
   <preset number='1' name='default'>
-    <item name='audio/gain' type='decimal' priority='0'>0.000000</item>
+    <item name='audio/gain' type='decimal' priority='0'>100.000000</item>
     <item name='audio/mute' type='boolean' priority='0'>0</item>
     <item name='microphone.1/active' type='boolean' priority='4'>1</item>
     <item name='microphone.1/directivity/ratio' type='decimal' priority='3'>0.500000</item>
     <item name='microphone.1/gain' type='decimal' priority='5'>100.000000</item>
-    <item name='microphone.1/orientation' type='array' priority='2'>0</item>
-    <item name='microphone.1/position' type='array' priority='1'>0</item>
-    <item name='microphone.10/active' type='boolean' priority='4'>1</item>
-    <item name='microphone.10/directivity/ratio' type='decimal' priority='3'>0.000000</item>
-    <item name='microphone.10/gain' type='decimal' priority='5'>100.000000</item>
-    <item name='microphone.10/orientation' type='array' priority='2'>0</item>
-    <item name='microphone.10/position' type='array' priority='1'>0</item>
-    <item name='microphone.11/active' type='boolean' priority='4'>1</item>
-    <item name='microphone.11/directivity/ratio' type='decimal' priority='3'>0.000000</item>
-    <item name='microphone.11/gain' type='decimal' priority='5'>100.000000</item>
-    <item name='microphone.11/orientation' type='array' priority='2'>0</item>
-    <item name='microphone.11/position' type='array' priority='1'>0</item>
-    <item name='microphone.12/active' type='boolean' priority='4'>1</item>
-    <item name='microphone.12/directivity/ratio' type='decimal' priority='3'>0.000000</item>
-    <item name='microphone.12/gain' type='decimal' priority='5'>100.000000</item>
-    <item name='microphone.12/orientation' type='array' priority='2'>0</item>
-    <item name='microphone.12/position' type='array' priority='1'>0</item>
-    <item name='microphone.13/active' type='boolean' priority='4'>1</item>
-    <item name='microphone.13/directivity/ratio' type='decimal' priority='3'>0.000000</item>
-    <item name='microphone.13/gain' type='decimal' priority='5'>100.000000</item>
-    <item name='microphone.13/orientation' type='array' priority='2'>0</item>
-    <item name='microphone.13/position' type='array' priority='1'>0</item>
-    <item name='microphone.14/active' type='boolean' priority='4'>1</item>
-    <item name='microphone.14/directivity/ratio' type='decimal' priority='3'>0.000000</item>
-    <item name='microphone.14/gain' type='decimal' priority='5'>100.000000</item>
-    <item name='microphone.14/orientation' type='array' priority='2'>0</item>
-    <item name='microphone.14/position' type='array' priority='1'>0</item>
-    <item name='microphone.15/active' type='boolean' priority='4'>1</item>
-    <item name='microphone.15/directivity/ratio' type='decimal' priority='3'>0.000000</item>
-    <item name='microphone.15/gain' type='decimal' priority='5'>100.000000</item>
-    <item name='microphone.15/orientation' type='array' priority='2'>0</item>
-    <item name='microphone.15/position' type='array' priority='1'>0</item>
-    <item name='microphone.16/active' type='boolean' priority='4'>1</item>
-    <item name='microphone.16/directivity/ratio' type='decimal' priority='3'>0.000000</item>
-    <item name='microphone.16/gain' type='decimal' priority='5'>100.000000</item>
-    <item name='microphone.16/orientation' type='array' priority='2'>0</item>
-    <item name='microphone.16/position' type='array' priority='1'>0</item>
-    <item name='microphone.17/active' type='boolean' priority='4'>1</item>
-    <item name='microphone.17/directivity/ratio' type='decimal' priority='3'>0.000000</item>
-    <item name='microphone.17/gain' type='decimal' priority='5'>100.000000</item>
-    <item name='microphone.17/orientation' type='array' priority='2'>0</item>
-    <item name='microphone.17/position' type='array' priority='1'>0</item>
-    <item name='microphone.18/active' type='boolean' priority='4'>1</item>
-    <item name='microphone.18/directivity/ratio' type='decimal' priority='3'>0.000000</item>
-    <item name='microphone.18/gain' type='decimal' priority='5'>100.000000</item>
-    <item name='microphone.18/orientation' type='array' priority='2'>0</item>
-    <item name='microphone.18/position' type='array' priority='1'>0</item>
-    <item name='microphone.19/active' type='boolean' priority='4'>1</item>
-    <item name='microphone.19/directivity/ratio' type='decimal' priority='3'>0.000000</item>
-    <item name='microphone.19/gain' type='decimal' priority='5'>100.000000</item>
-    <item name='microphone.19/orientation' type='array' priority='2'>0</item>
-    <item name='microphone.19/position' type='array' priority='1'>0</item>
-    <item name='microphone.2/active' type='boolean' priority='4'>1</item>
-    <item name='microphone.2/directivity/ratio' type='decimal' priority='3'>0.500000</item>
-    <item name='microphone.2/gain' type='decimal' priority='5'>100.000000</item>
-    <item name='microphone.2/orientation' type='array' priority='2'>0</item>
-    <item name='microphone.2/position' type='array' priority='1'>0</item>
-    <item name='microphone.20/active' type='boolean' priority='4'>1</item>
-    <item name='microphone.20/directivity/ratio' type='decimal' priority='3'>0.000000</item>
-    <item name='microphone.20/gain' type='decimal' priority='5'>100.000000</item>
-    <item name='microphone.20/orientation' type='array' priority='2'>0</item>
-    <item name='microphone.20/position' type='array' priority='1'>0</item>
-    <item name='microphone.21/active' type='boolean' priority='4'>1</item>
-    <item name='microphone.21/directivity/ratio' type='decimal' priority='3'>0.000000</item>
-    <item name='microphone.21/gain' type='decimal' priority='5'>100.000000</item>
-    <item name='microphone.21/orientation' type='array' priority='2'>0</item>
-    <item name='microphone.21/position' type='array' priority='1'>0</item>
-    <item name='microphone.22/active' type='boolean' priority='4'>1</item>
-    <item name='microphone.22/directivity/ratio' type='decimal' priority='3'>0.000000</item>
-    <item name='microphone.22/gain' type='decimal' priority='5'>100.000000</item>
-    <item name='microphone.22/orientation' type='array' priority='2'>0</item>
-    <item name='microphone.22/position' type='array' priority='1'>0</item>
-    <item name='microphone.23/active' type='boolean' priority='4'>1</item>
-    <item name='microphone.23/directivity/ratio' type='decimal' priority='3'>0.000000</item>
-    <item name='microphone.23/gain' type='decimal' priority='5'>100.000000</item>
-    <item name='microphone.23/orientation' type='array' priority='2'>0</item>
-    <item name='microphone.23/position' type='array' priority='1'>0</item>
-    <item name='microphone.24/active' type='boolean' priority='4'>1</item>
-    <item name='microphone.24/directivity/ratio' type='decimal' priority='3'>0.000000</item>
-    <item name='microphone.24/gain' type='decimal' priority='5'>100.000000</item>
-    <item name='microphone.24/orientation' type='array' priority='2'>0</item>
-    <item name='microphone.24/position' type='array' priority='1'>0</item>
-    <item name='microphone.3/active' type='boolean' priority='4'>1</item>
-    <item name='microphone.3/directivity/ratio' type='decimal' priority='3'>0.500000</item>
-    <item name='microphone.3/gain' type='decimal' priority='5'>100.000000</item>
-    <item name='microphone.3/orientation' type='array' priority='2'>0</item>
-    <item name='microphone.3/position' type='array' priority='1'>0</item>
-    <item name='microphone.4/active' type='boolean' priority='4'>1</item>
-    <item name='microphone.4/directivity/ratio' type='decimal' priority='3'>0.500000</item>
-    <item name='microphone.4/gain' type='decimal' priority='5'>100.000000</item>
-    <item name='microphone.4/orientation' type='array' priority='2'>0</item>
-    <item name='microphone.4/position' type='array' priority='1'>0</item>
-    <item name='microphone.5/active' type='boolean' priority='4'>1</item>
-    <item name='microphone.5/directivity/ratio' type='decimal' priority='3'>0.500000</item>
-    <item name='microphone.5/gain' type='decimal' priority='5'>100.000000</item>
-    <item name='microphone.5/orientation' type='array' priority='2'>0</item>
-    <item name='microphone.5/position' type='array' priority='1'>0</item>
-    <item name='microphone.6/active' type='boolean' priority='4'>1</item>
-    <item name='microphone.6/directivity/ratio' type='decimal' priority='3'>0.500000</item>
-    <item name='microphone.6/gain' type='decimal' priority='5'>100.000000</item>
-    <item name='microphone.6/orientation' type='array' priority='2'>0</item>
-    <item name='microphone.6/position' type='array' priority='1'>0</item>
-    <item name='microphone.7/active' type='boolean' priority='4'>1</item>
-    <item name='microphone.7/directivity/ratio' type='decimal' priority='3'>0.500000</item>
-    <item name='microphone.7/gain' type='decimal' priority='5'>100.000000</item>
-    <item name='microphone.7/orientation' type='array' priority='2'>0</item>
-    <item name='microphone.7/position' type='array' priority='1'>0</item>
-    <item name='microphone.8/active' type='boolean' priority='4'>1</item>
-    <item name='microphone.8/directivity/ratio' type='decimal' priority='3'>0.500000</item>
-    <item name='microphone.8/gain' type='decimal' priority='5'>100.000000</item>
-    <item name='microphone.8/orientation' type='array' priority='2'>0</item>
-    <item name='microphone.8/position' type='array' priority='1'>0</item>
-    <item name='microphone.9/active' type='boolean' priority='4'>1</item>
-    <item name='microphone.9/directivity/ratio' type='decimal' priority='3'>0.000000</item>
-    <item name='microphone.9/gain' type='decimal' priority='5'>100.000000</item>
-    <item name='microphone.9/orientation' type='array' priority='2'>0</item>
-    <item name='microphone.9/position' type='array' priority='1'>0</item>
+    <item name='microphone.1/orientation' type='array' priority='2'>0.000000 0.000000 </item>
+    <item name='microphone.1/position'  type='array' priority='1'>0.000000 0.000000 0.000000 </item>
+    <item name='microphone.10/active' type='boolean' priority='94'>0</item>
+    <item name='microphone.10/directivity/ratio' type='decimal' priority='93'>0.500000</item>
+    <item name='microphone.10/gain' type='decimal' priority='95'>0.000000</item>
+    <item name='microphone.10/orientation' type='array' priority='92'>0.000000 0.000000 </item>
+    <item name='microphone.10/position'  type='array' priority='91'>0.000000 0.000000 0.000000 </item>
+    <item name='microphone.11/active' type='boolean' priority='104'>0</item>
+    <item name='microphone.11/directivity/ratio' type='decimal' priority='103'>0.500000</item>
+    <item name='microphone.11/gain' type='decimal' priority='105'>0.000000</item>
+    <item name='microphone.11/orientation' type='array' priority='102'>0.000000 0.000000 </item>
+    <item name='microphone.11/position'  type='array' priority='101'>0.000000 0.000000 0.000000 </item>
+    <item name='microphone.12/active' type='boolean' priority='114'>0</item>
+    <item name='microphone.12/directivity/ratio' type='decimal' priority='113'>0.500000</item>
+    <item name='microphone.12/gain' type='decimal' priority='115'>0.000000</item>
+    <item name='microphone.12/orientation' type='array' priority='112'>0.000000 0.000000 </item>
+    <item name='microphone.12/position'  type='array' priority='111'>0.000000 0.000000 0.000000 </item>
+    <item name='microphone.13/active' type='boolean' priority='124'>0</item>
+    <item name='microphone.13/directivity/ratio' type='decimal' priority='123'>0.500000</item>
+    <item name='microphone.13/gain' type='decimal' priority='125'>0.000000</item>
+    <item name='microphone.13/orientation' type='array' priority='122'>0.000000 0.000000 </item>
+    <item name='microphone.13/position'  type='array' priority='121'>0.000000 0.000000 0.000000 </item>
+    <item name='microphone.14/active' type='boolean' priority='134'>0</item>
+    <item name='microphone.14/directivity/ratio' type='decimal' priority='133'>0.500000</item>
+    <item name='microphone.14/gain' type='decimal' priority='135'>0.000000</item>
+    <item name='microphone.14/orientation' type='array' priority='132'>0.000000 0.000000 </item>
+    <item name='microphone.14/position'  type='array' priority='131'>0.000000 0.000000 0.000000 </item>
+    <item name='microphone.15/active' type='boolean' priority='144'>0</item>
+    <item name='microphone.15/directivity/ratio' type='decimal' priority='143'>0.500000</item>
+    <item name='microphone.15/gain' type='decimal' priority='145'>0.000000</item>
+    <item name='microphone.15/orientation' type='array' priority='142'>0.000000 0.000000 </item>
+    <item name='microphone.15/position'  type='array' priority='141'>0.000000 0.000000 0.000000 </item>
+    <item name='microphone.16/active' type='boolean' priority='154'>0</item>
+    <item name='microphone.16/directivity/ratio' type='decimal' priority='153'>0.500000</item>
+    <item name='microphone.16/gain' type='decimal' priority='155'>0.000000</item>
+    <item name='microphone.16/orientation' type='array' priority='152'>0.000000 0.000000 </item>
+    <item name='microphone.16/position'  type='array' priority='151'>0.000000 0.000000 0.000000 </item>
+    <item name='microphone.17/active' type='boolean' priority='164'>0</item>
+    <item name='microphone.17/directivity/ratio' type='decimal' priority='163'>0.500000</item>
+    <item name='microphone.17/gain' type='decimal' priority='165'>0.000000</item>
+    <item name='microphone.17/orientation' type='array' priority='162'>0.000000 0.000000 </item>
+    <item name='microphone.17/position'  type='array' priority='161'>0.000000 0.000000 0.000000 </item>
+    <item name='microphone.18/active' type='boolean' priority='174'>0</item>
+    <item name='microphone.18/directivity/ratio' type='decimal' priority='173'>0.500000</item>
+    <item name='microphone.18/gain' type='decimal' priority='175'>0.000000</item>
+    <item name='microphone.18/orientation' type='array' priority='172'>0.000000 0.000000 </item>
+    <item name='microphone.18/position'  type='array' priority='171'>0.000000 0.000000 0.000000 </item>
+    <item name='microphone.19/active' type='boolean' priority='184'>0</item>
+    <item name='microphone.19/directivity/ratio' type='decimal' priority='183'>0.500000</item>
+    <item name='microphone.19/gain' type='decimal' priority='185'>0.000000</item>
+    <item name='microphone.19/orientation' type='array' priority='182'>0.000000 0.000000 </item>
+    <item name='microphone.19/position'  type='array' priority='181'>0.000000 0.000000 0.000000 </item>
+    <item name='microphone.2/active' type='boolean' priority='14'>1</item>
+    <item name='microphone.2/directivity/ratio' type='decimal' priority='13'>0.500000</item>
+    <item name='microphone.2/gain' type='decimal' priority='15'>100.000000</item>
+    <item name='microphone.2/orientation' type='array' priority='12'>45.000000 0.000000 </item>
+    <item name='microphone.2/position'  type='array' priority='11'>0.000000 0.000000 0.000000 </item>
+    <item name='microphone.20/active' type='boolean' priority='194'>0</item>
+    <item name='microphone.20/directivity/ratio' type='decimal' priority='193'>0.500000</item>
+    <item name='microphone.20/gain' type='decimal' priority='195'>0.000000</item>
+    <item name='microphone.20/orientation' type='array' priority='192'>0.000000 0.000000 </item>
+    <item name='microphone.20/position'  type='array' priority='191'>0.000000 0.000000 0.000000 </item>
+    <item name='microphone.21/active' type='boolean' priority='204'>0</item>
+    <item name='microphone.21/directivity/ratio' type='decimal' priority='203'>0.500000</item>
+    <item name='microphone.21/gain' type='decimal' priority='205'>0.000000</item>
+    <item name='microphone.21/orientation' type='array' priority='202'>0.000000 0.000000 </item>
+    <item name='microphone.21/position'  type='array' priority='201'>0.000000 0.000000 0.000000 </item>
+    <item name='microphone.22/active' type='boolean' priority='214'>0</item>
+    <item name='microphone.22/directivity/ratio' type='decimal' priority='213'>0.500000</item>
+    <item name='microphone.22/gain' type='decimal' priority='215'>0.000000</item>
+    <item name='microphone.22/orientation' type='array' priority='212'>0.000000 0.000000 </item>
+    <item name='microphone.22/position'  type='array' priority='211'>0.000000 0.000000 0.000000 </item>
+    <item name='microphone.23/active' type='boolean' priority='224'>0</item>
+    <item name='microphone.23/directivity/ratio' type='decimal' priority='223'>0.500000</item>
+    <item name='microphone.23/gain' type='decimal' priority='225'>0.000000</item>
+    <item name='microphone.23/orientation' type='array' priority='222'>0.000000 0.000000 </item>
+    <item name='microphone.23/position'  type='array' priority='221'>0.000000 0.000000 0.000000 </item>
+    <item name='microphone.24/active' type='boolean' priority='234'>0</item>
+    <item name='microphone.24/directivity/ratio' type='decimal' priority='233'>0.500000</item>
+    <item name='microphone.24/gain' type='decimal' priority='235'>0.000000</item>
+    <item name='microphone.24/orientation' type='array' priority='232'>0.000000 0.000000 </item>
+    <item name='microphone.24/position'  type='array' priority='231'>0.000000 0.000000 0.000000 </item>
+    <item name='microphone.3/active' type='boolean' priority='24'>1</item>
+    <item name='microphone.3/directivity/ratio' type='decimal' priority='23'>0.500000</item>
+    <item name='microphone.3/gain' type='decimal' priority='25'>100.000000</item>
+    <item name='microphone.3/orientation' type='array' priority='22'>90.000000 0.000000 </item>
+    <item name='microphone.3/position'  type='array' priority='21'>0.000000 0.000000 0.000000 </item>
+    <item name='microphone.4/active' type='boolean' priority='34'>1</item>
+    <item name='microphone.4/directivity/ratio' type='decimal' priority='33'>0.500000</item>
+    <item name='microphone.4/gain' type='decimal' priority='35'>100.000000</item>
+    <item name='microphone.4/orientation' type='array' priority='32'>135.000000 0.000000 </item>
+    <item name='microphone.4/position'  type='array' priority='31'>0.000000 0.000000 0.000000 </item>
+    <item name='microphone.5/active' type='boolean' priority='44'>1</item>
+    <item name='microphone.5/directivity/ratio' type='decimal' priority='43'>0.500000</item>
+    <item name='microphone.5/gain' type='decimal' priority='45'>100.000000</item>
+    <item name='microphone.5/orientation' type='array' priority='42'>180.000000 0.000000 </item>
+    <item name='microphone.5/position'  type='array' priority='41'>0.000000 0.000000 0.000000 </item>
+    <item name='microphone.6/active' type='boolean' priority='54'>1</item>
+    <item name='microphone.6/directivity/ratio' type='decimal' priority='53'>0.500000</item>
+    <item name='microphone.6/gain' type='decimal' priority='55'>100.000000</item>
+    <item name='microphone.6/orientation' type='array' priority='52'>225.000000 0.000000 </item>
+    <item name='microphone.6/position'  type='array' priority='51'>0.000000 0.000000 0.000000 </item>
+    <item name='microphone.7/active' type='boolean' priority='64'>1</item>
+    <item name='microphone.7/directivity/ratio' type='decimal' priority='63'>0.500000</item>
+    <item name='microphone.7/gain' type='decimal' priority='65'>100.000000</item>
+    <item name='microphone.7/orientation' type='array' priority='62'>270.000000 0.000000 </item>
+    <item name='microphone.7/position'  type='array' priority='61'>0.000000 0.000000 0.000000 </item>
+    <item name='microphone.8/active' type='boolean' priority='74'>1</item>
+    <item name='microphone.8/directivity/ratio' type='decimal' priority='73'>0.500000</item>
+    <item name='microphone.8/gain' type='decimal' priority='75'>100.000000</item>
+    <item name='microphone.8/orientation' type='array' priority='72'>315.000000 0.000000 </item>
+    <item name='microphone.8/position'  type='array' priority='71'>0.000000 0.000000 0.000000 </item>
+    <item name='microphone.9/active' type='boolean' priority='84'>0</item>
+    <item name='microphone.9/directivity/ratio' type='decimal' priority='83'>0.500000</item>
+    <item name='microphone.9/gain' type='decimal' priority='85'>0.000000</item>
+    <item name='microphone.9/orientation' type='array' priority='82'>0.000000 0.000000 </item>
+    <item name='microphone.9/position'  type='array' priority='81'>0.000000 0.000000 0.000000 </item>
     <item name='microphones/amount' type='integer' priority='301'>8</item>
     <item name='microphones/directivity/power' type='integer' priority='0'>1</item>
     <item name='microphones/polarity' type='boolean' priority='0'>1</item>
@@ -175,60 +175,60 @@
     <item name='room/distance/mode' type='string' priority='0'>inverse</item>
     <item name='room/distance/power' type='decimal' priority='0'>1.000000</item>
     <item name='room/reflection/airfilter' type='integer' priority='0'>6000</item>
-    <item name='room/reflection/gain.0' type='decimal' priority='0'>0.000000</item>
+    <item name='room/reflection/gain.0' type='decimal' priority='0'>100.000000</item>
     <item name='room/reflection/gain.1' type='decimal' priority='0'>0.000000</item>
     <item name='room/reflection/gain.2' type='decimal' priority='0'>0.000000</item>
     <item name='room/reflection/order' type='integer' priority='300'>1</item>
     <item name='room/size/xyz' type='array' priority='0'>20.000000 30.000000 10.000000 </item>
     <item name='room/temperature' type='decimal' priority='0'>21.000000</item>
     <item name='source.1/active' type='boolean' priority='0'>1</item>
-    <item name='source.1/gain' type='decimal' priority='0'>0.000000</item>
+    <item name='source.1/gain' type='decimal' priority='0'>100.000000</item>
     <item name='source.1/orientation/active' type='boolean' priority='0'>0</item>
     <item name='source.1/orientation/mode' type='string' priority='0'>0</item>
     <item name='source.1/orientation/yaw' type='integer' priority='0'>0</item>
-    <item name='source.1/rendermode' type='string' priority='0'>0</item>
+    <item name='source.1/rendermode' type='string' priority='0'>ViMiC_lite</item>
     <item name='source.2/active' type='boolean' priority='0'>1</item>
-    <item name='source.2/gain' type='decimal' priority='0'>0.000000</item>
+    <item name='source.2/gain' type='decimal' priority='0'>100.000000</item>
     <item name='source.2/orientation/active' type='boolean' priority='0'>0</item>
     <item name='source.2/orientation/mode' type='string' priority='0'>0</item>
     <item name='source.2/orientation/yaw' type='integer' priority='0'>0</item>
-    <item name='source.2/rendermode' type='string' priority='0'>0</item>
+    <item name='source.2/rendermode' type='string' priority='0'>ViMiC_lite</item>
     <item name='source.3/active' type='boolean' priority='0'>1</item>
-    <item name='source.3/gain' type='decimal' priority='0'>0.000000</item>
+    <item name='source.3/gain' type='decimal' priority='0'>100.000000</item>
     <item name='source.3/orientation/active' type='boolean' priority='0'>0</item>
     <item name='source.3/orientation/mode' type='string' priority='0'>0</item>
     <item name='source.3/orientation/yaw' type='integer' priority='0'>0</item>
-    <item name='source.3/rendermode' type='string' priority='0'>0</item>
+    <item name='source.3/rendermode' type='string' priority='0'>ViMiC_lite</item>
     <item name='source.4/active' type='boolean' priority='0'>1</item>
-    <item name='source.4/gain' type='decimal' priority='0'>0.000000</item>
+    <item name='source.4/gain' type='decimal' priority='0'>100.000000</item>
     <item name='source.4/orientation/active' type='boolean' priority='0'>0</item>
     <item name='source.4/orientation/mode' type='string' priority='0'>0</item>
     <item name='source.4/orientation/yaw' type='integer' priority='0'>0</item>
-    <item name='source.4/rendermode' type='string' priority='0'>0</item>
+    <item name='source.4/rendermode' type='string' priority='0'>ViMiC_lite</item>
     <item name='source.5/active' type='boolean' priority='0'>1</item>
-    <item name='source.5/gain' type='decimal' priority='0'>0.000000</item>
+    <item name='source.5/gain' type='decimal' priority='0'>100.000000</item>
     <item name='source.5/orientation/active' type='boolean' priority='0'>0</item>
     <item name='source.5/orientation/mode' type='string' priority='0'>0</item>
     <item name='source.5/orientation/yaw' type='integer' priority='0'>0</item>
-    <item name='source.5/rendermode' type='string' priority='0'>0</item>
+    <item name='source.5/rendermode' type='string' priority='0'>ViMiC_lite</item>
     <item name='source.6/active' type='boolean' priority='0'>1</item>
-    <item name='source.6/gain' type='decimal' priority='0'>0.000000</item>
+    <item name='source.6/gain' type='decimal' priority='0'>100.000000</item>
     <item name='source.6/orientation/active' type='boolean' priority='0'>0</item>
     <item name='source.6/orientation/mode' type='string' priority='0'>0</item>
     <item name='source.6/orientation/yaw' type='integer' priority='0'>0</item>
-    <item name='source.6/rendermode' type='string' priority='0'>0</item>
+    <item name='source.6/rendermode' type='string' priority='0'>ViMiC_lite</item>
     <item name='source.7/active' type='boolean' priority='0'>1</item>
-    <item name='source.7/gain' type='decimal' priority='0'>0.000000</item>
+    <item name='source.7/gain' type='decimal' priority='0'>100.000000</item>
     <item name='source.7/orientation/active' type='boolean' priority='0'>0</item>
     <item name='source.7/orientation/mode' type='string' priority='0'>0</item>
     <item name='source.7/orientation/yaw' type='integer' priority='0'>0</item>
-    <item name='source.7/rendermode' type='string' priority='0'>0</item>
+    <item name='source.7/rendermode' type='string' priority='0'>ViMiC_lite</item>
     <item name='source.8/active' type='boolean' priority='0'>1</item>
-    <item name='source.8/gain' type='decimal' priority='0'>0.000000</item>
+    <item name='source.8/gain' type='decimal' priority='0'>100.000000</item>
     <item name='source.8/orientation/active' type='boolean' priority='0'>0</item>
     <item name='source.8/orientation/mode' type='string' priority='0'>0</item>
     <item name='source.8/orientation/yaw' type='integer' priority='0'>0</item>
-    <item name='source.8/rendermode' type='string' priority='0'>0</item>
+    <item name='source.8/rendermode' type='string' priority='0'>ViMiC_lite</item>
     <item name='updaterate' type='integer' priority='0'>20</item>
     <item name='view/color/border' type='array' priority='0'>0</item>
     <item name='view/color/contentBackground' type='array' priority='0'>0</item>
