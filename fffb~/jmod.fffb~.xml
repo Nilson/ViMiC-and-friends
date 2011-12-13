@@ -5,7 +5,6 @@
 		xsi:schemaLocation='http://jamoma.org/ file:jamoma.xsd'
 >
   <preset number='1' name='default'>
-    <item name='audio/bypass' type='boolean' priority='0'>0</item>
     <item name='audio/gain' type='decimal' priority='0'>100.000000</item>
     <item name='audio/mute' type='boolean' priority='0'>1</item>
     <item name='frequency.1' type='decimal' priority='3'>1051</item>
@@ -43,9 +42,7 @@
   </preset>  
 
  <preset number='2' name='3rd octave Band'>
-    <item name='audio/bypass' type='boolean' priority='0'>0</item>
     <item name='audio/gain' type='decimal' priority='0'>100.000000</item>
-    <item name='audio/mute' type='boolean' priority='0'>1</item>
     <item name='frequency.1' type='decimal' priority='0'>33</item>
     <item name='frequency.2' type='decimal' priority='0'> 41.5500</item>
     <item name='frequency.3' type='decimal' priority='0'>52.3152</item>
