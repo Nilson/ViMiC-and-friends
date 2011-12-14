@@ -183,49 +183,49 @@
     <item name='source.1/active' type='boolean' priority='0'>1</item>
     <item name='source.1/gain' type='decimal' priority='0'>100.000000</item>
     <item name='source.1/orientation/active' type='boolean' priority='0'>0</item>
-    <item name='source.1/orientation/mode' type='string' priority='0'>0</item>
+    <item name='source.1/orientation/mode' type='string' priority='0'>static</item>
     <item name='source.1/orientation/yaw' type='integer' priority='0'>0</item>
     <item name='source.1/rendermode' type='string' priority='0'>ViMiC_lite</item>
     <item name='source.2/active' type='boolean' priority='0'>1</item>
     <item name='source.2/gain' type='decimal' priority='0'>100.000000</item>
     <item name='source.2/orientation/active' type='boolean' priority='0'>0</item>
-    <item name='source.2/orientation/mode' type='string' priority='0'>0</item>
+    <item name='source.2/orientation/mode' type='string' priority='0'>static</item>
     <item name='source.2/orientation/yaw' type='integer' priority='0'>0</item>
     <item name='source.2/rendermode' type='string' priority='0'>ViMiC_lite</item>
     <item name='source.3/active' type='boolean' priority='0'>1</item>
     <item name='source.3/gain' type='decimal' priority='0'>100.000000</item>
     <item name='source.3/orientation/active' type='boolean' priority='0'>0</item>
-    <item name='source.3/orientation/mode' type='string' priority='0'>0</item>
+    <item name='source.3/orientation/mode' type='string' priority='0'>static</item>
     <item name='source.3/orientation/yaw' type='integer' priority='0'>0</item>
     <item name='source.3/rendermode' type='string' priority='0'>ViMiC_lite</item>
     <item name='source.4/active' type='boolean' priority='0'>1</item>
     <item name='source.4/gain' type='decimal' priority='0'>100.000000</item>
     <item name='source.4/orientation/active' type='boolean' priority='0'>0</item>
-    <item name='source.4/orientation/mode' type='string' priority='0'>0</item>
+    <item name='source.4/orientation/mode' type='string' priority='0'>static</item>
     <item name='source.4/orientation/yaw' type='integer' priority='0'>0</item>
     <item name='source.4/rendermode' type='string' priority='0'>ViMiC_lite</item>
     <item name='source.5/active' type='boolean' priority='0'>1</item>
     <item name='source.5/gain' type='decimal' priority='0'>100.000000</item>
     <item name='source.5/orientation/active' type='boolean' priority='0'>0</item>
-    <item name='source.5/orientation/mode' type='string' priority='0'>0</item>
+    <item name='source.5/orientation/mode' type='string' priority='0'>static</item>
     <item name='source.5/orientation/yaw' type='integer' priority='0'>0</item>
     <item name='source.5/rendermode' type='string' priority='0'>ViMiC_lite</item>
     <item name='source.6/active' type='boolean' priority='0'>1</item>
     <item name='source.6/gain' type='decimal' priority='0'>100.000000</item>
     <item name='source.6/orientation/active' type='boolean' priority='0'>0</item>
-    <item name='source.6/orientation/mode' type='string' priority='0'>0</item>
+    <item name='source.6/orientation/mode' type='string' priority='0'>static</item>
     <item name='source.6/orientation/yaw' type='integer' priority='0'>0</item>
     <item name='source.6/rendermode' type='string' priority='0'>ViMiC_lite</item>
     <item name='source.7/active' type='boolean' priority='0'>1</item>
     <item name='source.7/gain' type='decimal' priority='0'>100.000000</item>
     <item name='source.7/orientation/active' type='boolean' priority='0'>0</item>
-    <item name='source.7/orientation/mode' type='string' priority='0'>0</item>
+    <item name='source.7/orientation/mode' type='string' priority='0'>static</item>
     <item name='source.7/orientation/yaw' type='integer' priority='0'>0</item>
     <item name='source.7/rendermode' type='string' priority='0'>ViMiC_lite</item>
     <item name='source.8/active' type='boolean' priority='0'>1</item>
     <item name='source.8/gain' type='decimal' priority='0'>100.000000</item>
     <item name='source.8/orientation/active' type='boolean' priority='0'>0</item>
-    <item name='source.8/orientation/mode' type='string' priority='0'>0</item>
+    <item name='source.8/orientation/mode' type='string' priority='0'>static</item>
     <item name='source.8/orientation/yaw' type='integer' priority='0'>0</item>
     <item name='source.8/rendermode' type='string' priority='0'>ViMiC_lite</item>
     <item name='view/freeze' type='boolean' priority='0'>0</item>
