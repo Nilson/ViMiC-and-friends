@@ -37,7 +37,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 204.0, 320.0, 94.0, 32.0 ],
-					"text" : "/audio/gain:/inc, /audio/gain:/dec"
+					"text" : "/audio/gain:/+, /audio/gain:/-"
 				}
 
 			}
