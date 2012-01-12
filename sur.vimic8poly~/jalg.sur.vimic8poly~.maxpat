@@ -8573,7 +8573,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 69.0, 183.0, 408.0, 32.0 ],
-													"text" : "script newdefault jcom.vimicPolyPatch~ 300 680 poly~ jcom.vimicPolyPatch~~ $1 args $2 $3, script send jcom.vimicPolyPatch~ target 0"
+													"text" : "script newdefault jcom.vimicPolyPatch~ 300 680 poly~ jcom.vimicPolyPatch~ $1 args $2 $3, script send jcom.vimicPolyPatch~ target 0"
 												}
 
 											}
@@ -17716,7 +17716,7 @@
 					"numoutlets" : 24,
 					"outlettype" : [ "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal" ],
 					"patching_rect" : [ 301.0, 680.0, 329.5, 20.0 ],
-					"text" : "poly~ jcom.vimicPolyPatch~~ 8 args 8 1",
+					"text" : "poly~ jcom.vimicPolyPatch~ 8 args 8 1",
 					"varname" : "jcom.vimicPolyPatch~"
 				}
 
