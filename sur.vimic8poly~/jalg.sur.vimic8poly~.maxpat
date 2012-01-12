@@ -43,7 +43,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1113.0, 628.0, 257.0, 18.0 ],
-					"text" : "script send jcom.com.vimicPolyPatch~ threadcount $1"
+					"text" : "script send jcom.vimicPolyPatch~ threadcount $1"
 				}
 
 			}
@@ -57,7 +57,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1096.0, 599.0, 238.0, 18.0 ],
-					"text" : "script send jcom.com.vimicPolyPatch~ parallel $1"
+					"text" : "script send jcom.vimicPolyPatch~ parallel $1"
 				}
 
 			}
@@ -7766,7 +7766,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 385.0, 249.0, 111.0, 18.0 ],
-													"text" : "set jcom.com.vimicPolyPatch~ $1"
+													"text" : "set jcom.vimicPolyPatch~ $1"
 												}
 
 											}
@@ -8070,7 +8070,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 431.0, 246.0, 121.0, 18.0 ],
-													"text" : "set 0 jcom.com.vimicPolyPatch~ $1"
+													"text" : "set 0 jcom.vimicPolyPatch~ $1"
 												}
 
 											}
@@ -8440,7 +8440,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 108.0, 132.5, 144.0, 18.0 ],
-													"text" : "script delete jcom.com.vimicPolyPatch~"
+													"text" : "script delete jcom.vimicPolyPatch~"
 												}
 
 											}
@@ -8573,7 +8573,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 69.0, 183.0, 408.0, 32.0 ],
-													"text" : "script newdefault jcom.com.vimicPolyPatch~ 300 680 poly~ jcom.com.vimicPolyPatch~~ $1 args $2 $3, script send jcom.com.vimicPolyPatch~ target 0"
+													"text" : "script newdefault jcom.vimicPolyPatch~ 300 680 poly~ jcom.vimicPolyPatch~~ $1 args $2 $3, script send jcom.vimicPolyPatch~ target 0"
 												}
 
 											}
@@ -17716,8 +17716,8 @@
 					"numoutlets" : 24,
 					"outlettype" : [ "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal" ],
 					"patching_rect" : [ 301.0, 680.0, 329.5, 20.0 ],
-					"text" : "poly~ jcom.com.vimicPolyPatch~~ 8 args 8 1",
-					"varname" : "jcom.com.vimicPolyPatch~"
+					"text" : "poly~ jcom.vimicPolyPatch~~ 8 args 8 1",
+					"varname" : "jcom.vimicPolyPatch~"
 				}
 
 			}
