@@ -2,20 +2,18 @@
 CUE Setup
 ##########
 
-  	/vimic/microphones/amount 4
-	/vimic/room/reflection/order 0
-    /control/audio 0
+/vimic/microphones/amount 4
+/vimic/room/reflection/order 0
+/control/audio 0
  
 WAIT 100
 
 # Module /output
+/output/limiter/active 0
+/output/setup 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32
+/output/numSpeakers 4  
 
-#    /output/setup 22 4 10 17 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32
-    /output/setup 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32
-    /output/numSpeakers 4  
-
-# Module /vimic
-    /vimic/audio/gain 100.000
+# Module /vimic    
     /vimic/audio/mute 0 
     /vimic/rendermode/interval 25   
 
@@ -55,10 +53,11 @@ WAIT 100
     /vimic/room/reflection/gain.0 100.0
     
     /vimic/source.1/orientation/active 1
-    /vimic/source.1/orientation/mode static    
+    /vimic/source.1/orientation/mode static 
+    /vimic/audio/gain 10.000   
     	   
-   	WAIT 100                           
-
+WAIT 100                           
+	/vimic/audio/gain 100.000
 	/vimic/source.1/directivity/loadFile "speaker.txt" 
 	
 ########
@@ -67,6 +66,7 @@ CUE "Noise on"
 	/control/audio 1  
 	
 	/input~/audio/active 1
+	/output/audio/gain 100	
 	/input~/audio/gain 100. ramp 1000
 	/input~/balance -1.
 	/input~/source pink
