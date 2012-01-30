@@ -338,54 +338,6 @@ Number of signal outlets: <code> 0 </code> </p>
 			<td class ="instructionDescription"> translation in z-direction </td>
 		<tr>
 		<tr>
-			<td class="instructionName"> view/color/border </td>
-			<td class ="instructionType"> array </td>
-			<th class = "instructionRangeBounds"> N/A </td>
-			<td class ="instructionRangeClipmode"> none </td>
-			<td class ="instructionRampDrive"> none </td>
-			<td class ="instructionRampFunction"> linear </td>
-			<td class ="instructionDataspace"> none </td>
-			<td class ="instructionDataspaceUnitNative"> none </td>
-			<td class ="instructionRepetitionsAllow"> 0 </td>
-			<td class ="instructionDescription"> The border color of the module in the format RGBA where values range [0.0, 1.0]. </td>
-		<tr>
-		<tr>
-			<td class="instructionName"> view/color/contentBackground </td>
-			<td class ="instructionType"> array </td>
-			<th class = "instructionRangeBounds"> N/A </td>
-			<td class ="instructionRangeClipmode"> none </td>
-			<td class ="instructionRampDrive"> none </td>
-			<td class ="instructionRampFunction"> linear </td>
-			<td class ="instructionDataspace"> none </td>
-			<td class ="instructionDataspaceUnitNative"> none </td>
-			<td class ="instructionRepetitionsAllow"> 0 </td>
-			<td class ="instructionDescription"> The background color of the module in the format RGBA where values range [0.0, 1.0]. </td>
-		<tr>
-		<tr>
-			<td class="instructionName"> view/color/toolbarBackground </td>
-			<td class ="instructionType"> array </td>
-			<th class = "instructionRangeBounds"> N/A </td>
-			<td class ="instructionRangeClipmode"> none </td>
-			<td class ="instructionRampDrive"> none </td>
-			<td class ="instructionRampFunction"> linear </td>
-			<td class ="instructionDataspace"> none </td>
-			<td class ="instructionDataspaceUnitNative"> none </td>
-			<td class ="instructionRepetitionsAllow"> 0 </td>
-			<td class ="instructionDescription"> The background color of the module's toolbar in the format RGBA where values range [0.0, 1.0]. </td>
-		<tr>
-		<tr>
-			<td class="instructionName"> view/color/toolbarText </td>
-			<td class ="instructionType"> array </td>
-			<th class = "instructionRangeBounds"> N/A </td>
-			<td class ="instructionRangeClipmode"> none </td>
-			<td class ="instructionRampDrive"> none </td>
-			<td class ="instructionRampFunction"> linear </td>
-			<td class ="instructionDataspace"> none </td>
-			<td class ="instructionDataspaceUnitNative"> none </td>
-			<td class ="instructionRepetitionsAllow"> 0 </td>
-			<td class ="instructionDescription"> The color of the module's toolbar text in the format RGBA where values range [0.0, 1.0]. </td>
-		<tr>
-		<tr>
 			<td class="instructionName"> view/freeze </td>
 			<td class ="instructionType"> boolean </td>
 			<td class ="instructionRangeBounds"> 0 1 </td>
@@ -398,8 +350,8 @@ Number of signal outlets: <code> 0 </code> </p>
 			<td class ="instructionDescription"> Turn off the updating of user interface elements when parameters change.  This may be done to conserve CPU resources. </td>
 		<tr>
 		<tr>
-			<td class="instructionName"> view/size </td>
-			<td class ="instructionType"> array </td>
+			<td class="instructionName"> view/highlight </td>
+			<td class ="instructionType"> string </td>
 			<th class = "instructionRangeBounds"> N/A </td>
 			<td class ="instructionRangeClipmode"> none </td>
 			<td class ="instructionRampDrive"> none </td>
@@ -407,7 +359,7 @@ Number of signal outlets: <code> 0 </code> </p>
 			<td class ="instructionDataspace"> none </td>
 			<td class ="instructionDataspaceUnitNative"> none </td>
 			<td class ="instructionRepetitionsAllow"> 0 </td>
-			<td class ="instructionDescription"> The size of the module's UI. </td>
+			<td class ="instructionDescription"> Highlight the modul with a color tint such as red, green, or similar. </td>
 		<tr>
 	</table>
 
@@ -1412,6 +1364,54 @@ Number of signal outlets: <code> 0 </code> </p>
 			<td class ="instructionDescription"> updates internal matrix </td>
 		<tr>
 		<tr>
+			<td class="instructionName"> view/color/border </td>
+			<td class ="instructionType"> array </td>
+			<th class = "instructionRangeBounds"> N/A </td>
+			<td class ="instructionRangeClipmode"> none </td>
+			<td class ="instructionRampDrive"> none </td>
+			<td class ="instructionRampFunction"> linear </td>
+			<td class ="instructionDataspace"> none </td>
+			<td class ="instructionDataspaceUnitNative"> none </td>
+			<td class ="instructionRepetitionsAllow"> 0 </td>
+			<td class ="instructionDescription"> The border color of the module in the format RGBA where values range [0.0, 1.0]. </td>
+		<tr>
+		<tr>
+			<td class="instructionName"> view/color/contentBackground </td>
+			<td class ="instructionType"> array </td>
+			<th class = "instructionRangeBounds"> N/A </td>
+			<td class ="instructionRangeClipmode"> none </td>
+			<td class ="instructionRampDrive"> none </td>
+			<td class ="instructionRampFunction"> linear </td>
+			<td class ="instructionDataspace"> none </td>
+			<td class ="instructionDataspaceUnitNative"> none </td>
+			<td class ="instructionRepetitionsAllow"> 0 </td>
+			<td class ="instructionDescription"> The background color of the module in the format RGBA where values range [0.0, 1.0]. </td>
+		<tr>
+		<tr>
+			<td class="instructionName"> view/color/toolbarBackground </td>
+			<td class ="instructionType"> array </td>
+			<th class = "instructionRangeBounds"> N/A </td>
+			<td class ="instructionRangeClipmode"> none </td>
+			<td class ="instructionRampDrive"> none </td>
+			<td class ="instructionRampFunction"> linear </td>
+			<td class ="instructionDataspace"> none </td>
+			<td class ="instructionDataspaceUnitNative"> none </td>
+			<td class ="instructionRepetitionsAllow"> 0 </td>
+			<td class ="instructionDescription"> The background color of the module's toolbar in the format RGBA where values range [0.0, 1.0]. </td>
+		<tr>
+		<tr>
+			<td class="instructionName"> view/color/toolbarText </td>
+			<td class ="instructionType"> array </td>
+			<th class = "instructionRangeBounds"> N/A </td>
+			<td class ="instructionRangeClipmode"> none </td>
+			<td class ="instructionRampDrive"> none </td>
+			<td class ="instructionRampFunction"> linear </td>
+			<td class ="instructionDataspace"> none </td>
+			<td class ="instructionDataspaceUnitNative"> none </td>
+			<td class ="instructionRepetitionsAllow"> 0 </td>
+			<td class ="instructionDescription"> The color of the module's toolbar text in the format RGBA where values range [0.0, 1.0]. </td>
+		<tr>
+		<tr>
 			<td class="instructionName"> view/internals </td>
 			<td class ="instructionType"> none </td>
 			<th class = "instructionRangeBounds"> N/A </td>
@@ -1446,6 +1446,18 @@ Number of signal outlets: <code> 0 </code> </p>
 			<td class ="instructionDataspaceUnitNative"> none </td>
 			<td class ="instructionRepetitionsAllow"> 1 </td>
 			<td class ="instructionDescription"> Low-level module hacking.  Any arguments arguments to this message will be interpreted as patcher scripting for the top-level patcher of the module. </td>
+		<tr>
+		<tr>
+			<td class="instructionName"> view/size </td>
+			<td class ="instructionType"> array </td>
+			<th class = "instructionRangeBounds"> N/A </td>
+			<td class ="instructionRangeClipmode"> none </td>
+			<td class ="instructionRampDrive"> none </td>
+			<td class ="instructionRampFunction"> linear </td>
+			<td class ="instructionDataspace"> none </td>
+			<td class ="instructionDataspaceUnitNative"> none </td>
+			<td class ="instructionRepetitionsAllow"> 0 </td>
+			<td class ="instructionDescription"> The size of the module's UI. </td>
 		<tr>
 	</table>
 

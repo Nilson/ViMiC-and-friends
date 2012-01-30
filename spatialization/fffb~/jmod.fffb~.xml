@@ -32,11 +32,7 @@
     <item name='q.5' type='decimal' priority='1'>100</item>
     <item name='q.6' type='decimal' priority='1'>100</item>
     <item name='q.7' type='decimal' priority='1'>100</item>
-    <item name='q.8' type='decimal' priority='1'>100</item>
-    <item name='view/color/border' type='array' priority='0'>0</item>
-    <item name='view/color/contentBackground' type='array' priority='0'>0</item>
-    <item name='view/color/toolbarBackground' type='array' priority='0'>0</item>
-    <item name='view/color/toolbarText' type='array' priority='0'>0</item>
+    <item name='q.8' type='decimal' priority='1'>100</item>    
     <item name='view/freeze' type='boolean' priority='0'>0</item>
     <item name='view/size' type='array' priority='0'>300 105 </item>
   </preset>  
@@ -118,13 +114,7 @@
   	<item name='q.29' type='decimal' priority='4'> 0.793701</item>
     <item name='q.30' type='decimal' priority='4'> 0.793701</item>
     <item name='q.31' type='decimal' priority='4'> 0.793701</item>
-    <item name='q.32' type='decimal' priority='4'> 0.793701</item>
-
-
-    <item name='view/color/border' type='array' priority='0'>0</item>
-    <item name='view/color/contentBackground' type='array' priority='0'>0</item>
-    <item name='view/color/toolbarBackground' type='array' priority='0'>0</item>
-    <item name='view/color/toolbarText' type='array' priority='0'>0</item>
+    <item name='q.32' type='decimal' priority='4'> 0.793701</item>    
     <item name='view/freeze' type='boolean' priority='0'>0</item>
     <item name='view/size' type='array' priority='0'>300 105 </item>
   </preset>
