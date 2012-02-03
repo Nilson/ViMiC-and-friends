@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 2
+			"revision" : 4
 		}
 ,
 		"rect" : [ 101.0, 44.0, 1169.0, 697.0 ],
@@ -40,7 +40,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 2
+							"revision" : 4
 						}
 ,
 						"rect" : [ 25.0, 69.0, 640.0, 480.0 ],
@@ -198,9 +198,9 @@
 						"default_fontface" : 0,
 						"digest" : "",
 						"default_fontname" : "Arial",
+						"default_fontsize" : 12.0,
 						"fontname" : "Arial",
 						"tags" : "",
-						"default_fontsize" : 12.0,
 						"description" : "",
 						"globalpatchername" : ""
 					}
@@ -251,7 +251,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 2
+							"revision" : 4
 						}
 ,
 						"rect" : [ 25.0, 69.0, 640.0, 480.0 ],
@@ -510,9 +510,9 @@
 						"default_fontface" : 0,
 						"digest" : "",
 						"default_fontname" : "Verdana",
+						"default_fontsize" : 10.0,
 						"fontname" : "Verdana",
 						"tags" : "",
-						"default_fontsize" : 10.0,
 						"description" : "",
 						"globalpatchername" : ""
 					}
@@ -566,7 +566,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 2
+							"revision" : 4
 						}
 ,
 						"rect" : [ 356.0, 102.0, 640.0, 480.0 ],
@@ -737,7 +737,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 0,
-											"revision" : 2
+											"revision" : 4
 										}
 ,
 										"rect" : [ 50.0, 94.0, 640.0, 480.0 ],
@@ -1083,9 +1083,9 @@
 										"default_fontface" : 0,
 										"digest" : "",
 										"default_fontname" : "Verdana",
+										"default_fontsize" : 10.0,
 										"fontname" : "Verdana",
 										"tags" : "",
-										"default_fontsize" : 10.0,
 										"description" : "",
 										"globalpatchername" : ""
 									}
@@ -1108,7 +1108,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 0,
-											"revision" : 2
+											"revision" : 4
 										}
 ,
 										"rect" : [ 50.0, 94.0, 640.0, 480.0 ],
@@ -1266,9 +1266,9 @@
 										"default_fontface" : 0,
 										"digest" : "",
 										"default_fontname" : "Verdana",
+										"default_fontsize" : 10.0,
 										"fontname" : "Verdana",
 										"tags" : "",
-										"default_fontsize" : 10.0,
 										"description" : "",
 										"globalpatchername" : ""
 									}
@@ -1557,9 +1557,9 @@
 						"default_fontface" : 0,
 						"digest" : "",
 						"default_fontname" : "Verdana",
+						"default_fontsize" : 10.0,
 						"fontname" : "Verdana",
 						"tags" : "",
-						"default_fontsize" : 10.0,
 						"description" : "",
 						"globalpatchername" : ""
 					}
@@ -1596,7 +1596,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 2
+							"revision" : 4
 						}
 ,
 						"rect" : [ 483.0, 174.0, 640.0, 480.0 ],
@@ -1821,9 +1821,9 @@
 						"default_fontface" : 0,
 						"digest" : "",
 						"default_fontname" : "Arial",
+						"default_fontsize" : 10.0,
 						"fontname" : "Arial",
 						"tags" : "",
-						"default_fontsize" : 10.0,
 						"description" : "",
 						"globalpatchername" : ""
 					}
@@ -1861,7 +1861,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 2
+							"revision" : 4
 						}
 ,
 						"rect" : [ 483.0, 174.0, 640.0, 480.0 ],
@@ -2086,9 +2086,9 @@
 						"default_fontface" : 0,
 						"digest" : "",
 						"default_fontname" : "Arial",
+						"default_fontsize" : 10.0,
 						"fontname" : "Arial",
 						"tags" : "",
-						"default_fontsize" : 10.0,
 						"description" : "",
 						"globalpatchername" : ""
 					}
@@ -2126,7 +2126,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 2
+							"revision" : 4
 						}
 ,
 						"rect" : [ 483.0, 174.0, 640.0, 480.0 ],
@@ -2351,9 +2351,9 @@
 						"default_fontface" : 0,
 						"digest" : "",
 						"default_fontname" : "Arial",
+						"default_fontsize" : 10.0,
 						"fontname" : "Arial",
 						"tags" : "",
-						"default_fontsize" : 10.0,
 						"description" : "",
 						"globalpatchername" : ""
 					}
@@ -2391,7 +2391,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 2
+							"revision" : 4
 						}
 ,
 						"rect" : [ 483.0, 174.0, 640.0, 480.0 ],
@@ -2616,9 +2616,9 @@
 						"default_fontface" : 0,
 						"digest" : "",
 						"default_fontname" : "Arial",
+						"default_fontsize" : 10.0,
 						"fontname" : "Arial",
 						"tags" : "",
-						"default_fontsize" : 10.0,
 						"description" : "",
 						"globalpatchername" : ""
 					}
@@ -2656,7 +2656,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 2
+							"revision" : 4
 						}
 ,
 						"rect" : [ 483.0, 174.0, 640.0, 480.0 ],
@@ -2881,9 +2881,9 @@
 						"default_fontface" : 0,
 						"digest" : "",
 						"default_fontname" : "Arial",
+						"default_fontsize" : 10.0,
 						"fontname" : "Arial",
 						"tags" : "",
-						"default_fontsize" : 10.0,
 						"description" : "",
 						"globalpatchername" : ""
 					}
@@ -2921,7 +2921,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 2
+							"revision" : 4
 						}
 ,
 						"rect" : [ 483.0, 174.0, 640.0, 480.0 ],
@@ -3146,9 +3146,9 @@
 						"default_fontface" : 0,
 						"digest" : "",
 						"default_fontname" : "Arial",
+						"default_fontsize" : 10.0,
 						"fontname" : "Arial",
 						"tags" : "",
-						"default_fontsize" : 10.0,
 						"description" : "",
 						"globalpatchername" : ""
 					}
@@ -3186,7 +3186,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 2
+							"revision" : 4
 						}
 ,
 						"rect" : [ 483.0, 174.0, 640.0, 480.0 ],
@@ -3411,9 +3411,9 @@
 						"default_fontface" : 0,
 						"digest" : "",
 						"default_fontname" : "Arial",
+						"default_fontsize" : 10.0,
 						"fontname" : "Arial",
 						"tags" : "",
-						"default_fontsize" : 10.0,
 						"description" : "",
 						"globalpatchername" : ""
 					}
@@ -3451,7 +3451,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 2
+							"revision" : 4
 						}
 ,
 						"rect" : [ 483.0, 174.0, 640.0, 480.0 ],
@@ -3676,9 +3676,9 @@
 						"default_fontface" : 0,
 						"digest" : "",
 						"default_fontname" : "Arial",
+						"default_fontsize" : 10.0,
 						"fontname" : "Arial",
 						"tags" : "",
-						"default_fontsize" : 10.0,
 						"description" : "",
 						"globalpatchername" : ""
 					}
@@ -4066,7 +4066,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 2
+							"revision" : 4
 						}
 ,
 						"rect" : [ 25.0, 69.0, 640.0, 480.0 ],
@@ -4326,9 +4326,9 @@
 						"default_fontface" : 0,
 						"digest" : "",
 						"default_fontname" : "Verdana",
+						"default_fontsize" : 10.0,
 						"fontname" : "Verdana",
 						"tags" : "",
-						"default_fontsize" : 10.0,
 						"description" : "",
 						"globalpatchername" : ""
 					}
@@ -6267,7 +6267,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 2
+							"revision" : 4
 						}
 ,
 						"rect" : [ 605.0, 157.0, 600.0, 426.0 ],
@@ -6551,9 +6551,9 @@
 						"default_fontface" : 0,
 						"digest" : "",
 						"default_fontname" : "Arial",
+						"default_fontsize" : 12.0,
 						"fontname" : "Arial",
 						"tags" : "",
-						"default_fontsize" : 12.0,
 						"description" : "",
 						"globalpatchername" : ""
 					}
@@ -6595,11 +6595,10 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 2
+							"revision" : 4
 						}
 ,
-						"rect" : [ 154.0, 44.0, 603.0, 740.0 ],
-						"bgcolor" : [ 0.321569, 0.301961, 0.129412, 1.0 ],
+						"rect" : [ 3.0, 45.0, 603.0, 739.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -6620,6 +6619,20 @@
 						"tags" : "",
 						"title" : "/editing_this_module : ViMiC - Virtual Microphone Control",
 						"boxes" : [ 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-1",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
+									"patching_rect" : [ 34.504128, 1067.0, 55.0, 20.0 ],
+									"text" : "jcom.init"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
@@ -6680,7 +6693,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 0,
-											"revision" : 2
+											"revision" : 4
 										}
 ,
 										"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
@@ -6824,9 +6837,9 @@
 										"default_fontface" : 0,
 										"digest" : "",
 										"default_fontname" : "Arial",
+										"default_fontsize" : 12.0,
 										"fontname" : "Arial",
 										"tags" : "",
-										"default_fontsize" : 12.0,
 										"description" : "",
 										"globalpatchername" : ""
 									}
@@ -6885,7 +6898,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 0,
-											"revision" : 2
+											"revision" : 4
 										}
 ,
 										"rect" : [ 20.0, 74.0, 600.0, 426.0 ],
@@ -7194,9 +7207,9 @@
 										"default_fontface" : 0,
 										"digest" : "",
 										"default_fontname" : "Arial",
+										"default_fontsize" : 12.0,
 										"fontname" : "Arial",
 										"tags" : "",
-										"default_fontsize" : 12.0,
 										"description" : "",
 										"globalpatchername" : ""
 									}
@@ -7219,7 +7232,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 0,
-											"revision" : 2
+											"revision" : 4
 										}
 ,
 										"rect" : [ 20.0, 74.0, 600.0, 426.0 ],
@@ -7528,9 +7541,9 @@
 										"default_fontface" : 0,
 										"digest" : "",
 										"default_fontname" : "Arial",
+										"default_fontsize" : 12.0,
 										"fontname" : "Arial",
 										"tags" : "",
-										"default_fontsize" : 12.0,
 										"description" : "",
 										"globalpatchername" : ""
 									}
@@ -7553,7 +7566,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 0,
-											"revision" : 2
+											"revision" : 4
 										}
 ,
 										"rect" : [ 25.0, 69.0, 640.0, 480.0 ],
@@ -7697,9 +7710,9 @@
 										"default_fontface" : 0,
 										"digest" : "",
 										"default_fontname" : "Arial",
+										"default_fontsize" : 12.0,
 										"fontname" : "Arial",
 										"tags" : "",
-										"default_fontsize" : 12.0,
 										"description" : "",
 										"globalpatchername" : ""
 									}
@@ -7830,7 +7843,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 0,
-											"revision" : 2
+											"revision" : 4
 										}
 ,
 										"rect" : [ 25.0, 69.0, 640.0, 480.0 ],
@@ -8305,9 +8318,9 @@
 										"default_fontface" : 0,
 										"digest" : "",
 										"default_fontname" : "Verdana",
+										"default_fontsize" : 10.0,
 										"fontname" : "Verdana",
 										"tags" : "",
-										"default_fontsize" : 10.0,
 										"description" : "",
 										"globalpatchername" : ""
 									}
@@ -9430,7 +9443,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 0,
-											"revision" : 2
+											"revision" : 4
 										}
 ,
 										"rect" : [ 10.0, 59.0, 600.0, 426.0 ],
@@ -9606,9 +9619,9 @@
 										"default_fontface" : 0,
 										"digest" : "",
 										"default_fontname" : "Arial",
+										"default_fontsize" : 12.0,
 										"fontname" : "Arial",
 										"tags" : "",
-										"default_fontsize" : 12.0,
 										"description" : "",
 										"globalpatchername" : ""
 									}
@@ -9695,7 +9708,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 0,
-											"revision" : 2
+											"revision" : 4
 										}
 ,
 										"rect" : [ 10.0, 59.0, 600.0, 426.0 ],
@@ -9871,9 +9884,9 @@
 										"default_fontface" : 0,
 										"digest" : "",
 										"default_fontname" : "Arial",
+										"default_fontsize" : 12.0,
 										"fontname" : "Arial",
 										"tags" : "",
-										"default_fontsize" : 12.0,
 										"description" : "",
 										"globalpatchername" : ""
 									}
@@ -9960,7 +9973,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 0,
-											"revision" : 2
+											"revision" : 4
 										}
 ,
 										"rect" : [ 10.0, 59.0, 600.0, 426.0 ],
@@ -10136,9 +10149,9 @@
 										"default_fontface" : 0,
 										"digest" : "",
 										"default_fontname" : "Arial",
+										"default_fontsize" : 12.0,
 										"fontname" : "Arial",
 										"tags" : "",
-										"default_fontsize" : 12.0,
 										"description" : "",
 										"globalpatchername" : ""
 									}
@@ -10225,7 +10238,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 0,
-											"revision" : 2
+											"revision" : 4
 										}
 ,
 										"rect" : [ 10.0, 59.0, 600.0, 426.0 ],
@@ -10401,9 +10414,9 @@
 										"default_fontface" : 0,
 										"digest" : "",
 										"default_fontname" : "Arial",
+										"default_fontsize" : 12.0,
 										"fontname" : "Arial",
 										"tags" : "",
-										"default_fontsize" : 12.0,
 										"description" : "",
 										"globalpatchername" : ""
 									}
@@ -10490,7 +10503,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 0,
-											"revision" : 2
+											"revision" : 4
 										}
 ,
 										"rect" : [ 10.0, 59.0, 600.0, 426.0 ],
@@ -10666,9 +10679,9 @@
 										"default_fontface" : 0,
 										"digest" : "",
 										"default_fontname" : "Arial",
+										"default_fontsize" : 12.0,
 										"fontname" : "Arial",
 										"tags" : "",
-										"default_fontsize" : 12.0,
 										"description" : "",
 										"globalpatchername" : ""
 									}
@@ -10755,7 +10768,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 0,
-											"revision" : 2
+											"revision" : 4
 										}
 ,
 										"rect" : [ 10.0, 59.0, 600.0, 426.0 ],
@@ -10931,9 +10944,9 @@
 										"default_fontface" : 0,
 										"digest" : "",
 										"default_fontname" : "Arial",
+										"default_fontsize" : 12.0,
 										"fontname" : "Arial",
 										"tags" : "",
-										"default_fontsize" : 12.0,
 										"description" : "",
 										"globalpatchername" : ""
 									}
@@ -11016,7 +11029,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 19.652832, 1080.181885, 239.0, 15.0 ],
+									"patching_rect" : [ 34.504128, 1093.0, 210.0, 15.0 ],
 									"text" : "window flags nogrow, savewindow 1, window exec"
 								}
 
@@ -11031,7 +11044,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 19.652832, 1098.611572, 229.0, 15.0 ],
+									"patching_rect" : [ 80.710693, 565.644592, 144.0, 15.0 ],
 									"text" : "window flags grow, window exec"
 								}
 
@@ -11143,7 +11156,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 0,
-											"revision" : 2
+											"revision" : 4
 										}
 ,
 										"rect" : [ 20.0, 74.0, 600.0, 426.0 ],
@@ -11452,9 +11465,9 @@
 										"default_fontface" : 0,
 										"digest" : "",
 										"default_fontname" : "Arial",
+										"default_fontsize" : 12.0,
 										"fontname" : "Arial",
 										"tags" : "",
-										"default_fontsize" : 12.0,
 										"description" : "",
 										"globalpatchername" : ""
 									}
@@ -11477,7 +11490,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 0,
-											"revision" : 2
+											"revision" : 4
 										}
 ,
 										"rect" : [ 404.0, 324.0, 600.0, 426.0 ],
@@ -11787,9 +11800,9 @@
 										"default_fontface" : 0,
 										"digest" : "",
 										"default_fontname" : "Arial",
+										"default_fontsize" : 12.0,
 										"fontname" : "Arial",
 										"tags" : "",
-										"default_fontsize" : 12.0,
 										"description" : "",
 										"globalpatchername" : ""
 									}
@@ -11813,7 +11826,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 0,
-											"revision" : 2
+											"revision" : 4
 										}
 ,
 										"rect" : [ 20.0, 74.0, 600.0, 426.0 ],
@@ -12126,9 +12139,9 @@
 										"default_fontface" : 0,
 										"digest" : "",
 										"default_fontname" : "Arial",
+										"default_fontsize" : 12.0,
 										"fontname" : "Arial",
 										"tags" : "",
-										"default_fontsize" : 12.0,
 										"description" : "",
 										"globalpatchername" : ""
 									}
@@ -12151,7 +12164,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 0,
-											"revision" : 2
+											"revision" : 4
 										}
 ,
 										"rect" : [ 20.0, 74.0, 600.0, 426.0 ],
@@ -12431,9 +12444,9 @@
 										"default_fontface" : 0,
 										"digest" : "",
 										"default_fontname" : "Arial",
+										"default_fontsize" : 12.0,
 										"fontname" : "Arial",
 										"tags" : "",
-										"default_fontsize" : 12.0,
 										"description" : "",
 										"globalpatchername" : ""
 									}
@@ -12456,7 +12469,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 0,
-											"revision" : 2
+											"revision" : 4
 										}
 ,
 										"rect" : [ 591.0, 301.0, 600.0, 426.0 ],
@@ -12751,9 +12764,9 @@
 										"default_fontface" : 0,
 										"digest" : "",
 										"default_fontname" : "Arial",
+										"default_fontsize" : 12.0,
 										"fontname" : "Arial",
 										"tags" : "",
-										"default_fontsize" : 12.0,
 										"description" : "",
 										"globalpatchername" : ""
 									}
@@ -12787,7 +12800,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 0,
-											"revision" : 2
+											"revision" : 4
 										}
 ,
 										"rect" : [ 20.0, 74.0, 600.0, 426.0 ],
@@ -13096,9 +13109,9 @@
 										"default_fontface" : 0,
 										"digest" : "",
 										"default_fontname" : "Arial",
+										"default_fontsize" : 12.0,
 										"fontname" : "Arial",
 										"tags" : "",
-										"default_fontsize" : 12.0,
 										"description" : "",
 										"globalpatchername" : ""
 									}
@@ -13121,7 +13134,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 0,
-											"revision" : 2
+											"revision" : 4
 										}
 ,
 										"rect" : [ 20.0, 74.0, 600.0, 426.0 ],
@@ -13430,9 +13443,9 @@
 										"default_fontface" : 0,
 										"digest" : "",
 										"default_fontname" : "Arial",
+										"default_fontsize" : 12.0,
 										"fontname" : "Arial",
 										"tags" : "",
-										"default_fontsize" : 12.0,
 										"description" : "",
 										"globalpatchername" : ""
 									}
@@ -15001,7 +15014,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 6.826447, 1140.768677, 59.0, 17.0 ],
-									"save" : [ "#N", "thispatcher", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
+									"save" : [ "#N", "thispatcher", ";", "#Q", "window", "flags", "grow", "close", "zoom", "nofloat", "menu", "minimize", ";", "#Q", "window", "constrain", 50, 50, 32768, 32768, ";", "#Q", "window", "size", 3, 45, 606, 784, ";", "#Q", "window", "title", ";", "#Q", "window", "exec", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
 									"text" : "thispatcher"
 								}
 
@@ -15084,6 +15097,15 @@
 							}
  ],
 						"lines" : [ 							{
+								"patchline" : 								{
+									"destination" : [ "obj-51", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-1", 0 ]
+								}
+
+							}
+, 							{
 								"patchline" : 								{
 									"destination" : [ "obj-12", 0 ],
 									"disabled" : 0,
@@ -16996,9 +17018,9 @@
 						"default_fontface" : 0,
 						"digest" : "",
 						"default_fontname" : "Arial",
+						"default_fontsize" : 12.0,
 						"fontname" : "Arial",
 						"tags" : "",
-						"default_fontsize" : 12.0,
 						"description" : "",
 						"globalpatchername" : ""
 					}
@@ -18993,7 +19015,7 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "jalg.sur.vimic8~.maxpat",
-				"bootpath" : "/Users/nilspeters/Documents/gits/Jamoma/UserLib/ViMiC/sur.vimic8~",
+				"bootpath" : "/Users/nilspeters/Documents/gits/Jamoma/UserLib/ViMiC/spatialization/sur.vimic8~",
 				"patcherrelativepath" : "",
 				"type" : "JSON",
 				"implicit" : 1
@@ -19001,70 +19023,70 @@
 , 			{
 				"name" : "source_parser.maxpat",
 				"bootpath" : "/Users/nilspeters/Documents/gits/Jamoma/UserLib/ViMiC/shared",
-				"patcherrelativepath" : "../shared",
+				"patcherrelativepath" : "../../shared",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.thru.maxpat",
 				"bootpath" : "/Users/nilspeters/Documents/gits/Jamoma/Modules/Modular/Max/library/components/thru",
-				"patcherrelativepath" : "../../../Modules/Modular/Max/library/components/thru",
+				"patcherrelativepath" : "../../../../Modules/Modular/Max/library/components/thru",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.sur.vimic_mic.maxpat",
 				"bootpath" : "/Users/nilspeters/Documents/gits/Jamoma/UserLib/ViMiC/shared",
-				"patcherrelativepath" : "../shared",
+				"patcherrelativepath" : "../../shared",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.list2parameter.maxpat",
 				"bootpath" : "/Users/nilspeters/Documents/gits/Jamoma/Modules/Modular/Max/library/components/list2parameter",
-				"patcherrelativepath" : "../../../Modules/Modular/Max/library/components/list2parameter",
+				"patcherrelativepath" : "../../../../Modules/Modular/Max/library/components/list2parameter",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.meter_receive.maxpat",
 				"bootpath" : "/Users/nilspeters/Documents/gits/Jamoma/Modules/Modular/Max/library/components/meter_receive",
-				"patcherrelativepath" : "../../../Modules/Modular/Max/library/components/meter_receive",
+				"patcherrelativepath" : "../../../../Modules/Modular/Max/library/components/meter_receive",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "wall_properties.maxpat",
 				"bootpath" : "/Users/nilspeters/Documents/gits/Jamoma/UserLib/ViMiC/shared",
-				"patcherrelativepath" : "../shared",
+				"patcherrelativepath" : "../../shared",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "VimicSurfaceProperties.txt",
 				"bootpath" : "/Users/nilspeters/Documents/gits/Jamoma/UserLib/ViMiC/shared",
-				"patcherrelativepath" : "../shared",
+				"patcherrelativepath" : "../../shared",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.sur.directivityEditor.maxpat",
 				"bootpath" : "/Users/nilspeters/Documents/gits/Jamoma/UserLib/ViMiC/shared",
-				"patcherrelativepath" : "../shared",
+				"patcherrelativepath" : "../../shared",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "npej.function.js",
 				"bootpath" : "/Users/nilspeters/Documents/gits/Jamoma/UserLib/ViMiC/shared/third-party",
-				"patcherrelativepath" : "../shared/third-party",
+				"patcherrelativepath" : "../../shared/third-party",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jsui_360dial.js",
 				"bootpath" : "/Applications/Max6/Cycling '74/jsui-library",
-				"patcherrelativepath" : "../../../../../../../../Applications/Max6/Cycling '74/jsui-library",
+				"patcherrelativepath" : "../../../../../../../../../Applications/Max6/Cycling '74/jsui-library",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
