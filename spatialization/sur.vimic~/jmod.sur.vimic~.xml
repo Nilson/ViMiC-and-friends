@@ -177,7 +177,6 @@
     <item name='room/reflection/gain.0' type='decimal' priority='0'>100.000000</item>
     <item name='room/reflection/gain.1' type='decimal' priority='0'>0.000000</item>
     <item name='room/reflection/gain.2' type='decimal' priority='0'>0.000000</item>
-    <item name='room/reflection/order' type='integer' priority='300'>1</item>
     <item name='room/size/xyz' type='array' priority='0'>20.000000 30.000000 8.000000 </item>
     <item name='room/temperature' type='decimal' priority='0'>21.000000</item>
     <item name='source.1/orientation/active' type='boolean' priority='0'>0</item>
