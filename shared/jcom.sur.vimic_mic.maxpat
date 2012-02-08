@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 0
+			"revision" : 4
 		}
 ,
 		"rect" : [ 0.0, 44.0, 1280.0, 726.0 ],
@@ -319,6 +319,7 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "activates solo mode for this microphone.",
 					"bgoncolor" : [ 0.917647, 0.937255, 0.670588, 1.0 ],
 					"bgoveroncolor" : [ 0.945098, 0.913725, 0.407843, 1.0 ],
 					"fontname" : "Verdana",
@@ -393,6 +394,7 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "load a directivity preset for the Nth microphone",
 					"arrow" : 0,
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
@@ -414,6 +416,7 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "VU meter for the Nth microphone",
 					"id" : "obj-29",
 					"maxclass" : "jcom.meter~",
 					"numinlets" : 1,
@@ -625,7 +628,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 0
+							"revision" : 4
 						}
 ,
 						"rect" : [ 543.0, 275.0, 667.0, 308.0 ],
@@ -981,8 +984,6 @@
 ,
 					"patching_rect" : [ 928.0, 110.0, 73.0, 17.0 ],
 					"saved_object_attributes" : 					{
-						"digest" : "",
-						"default_fontname" : "Arial",
 						"fontname" : "Arial",
 						"default_fontsize" : 12.0,
 						"tags" : "",
@@ -990,7 +991,9 @@
 						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 12.0,
-						"default_fontface" : 0
+						"default_fontface" : 0,
+						"digest" : "",
+						"default_fontname" : "Arial"
 					}
 ,
 					"text" : "p mic-presets",
@@ -1045,8 +1048,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 433.0, 276.0, 475.0, 19.0 ],
-					"text" : "jcom.message microphone.1/solo @type boolean @description \"activates solo mode for this microphone\"",
+					"patching_rect" : [ 433.0, 276.0, 474.0, 19.0 ],
+					"text" : "jcom.message microphone.1/solo @type boolean @description \"activates solo mode for this microphone.\"",
 					"varname" : "soloparameter"
 				}
 
@@ -1227,6 +1230,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-11", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-5", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-12", 0 ]
 				}
 
 			}
@@ -1837,15 +1849,6 @@
 					"disabled" : 0,
 					"hidden" : 1,
 					"source" : [ "obj-39", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-5", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-12", 0 ]
 				}
 
 			}
