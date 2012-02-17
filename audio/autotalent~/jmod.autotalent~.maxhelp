@@ -319,7 +319,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 69.0, 657.0, 353.0, 19.0 ],
-					"text" : "http://www.olilarkin.co.uk/blog/files/"
+					"text" : "http://www.olilarkin.co.uk/blog/files/ol_autotalent~v0-2.zip"
 				}
 
 			}
