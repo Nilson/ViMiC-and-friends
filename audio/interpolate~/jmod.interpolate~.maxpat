@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 2
+			"revision" : 4
 		}
 ,
 		"rect" : [ 189.0, 44.0, 1091.0, 566.0 ],
@@ -36,8 +36,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 471.0, 385.0, 608.0, 31.0 ],
-					"text" : "jcom.parameter.array 32 source weight @type array @range/bounds 0. 1. @description \"Set spatial weight of the nth source.\""
+					"patching_rect" : [ 471.0, 500.0, 590.0, 31.0 ],
+					"text" : "jcom.parameter.array 32 destination weight @type array @range/bounds 0. 1. @description \"Set spatial weight of the nth destination.\""
 				}
 
 			}
@@ -46,12 +46,13 @@
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
 					"id" : "obj-45",
+					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 471.0, 360.0, 664.0, 19.0 ],
-					"text" : "jcom.message.array 32 source active @type boolean @repetitions/allow 1 @description \"Mute or unmute the nth source.\""
+					"patching_rect" : [ 471.0, 360.0, 591.0, 31.0 ],
+					"text" : "jcom.parameter.array 32 source active @type boolean @repetitions/allow 1 @description \"Mute or unmute the nth source.\""
 				}
 
 			}
@@ -65,8 +66,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 471.0, 325.0, 594.0, 31.0 ],
-					"text" : "jcom.message.array 32 source gain @type decimal @dataspace gain @dataspace/unit/active linear @description \"Input gain for the nth source.\""
+					"patching_rect" : [ 471.0, 325.0, 590.0, 31.0 ],
+					"text" : "jcom.parameter.array 32 source gain @type decimal @dataspace gain @dataspace/unit/active linear @description \"Input gain for the nth source.\""
 				}
 
 			}
@@ -80,8 +81,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 471.0, 290.0, 589.0, 31.0 ],
-					"text" : "jcom.message.array 32 source blur @type decimal @range/bounds 0. 100. @description \"Set spatial blur of the nth source.\""
+					"patching_rect" : [ 471.0, 290.0, 605.0, 31.0 ],
+					"text" : "jcom.parameter.array 32 source blur @type decimal @range/bounds 0. 100. @description \"Set spatial blur of the nth source.\""
 				}
 
 			}
@@ -123,8 +124,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 471.0, 460.0, 600.0, 31.0 ],
-					"text" : "jcom.message.array 32 destination position @type array @dataspace position @dataspace/unit/active xyz @priority 1 @description \"Position of the nth source.\""
+					"patching_rect" : [ 471.0, 460.0, 556.0, 31.0 ],
+					"text" : "jcom.parameter.array 32 destination position @type array @dataspace position @dataspace/unit/active xyz @description \"Position of the nth destination.\""
 				}
 
 			}
@@ -138,8 +139,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 471.0, 255.0, 603.0, 31.0 ],
-					"text" : "jcom.message.array 32 source position @type array @dataspace position @dataspace/unit/active xyz @priority 1 @description \"Position of the nth source.\""
+					"patching_rect" : [ 471.0, 255.0, 593.0, 31.0 ],
+					"text" : "jcom.parameter.array 32 source position @type array @dataspace position @dataspace/unit/active xyz @priority 1 @description \"Position of the nth source.\""
 				}
 
 			}
@@ -161,24 +162,19 @@
 				"box" : 				{
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
-					"frozen_object_attributes" : 					{
-						"description" : "Get info on current positions of sources and speakers",
-						"type" : "none",
-						"name" : "info"
-					}
-,
 					"id" : "obj-28",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 531.0, 185.0, 105.0, 19.0 ],
-					"text" : "jcom.message info"
+					"patching_rect" : [ 567.0, 20.0, 395.0, 19.0 ],
+					"text" : "jcom.message info @description \"print out state of the internal dbap object\""
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "Rolloff in dB with doubling of distance.",
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
 					"id" : "obj-17",
@@ -212,6 +208,7 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "Dimensions of the space spanned by loudspeakers.",
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
 					"id" : "obj-12",
@@ -247,6 +244,7 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "The number of speakers to diffuse to.",
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
 					"id" : "obj-10",
@@ -282,6 +280,7 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "The number of sources to process.",
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
 					"id" : "obj-9",
@@ -682,36 +681,22 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "jalg.interpolate~.maxpat",
-				"bootpath" : "/Users/nilspeters/Documents/gits/Jamoma/UserLib/ViMiC/interpolate~",
+				"bootpath" : "/Users/nilspeters/Documents/gits/Jamoma/UserLib/ViMiC/audio/interpolate~",
 				"patcherrelativepath" : "",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "jcom.message.array.maxpat",
-				"bootpath" : "/Users/nilspeters/Documents/gits/Jamoma/Modules/Modular/Max/library/components/message.array",
-				"patcherrelativepath" : "../../../Modules/Modular/Max/library/components/message.array",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "jcom.message.array.instance.maxpat",
-				"bootpath" : "/Users/nilspeters/Documents/gits/Jamoma/Modules/Modular/Max/library/components/message.array",
-				"patcherrelativepath" : "../../../Modules/Modular/Max/library/components/message.array",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.parameter.array.maxpat",
 				"bootpath" : "/Users/nilspeters/Documents/gits/Jamoma/Modules/Modular/Max/library/components/parameter.array",
-				"patcherrelativepath" : "../../../Modules/Modular/Max/library/components/parameter.array",
+				"patcherrelativepath" : "../../../../Modules/Modular/Max/library/components/parameter.array",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.parameter.array.instance.maxpat",
 				"bootpath" : "/Users/nilspeters/Documents/gits/Jamoma/Modules/Modular/Max/library/components/parameter.array",
-				"patcherrelativepath" : "../../../Modules/Modular/Max/library/components/parameter.array",
+				"patcherrelativepath" : "../../../../Modules/Modular/Max/library/components/parameter.array",
 				"type" : "JSON",
 				"implicit" : 1
 			}
