@@ -118,7 +118,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 445.0, 290.0, 603.0, 31.0 ],
-					"text" : "jcom.message.array 32 source position @type array @dataspace position @dataspace/unit/active xyz @priority 1 @description \"Position of the nth source.\""
+					"text" : "jcom.message.array 32 source position @type array @dataspace position @dataspace/unit/active xyz @description \"Position of the nth source.\""
 				}
 
 			}
