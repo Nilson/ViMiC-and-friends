@@ -5,27 +5,50 @@
 		xsi:schemaLocation='http://jamoma.org/ file:jamoma.xsd'
 >
   <preset number='1' name='default'>
-    <item name='audio/gain' type='decimal' priority='0'>100.000000</item>
-    <item name='audio/mute' type='boolean' priority='0'>0</item>
-    <item name='fdn/delaylength' type='array' priority='0'>30.000000 76.000000 </item>
-    <item name='fdn/filtergain' type='decimal' priority='0'>0.000000</item>
-    <item name='fdn/filtertype' type='string' priority='0'>bandpass</item>
-    <item name='fdn/frequency' type='decimal' priority='0'>732.000000</item>
-    <item name='fdn/modulation/active' type='integer' priority='0'>1</item>
-    <item name='fdn/modulation/amplitude' type='array' priority='0'>0.350000 5.060000 </item>
-    <item name='fdn/modulation/frequency' type='array' priority='0'>0.320000 1.400000 </item>
-    <item name='fdn/q' type='decimal' priority='0'>0.054497</item>
-    <item name='input/filtergain' type='decimal' priority='0'>0.000000</item>
-    <item name='input/filtertype' type='string' priority='0'>lowpass</item>
-    <item name='input/frequency' type='decimal' priority='0'>2548.000000</item>
-    <item name='input/q' type='decimal' priority='0'>0.606826</item>
-    <item name='numInputs' type='integer' priority='1'>8</item>
-    <item name='interpolationtime' type='decimal' priority='0'>20.000000</item>
-    <item name='numOutputs' type='integer' priority='2'>8</item>
-    <item name='predelay' type='decimal' priority='0'>0.000000</item>
-    <item name='t60' type='decimal' priority='0'>1.700000</item>
-    <item name='view/color/border' type='array' priority='0'>0</item>
-    <item name='view/freeze' type='boolean' priority='0'>0</item>
-    <item name='view/size' type='array' priority='0'>300 70 </item>
+    <item name='audio/gain' type='decimal' priority='0' mixweight='1'>100.000000</item>
+    <item name='audio/mute' type='boolean' priority='0' mixweight='1'>0</item>
+    <item name='fdn/delaylength' type='array' priority='0' mixweight='1'>30.000000 76.000000 </item>
+    <item name='fdn/filtergain' type='decimal' priority='0' mixweight='1'>0.000000</item>
+    <item name='fdn/filtertype' type='string' priority='0' mixweight='1'>bandpass</item>
+    <item name='fdn/frequency' type='decimal' priority='0' mixweight='1'>732.000000</item>
+    <item name='fdn/modulation/active' type='integer' priority='0' mixweight='1'>1</item>
+    <item name='fdn/modulation/amplitude' type='array' priority='0' mixweight='1'>0.350000 5.060000 </item>
+    <item name='fdn/modulation/frequency' type='array' priority='0' mixweight='1'>0.320000 1.400000 </item>
+    <item name='fdn/q' type='decimal' priority='0' mixweight='1'>0.054497</item>
+    <item name='input/filtergain' type='decimal' priority='0' mixweight='1'>0.000000</item>
+    <item name='input/filtertype' type='string' priority='0' mixweight='1'>lowpass</item>
+    <item name='input/frequency' type='decimal' priority='0' mixweight='1'>2548.000000</item>
+    <item name='input/q' type='decimal' priority='0' mixweight='1'>0.606826</item>
+    <item name='interpolationtime' type='decimal' priority='0' mixweight='1'>20.000000</item>
+    <item name='numInputs' type='integer' priority='1' mixweight='1'>8</item>
+    <item name='numOutputs' type='integer' priority='2' mixweight='1'>8</item>
+    <item name='output.1/gain' type='decimal' priority='0' mixweight='1'>100.000000</item>
+    <item name='output.10/gain' type='decimal' priority='0' mixweight='1'>100.000000</item>
+    <item name='output.11/gain' type='decimal' priority='0' mixweight='1'>100.000000</item>
+    <item name='output.12/gain' type='decimal' priority='0' mixweight='1'>100.000000</item>
+    <item name='output.13/gain' type='decimal' priority='0' mixweight='1'>100.000000</item>
+    <item name='output.14/gain' type='decimal' priority='0' mixweight='1'>100.000000</item>
+    <item name='output.15/gain' type='decimal' priority='0' mixweight='1'>100.000000</item>
+    <item name='output.16/gain' type='decimal' priority='0' mixweight='1'>100.000000</item>
+    <item name='output.17/gain' type='decimal' priority='0' mixweight='1'>100.000000</item>
+    <item name='output.18/gain' type='decimal' priority='0' mixweight='1'>100.000000</item>
+    <item name='output.19/gain' type='decimal' priority='0' mixweight='1'>100.000000</item>
+    <item name='output.2/gain' type='decimal' priority='0' mixweight='1'>100.000000</item>
+    <item name='output.20/gain' type='decimal' priority='0' mixweight='1'>100.000000</item>
+    <item name='output.21/gain' type='decimal' priority='0' mixweight='1'>100.000000</item>
+    <item name='output.22/gain' type='decimal' priority='0' mixweight='1'>100.000000</item>
+    <item name='output.23/gain' type='decimal' priority='0' mixweight='1'>100.000000</item>
+    <item name='output.24/gain' type='decimal' priority='0' mixweight='1'>100.000000</item>
+    <item name='output.3/gain' type='decimal' priority='0' mixweight='1'>100.000000</item>
+    <item name='output.4/gain' type='decimal' priority='0' mixweight='1'>100.000000</item>
+    <item name='output.5/gain' type='decimal' priority='0' mixweight='1'>100.000000</item>
+    <item name='output.6/gain' type='decimal' priority='0' mixweight='1'>100.000000</item>
+    <item name='output.7/gain' type='decimal' priority='0' mixweight='1'>100.000000</item>
+    <item name='output.8/gain' type='decimal' priority='0' mixweight='1'>100.000000</item>
+    <item name='output.9/gain' type='decimal' priority='0' mixweight='1'>100.000000</item>
+    <item name='predelay' type='decimal' priority='0' mixweight='1'>0.000000</item>
+    <item name='t60' type='decimal' priority='0' mixweight='1'>1.700000</item>
+    <item name='view/freeze' type='boolean' priority='0' mixweight='1'>0</item>
+    <item name='view/highlight' type='string' priority='0' mixweight='1'>none</item>
   </preset>
 </jamoma>
