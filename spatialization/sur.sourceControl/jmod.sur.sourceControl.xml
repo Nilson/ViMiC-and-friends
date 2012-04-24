@@ -54,7 +54,6 @@
     <item name='source.8/position' type='array' priority='0'>10.000000 0.104167 0.000000 </item>
     <item name='source.8/reverb/gain' type='decimal' priority='0'>0.000000</item>
     <item name='source.8/solo' type='boolean' priority='0'>0</item>
-    <item name='view/radius' type='decimal' priority='0'>10.000000</item>
-    <item name='view/size' type='array' priority='0'>600 210 </item>
+    <item name='view/radius' type='decimal' priority='0'>10.000000</item>    
   </preset>
 </jamoma>

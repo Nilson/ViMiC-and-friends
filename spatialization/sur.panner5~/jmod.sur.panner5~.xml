@@ -10,6 +10,6 @@
     <item name='interpolationTime' type='integer' priority='0'>0</item>
     <item name='numSources' type='integer' priority='1'>7</item>    
     <item name='view/freeze' type='boolean' priority='0'>0</item>
-    <item name='view/size' type='array' priority='0'>300 70 </item>
+
   </preset>
 </jamoma>
