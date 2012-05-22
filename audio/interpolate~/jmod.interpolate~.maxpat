@@ -67,7 +67,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 471.0, 325.0, 590.0, 31.0 ],
-					"text" : "jcom.parameter.array 32 source gain @type decimal @dataspace gain @dataspace/unit/active linear @description \"Input gain for the nth source.\""
+					"text" : "jcom.parameter.array 32 source gain @type decimal @dataspace gain @dataspace/unit linear @description \"Input gain for the nth source.\""
 				}
 
 			}
@@ -125,7 +125,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 471.0, 460.0, 556.0, 31.0 ],
-					"text" : "jcom.parameter.array 32 destination position @type array @dataspace position @dataspace/unit/active xyz @description \"Position of the nth destination.\""
+					"text" : "jcom.parameter.array 32 destination position @type array @dataspace position @dataspace/unit xyz @description \"Position of the nth destination.\""
 				}
 
 			}
@@ -140,7 +140,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 471.0, 255.0, 593.0, 31.0 ],
-					"text" : "jcom.parameter.array 32 source position @type array @dataspace position @dataspace/unit/active xyz @priority 1 @description \"Position of the nth source.\""
+					"text" : "jcom.parameter.array 32 source position @type array @dataspace position @dataspace/unit xyz @priority 1 @description \"Position of the nth source.\""
 				}
 
 			}

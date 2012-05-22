@@ -528,7 +528,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 568.0, 234.0, 575.0, 31.0 ],
-					"text" : "jcom.parameter source.1/gain @type decimal @range/bounds 0. 127. @range/clipmode both @dataspace gain @dataspace/unit/active midi @dataspace/unit/native midi @dataspace/unit/display midi"
+					"text" : "jcom.parameter source.1/gain @type decimal @range/bounds 0. 127. @range/clipmode both @dataspace gain @dataspace/unit midi"
 				}
 
 			}
@@ -543,7 +543,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 700.0, 189.0, 487.0, 43.0 ],
-					"text" : "jcom.parameter source.1/reverb/gain @type decimal @range/bounds 0. 127. @range/clipmode both @dataspace gain @dataspace/unit/active midi @dataspace/unit/native midi @dataspace/unit/display midi @description \"aux level for a reverb unit\""
+					"text" : "jcom.parameter source.1/reverb/gain @type decimal @range/bounds 0. 127. @range/clipmode both @dataspace gain @dataspace/unit midi @description \"aux level for a reverb unit\""
 				}
 
 			}

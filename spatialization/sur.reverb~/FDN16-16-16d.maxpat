@@ -16592,7 +16592,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 437.0, 139.0, 574.0, 17.0 ],
-									"text" : "jcom.return fdn/length @type decimal @enable 1 @description \"Sum of Delays inside the FDN\" @dataspace time @dataspace/unit/native ms"
+									"text" : "jcom.return fdn/length @type decimal @enable 1 @description \"Sum of Delays inside the FDN\" @dataspace time @dataspace/unit ms"
 								}
 
 							}

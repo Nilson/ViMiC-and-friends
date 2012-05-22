@@ -2120,7 +2120,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 648.0, 296.0, 580.0, 48.0 ],
-					"text" : "jcom.parameter.array 8 gain @type decimal @dataspace gain @priority 4 @dataspace/unit/native midi @dataspace/unit/display midi @dataspace/unit/active midi @ramp/drive scheduler @range/bounds 0. 127. @range/clipmode both @repetitions/allow 0 @description \"gain of the Nth Band\""
+					"text" : "jcom.parameter.array 8 gain @type decimal @dataspace gain @priority 4 @dataspace/unit midi @ramp/drive scheduler @range/bounds 0. 127. @range/clipmode both @repetitions/allow 0 @description \"gain of the Nth Band\""
 				}
 
 			}
@@ -2150,7 +2150,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 618.0, 454.0, 553.0, 48.0 ],
-					"text" : "jcom.parameter.array 8 frequency @type decimal @priority 3 @range/bounds 20 20000 @ramp/drive scheduler @range/clipmode both @repetitions/allow 0 @dataspace time @dataspace/unit/native Hz @dataspace/unit/display Hz @dataspace/unit/active Hz @description \"frequency of the Nth Band\""
+					"text" : "jcom.parameter.array 8 frequency @type decimal @priority 3 @range/bounds 20 20000 @ramp/drive scheduler @range/clipmode both @repetitions/allow 0 @dataspace time @dataspace/unit Hz @description \"frequency of the Nth Band\""
 				}
 
 			}

@@ -332,7 +332,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 384.0, 93.0, 771.0, 34.0 ],
-					"text" : "jcom.parameter glide @type decimal @range/bounds 0 500 @range/clipmode both @description \"glide time in [ms]\" @ramp/drive scheduler @dataspace time @dataspace/unit/active ms @dataspace/unit/native ms @dataspace/unit/display ms"
+					"text" : "jcom.parameter glide @type decimal @range/bounds 0 500 @range/clipmode both @description \"glide time in [ms]\" @ramp/drive scheduler @dataspace time @dataspace/unit ms"
 				}
 
 			}

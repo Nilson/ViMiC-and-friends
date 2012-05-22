@@ -312,7 +312,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 416.0, 151.0, 603.0, 41.0 ],
-					"text" : "jcom.parameter.array 24 output gain @type decimal @repetitions/allow 0 @range/bounds 0 127 @range/clipmode both @description \"output gain for each output\" @dataspace gain @dataspace/unit/active midi @dataspace/unit/display midi @dataspace/unit/native midi @value/default 100. @ramp/drive scheduler @ramp/function linear"
+					"text" : "jcom.parameter.array 24 output gain @type decimal @repetitions/allow 0 @range/bounds 0 127 @range/clipmode both @description \"output gain for each output\" @dataspace gain @dataspace/unit midi @value/default 100. @ramp/drive scheduler @ramp/function linear"
 				}
 
 			}

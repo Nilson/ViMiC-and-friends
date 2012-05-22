@@ -631,7 +631,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 832.0, 175.0, 239.0, 72.0 ],
-					"text" : "jcom.parameter source.1/aperture @type integer @range/bounds 10 180 @dataspace angle dataspace/unit/native degree dataspace/unit/active degree @range/clipmode both @repetitions/allow 1 @description \"directvity expressed as aperture of the sound source\"",
+					"text" : "jcom.parameter source.1/aperture @type integer @range/bounds 10 180 @dataspace angle dataspace/unit degree @range/clipmode both @repetitions/allow 1 @description \"directvity expressed as aperture of the sound source\"",
 					"varname" : "source/directivity/aperture"
 				}
 

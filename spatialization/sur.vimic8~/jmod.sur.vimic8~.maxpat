@@ -4174,7 +4174,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1362.0, 666.0, 571.0, 27.0 ],
-					"text" : "jcom.parameter room/reflection/gain.2 @dataspace gain @dataspace/unit/active midi @dataspace/unit/native midi @dataspace/unit/native midi @repetitions/allow 0 @type decimal @ramp/drive scheduler @description \"gain of the early reflections 2nd order\"",
+					"text" : "jcom.parameter room/reflection/gain.2 @dataspace gain @dataspace/unit midi @repetitions/allow 0 @type decimal @ramp/drive scheduler @description \"gain of the early reflections 2nd order\"",
 					"varname" : "room/reflection/2/gain"
 				}
 
@@ -4191,7 +4191,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1362.0, 632.0, 571.0, 27.0 ],
-					"text" : "jcom.parameter room/reflection/gain.1 @dataspace gain @dataspace/unit/active midi @dataspace/unit/native midi @dataspace/unit/native midi @repetitions/allow 0 @type decimal @ramp/drive scheduler @description \"gain of the early reflections 1st order\"",
+					"text" : "jcom.parameter room/reflection/gain.1 @dataspace gain @dataspace/unit midi @repetitions/allow 0 @type decimal @ramp/drive scheduler @description \"gain of the early reflections 1st order\"",
 					"varname" : "room/reflection/1/gain"
 				}
 
@@ -4208,7 +4208,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 560.0, 802.0, 572.0, 27.0 ],
-					"text" : "jcom.parameter room/reflection/gain.0 @dataspace gain @dataspace/unit/active midi @dataspace/unit/native midi @dataspace/unit/native midi @repetitions/allow 0 @type decimal @ramp/drive scheduler @description \"gain of the direct sound component\"",
+					"text" : "jcom.parameter room/reflection/gain.0 @dataspace gain @dataspace/unit midi @repetitions/allow 0 @type decimal @ramp/drive scheduler @description \"gain of the direct sound component\"",
 					"varname" : "room/reflection/0/gain"
 				}
 
@@ -4225,7 +4225,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 823.0, 118.0, 490.0, 27.0 ],
-					"text" : "jcom.parameter source.2/gain @repetitions/allow 0 @type decimal @ramp/drive scheduler @dataspace gain @dataspace/unit/active midi @dataspace/unit/native midi @dataspace/unit/native midi @description \"gain of source 2\"",
+					"text" : "jcom.parameter source.2/gain @repetitions/allow 0 @type decimal @ramp/drive scheduler @dataspace gain @dataspace/unit midi @description \"gain of source 2\"",
 					"varname" : "room/reflection/2/gain[3]"
 				}
 
@@ -4242,7 +4242,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 815.0, 27.0, 493.0, 27.0 ],
-					"text" : "jcom.parameter source.1/gain @repetitions/allow 0 @type decimal @ramp/drive scheduler @dataspace gain @dataspace/unit/active midi @dataspace/unit/native midi @dataspace/unit/native midi @description \"gain of source 1\"",
+					"text" : "jcom.parameter source.1/gain @repetitions/allow 0 @type decimal @ramp/drive scheduler @dataspace gain @dataspace/unit midi @description \"gain of source 1\"",
 					"varname" : "room/reflection/2/gain[4]"
 				}
 
@@ -4259,7 +4259,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 819.0, 305.0, 490.0, 27.0 ],
-					"text" : "jcom.parameter source.4/gain @repetitions/allow 0 @type decimal @ramp/drive scheduler @dataspace gain @dataspace/unit/active midi @dataspace/unit/native midi @dataspace/unit/native midi @description \"gain of source 4\"",
+					"text" : "jcom.parameter source.4/gain @repetitions/allow 0 @type decimal @ramp/drive scheduler @dataspace gain @dataspace/unit midi @description \"gain of source 4\"",
 					"varname" : "room/reflection/2/gain[5]"
 				}
 
@@ -4276,7 +4276,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 821.0, 212.0, 490.0, 27.0 ],
-					"text" : "jcom.parameter source.3/gain @repetitions/allow 0 @type decimal @ramp/drive scheduler @dataspace gain @dataspace/unit/active midi @dataspace/unit/native midi @dataspace/unit/native midi @description \"gain of source 3\"",
+					"text" : "jcom.parameter source.3/gain @repetitions/allow 0 @type decimal @ramp/drive scheduler @dataspace gain @dataspace/unit midi @description \"gain of source 3\"",
 					"varname" : "room/reflection/2/gain[6]"
 				}
 
@@ -4293,7 +4293,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 818.0, 486.0, 490.0, 27.0 ],
-					"text" : "jcom.parameter source.6/gain @repetitions/allow 0 @type decimal @ramp/drive scheduler @dataspace gain @dataspace/unit/active midi @dataspace/unit/native midi @dataspace/unit/native midi @description \"gain of source 6\"",
+					"text" : "jcom.parameter source.6/gain @repetitions/allow 0 @type decimal @ramp/drive scheduler @dataspace gain @dataspace/unit midi @description \"gain of source 6\"",
 					"varname" : "room/reflection/2/gain[1]"
 				}
 
@@ -4310,7 +4310,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 819.0, 396.0, 490.0, 27.0 ],
-					"text" : "jcom.parameter source.5/gain @repetitions/allow 0 @type decimal @ramp/drive scheduler @dataspace gain @dataspace/unit/active midi @dataspace/unit/native midi @dataspace/unit/native midi @description \"gain of source 5\"",
+					"text" : "jcom.parameter source.5/gain @repetitions/allow 0 @type decimal @ramp/drive scheduler @dataspace gain @dataspace/unit midi  @description \"gain of source 5\"",
 					"varname" : "room/reflection/2/gain[2]"
 				}
 
@@ -4907,7 +4907,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 811.0, 696.0, 490.0, 27.0 ],
-					"text" : "jcom.parameter source.8/gain @repetitions/allow 0 @type decimal @ramp/drive scheduler @dataspace gain @dataspace/unit/active midi @dataspace/unit/native midi @dataspace/unit/native midi @description \"gain of source 8\"",
+					"text" : "jcom.parameter source.8/gain @repetitions/allow 0 @type decimal @ramp/drive scheduler @dataspace gain @dataspace/unit midi @description \"gain of source 8\"",
 					"varname" : "room/reflection/2/gain[8]"
 				}
 
@@ -4924,7 +4924,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 812.0, 582.5, 490.0, 27.0 ],
-					"text" : "jcom.parameter source.7/gain @repetitions/allow 0 @type decimal @ramp/drive scheduler @dataspace gain @dataspace/unit/active midi @dataspace/unit/native midi @dataspace/unit/native midi @description \"gain of source 7\"",
+					"text" : "jcom.parameter source.7/gain @repetitions/allow 0 @type decimal @ramp/drive scheduler @dataspace gain @dataspace/unit midi @description \"gain of source 7\"",
 					"varname" : "room/reflection/2/gain[7]"
 				}
 
@@ -5245,7 +5245,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1323.0, 754.0, 471.0, 27.0 ],
-					"text" : "jcom.message source.1/position @ramp/drive scheduler @description \"Sourceposition in the virtual room - spatDIF compliant\" @type array @dataspace position @dataspace/unit/active xyz @dataspace/unit/native xyz",
+					"text" : "jcom.message source.1/position @ramp/drive scheduler @description \"Sourceposition in the virtual room - spatDIF compliant\" @type array @dataspace position @dataspace/unit xyz",
 					"varname" : "source/position/absolute[8]"
 				}
 
@@ -5262,7 +5262,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1323.0, 962.0, 471.0, 27.0 ],
-					"text" : "jcom.message source.8/position @ramp/drive scheduler @description \"Sourceposition in the virtual room - spatDIF compliant\" @type array @dataspace position @dataspace/unit/active xyz @dataspace/unit/native xyz",
+					"text" : "jcom.message source.8/position @ramp/drive scheduler @description \"Sourceposition in the virtual room - spatDIF compliant\" @type array @dataspace position @dataspace/unit xyz",
 					"varname" : "source/position/absolute[7]"
 				}
 
@@ -5279,7 +5279,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1323.0, 933.0, 471.0, 27.0 ],
-					"text" : "jcom.message source.7/position @ramp/drive scheduler @description \"Sourceposition in the virtual room - spatDIF compliant\" @type array @dataspace position @dataspace/unit/active xyz @dataspace/unit/native xyz",
+					"text" : "jcom.message source.7/position @ramp/drive scheduler @description \"Sourceposition in the virtual room - spatDIF compliant\" @type array @dataspace position @dataspace/unit xyz",
 					"varname" : "source/position/absolute[6]"
 				}
 
@@ -5296,7 +5296,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1323.0, 903.0, 471.0, 27.0 ],
-					"text" : "jcom.message source.6/position @ramp/drive scheduler @description \"Sourceposition in the virtual room - spatDIF compliant\" @type array @dataspace position @dataspace/unit/active xyz @dataspace/unit/native xyz",
+					"text" : "jcom.message source.6/position @ramp/drive scheduler @description \"Sourceposition in the virtual room - spatDIF compliant\" @type array @dataspace position @dataspace/unit xyz",
 					"varname" : "source/position/absolute[5]"
 				}
 
@@ -5313,7 +5313,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1323.0, 873.0, 471.0, 27.0 ],
-					"text" : "jcom.message source.5/position @ramp/drive scheduler @description \"Sourceposition in the virtual room - spatDIF compliant\" @type array @dataspace position @dataspace/unit/active xyz @dataspace/unit/native xyz",
+					"text" : "jcom.message source.5/position @ramp/drive scheduler @description \"Sourceposition in the virtual room - spatDIF compliant\" @type array @dataspace position @dataspace/unit xyz",
 					"varname" : "source/position/absolute[4]"
 				}
 
@@ -5330,7 +5330,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1323.0, 843.0, 471.0, 27.0 ],
-					"text" : "jcom.message source.4/position @ramp/drive scheduler @description \"Sourceposition in the virtual room - spatDIF compliant\" @type array @dataspace position @dataspace/unit/active xyz @dataspace/unit/native xyz",
+					"text" : "jcom.message source.4/position @ramp/drive scheduler @description \"Sourceposition in the virtual room - spatDIF compliant\" @type array @dataspace position @dataspace/unit xyz",
 					"varname" : "source/position/absolute[3]"
 				}
 
@@ -5347,7 +5347,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1323.0, 813.0, 471.0, 27.0 ],
-					"text" : "jcom.message source.3/position @ramp/drive scheduler @description \"Sourceposition in the virtual room - spatDIF compliant\" @type array @dataspace position @dataspace/unit/active xyz @dataspace/unit/native xyz",
+					"text" : "jcom.message source.3/position @ramp/drive scheduler @description \"Sourceposition in the virtual room - spatDIF compliant\" @type array @dataspace position @dataspace/unit xyz",
 					"varname" : "source/position/absolute[2]"
 				}
 
@@ -5364,7 +5364,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1323.0, 783.0, 471.0, 27.0 ],
-					"text" : "jcom.message source.2/position @ramp/drive scheduler @description \"Sourceposition in the virtual room - spatDIF compliant\" @type array @dataspace position @dataspace/unit/active xyz @dataspace/unit/native xyz",
+					"text" : "jcom.message source.2/position @ramp/drive scheduler @description \"Sourceposition in the virtual room - spatDIF compliant\" @type array @dataspace position @dataspace/unit xyz",
 					"varname" : "source/position/absolute[1]"
 				}
 
@@ -9339,7 +9339,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 1720.0, 770.0, 645.0, 27.0 ],
-									"text" : "jcom.parameter room/absorption.ceiling/mid_high_frequency @type integer @repetitions/allow 1 @range/bounds 10 9999 @range/clipmode both @dataspace time @dataspace/unit/active Hz @dataspace/unit/native Hz @dataspace/unit/display Hz @description \"mid-high crossover frequencies for the ceiling filter\""
+									"text" : "jcom.parameter room/absorption.ceiling/mid_high_frequency @type integer @repetitions/allow 1 @range/bounds 10 9999 @range/clipmode both @dataspace time @dataspace/unit Hz @description \"mid-high crossover frequencies for the ceiling filter\""
 								}
 
 							}
@@ -9354,7 +9354,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 1721.0, 714.0, 646.0, 27.0 ],
-									"text" : "jcom.parameter room/absorption.ceiling/low_mid_frequency @type integer @repetitions/allow 1 @range/bounds 10 9999 @range/clipmode both @dataspace time @dataspace/unit/active Hz @dataspace/unit/native Hz @dataspace/unit/display Hz @description \"low-mid crossover frequencies for the ceiling wall filter\""
+									"text" : "jcom.parameter room/absorption.ceiling/low_mid_frequency @type integer @repetitions/allow 1 @range/bounds 10 9999 @range/clipmode both @dataspace time @dataspace/unit Hz @description \"low-mid crossover frequencies for the ceiling wall filter\""
 								}
 
 							}
@@ -9606,7 +9606,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 1724.0, 633.0, 637.0, 27.0 ],
-									"text" : "jcom.parameter room/absorption.floor/mid_high_frequency @type integer @repetitions/allow 1 @range/bounds 10 9999 @range/clipmode both @dataspace time @dataspace/unit/active Hz @dataspace/unit/native Hz @dataspace/unit/display Hz @description \"mid-high crossover frequencies for the floor filter\""
+									"text" : "jcom.parameter room/absorption.floor/mid_high_frequency @type integer @repetitions/allow 1 @range/bounds 10 9999 @range/clipmode both @dataspace time @dataspace/unit Hz @description \"mid-high crossover frequencies for the floor filter\""
 								}
 
 							}
@@ -9621,7 +9621,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 1725.0, 577.0, 638.0, 27.0 ],
-									"text" : "jcom.parameter room/absorption.floor/low_mid_frequency @type integer @repetitions/allow 1 @range/bounds 10 9999 @range/clipmode both @dataspace time @dataspace/unit/active Hz @dataspace/unit/native Hz @dataspace/unit/display Hz @description \"low-mid crossover frequencies for the floor filter\""
+									"text" : "jcom.parameter room/absorption.floor/low_mid_frequency @type integer @repetitions/allow 1 @range/bounds 10 9999 @range/clipmode both @dataspace time @dataspace/unit Hz @description \"low-mid crossover frequencies for the floor filter\""
 								}
 
 							}
@@ -9873,7 +9873,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 1725.0, 500.0, 638.0, 27.0 ],
-									"text" : "jcom.parameter room/absorption.right/mid_high_frequency @type integer @repetitions/allow 1 @range/bounds 10 9999 @range/clipmode both @dataspace time @dataspace/unit/active Hz @dataspace/unit/native Hz @dataspace/unit/display Hz @description \"mid-high crossover frequencies for the right wall filter\""
+									"text" : "jcom.parameter room/absorption.right/mid_high_frequency @type integer @repetitions/allow 1 @range/bounds 10 9999 @range/clipmode both @dataspace time @dataspace/unit Hz @description \"mid-high crossover frequencies for the right wall filter\""
 								}
 
 							}
@@ -9888,7 +9888,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 1725.0, 438.0, 633.0, 27.0 ],
-									"text" : "jcom.parameter room/absorption.right/low_mid_frequency @type integer @repetitions/allow 1 @range/bounds 10 9999 @range/clipmode both @dataspace time @dataspace/unit/active Hz @dataspace/unit/native Hz @dataspace/unit/display Hz @description \"low-mid crossover frequencies for the right wall filter\""
+									"text" : "jcom.parameter room/absorption.right/low_mid_frequency @type integer @repetitions/allow 1 @range/bounds 10 9999 @range/clipmode both @dataspace time @dataspace/unit Hz @description \"low-mid crossover frequencies for the right wall filter\""
 								}
 
 							}
@@ -10140,7 +10140,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 1724.0, 357.0, 631.0, 27.0 ],
-									"text" : "jcom.parameter room/absorption.left/mid_high_frequency @type integer @repetitions/allow 1 @range/bounds 10 9999 @range/clipmode both @dataspace time @dataspace/unit/active Hz @dataspace/unit/native Hz @dataspace/unit/display Hz @description \"mid-high crossover frequencies for the left wall filter\""
+									"text" : "jcom.parameter room/absorption.left/mid_high_frequency @type integer @repetitions/allow 1 @range/bounds 10 9999 @range/clipmode both @dataspace time @dataspace/unit Hz @description \"mid-high crossover frequencies for the left wall filter\""
 								}
 
 							}
@@ -10155,7 +10155,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 1723.0, 295.0, 627.0, 27.0 ],
-									"text" : "jcom.parameter room/absorption.left/low_mid_frequency @type integer @repetitions/allow 1 @range/bounds 10 9999 @range/clipmode both @dataspace time @dataspace/unit/active Hz @dataspace/unit/native Hz @dataspace/unit/display Hz @description \"low-mid crossover frequencies for the left wall filter\""
+									"text" : "jcom.parameter room/absorption.left/low_mid_frequency @type integer @repetitions/allow 1 @range/bounds 10 9999 @range/clipmode both @dataspace time @dataspace/unit Hz @description \"low-mid crossover frequencies for the left wall filter\""
 								}
 
 							}
@@ -10407,7 +10407,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 1723.0, 224.0, 635.0, 27.0 ],
-									"text" : "jcom.parameter room/absorption.rear/mid_high_frequency @type integer @repetitions/allow 1 @range/bounds 10 9999 @range/clipmode both @dataspace time @dataspace/unit/active Hz @dataspace/unit/native Hz @dataspace/unit/display Hz @description \"mid-high crossover frequencies for the rear wall filter\""
+									"text" : "jcom.parameter room/absorption.rear/mid_high_frequency @type integer @repetitions/allow 1 @range/bounds 10 9999 @range/clipmode both @dataspace time @dataspace/unit Hz @description \"mid-high crossover frequencies for the rear wall filter\""
 								}
 
 							}
@@ -10422,7 +10422,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 1722.0, 162.0, 631.0, 27.0 ],
-									"text" : "jcom.parameter room/absorption.rear/low_mid_frequency @type integer @repetitions/allow 1 @range/bounds 10 9999 @range/clipmode both @dataspace time @dataspace/unit/active Hz @dataspace/unit/native Hz @dataspace/unit/display Hz @description \"low-mid crossover frequencies for the rear wall filter\""
+									"text" : "jcom.parameter room/absorption.rear/low_mid_frequency @type integer @repetitions/allow 1 @range/bounds 10 9999 @range/clipmode both @dataspace time @dataspace/unit Hz @description \"low-mid crossover frequencies for the rear wall filter\""
 								}
 
 							}
@@ -10674,7 +10674,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 1727.0, 98.0, 639.0, 27.0 ],
-									"text" : "jcom.parameter room/absorption.front/mid_high_frequency @type integer @repetitions/allow 1 @range/bounds 10 9999 @range/clipmode both @dataspace time @dataspace/unit/active Hz @dataspace/unit/native Hz @dataspace/unit/display Hz @description \" mid-high crossover frequencies for the front wall filter\""
+									"text" : "jcom.parameter room/absorption.front/mid_high_frequency @type integer @repetitions/allow 1 @range/bounds 10 9999 @range/clipmode both @dataspace time @dataspace/unit Hz @description \" mid-high crossover frequencies for the front wall filter\""
 								}
 
 							}
@@ -10689,7 +10689,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 1726.0, 36.0, 636.0, 27.0 ],
-									"text" : "jcom.parameter room/absorption.front/low_mid_frequency @type integer @repetitions/allow 1 @range/bounds 10 9999 @range/clipmode both @dataspace time @dataspace/unit/active Hz @dataspace/unit/native Hz @dataspace/unit/display Hz @description \"low-mid  crossover frequencies for the front wall filter\""
+									"text" : "jcom.parameter room/absorption.front/low_mid_frequency @type integer @repetitions/allow 1 @range/bounds 10 9999 @range/clipmode both @dataspace time @dataspace/unit Hz @description \"low-mid  crossover frequencies for the front wall filter\""
 								}
 
 							}
@@ -13346,7 +13346,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 1095.0, 945.0, 598.0, 38.0 ],
-									"text" : "jcom.parameter room/temperature @type decimal @repetitions/allow 1 @range/bounds -20. 30. @range/clipmode low @dataspace temperature @dataspace/unit/active C @dataspace/unit/native C @dataspace/unit/native C @dataspace/unit/display C @description \"Temperature in Celsius to calculate the speed of sound\""
+									"text" : "jcom.parameter room/temperature @type decimal @repetitions/allow 1 @range/bounds -20. 30. @range/clipmode low @dataspace temperature @dataspace/unit C @description \"Temperature in Celsius to calculate the speed of sound\""
 								}
 
 							}
@@ -14566,7 +14566,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 1093.0, 859.0, 626.0, 27.0 ],
-									"text" : "jcom.parameter updaterate @type integer @range/bounds 1 50 @range/clipmode low @dataspace time @dataspace/unit/active Hz @dataspace/unit/native Hz @dataspace/unit/display Hz @description \"vimic internal updaterate in [Hz]- tells how often new parameter are getting updated\""
+									"text" : "jcom.parameter updaterate @type integer @range/bounds 1 50 @range/clipmode low @dataspace time @dataspace/unit Hz @description \"vimic internal updaterate in [Hz]- tells how often new parameter are getting updated\""
 								}
 
 							}
@@ -14582,7 +14582,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 1409.0, 1007.0, 336.0, 48.0 ],
-									"text" : "jcom.parameter room/reflection/airfilter @type integer @range/bounds 500 19000 @range/clipmode both @repetitions/allow 0 @dataspace time @dataspace/unit/active Hz @dataspace/unit/native Hz @dataspace/unit/display Hz @description \"damping frequency of the early reflections due to air absorption\"",
+									"text" : "jcom.parameter room/reflection/airfilter @type integer @range/bounds 500 19000 @range/clipmode both @repetitions/allow 0 @dataspace time @dataspace/unit Hz @description \"damping frequency of the early reflections due to air absorption\"",
 									"varname" : "room/reflection/airfilter"
 								}
 

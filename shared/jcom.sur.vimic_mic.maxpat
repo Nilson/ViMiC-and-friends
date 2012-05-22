@@ -65,7 +65,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 2.0, 368.0, 367.0, 55.0 ],
-					"text" : "jcom.message microphone.1/position/x @type decimal @range/bounds -20. 20. @ramp/drive scheduler @range/clipmode both @repetitions/allow 0 @description \"X coordinate of the Nth microphone position\" @dataspace distance @dataspace/unit/active m @dataspace/unit/native m @dataspace/unit/display m",
+					"text" : "jcom.message microphone.1/position/x @type decimal @range/bounds -20. 20. @ramp/drive scheduler @range/clipmode both @repetitions/allow 0 @description \"X coordinate of the Nth microphone position\" @dataspace distance @dataspace/unit m",
 					"varname" : "message_z[2]"
 				}
 
@@ -95,7 +95,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 2.0, 454.0, 368.0, 55.0 ],
-					"text" : "jcom.message microphone.1/position/y @type decimal @range/bounds -20. 20. @ramp/drive scheduler @range/clipmode both @repetitions/allow 0 @description \"Y coordinate of the Nth microphone position\" @dataspace distance @dataspace/unit/active m @dataspace/unit/native m @dataspace/unit/display m",
+					"text" : "jcom.message microphone.1/position/y @type decimal @range/bounds -20. 20. @ramp/drive scheduler @range/clipmode both @repetitions/allow 0 @description \"Y coordinate of the Nth microphone position\" @dataspace distance @dataspace/unit m",
 					"varname" : "message_z[1]"
 				}
 
@@ -1065,7 +1065,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 441.0, 616.0, 590.0, 31.0 ],
-					"text" : "jcom.parameter microphone.1/position @type array @repetitions/allow 0 @description \"Position in xyz coodinate of the Nth microphone\" @priority 1 @dataspace position @dataspace/unit/active xyz @dataspace/unit/native xyz @dataspace/unit/display xyz",
+					"text" : "jcom.parameter microphone.1/position @type array @repetitions/allow 0 @description \"Position in xyz coodinate of the Nth microphone\" @priority 1 @dataspace position @dataspace/unit xyz",
 					"varname" : "parameter"
 				}
 
@@ -1081,7 +1081,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 792.0, 544.0, 575.0, 43.0 ],
-					"text" : "jcom.parameter microphone.1/orientation @type array @repetitions/allow 0 @range/bounds -180. 180. @range/clipmode wrap @description \"orientation [yaw pitch] of the Nth microphone\" @priority 2 @dataspace angle @dataspace/unit/active deg @dataspace/unit/native deg @dataspace/unit/display deg",
+					"text" : "jcom.parameter microphone.1/orientation @type array @repetitions/allow 0 @range/bounds -180. 180. @range/clipmode wrap @description \"orientation [yaw pitch] of the Nth microphone\" @priority 2 @dataspace angle @dataspace/unit deg",
 					"varname" : "parameter2"
 				}
 
@@ -1129,7 +1129,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 423.0, 35.0, 321.0, 67.0 ],
-					"text" : "jcom.parameter microphone.1/gain @repetitions/allow 0 @ramp/drive scheduler @type decimal @range/bounds 0. 127. @range/clipmode both @ramp/drive scheduler @dataspace gain @dataspace/unit/active midi @dataspace/unit/native midi @dataspace/unit/display midi @description \"Gain of of the Nth microphone\" @priority 5",
+					"text" : "jcom.parameter microphone.1/gain @repetitions/allow 0 @ramp/drive scheduler @type decimal @range/bounds 0. 127. @range/clipmode both @ramp/drive scheduler @dataspace gain @dataspace/unit midi @description \"Gain of of the Nth microphone\" @priority 5",
 					"varname" : "parameter_gain"
 				}
 
@@ -1145,7 +1145,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 370.0, 368.0, 368.0, 55.0 ],
-					"text" : "jcom.message microphone.1/position/aed @type array @repetitions/allow 1 @description \"Position in spherical coodinate of the Nth microphone\" @dataspace position @dataspace/unit/active aed @dataspace/unit/native aed @dataspace/unit/display aed",
+					"text" : "jcom.message microphone.1/position/aed @type array @repetitions/allow 1 @description \"Position in spherical coodinate of the Nth microphone\" @dataspace position @dataspace/unit aed",
 					"varname" : "message_aed"
 				}
 
@@ -1161,7 +1161,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 750.0, 364.0, 591.0, 43.0 ],
-					"text" : "jcom.message microphone.1/orientation/pitch @type decimal @range/bounds -180. 180. @ramp/drive scheduler @range/clipmode wrap @repetitions/allow 0 @description \"Pitch angle of the Nth microphone\" @dataspace angle @dataspace/unit/active deg @dataspace/unit/native deg @dataspace/unit/display deg",
+					"text" : "jcom.message microphone.1/orientation/pitch @type decimal @range/bounds -180. 180. @ramp/drive scheduler @range/clipmode wrap @repetitions/allow 0 @description \"Pitch angle of the Nth microphone\" @dataspace angle @dataspace/unit deg",
 					"varname" : "message_ele"
 				}
 
@@ -1177,7 +1177,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 750.0, 450.0, 579.0, 43.0 ],
-					"text" : "jcom.message microphone.1/orientation/yaw @type decimal @range/bounds -180. 180. @range/clipmode wrap @ramp/drive scheduler @repetitions/allow 0 @description \"Yaw angle for the orientation of the Nth microphone\" @dataspace angle @dataspace/unit/active deg @dataspace/unit/native deg @dataspace/unit/display deg",
+					"text" : "jcom.message microphone.1/orientation/yaw @type decimal @range/bounds -180. 180. @range/clipmode wrap @ramp/drive scheduler @repetitions/allow 0 @description \"Yaw angle for the orientation of the Nth microphone\" @dataspace angle @dataspace/unit deg",
 					"varname" : "message_azi"
 				}
 
@@ -1209,7 +1209,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 371.0, 452.0, 378.0, 55.0 ],
-					"text" : "jcom.message microphone.1/position/z @type decimal @range/bounds -20. 20. @ramp/drive scheduler @range/clipmode both @repetitions/allow 0 @description \"Z coordinate of the Nth microphone position\" @dataspace distance @dataspace/unit/active m @dataspace/unit/native m @dataspace/unit/display m",
+					"text" : "jcom.message microphone.1/position/z @type decimal @range/bounds -20. 20. @ramp/drive scheduler @range/clipmode both @repetitions/allow 0 @description \"Z coordinate of the Nth microphone position\" @dataspace distance @dataspace/unit m",
 					"varname" : "message_z"
 				}
 

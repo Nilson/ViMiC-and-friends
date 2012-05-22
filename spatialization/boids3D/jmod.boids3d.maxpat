@@ -2084,7 +2084,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 717.0, 237.0, 571.0, 28.0 ],
-					"text" : "jcom.message attractpoint @type array @dataspace position @description \"Current position of the point of attraction in xyz-coordinates\" @range/bounds -1. 1. @range/clipmode none",
+					"text" : "jcom.message attractpoint @type array @dataspace position @dataspace/unit xyz @description \"Current position of the point of attraction in xyz-coordinates\" @range/bounds -1. 1. @range/clipmode none",
 					"varname" : "attractpoint/xyz[1]"
 				}
 
