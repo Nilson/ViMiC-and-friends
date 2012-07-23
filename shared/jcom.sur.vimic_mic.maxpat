@@ -4,10 +4,10 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 4
+			"revision" : 7
 		}
 ,
-		"rect" : [ 0.0, 44.0, 1280.0, 726.0 ],
+		"rect" : [ 71.0, 44.0, 1280.0, 706.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -64,7 +64,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 2.0, 368.0, 367.0, 55.0 ],
+					"patching_rect" : [ 2.0, 368.0, 367.0, 51.0 ],
 					"text" : "jcom.message microphone.1/position/x @type decimal @range/bounds -20. 20. @ramp/drive scheduler @range/clipmode both @repetitions/allow 0 @description \"X coordinate of the Nth microphone position\" @dataspace distance @dataspace/unit m",
 					"varname" : "message_z[2]"
 				}
@@ -94,7 +94,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 2.0, 454.0, 368.0, 55.0 ],
+					"patching_rect" : [ 2.0, 454.0, 368.0, 51.0 ],
 					"text" : "jcom.message microphone.1/position/y @type decimal @range/bounds -20. 20. @ramp/drive scheduler @range/clipmode both @repetitions/allow 0 @description \"Y coordinate of the Nth microphone position\" @dataspace distance @dataspace/unit m",
 					"varname" : "message_z[1]"
 				}
@@ -242,20 +242,6 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Verdana",
-					"fontsize" : 10.0,
-					"id" : "obj-25",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 370.0, 346.0, 232.0, 19.0 ],
-					"text" : "sprintf name microphone.%ld/position/aed"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"defaultvalue" : 100.0,
 					"id" : "obj-36",
 					"maxclass" : "jcom.textslider",
@@ -349,7 +335,6 @@
 					"background" : 1,
 					"border" : 1,
 					"id" : "obj-122",
-					"ignoreclick" : 1,
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -364,7 +349,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"frgb" : 0.0,
 					"id" : "obj-124",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -380,7 +365,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"frgb" : 0.0,
 					"id" : "obj-125",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -416,7 +401,7 @@
 			}
 , 			{
 				"box" : 				{
-					"annotation" : "VU meter for the Nth microphone",
+					"annotation" : "amplitude of output signal #1",
 					"id" : "obj-29",
 					"maxclass" : "jcom.meter~",
 					"numinlets" : 1,
@@ -432,7 +417,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"frgb" : 0.0,
 					"id" : "obj-37",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -588,35 +573,6 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-6",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "float", "float", "float" ],
-					"patching_rect" : [ 208.0, 544.0, 121.0, 20.0 ],
-					"text" : "unpack 0. 0. 0."
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-7",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 208.0, 520.0, 345.0, 20.0 ],
-					"text" : "jcom.dataspace @dataspace position @input aed @output xyz",
-					"varname" : "aed2xyz"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
 					"fontsize" : 9.0,
 					"id" : "obj-8",
 					"maxclass" : "newobj",
@@ -628,7 +584,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 4
+							"revision" : 7
 						}
 ,
 						"rect" : [ 543.0, 275.0, 667.0, 308.0 ],
@@ -704,7 +660,7 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
-									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"frgb" : 0.0,
 									"id" : "obj-12",
 									"linecount" : 2,
 									"maxclass" : "comment",
@@ -972,28 +928,21 @@
 								}
 
 							}
- ],
-						"dependency_cache" : [ 							{
-								"name" : "jcom.thru.maxpat",
-								"bootpath" : "/Users/nilspeters/Documents/gits/Jamoma/Modules/Modular/Max/library/components/thru",
-								"type" : "JSON",
-								"implicit" : 1
-							}
  ]
 					}
 ,
 					"patching_rect" : [ 928.0, 110.0, 73.0, 17.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
-						"default_fontsize" : 12.0,
-						"tags" : "",
-						"description" : "",
-						"globalpatchername" : "",
-						"fontface" : 0,
-						"fontsize" : 12.0,
 						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"default_fontsize" : 12.0,
+						"description" : "",
 						"digest" : "",
-						"default_fontname" : "Arial"
+						"fontface" : 0,
+						"fontname" : "Arial",
+						"fontsize" : 12.0,
+						"globalpatchername" : "",
+						"tags" : ""
 					}
 ,
 					"text" : "p mic-presets",
@@ -1005,7 +954,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"frgb" : 0.0,
 					"id" : "obj-88",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -1048,7 +997,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 433.0, 276.0, 474.0, 19.0 ],
+					"patching_rect" : [ 433.0, 276.0, 474.0, 18.0 ],
 					"text" : "jcom.message microphone.1/solo @type boolean @description \"activates solo mode for this microphone.\"",
 					"varname" : "soloparameter"
 				}
@@ -1064,7 +1013,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 441.0, 616.0, 590.0, 31.0 ],
+					"patching_rect" : [ 441.0, 616.0, 590.0, 29.0 ],
 					"text" : "jcom.parameter microphone.1/position @type array @repetitions/allow 0 @description \"Position in xyz coodinate of the Nth microphone\" @priority 1 @dataspace position @dataspace/unit xyz",
 					"varname" : "parameter"
 				}
@@ -1080,7 +1029,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 792.0, 544.0, 575.0, 43.0 ],
+					"patching_rect" : [ 792.0, 544.0, 539.0, 40.0 ],
 					"text" : "jcom.parameter microphone.1/orientation @type array @repetitions/allow 0 @range/bounds -180. 180. @range/clipmode wrap @description \"orientation [yaw pitch] of the Nth microphone\" @priority 2 @dataspace angle @dataspace/unit deg",
 					"varname" : "parameter2"
 				}
@@ -1096,7 +1045,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 840.0, 154.0, 290.0, 55.0 ],
+					"patching_rect" : [ 840.0, 154.0, 290.0, 51.0 ],
 					"text" : "jcom.parameter microphone.1/directivity/ratio @type decimal @ramp/drive scheduler @range/bounds 0. 1. @range/clipmode both @repetitions/allow 0 @value/default 0.123 @description \"Directivity value of the Nth microphone\" @priority 3",
 					"varname" : "parameter_directivity"
 				}
@@ -1112,7 +1061,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 420.0, 139.0, 352.0, 43.0 ],
+					"patching_rect" : [ 420.0, 139.0, 352.0, 40.0 ],
 					"text" : "jcom.parameter microphone.1/active @type boolean @range/bounds 0 1 @range/clipmode both @value 0 @repetitions/allow 1 @description \"if active is set to 0 then the Nth microphone is muted\" @priority 4",
 					"varname" : "parameter_aktive"
 				}
@@ -1128,25 +1077,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 423.0, 35.0, 321.0, 67.0 ],
+					"patching_rect" : [ 423.0, 35.0, 313.0, 63.0 ],
 					"text" : "jcom.parameter microphone.1/gain @repetitions/allow 0 @ramp/drive scheduler @type decimal @range/bounds 0. 127. @range/clipmode both @ramp/drive scheduler @dataspace gain @dataspace/unit midi @description \"Gain of of the Nth microphone\" @priority 5",
 					"varname" : "parameter_gain"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Geneva",
-					"fontsize" : 9.0,
-					"id" : "obj-18",
-					"linecount" : 4,
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 370.0, 368.0, 368.0, 55.0 ],
-					"text" : "jcom.message microphone.1/position/aed @type array @repetitions/allow 1 @description \"Position in spherical coodinate of the Nth microphone\" @dataspace position @dataspace/unit aed",
-					"varname" : "message_aed"
 				}
 
 			}
@@ -1160,7 +1093,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 750.0, 364.0, 591.0, 43.0 ],
+					"patching_rect" : [ 750.0, 364.0, 581.0, 40.0 ],
 					"text" : "jcom.message microphone.1/orientation/pitch @type decimal @range/bounds -180. 180. @ramp/drive scheduler @range/clipmode wrap @repetitions/allow 0 @description \"Pitch angle of the Nth microphone\" @dataspace angle @dataspace/unit deg",
 					"varname" : "message_ele"
 				}
@@ -1176,7 +1109,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 750.0, 450.0, 579.0, 43.0 ],
+					"patching_rect" : [ 750.0, 450.0, 579.0, 40.0 ],
 					"text" : "jcom.message microphone.1/orientation/yaw @type decimal @range/bounds -180. 180. @range/clipmode wrap @ramp/drive scheduler @repetitions/allow 0 @description \"Yaw angle for the orientation of the Nth microphone\" @dataspace angle @dataspace/unit deg",
 					"varname" : "message_azi"
 				}
@@ -1192,8 +1125,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 893.0, 61.0, 364.0, 31.0 ],
-					"text" : "jcom.message microphone.1/directivity/preset @type string @repetitions/allow 1 @description \"load a directivity preset for the Nth microphone\" ",
+					"patching_rect" : [ 893.0, 61.0, 364.0, 29.0 ],
+					"text" : "jcom.message microphone.1/directivity/preset @type string @repetitions/allow 1 @description \"load a directivity preset for the Nth microphone\"",
 					"varname" : "directivity_preset"
 				}
 
@@ -1208,7 +1141,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 371.0, 452.0, 378.0, 55.0 ],
+					"patching_rect" : [ 371.0, 452.0, 378.0, 51.0 ],
 					"text" : "jcom.message microphone.1/position/z @type decimal @range/bounds -20. 20. @ramp/drive scheduler @range/clipmode both @repetitions/allow 0 @description \"Z coordinate of the Nth microphone position\" @dataspace distance @dataspace/unit m",
 					"varname" : "message_z"
 				}
@@ -1289,15 +1222,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-7", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-18", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-42", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -1365,15 +1289,6 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-24", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-18", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-25", 0 ]
 				}
 
 			}
@@ -1647,15 +1562,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-25", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-49", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-26", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -1800,42 +1706,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-52", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-6", 2 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-53", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-6", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-54", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-6", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-6", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-7", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "", 0 ],
 					"disabled" : 0,
 					"hidden" : 1,
@@ -1898,10 +1768,6 @@
 			}
 , 			{
 				"name" : "jcom.parameter.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.dataspace.mxo",
 				"type" : "iLaX"
 			}
 , 			{

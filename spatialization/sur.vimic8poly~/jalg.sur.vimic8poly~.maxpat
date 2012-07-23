@@ -78,7 +78,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1300.0, 710.0, 101.0, 20.0 ],
-					"text" : "print multuthread"
+					"text" : "print multithread"
 				}
 
 			}

@@ -3,7 +3,6 @@ CUE Setup
 ##########
 
 /vimic/microphones/amount 4
-/vimic/room/reflection/order 0
 /control/audio 0
  
 WAIT 100

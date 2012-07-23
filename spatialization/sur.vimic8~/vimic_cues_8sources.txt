@@ -20,7 +20,6 @@ CUE setup1
 
 # Module /reverb
 /reverb/audio/gain 100.0
-/reverb/audio/meters/freeze 0
 /reverb/audio/mute 1
 /reverb/fdn/delaylength 30.000 76.000
 /reverb/fdn/frequency 732.239
@@ -43,7 +42,6 @@ CUE setup1
 
 # vimic-Modules 
 /vimic/audio/gain 100.000
-/vimic/audio/meters/freeze 0
 /vimic/audio/mute 0
 /vimic/microphone.1/orientation -26.172 0.000
 /vimic/microphone.1/directivity/ratio 1.000
