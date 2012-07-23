@@ -3518,7 +3518,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 407.0, 103.0, 683.0, 18.0 ],
-					"text" : "jcom.parameter order @type array @description \"order of the manilpulation processes: random | stretch | translate | mirror | rotate | skew | sidechain\""
+					"text" : "jcom.parameter order @type generic @description \"order of the manilpulation processes: random | stretch | translate | mirror | rotate | skew | sidechain\""
 				}
 
 			}
