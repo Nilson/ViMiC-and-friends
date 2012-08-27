@@ -787,7 +787,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 685.0, 532.0, 593.0, 62.0 ],
-					"text" : "jcom.parameter frequencyRatio @type array @priority 2 @range/bounds 0.01 100. @ramp/drive scheduler @range/clipmode low @description \"sets the center frequency of the first filter to the first value in the list, and sets the frequencies of the remaining filters by repeatedly multiplying the first value by the second, so that the ratio of frequencies of successive filters is the second value.\""
+					"text" : "jcom.parameter frequencyRatio @type decimalArray @priority 2 @range/bounds 0.01 100. @ramp/drive scheduler @range/clipmode low @description \"sets the center frequency of the first filter to the first value in the list, and sets the frequencies of the remaining filters by repeatedly multiplying the first value by the second, so that the ratio of frequencies of successive filters is the second value.\""
 				}
 
 			}

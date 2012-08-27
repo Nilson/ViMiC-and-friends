@@ -5229,7 +5229,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1323.0, 754.0, 471.0, 27.0 ],
-					"text" : "jcom.message source.1/position @ramp/drive scheduler @description \"Sourceposition in the virtual room - spatDIF compliant\" @type array @dataspace position @dataspace/unit xyz",
+					"text" : "jcom.message source.1/position @ramp/drive scheduler @description \"Sourceposition in the virtual room - spatDIF compliant\" @type decimalArray @dataspace position @dataspace/unit xyz",
 					"varname" : "source/position/absolute[8]"
 				}
 
@@ -5246,7 +5246,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1323.0, 962.0, 471.0, 27.0 ],
-					"text" : "jcom.message source.8/position @ramp/drive scheduler @description \"Sourceposition in the virtual room - spatDIF compliant\" @type array @dataspace position @dataspace/unit xyz",
+					"text" : "jcom.message source.8/position @ramp/drive scheduler @description \"Sourceposition in the virtual room - spatDIF compliant\" @type decimalArray @dataspace position @dataspace/unit xyz",
 					"varname" : "source/position/absolute[7]"
 				}
 
@@ -5263,7 +5263,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1323.0, 933.0, 471.0, 27.0 ],
-					"text" : "jcom.message source.7/position @ramp/drive scheduler @description \"Sourceposition in the virtual room - spatDIF compliant\" @type array @dataspace position @dataspace/unit xyz",
+					"text" : "jcom.message source.7/position @ramp/drive scheduler @description \"Sourceposition in the virtual room - spatDIF compliant\" @type decimalArray @dataspace position @dataspace/unit xyz",
 					"varname" : "source/position/absolute[6]"
 				}
 
@@ -5280,7 +5280,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1323.0, 903.0, 471.0, 27.0 ],
-					"text" : "jcom.message source.6/position @ramp/drive scheduler @description \"Sourceposition in the virtual room - spatDIF compliant\" @type array @dataspace position @dataspace/unit xyz",
+					"text" : "jcom.message source.6/position @ramp/drive scheduler @description \"Sourceposition in the virtual room - spatDIF compliant\" @type decimalArray @dataspace position @dataspace/unit xyz",
 					"varname" : "source/position/absolute[5]"
 				}
 
@@ -5297,7 +5297,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1323.0, 873.0, 471.0, 27.0 ],
-					"text" : "jcom.message source.5/position @ramp/drive scheduler @description \"Sourceposition in the virtual room - spatDIF compliant\" @type array @dataspace position @dataspace/unit xyz",
+					"text" : "jcom.message source.5/position @ramp/drive scheduler @description \"Sourceposition in the virtual room - spatDIF compliant\" @type decimalArray @dataspace position @dataspace/unit xyz",
 					"varname" : "source/position/absolute[4]"
 				}
 
@@ -5314,7 +5314,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1323.0, 843.0, 471.0, 27.0 ],
-					"text" : "jcom.message source.4/position @ramp/drive scheduler @description \"Sourceposition in the virtual room - spatDIF compliant\" @type array @dataspace position @dataspace/unit xyz",
+					"text" : "jcom.message source.4/position @ramp/drive scheduler @description \"Sourceposition in the virtual room - spatDIF compliant\" @type decimalArray @dataspace position @dataspace/unit xyz",
 					"varname" : "source/position/absolute[3]"
 				}
 
@@ -5331,7 +5331,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1323.0, 813.0, 471.0, 27.0 ],
-					"text" : "jcom.message source.3/position @ramp/drive scheduler @description \"Sourceposition in the virtual room - spatDIF compliant\" @type array @dataspace position @dataspace/unit xyz",
+					"text" : "jcom.message source.3/position @ramp/drive scheduler @description \"Sourceposition in the virtual room - spatDIF compliant\" @type decimalArray @dataspace position @dataspace/unit xyz",
 					"varname" : "source/position/absolute[2]"
 				}
 
@@ -5348,7 +5348,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1323.0, 783.0, 471.0, 27.0 ],
-					"text" : "jcom.message source.2/position @ramp/drive scheduler @description \"Sourceposition in the virtual room - spatDIF compliant\" @type array @dataspace position @dataspace/unit xyz",
+					"text" : "jcom.message source.2/position @ramp/drive scheduler @description \"Sourceposition in the virtual room - spatDIF compliant\" @type decimalArray @dataspace position @dataspace/unit xyz",
 					"varname" : "source/position/absolute[1]"
 				}
 
@@ -14728,7 +14728,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 583.0, 917.0, 386.0, 27.0 ],
-									"text" : "jcom.parameter room/size/xyz @type array @ramp/drive scheduler @range/bounds 0. 40. @repetitions/allow 0 @range/clipmode both @description \"Size of the virtual room in XYZ\"",
+									"text" : "jcom.parameter room/size/xyz @type decimalArray @ramp/drive scheduler @range/bounds 0. 40. @repetitions/allow 0 @range/clipmode both @description \"Size of the virtual room in XYZ\"",
 									"varname" : "room/size/xyz"
 								}
 

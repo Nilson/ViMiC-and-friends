@@ -83,7 +83,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 208.0, 564.0, 335.0, 28.0 ],
-									"text" : "jcom.return bird.16/position @type array @repetitions/allow 1 @dataspace position @dataspace/unit xyz  @description \"returns a position of  boids.<n> in cartesian coordinates\""
+									"text" : "jcom.return bird.16/position @type decimalArray @repetitions/allow 1 @dataspace position @dataspace/unit xyz  @description \"returns a position of  boids.<n> in cartesian coordinates\""
 								}
 
 							}
@@ -98,7 +98,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 446.0, 359.0, 335.0, 28.0 ],
-									"text" : "jcom.return bird.26/position @type array @repetitions/allow 1 @dataspace position @dataspace/unit xyz  @description \"returns a position of  boids.<n> in cartesian coordinates\""
+									"text" : "jcom.return bird.26/position @type decimalArray @repetitions/allow 1 @dataspace position @dataspace/unit xyz  @description \"returns a position of  boids.<n> in cartesian coordinates\""
 								}
 
 							}
@@ -113,7 +113,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 432.0, 325.0, 335.0, 28.0 ],
-									"text" : "jcom.return bird.25/position @type array @repetitions/allow 1 @dataspace position @dataspace/unit xyz @description \"returns a position of  boids.<n> in cartesian coordinates\""
+									"text" : "jcom.return bird.25/position @type decimalArray @repetitions/allow 1 @dataspace position @dataspace/unit xyz @description \"returns a position of  boids.<n> in cartesian coordinates\""
 								}
 
 							}
@@ -128,7 +128,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 418.0, 292.0, 335.0, 28.0 ],
-									"text" : "jcom.return bird.24/position @type array @repetitions/allow 1 @dataspace position @dataspace/unit xyz  @description \"returns a position of  boids.<n> in cartesian coordinates\""
+									"text" : "jcom.return bird.24/position @type decimalArray @repetitions/allow 1 @dataspace position @dataspace/unit xyz  @description \"returns a position of  boids.<n> in cartesian coordinates\""
 								}
 
 							}
@@ -143,7 +143,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 404.0, 258.0, 335.0, 28.0 ],
-									"text" : "jcom.return bird.23/position @type array @repetitions/allow 1 @dataspace position @dataspace/unit xyz  @description \"returns a position of  boids.<n> in cartesian coordinates\""
+									"text" : "jcom.return bird.23/position @type decimalArray @repetitions/allow 1 @dataspace position @dataspace/unit xyz  @description \"returns a position of  boids.<n> in cartesian coordinates\""
 								}
 
 							}
@@ -158,7 +158,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 390.0, 224.0, 335.0, 28.0 ],
-									"text" : "jcom.return bird.22/position @type array @repetitions/allow 1 @dataspace position @dataspace/unit xyz  @description \"returns a position of  boids.<n> in cartesian coordinates\""
+									"text" : "jcom.return bird.22/position @type decimalArray @repetitions/allow 1 @dataspace position @dataspace/unit xyz  @description \"returns a position of  boids.<n> in cartesian coordinates\""
 								}
 
 							}
@@ -173,7 +173,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 376.0, 190.0, 335.0, 28.0 ],
-									"text" : "jcom.return bird.21/position @type array @repetitions/allow 1 @dataspace position @dataspace/unit xyz  @description \"returns a position of  boids.<n> in cartesian coordinates\""
+									"text" : "jcom.return bird.21/position @type decimalArray @repetitions/allow 1 @dataspace position @dataspace/unit xyz  @description \"returns a position of  boids.<n> in cartesian coordinates\""
 								}
 
 							}
@@ -188,7 +188,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 362.0, 157.0, 335.0, 28.0 ],
-									"text" : "jcom.return bird.20/position @type array @repetitions/allow 1 @dataspace position @dataspace/unit xyz  @description \"returns a position of  boids.<n> in cartesian coordinates\""
+									"text" : "jcom.return bird.20/position @type decimalArray @repetitions/allow 1 @dataspace position @dataspace/unit xyz  @description \"returns a position of  boids.<n> in cartesian coordinates\""
 								}
 
 							}
@@ -203,7 +203,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 348.0, 123.0, 335.0, 28.0 ],
-									"text" : "jcom.return bird.19/position @type array @repetitions/allow 1 @dataspace position @dataspace/unit xyz  @description \"returns a position of  boids.<n> in cartesian coordinates\""
+									"text" : "jcom.return bird.19/position @type decimalArray @repetitions/allow 1 @dataspace position @dataspace/unit xyz  @description \"returns a position of  boids.<n> in cartesian coordinates\""
 								}
 
 							}
@@ -218,7 +218,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 335.0, 89.0, 335.0, 28.0 ],
-									"text" : "jcom.return bird.18/position @type array @repetitions/allow 1 @dataspace position @dataspace/unit xyz  @description \"returns a position of  boids.<n> in cartesian coordinates\""
+									"text" : "jcom.return bird.18/position @type decimalArray @repetitions/allow 1 @dataspace position @dataspace/unit xyz  @description \"returns a position of  boids.<n> in cartesian coordinates\""
 								}
 
 							}
@@ -233,7 +233,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 320.0, 57.0, 335.0, 28.0 ],
-									"text" : "jcom.return bird.17/position @type array @repetitions/allow 1 @dataspace position @dataspace/unit xyz  @description \"returns a position of  boids.<n> in cartesian coordinates\""
+									"text" : "jcom.return bird.17/position @type decimalArray @repetitions/allow 1 @dataspace position @dataspace/unit xyz  @description \"returns a position of  boids.<n> in cartesian coordinates\""
 								}
 
 							}
@@ -248,7 +248,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 196.0, 529.0, 335.0, 28.0 ],
-									"text" : "jcom.return bird.15/position @type array @repetitions/allow 1 @dataspace position @dataspace/unit xyz  @description \"returns a position of  boids.<n> in cartesian coordinates\""
+									"text" : "jcom.return bird.15/position @type decimalArray @repetitions/allow 1 @dataspace position @dataspace/unit xyz  @description \"returns a position of  boids.<n> in cartesian coordinates\""
 								}
 
 							}
@@ -263,7 +263,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 184.0, 494.0, 335.0, 28.0 ],
-									"text" : "jcom.return bird.14/position @type array @repetitions/allow 1 @dataspace position @dataspace/unit xyz  @description \"returns a position of  boids.<n> in cartesian coordinates\""
+									"text" : "jcom.return bird.14/position @type decimalArray @repetitions/allow 1 @dataspace position @dataspace/unit xyz  @description \"returns a position of  boids.<n> in cartesian coordinates\""
 								}
 
 							}
@@ -278,7 +278,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 169.0, 460.0, 335.0, 28.0 ],
-									"text" : "jcom.return bird.13/position @type array @repetitions/allow 1 @dataspace position @dataspace/unit xyz  @description \"returns a position of  boids.<n> in cartesian coordinates\""
+									"text" : "jcom.return bird.13/position @type decimalArray @repetitions/allow 1 @dataspace position @dataspace/unit xyz  @description \"returns a position of  boids.<n> in cartesian coordinates\""
 								}
 
 							}
@@ -293,7 +293,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 156.0, 425.0, 335.0, 28.0 ],
-									"text" : "jcom.return bird.12/position @type array @repetitions/allow 1 @dataspace position @dataspace/unit xyz  @description \"returns a position of  boids.<n> in cartesian coordinates\""
+									"text" : "jcom.return bird.12/position @type decimalArray @repetitions/allow 1 @dataspace position @dataspace/unit xyz  @description \"returns a position of  boids.<n> in cartesian coordinates\""
 								}
 
 							}
@@ -308,7 +308,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 140.0, 392.0, 335.0, 28.0 ],
-									"text" : "jcom.return bird.11/position @type array @repetitions/allow 1 @dataspace position @dataspace/unit xyz  @description \"returns a position of  boids.<n> in cartesian coordinates\""
+									"text" : "jcom.return bird.11/position @type decimalArray @repetitions/allow 1 @dataspace position @dataspace/unit xyz  @description \"returns a position of  boids.<n> in cartesian coordinates\""
 								}
 
 							}
@@ -323,7 +323,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 126.0, 359.0, 335.0, 28.0 ],
-									"text" : "jcom.return bird.10/position @type array @repetitions/allow 1 @dataspace position @dataspace/unit xyz  @description \"returns a position of  boids.<n> in cartesian coordinates\""
+									"text" : "jcom.return bird.10/position @type decimalArray @repetitions/allow 1 @dataspace position @dataspace/unit xyz  @description \"returns a position of  boids.<n> in cartesian coordinates\""
 								}
 
 							}
@@ -338,7 +338,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 112.0, 325.0, 335.0, 28.0 ],
-									"text" : "jcom.return bird.9/position @type array @repetitions/allow 1 @dataspace position @dataspace/unit xyz  @description \"returns a position of  boids.<n> in cartesian coordinates\""
+									"text" : "jcom.return bird.9/position @type decimalArray @repetitions/allow 1 @dataspace position @dataspace/unit xyz  @description \"returns a position of  boids.<n> in cartesian coordinates\""
 								}
 
 							}
@@ -353,7 +353,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 98.0, 292.0, 335.0, 28.0 ],
-									"text" : "jcom.return bird.8/position @type array @repetitions/allow 1 @dataspace position @dataspace/unit xyz  @description \"returns a position of  boids.<n> in cartesian coordinates\""
+									"text" : "jcom.return bird.8/position @type decimalArray @repetitions/allow 1 @dataspace position @dataspace/unit xyz  @description \"returns a position of  boids.<n> in cartesian coordinates\""
 								}
 
 							}
@@ -368,7 +368,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 84.0, 258.0, 335.0, 28.0 ],
-									"text" : "jcom.return bird.7/position @type array @repetitions/allow 1 @dataspace position @dataspace/unit xyz  @description \"returns a position of  boids.<n> in cartesian coordinates\""
+									"text" : "jcom.return bird.7/position @type decimalArray @repetitions/allow 1 @dataspace position @dataspace/unit xyz  @description \"returns a position of  boids.<n> in cartesian coordinates\""
 								}
 
 							}
@@ -383,7 +383,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 70.0, 224.0, 335.0, 28.0 ],
-									"text" : "jcom.return bird.6/position @type array @repetitions/allow 1 @dataspace position @dataspace/unit xyz  @description \"returns a position of  boids.<n> in cartesian coordinates\""
+									"text" : "jcom.return bird.6/position @type decimalArray @repetitions/allow 1 @dataspace position @dataspace/unit xyz  @description \"returns a position of  boids.<n> in cartesian coordinates\""
 								}
 
 							}
@@ -398,7 +398,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 56.0, 190.0, 335.0, 28.0 ],
-									"text" : "jcom.return bird.5/position @type array @repetitions/allow 1 @dataspace position @dataspace/unit xyz  @description \"returns a position of  boids.<n> in cartesian coordinates\""
+									"text" : "jcom.return bird.5/position @type decimalArray @repetitions/allow 1 @dataspace position @dataspace/unit xyz  @description \"returns a position of  boids.<n> in cartesian coordinates\""
 								}
 
 							}
@@ -413,7 +413,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 522.0, 569.0, 335.0, 28.0 ],
-									"text" : "jcom.return bird.32/position @type array @repetitions/allow 1 @dataspace position @dataspace/unit xyz  @description \"returns a position of  boids.<n> in cartesian coordinates\""
+									"text" : "jcom.return bird.32/position @type decimalArray @repetitions/allow 1 @dataspace position @dataspace/unit xyz  @description \"returns a position of  boids.<n> in cartesian coordinates\""
 								}
 
 							}
@@ -428,7 +428,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 42.0, 157.0, 335.0, 28.0 ],
-									"text" : "jcom.return bird.4/position @type array @repetitions/allow 1 @dataspace position @dataspace/unit xyz  @description \"returns a position of  boids.<n> in cartesian coordinates\""
+									"text" : "jcom.return bird.4/position @type decimalArray @repetitions/allow 1 @dataspace position @dataspace/unit xyz  @description \"returns a position of  boids.<n> in cartesian coordinates\""
 								}
 
 							}
@@ -443,7 +443,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 28.0, 123.0, 335.0, 28.0 ],
-									"text" : "jcom.return bird.3/position @type array @repetitions/allow 1 @dataspace position @dataspace/unit xyz  @description \"returns a position of  boids.<n> in cartesian coordinates\""
+									"text" : "jcom.return bird.3/position @type decimalArray @repetitions/allow 1 @dataspace position @dataspace/unit xyz  @description \"returns a position of  boids.<n> in cartesian coordinates\""
 								}
 
 							}
@@ -458,7 +458,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 15.0, 89.0, 335.0, 28.0 ],
-									"text" : "jcom.return bird.2/position @type array @repetitions/allow 1 @dataspace position @dataspace/unit xyz  @description \"returns a position of  boids.<n> in cartesian coordinates\""
+									"text" : "jcom.return bird.2/position @type decimalArray @repetitions/allow 1 @dataspace position @dataspace/unit xyz  @description \"returns a position of  boids.<n> in cartesian coordinates\""
 								}
 
 							}
@@ -487,7 +487,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 0.0, 57.0, 335.0, 28.0 ],
-									"text" : "jcom.return bird.1/position @type array @repetitions/allow 1 @dataspace position @dataspace/unit xyz  @description \"returns a position of  boids.<n> in cartesian coordinates\""
+									"text" : "jcom.return bird.1/position @type decimalArray @repetitions/allow 1 @dataspace position @dataspace/unit xyz  @description \"returns a position of  boids.<n> in cartesian coordinates\""
 								}
 
 							}
@@ -502,7 +502,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 515.0, 530.0, 335.0, 28.0 ],
-									"text" : "jcom.return bird.31/position @type array @repetitions/allow 1 @dataspace position @dataspace/unit xyz  @description \"returns a position of  boids.<n> in cartesian coordinates\""
+									"text" : "jcom.return bird.31/position @type decimalArray @repetitions/allow 1 @dataspace position @dataspace/unit xyz  @description \"returns a position of  boids.<n> in cartesian coordinates\""
 								}
 
 							}
@@ -517,7 +517,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 509.0, 493.0, 335.0, 28.0 ],
-									"text" : "jcom.return bird.30/position @type array @repetitions/allow 1 @dataspace position @dataspace/unit xyz  @description \"returns a position of  boids.<n> in cartesian coordinates\""
+									"text" : "jcom.return bird.30/position @type decimalArray @repetitions/allow 1 @dataspace position @dataspace/unit xyz  @description \"returns a position of  boids.<n> in cartesian coordinates\""
 								}
 
 							}
@@ -544,7 +544,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 489.0, 460.0, 335.0, 28.0 ],
-									"text" : "jcom.return bird.29/position @type array @repetitions/allow 1 @dataspace position @dataspace/unit xyz  @description \"returns a position of  boids.<n> in cartesian coordinates\""
+									"text" : "jcom.return bird.29/position @type decimalArray @repetitions/allow 1 @dataspace position @dataspace/unit xyz  @description \"returns a position of  boids.<n> in cartesian coordinates\""
 								}
 
 							}
@@ -559,7 +559,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 476.0, 425.0, 335.0, 28.0 ],
-									"text" : "jcom.return bird.28/position @type array @repetitions/allow 1 @dataspace position @dataspace/unit xyz  @description \"returns a position of  boids.<n> in cartesian coordinates\""
+									"text" : "jcom.return bird.28/position @type decimalArray @repetitions/allow 1 @dataspace position @dataspace/unit xyz  @description \"returns a position of  boids.<n> in cartesian coordinates\""
 								}
 
 							}
@@ -574,7 +574,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 460.0, 392.0, 335.0, 28.0 ],
-									"text" : "jcom.return bird.27/position @type array @repetitions/allow 1 @dataspace position @dataspace/unit xyz  @description \"returns a position of  boids.<n> in cartesian coordinates\""
+									"text" : "jcom.return bird.27/position @type decimalArray @repetitions/allow 1 @dataspace position @dataspace/unit xyz  @description \"returns a position of  boids.<n> in cartesian coordinates\""
 								}
 
 							}
@@ -957,7 +957,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 373.0, 301.0, 438.0, 17.0 ],
-					"text" : "jcom.return flock @type array @enable 0 @description \"returns a list of the boids position\""
+					"text" : "jcom.return flock @type decimalArray @enable 0 @description \"returns a list of the boids position\""
 				}
 
 			}

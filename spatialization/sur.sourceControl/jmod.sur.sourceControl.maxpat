@@ -43,7 +43,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 633.0, 54.0, 264.0, 43.0 ],
-					"text" : "jcom.parameter.array 8 source orientation @type array @description \"orientation of the source, stored in this module.\" @ramp/drive scheduler"
+					"text" : "jcom.parameter.array 8 source orientation @type decimalArray @description \"orientation of the source, stored in this module.\" @ramp/drive scheduler"
 				}
 
 			}
@@ -2978,7 +2978,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 632.0, 8.0, 258.0, 43.0 ],
-					"text" : "jcom.parameter.array 8 source position @type array @description \"Source position, stored in this module.\" @ramp/drive scheduler"
+					"text" : "jcom.parameter.array 8 source position @type decimalArray @description \"Source position, stored in this module.\" @ramp/drive scheduler"
 				}
 
 			}

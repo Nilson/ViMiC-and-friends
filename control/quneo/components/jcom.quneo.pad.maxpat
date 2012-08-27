@@ -414,7 +414,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 581.248352, 528.0, 177.0, 48.0 ],
-					"text" : "jcom.return pad/0/position @type array @dataspace position @dataspace/unit xy"
+					"text" : "jcom.return pad/0/position @type decimalArray @dataspace position @dataspace/unit xy"
 				}
 
 			}

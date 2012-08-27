@@ -272,7 +272,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 375.0, 314.0, 505.0, 34.0 ],
-					"text" : "jcom.parameter detune @type array @range/bounds -1 1 @range/clipmode none @description \"fine tuning\" @ramp/drive scheduler"
+					"text" : "jcom.parameter detune @type decimalArray @range/bounds -1 1 @range/clipmode none @description \"fine tuning\" @ramp/drive scheduler"
 				}
 
 			}

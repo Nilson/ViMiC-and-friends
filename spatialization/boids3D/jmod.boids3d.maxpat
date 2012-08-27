@@ -599,7 +599,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 594.0, 596.0, 596.0, 39.0 ],
-									"text" : "jcom.parameter flyrect @ramp/drive scheduler @ramp/function linear @type array @ramp/drive scheduler @repetitions/allow 1 @range/bounds -1. 1. @range/clipmode both @description \"bounding box (walls) in which to fly (left/top/right/bottom/front/back)\"",
+									"text" : "jcom.parameter flyrect @ramp/drive scheduler @ramp/function linear @type decimalArray @ramp/drive scheduler @repetitions/allow 1 @range/bounds -1. 1. @range/clipmode both @description \"bounding box (walls) in which to fly (left/top/right/bottom/front/back)\"",
 									"varname" : "flyrect"
 								}
 
@@ -2084,7 +2084,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 717.0, 237.0, 571.0, 28.0 ],
-					"text" : "jcom.message attractpoint @type array @dataspace position @dataspace/unit xyz @description \"Current position of the point of attraction in xyz-coordinates\" @range/bounds -1. 1. @range/clipmode none",
+					"text" : "jcom.message attractpoint @type decimalArray @dataspace position @dataspace/unit xyz @description \"Current position of the point of attraction in xyz-coordinates\" @range/bounds -1. 1. @range/clipmode none",
 					"varname" : "attractpoint/xyz[1]"
 				}
 

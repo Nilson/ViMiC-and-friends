@@ -3404,7 +3404,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 624.299988, 285.199982, 599.0, 27.0 ],
-									"text" : "jcom.parameter fdn/modulation/amplitude @type array @range/bounds 0. 10. @range/clipmode low @ramp/drive scheduler @description \"minimal and maximal amplitude of the feedback path's length modulation\" @ramp/drive scheduler @ramp/function linear",
+									"text" : "jcom.parameter fdn/modulation/amplitude @type decimalArray @range/bounds 0. 10. @range/clipmode low @ramp/drive scheduler @description \"minimal and maximal amplitude of the feedback path's length modulation\" @ramp/drive scheduler @ramp/function linear",
 									"varname" : "fdn/modulation/amplitude"
 								}
 
@@ -3480,7 +3480,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 622.299988, 172.199982, 599.0, 27.0 ],
-									"text" : "jcom.parameter fdn/modulation/frequency @type array @range/bounds 0. 10. @range/clipmode low @ramp/drive scheduler @description \"minimal and maximal modulation frequency of the feedback path's length\" @ramp/drive scheduler @ramp/function linear",
+									"text" : "jcom.parameter fdn/modulation/frequency @type decimalArray @range/bounds 0. 10. @range/clipmode low @ramp/drive scheduler @description \"minimal and maximal modulation frequency of the feedback path's length\" @ramp/drive scheduler @ramp/function linear",
 									"varname" : "fdn/modulation/frequency"
 								}
 
@@ -3556,7 +3556,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 601.299988, 102.199997, 404.0, 27.0 ],
-									"text" : "jcom.parameter fdn/delaylength @type array @range/bounds 0. 300. @range/clipmode both @ramp/drive scheduler @description \"minimal and maximal delaylength of the feedback paths\"",
+									"text" : "jcom.parameter fdn/delaylength @type decimalArray @range/bounds 0. 300. @range/clipmode both @ramp/drive scheduler @description \"minimal and maximal delaylength of the feedback paths\"",
 									"varname" : "fdn/delaylength"
 								}
 

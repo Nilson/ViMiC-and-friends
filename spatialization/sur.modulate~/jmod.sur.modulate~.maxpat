@@ -2193,7 +2193,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 881.299988, 476.200012, 562.0, 31.0 ],
-					"text" : "jcom.parameter lfo/frequency/range @type array @range/bounds 0. 20. @range/clipmode low @ramp/drive scheduler @description \"minimal and maximal bounds of the phase across audio channls.\"",
+					"text" : "jcom.parameter lfo/frequency/range @type decimalArray @range/bounds 0. 20. @range/clipmode low @ramp/drive scheduler @description \"minimal and maximal bounds of the phase across audio channls.\"",
 					"varname" : "fdn/delaylength[2]"
 				}
 
@@ -2271,7 +2271,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 956.299988, 351.200012, 593.0, 31.0 ],
-					"text" : "jcom.parameter lfo/phase/range @type array @range/bounds 0. 1. @range/clipmode both @ramp/drive scheduler @description \"minimal and maximal bounds of the phase across audio channls.\"",
+					"text" : "jcom.parameter lfo/phase/range @type decimalArray @range/bounds 0. 1. @range/clipmode both @ramp/drive scheduler @description \"minimal and maximal bounds of the phase across audio channls.\"",
 					"varname" : "fdn/delaylength[1]"
 				}
 
@@ -2366,7 +2366,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 972.300049, 232.200012, 604.0, 31.0 ],
-					"text" : "jcom.parameter lfo/depth/range @type array @range/bounds 0. 100. @range/clipmode both @ramp/drive scheduler @description \"minimal and maximal bounds of the depth across audio channls.\"",
+					"text" : "jcom.parameter lfo/depth/range @type decimalArray @range/bounds 0. 100. @range/clipmode both @ramp/drive scheduler @description \"minimal and maximal bounds of the depth across audio channls.\"",
 					"varname" : "fdn/delaylength"
 				}
 

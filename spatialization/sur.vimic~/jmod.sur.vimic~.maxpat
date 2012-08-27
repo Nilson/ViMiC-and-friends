@@ -14278,7 +14278,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 583.0, 917.0, 351.0, 27.0 ],
-									"text" : "jcom.parameter room/size/xyz @type array @repetitions/allow 0 @range/bounds 0. 40. @range/clipmode both @description \"Size of the virtual room in XYZ\"",
+									"text" : "jcom.parameter room/size/xyz @type decimalArray @repetitions/allow 0 @range/bounds 0. 40. @range/clipmode both @description \"Size of the virtual room in XYZ\"",
 									"varname" : "room/size/xyz"
 								}
 
@@ -16721,7 +16721,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 630.0, 240.0, 589.0, 27.0 ],
-					"text" : "jcom.message source.1/position @type array @ramp/drive scheduler @dataspace position @dataspace/unit xyz @description \"Sourceposition in the virtual room - spatDIF compliant\"",
+					"text" : "jcom.message source.1/position @type decimalArray @ramp/drive scheduler @dataspace position @dataspace/unit xyz @description \"Sourceposition in the virtual room - spatDIF compliant\"",
 					"varname" : "source.1/position/absolute"
 				}
 

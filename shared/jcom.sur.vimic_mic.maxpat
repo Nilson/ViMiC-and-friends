@@ -1014,7 +1014,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 441.0, 616.0, 590.0, 29.0 ],
-					"text" : "jcom.parameter microphone.1/position @type array @repetitions/allow 0 @description \"Position in xyz coodinate of the Nth microphone\" @priority 1 @dataspace position @dataspace/unit xyz",
+					"text" : "jcom.parameter microphone.1/position @type decimalArray @repetitions/allow 0 @description \"Position in xyz coodinate of the Nth microphone\" @priority 1 @dataspace position @dataspace/unit xyz",
 					"varname" : "parameter"
 				}
 
@@ -1030,7 +1030,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 792.0, 544.0, 539.0, 40.0 ],
-					"text" : "jcom.parameter microphone.1/orientation @type array @repetitions/allow 0 @range/bounds -180. 180. @range/clipmode wrap @description \"orientation [yaw pitch] of the Nth microphone\" @priority 2 @dataspace angle @dataspace/unit deg",
+					"text" : "jcom.parameter microphone.1/orientation @type decimalArray @repetitions/allow 0 @range/bounds -180. 180. @range/clipmode wrap @description \"orientation [yaw pitch] of the Nth microphone\" @priority 2 @dataspace angle @dataspace/unit deg",
 					"varname" : "parameter2"
 				}
 

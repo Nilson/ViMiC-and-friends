@@ -871,7 +871,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 40.0, 470.0, 530.0, 17.0 ],
-					"text" : "jcom.message source.1/orientation @type array @ramp/drive scheduler @description \"orientation of the sound source (yaw pitch)\"",
+					"text" : "jcom.message source.1/orientation @type decimalArray @ramp/drive scheduler @description \"orientation of the sound source (yaw pitch)\"",
 					"varname" : "source/orientation/yaw[1]"
 				}
 

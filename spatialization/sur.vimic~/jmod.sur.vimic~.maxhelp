@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 7
+			"revision" : 4
 		}
 ,
 		"rect" : [ 84.0, 45.0, 1145.0, 582.0 ],
@@ -49,7 +49,7 @@
 				"box" : 				{
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
-					"frgb" : 0.0,
+					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"id" : "obj-30",
 					"linecount" : 3,
 					"maxclass" : "comment",
@@ -100,7 +100,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 7
+							"revision" : 4
 						}
 ,
 						"rect" : [ 557.0, 58.0, 640.0, 480.0 ],
@@ -136,7 +136,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 0,
-											"revision" : 7
+											"revision" : 4
 										}
 ,
 										"rect" : [ 25.0, 69.0, 640.0, 480.0 ],
@@ -616,21 +616,30 @@
 												}
 
 											}
+ ],
+										"dependency_cache" : [ 											{
+												"name" : "jcom.oscroute.mxo",
+												"type" : "iLaX"
+											}
+, 											{
+												"name" : "jcom.oscinstance.mxo",
+												"type" : "iLaX"
+											}
  ]
 									}
 ,
 									"patching_rect" : [ 60.0, 277.0, 130.0, 19.0 ],
 									"saved_object_attributes" : 									{
+										"tags" : "",
 										"default_fontface" : 0,
+										"digest" : "",
+										"globalpatchername" : "",
 										"default_fontname" : "Verdana",
+										"fontname" : "Verdana",
 										"default_fontsize" : 10.0,
 										"description" : "",
-										"digest" : "",
 										"fontface" : 0,
-										"fontname" : "Verdana",
-										"fontsize" : 10.0,
-										"globalpatchername" : "",
-										"tags" : ""
+										"fontsize" : 10.0
 									}
 ,
 									"text" : "p position2ambimonitor"
@@ -1100,21 +1109,34 @@
 								}
 
 							}
+ ],
+						"dependency_cache" : [ 							{
+								"name" : "jcom.oscroute.mxo",
+								"type" : "iLaX"
+							}
+, 							{
+								"name" : "jcom.route.mxo",
+								"type" : "iLaX"
+							}
+, 							{
+								"name" : "jcom.oscinstance.mxo",
+								"type" : "iLaX"
+							}
  ]
 					}
 ,
 					"patching_rect" : [ 507.0, 347.0, 19.0, 20.0 ],
 					"saved_object_attributes" : 					{
+						"tags" : "",
 						"default_fontface" : 0,
+						"digest" : "",
+						"globalpatchername" : "",
 						"default_fontname" : "Verdana",
+						"fontname" : "Verdana",
 						"default_fontsize" : 10.0,
 						"description" : "",
-						"digest" : "",
 						"fontface" : 0,
-						"fontname" : "Verdana",
-						"fontsize" : 10.0,
-						"globalpatchername" : "",
-						"tags" : ""
+						"fontsize" : 10.0
 					}
 ,
 					"text" : "p"
@@ -1142,7 +1164,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 18.0,
-					"frgb" : 0.0,
+					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"id" : "obj-106",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -1166,7 +1188,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 7
+							"revision" : 4
 						}
 ,
 						"rect" : [ 28.0, 127.0, 600.0, 426.0 ],
@@ -1202,7 +1224,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 0,
-											"revision" : 7
+											"revision" : 4
 										}
 ,
 										"rect" : [ 25.0, 69.0, 640.0, 480.0 ],
@@ -1326,21 +1348,32 @@
 												}
 
 											}
+ ],
+										"dependency_cache" : [ 											{
+												"name" : "jcom.ambimonitor2position.maxpat",
+												"bootpath" : "/Users/nilspeters/Documents/gits/Jamoma/Modules/Modular/Max/library/components/ambimonitor2position",
+												"type" : "JSON",
+												"implicit" : 1
+											}
+, 											{
+												"name" : "jcom.dataspace.mxo",
+												"type" : "iLaX"
+											}
  ]
 									}
 ,
 									"patching_rect" : [ 24.0, 290.0, 65.0, 20.0 ],
 									"saved_object_attributes" : 									{
+										"tags" : "",
 										"default_fontface" : 0,
+										"digest" : "",
+										"globalpatchername" : "",
 										"default_fontname" : "Verdana",
+										"fontname" : "Verdana",
 										"default_fontsize" : 10.0,
 										"description" : "",
-										"digest" : "",
 										"fontface" : 0,
-										"fontname" : "Verdana",
-										"fontsize" : 10.0,
-										"globalpatchername" : "",
-										"tags" : ""
+										"fontsize" : 10.0
 									}
 ,
 									"text" : "p position"
@@ -1361,7 +1394,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 0,
-											"revision" : 7
+											"revision" : 4
 										}
 ,
 										"rect" : [ 25.0, 69.0, 640.0, 480.0 ],
@@ -1517,21 +1550,22 @@
 												}
 
 											}
- ]
+ ],
+										"dependency_cache" : [  ]
 									}
 ,
 									"patching_rect" : [ 99.0, 290.0, 77.0, 20.0 ],
 									"saved_object_attributes" : 									{
+										"tags" : "",
 										"default_fontface" : 0,
+										"digest" : "",
+										"globalpatchername" : "",
 										"default_fontname" : "Verdana",
+										"fontname" : "Verdana",
 										"default_fontsize" : 10.0,
 										"description" : "",
-										"digest" : "",
 										"fontface" : 0,
-										"fontname" : "Verdana",
-										"fontsize" : 10.0,
-										"globalpatchername" : "",
-										"tags" : ""
+										"fontsize" : 10.0
 									}
 ,
 									"text" : "p orientation"
@@ -1905,21 +1939,36 @@
 								}
 
 							}
+ ],
+						"dependency_cache" : [ 							{
+								"name" : "jcom.ambimonitor2position.maxpat",
+								"bootpath" : "/Users/nilspeters/Documents/gits/Jamoma/Modules/Modular/Max/library/components/ambimonitor2position",
+								"type" : "JSON",
+								"implicit" : 1
+							}
+, 							{
+								"name" : "jcom.loader.mxo",
+								"type" : "iLaX"
+							}
+, 							{
+								"name" : "jcom.dataspace.mxo",
+								"type" : "iLaX"
+							}
  ]
 					}
 ,
 					"patching_rect" : [ 992.0, 405.0, 66.0, 17.0 ],
 					"saved_object_attributes" : 					{
+						"tags" : "",
 						"default_fontface" : 0,
+						"digest" : "",
+						"globalpatchername" : "",
 						"default_fontname" : "Arial",
+						"fontname" : "Arial",
 						"default_fontsize" : 12.0,
 						"description" : "",
-						"digest" : "",
 						"fontface" : 0,
-						"fontname" : "Arial",
-						"fontsize" : 12.0,
-						"globalpatchername" : "",
-						"tags" : ""
+						"fontsize" : 12.0
 					}
 ,
 					"text" : "p xyz2vimic"
@@ -1930,7 +1979,7 @@
 				"box" : 				{
 					"fontname" : "Verdana",
 					"fontsize" : 9.0,
-					"frgb" : 0.0,
+					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"id" : "obj-12",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -1944,7 +1993,7 @@
 				"box" : 				{
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
-					"frgb" : 0.0,
+					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"id" : "obj-126",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -1958,7 +2007,7 @@
 				"box" : 				{
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
-					"frgb" : 0.0,
+					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"id" : "obj-127",
 					"linecount" : 2,
 					"maxclass" : "comment",
@@ -2025,7 +2074,7 @@
 				"box" : 				{
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
-					"frgb" : 0.0,
+					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"id" : "obj-132",
 					"linecount" : 2,
 					"maxclass" : "comment",
@@ -2073,7 +2122,7 @@
 				"box" : 				{
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
-					"frgb" : 0.0,
+					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"id" : "obj-135",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -2101,7 +2150,7 @@
 				"box" : 				{
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
-					"frgb" : 0.0,
+					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"id" : "obj-137",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -2130,7 +2179,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 18.0,
-					"frgb" : 0.0,
+					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"id" : "obj-160",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -2145,7 +2194,7 @@
 				"box" : 				{
 					"fontname" : "Verdana",
 					"fontsize" : 9.0,
-					"frgb" : 0.0,
+					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"id" : "obj-162",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -2159,7 +2208,7 @@
 				"box" : 				{
 					"fontname" : "Verdana",
 					"fontsize" : 9.0,
-					"frgb" : 0.0,
+					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"id" : "obj-163",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -2247,7 +2296,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : 0.0,
+					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"id" : "obj-19",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -2255,7 +2304,7 @@
 					"patching_rect" : [ 945.0, 531.0, 137.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 652.0, 602.0, 150.0, 20.0 ],
-					"text" : "2008 - 2012"
+					"text" : "July 2008, Montreal"
 				}
 
 			}
@@ -2297,7 +2346,7 @@
 				"box" : 				{
 					"fontname" : "Verdana",
 					"fontsize" : 9.0,
-					"frgb" : 0.0,
+					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"id" : "obj-20",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -2327,7 +2376,7 @@
 				"box" : 				{
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
-					"frgb" : 0.0,
+					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"id" : "obj-207",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -2341,7 +2390,7 @@
 				"box" : 				{
 					"fontname" : "Verdana",
 					"fontsize" : 9.0,
-					"frgb" : 0.0,
+					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"id" : "obj-21",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -2355,7 +2404,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : 0.0,
+					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"id" : "obj-22",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -2385,6 +2434,7 @@
 				"box" : 				{
 					"border" : 1,
 					"id" : "obj-25",
+					"ignoreclick" : 1,
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -2397,7 +2447,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : 0.0,
+					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"id" : "obj-26",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -2422,7 +2472,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 7
+							"revision" : 4
 						}
 ,
 						"rect" : [ 592.0, 225.0, 640.0, 480.0 ],
@@ -2502,21 +2552,32 @@
 								}
 
 							}
+ ],
+						"dependency_cache" : [ 							{
+								"name" : "jcom.initialized.maxpat",
+								"bootpath" : "/Users/nilspeters/Documents/gits/Jamoma/Modules/Modular/Max/library/components/initialized",
+								"type" : "JSON",
+								"implicit" : 1
+							}
+, 							{
+								"name" : "jcom.loader.mxo",
+								"type" : "iLaX"
+							}
  ]
 					}
 ,
 					"patching_rect" : [ 837.0, 405.0, 44.0, 18.0 ],
 					"saved_object_attributes" : 					{
+						"tags" : "",
 						"default_fontface" : 0,
+						"digest" : "",
+						"globalpatchername" : "",
 						"default_fontname" : "Verdana",
+						"fontname" : "Verdana",
 						"default_fontsize" : 10.0,
 						"description" : "",
-						"digest" : "",
 						"fontface" : 0,
-						"fontname" : "Verdana",
-						"fontsize" : 10.0,
-						"globalpatchername" : "",
-						"tags" : ""
+						"fontsize" : 10.0
 					}
 ,
 					"text" : "p demo"
@@ -2559,7 +2620,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : 0.0,
+					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"id" : "obj-34",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -2573,7 +2634,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : 0.0,
+					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"id" : "obj-40",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -2593,7 +2654,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 527.0, 347.0, 266.0, 18.0 ],
-					"text" : "/room/absorption.front/preset full"
+					"text" : "/view/panel"
 				}
 
 			}
@@ -2601,7 +2662,7 @@
 				"box" : 				{
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
-					"frgb" : 0.0,
+					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"id" : "obj-6",
 					"linecount" : 2,
 					"maxclass" : "comment",
@@ -2616,7 +2677,7 @@
 				"box" : 				{
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
-					"frgb" : 0.0,
+					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"id" : "obj-72",
 					"linecount" : 4,
 					"maxclass" : "comment",
@@ -2669,7 +2730,7 @@
 				"box" : 				{
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
-					"frgb" : 0.0,
+					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"id" : "obj-8",
 					"linecount" : 2,
 					"maxclass" : "comment",
@@ -2684,7 +2745,7 @@
 				"box" : 				{
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
-					"frgb" : 0.0,
+					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"id" : "obj-81",
 					"linecount" : 2,
 					"maxclass" : "comment",
@@ -2699,7 +2760,7 @@
 				"box" : 				{
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
-					"frgb" : 0.0,
+					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"id" : "obj-82",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -2741,7 +2802,7 @@
 				"box" : 				{
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
-					"frgb" : 0.0,
+					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"id" : "obj-87",
 					"linecount" : 2,
 					"maxclass" : "comment",
@@ -2765,7 +2826,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 7
+							"revision" : 4
 						}
 ,
 						"rect" : [ 244.0, 44.0, 747.0, 762.0 ],
@@ -2801,7 +2862,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 0,
-											"revision" : 7
+											"revision" : 4
 										}
 ,
 										"rect" : [ 10.0, 59.0, 600.0, 426.0 ],
@@ -2856,21 +2917,22 @@
 												}
 
 											}
- ]
+ ],
+										"dependency_cache" : [  ]
 									}
 ,
 									"patching_rect" : [ 192.0, 585.0, 37.0, 17.0 ],
 									"saved_object_attributes" : 									{
+										"tags" : "",
 										"default_fontface" : 0,
+										"digest" : "",
+										"globalpatchername" : "",
 										"default_fontname" : "Arial",
+										"fontname" : "Arial",
 										"default_fontsize" : 12.0,
 										"description" : "",
-										"digest" : "",
 										"fontface" : 0,
-										"fontname" : "Arial",
-										"fontsize" : 12.0,
-										"globalpatchername" : "",
-										"tags" : ""
+										"fontsize" : 12.0
 									}
 ,
 									"text" : "p thru"
@@ -2891,7 +2953,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 0,
-											"revision" : 7
+											"revision" : 4
 										}
 ,
 										"rect" : [ 179.0, 136.0, 903.0, 636.0 ],
@@ -2914,20 +2976,6 @@
 										"digest" : "",
 										"tags" : "",
 										"boxes" : [ 											{
-												"box" : 												{
-													"fontname" : "Verdana",
-													"fontsize" : 10.0,
-													"id" : "obj-9",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 23.0, 395.0, 69.0, 19.0 ],
-													"text" : "append aed"
-												}
-
-											}
-, 											{
 												"box" : 												{
 													"fontname" : "Verdana",
 													"fontsize" : 10.0,
@@ -2993,8 +3041,8 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 19.0, 206.0, 118.0, 29.0 ],
-													"text" : "/jmod.sur.vimic~/microphone. $1 /position"
+													"patching_rect" : [ 19.0, 206.0, 148.0, 29.0 ],
+													"text" : "/jmod.sur.vimic~/microphone. $1 /position/aed"
 												}
 
 											}
@@ -3081,7 +3129,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 0,
-															"revision" : 7
+															"revision" : 4
 														}
 ,
 														"rect" : [ 456.0, 60.0, 640.0, 480.0 ],
@@ -3373,21 +3421,22 @@
 																}
 
 															}
- ]
+ ],
+														"dependency_cache" : [  ]
 													}
 ,
 													"patching_rect" : [ 133.0, 95.0, 130.0, 20.0 ],
 													"saved_object_attributes" : 													{
+														"tags" : "",
 														"default_fontface" : 0,
+														"digest" : "",
+														"globalpatchername" : "",
 														"default_fontname" : "Arial",
+														"fontname" : "Arial",
 														"default_fontsize" : 12.0,
 														"description" : "",
-														"digest" : "",
 														"fontface" : 0,
-														"fontname" : "Arial",
-														"fontsize" : 12.0,
-														"globalpatchername" : "",
-														"tags" : ""
+														"fontsize" : 12.0
 													}
 ,
 													"text" : "p clearingAmbimonitor"
@@ -3789,7 +3838,7 @@
 											}
 , 											{
 												"patchline" : 												{
-													"destination" : [ "obj-9", 0 ],
+													"destination" : [ "obj-12", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
 													"source" : [ "obj-23", 0 ]
@@ -3976,30 +4025,32 @@
 												}
 
 											}
+ ],
+										"dependency_cache" : [ 											{
+												"name" : "jcom.thru.maxpat",
+												"bootpath" : "/Users/nilspeters/Documents/gits/Jamoma/Modules/Modular/Max/library/components/thru",
+												"type" : "JSON",
+												"implicit" : 1
+											}
 , 											{
-												"patchline" : 												{
-													"destination" : [ "obj-12", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-9", 0 ]
-												}
-
+												"name" : "jcom.loader.mxo",
+												"type" : "iLaX"
 											}
  ]
 									}
 ,
 									"patching_rect" : [ 165.0, 145.0, 272.0, 20.0 ],
 									"saved_object_attributes" : 									{
+										"tags" : "",
 										"default_fontface" : 0,
+										"digest" : "",
+										"globalpatchername" : "",
 										"default_fontname" : "Verdana",
+										"fontname" : "Verdana",
 										"default_fontsize" : 10.0,
 										"description" : "",
-										"digest" : "",
 										"fontface" : 0,
-										"fontname" : "Verdana",
-										"fontsize" : 10.0,
-										"globalpatchername" : "",
-										"tags" : ""
+										"fontsize" : 10.0
 									}
 ,
 									"text" : "p equal_distro"
@@ -4046,7 +4097,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 0,
-											"revision" : 7
+											"revision" : 4
 										}
 ,
 										"rect" : [ 586.0, 98.0, 640.0, 480.0 ],
@@ -4125,12 +4176,11 @@
 													"fontname" : "Arial",
 													"fontsize" : 12.0,
 													"id" : "obj-3",
-													"linecount" : 2,
 													"maxclass" : "message",
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 53.0, 225.0, 282.0, 31.0 ],
+													"patching_rect" : [ 53.0, 225.0, 561.0, 18.0 ],
 													"text" : "/jmod.sur.vimic~/microphone.2/orientation/yaw 30, /jmod.sur.vimic~/microphone.1/orientation/yaw -30"
 												}
 
@@ -4152,11 +4202,11 @@
 													"fontsize" : 12.0,
 													"id" : "obj-4",
 													"maxclass" : "newobj",
-													"numinlets" : 5,
+													"numinlets" : 4,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 153.0, 163.0, 316.0, 20.0 ],
-													"text" : "pack /jmod.sur.vimic~/microphone.2/position 30. 0. 2. aed"
+													"patching_rect" : [ 153.0, 163.0, 323.0, 20.0 ],
+													"text" : "pack /jmod.sur.vimic~/microphone.2/position/aed 30. 0. 2."
 												}
 
 											}
@@ -4166,11 +4216,11 @@
 													"fontsize" : 12.0,
 													"id" : "obj-5",
 													"maxclass" : "newobj",
-													"numinlets" : 5,
+													"numinlets" : 4,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 120.0, 192.0, 320.0, 20.0 ],
-													"text" : "pack /jmod.sur.vimic~/microphone.1/position -30. 0. 2 aed."
+													"patching_rect" : [ 120.0, 192.0, 327.0, 20.0 ],
+													"text" : "pack /jmod.sur.vimic~/microphone.1/position/aed -30. 0. 2."
 												}
 
 											}
@@ -4180,7 +4230,7 @@
 													"destination" : [ "obj-4", 3 ],
 													"disabled" : 0,
 													"hidden" : 0,
-													"midpoints" : [ 533.5, 156.0, 385.25, 156.0 ],
+													"midpoints" : [ 533.5, 156.0, 466.5, 156.0 ],
 													"source" : [ "obj-1", 0 ]
 												}
 
@@ -4190,7 +4240,7 @@
 													"destination" : [ "obj-5", 3 ],
 													"disabled" : 0,
 													"hidden" : 0,
-													"midpoints" : [ 533.5, 189.0, 355.25, 189.0 ],
+													"midpoints" : [ 533.5, 189.0, 437.5, 189.0 ],
 													"source" : [ "obj-1", 0 ]
 												}
 
@@ -4276,21 +4326,22 @@
 												}
 
 											}
- ]
+ ],
+										"dependency_cache" : [  ]
 									}
 ,
 									"patching_rect" : [ 558.0, 147.0, 56.0, 20.0 ],
 									"saved_object_attributes" : 									{
+										"tags" : "",
 										"default_fontface" : 0,
+										"digest" : "",
+										"globalpatchername" : "",
 										"default_fontname" : "Arial",
+										"fontname" : "Arial",
 										"default_fontsize" : 12.0,
 										"description" : "",
-										"digest" : "",
 										"fontface" : 0,
-										"fontname" : "Arial",
-										"fontsize" : 12.0,
-										"globalpatchername" : "",
-										"tags" : ""
+										"fontsize" : 12.0
 									}
 ,
 									"text" : "p Stereo"
@@ -4325,7 +4376,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 0,
-											"revision" : 7
+											"revision" : 4
 										}
 ,
 										"rect" : [ 402.0, 176.0, 640.0, 480.0 ],
@@ -4363,7 +4414,7 @@
 												"box" : 												{
 													"fontname" : "Verdana",
 													"fontsize" : 10.0,
-													"frgb" : 0.0,
+													"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"id" : "obj-10",
 													"maxclass" : "comment",
 													"numinlets" : 1,
@@ -4379,11 +4430,11 @@
 													"fontsize" : 12.0,
 													"id" : "obj-11",
 													"maxclass" : "newobj",
-													"numinlets" : 5,
+													"numinlets" : 4,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 148.0, 228.0, 316.0, 20.0 ],
-													"text" : "pack /jmod.sur.vimic~/microphone.3/position 30. 0. 2. aed"
+													"patching_rect" : [ 148.0, 228.0, 323.0, 20.0 ],
+													"text" : "pack /jmod.sur.vimic~/microphone.3/position/aed 30. 0. 2."
 												}
 
 											}
@@ -4393,11 +4444,11 @@
 													"fontsize" : 12.0,
 													"id" : "obj-12",
 													"maxclass" : "newobj",
-													"numinlets" : 5,
+													"numinlets" : 4,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 126.0, 248.0, 326.0, 20.0 ],
-													"text" : "pack /jmod.sur.vimic~/microphone.4/position -110. 0. 2. aed"
+													"patching_rect" : [ 126.0, 248.0, 334.0, 20.0 ],
+													"text" : "pack /jmod.sur.vimic~/microphone.4/position/aed -110. 0. 2."
 												}
 
 											}
@@ -4435,11 +4486,11 @@
 													"fontsize" : 12.0,
 													"id" : "obj-15",
 													"maxclass" : "newobj",
-													"numinlets" : 5,
+													"numinlets" : 4,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 107.0, 269.0, 322.0, 20.0 ],
-													"text" : "pack /jmod.sur.vimic~/microphone.5/position 110. 0. 2. aed"
+													"patching_rect" : [ 107.0, 269.0, 330.0, 20.0 ],
+													"text" : "pack /jmod.sur.vimic~/microphone.5/position/aed 110. 0. 2."
 												}
 
 											}
@@ -4476,7 +4527,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 22.0, 291.0, 305.0, 72.0 ],
+													"patching_rect" : [ 22.0, 291.0, 305.0, 73.0 ],
 													"text" : "/jmod.sur.vimic~/microphone.1/orientation/yaw -30, /jmod.sur.vimic~/microphone.2/orientation/yaw 0, /jmod.sur.vimic~/microphone.3/orientation/yaw 30, /jmod.sur.vimic~/microphone.4/orientation/yaw -110, /jmod.sur.vimic~/microphone.5/orientation/yaw 110"
 												}
 
@@ -4487,11 +4538,11 @@
 													"fontsize" : 12.0,
 													"id" : "obj-5",
 													"maxclass" : "newobj",
-													"numinlets" : 5,
+													"numinlets" : 4,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 181.0, 183.0, 320.0, 20.0 ],
-													"text" : "pack /jmod.sur.vimic~/microphone.1/position -30. 0. 2. aed"
+													"patching_rect" : [ 181.0, 183.0, 327.0, 20.0 ],
+													"text" : "pack /jmod.sur.vimic~/microphone.1/position/aed -30. 0. 2."
 												}
 
 											}
@@ -4501,11 +4552,11 @@
 													"fontsize" : 12.0,
 													"id" : "obj-6",
 													"maxclass" : "newobj",
-													"numinlets" : 5,
+													"numinlets" : 4,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 170.0, 207.0, 310.0, 20.0 ],
-													"text" : "pack /jmod.sur.vimic~/microphone.2/position 0. 0. 2. aed"
+													"patching_rect" : [ 170.0, 207.0, 316.0, 20.0 ],
+													"text" : "pack /jmod.sur.vimic~/microphone.2/position/aed 0. 0. 2."
 												}
 
 											}
@@ -4513,7 +4564,7 @@
 												"box" : 												{
 													"fontname" : "Verdana",
 													"fontsize" : 10.0,
-													"frgb" : 0.0,
+													"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"id" : "obj-8",
 													"maxclass" : "comment",
 													"numinlets" : 1,
@@ -4637,7 +4688,7 @@
 													"destination" : [ "obj-11", 3 ],
 													"disabled" : 0,
 													"hidden" : 0,
-													"midpoints" : [ 539.5, 228.0, 380.25, 228.0 ],
+													"midpoints" : [ 539.5, 228.0, 461.5, 228.0 ],
 													"source" : [ "obj-3", 0 ]
 												}
 
@@ -4647,7 +4698,7 @@
 													"destination" : [ "obj-12", 3 ],
 													"disabled" : 0,
 													"hidden" : 0,
-													"midpoints" : [ 539.5, 243.0, 365.75, 243.0 ],
+													"midpoints" : [ 539.5, 243.0, 450.5, 243.0 ],
 													"source" : [ "obj-3", 0 ]
 												}
 
@@ -4657,7 +4708,7 @@
 													"destination" : [ "obj-15", 3 ],
 													"disabled" : 0,
 													"hidden" : 0,
-													"midpoints" : [ 539.5, 269.5, 343.75, 269.5 ],
+													"midpoints" : [ 539.5, 269.5, 427.5, 269.5 ],
 													"source" : [ "obj-3", 0 ]
 												}
 
@@ -4667,7 +4718,7 @@
 													"destination" : [ "obj-5", 3 ],
 													"disabled" : 0,
 													"hidden" : 0,
-													"midpoints" : [ 539.5, 168.0, 416.25, 168.0 ],
+													"midpoints" : [ 539.5, 168.0, 498.5, 168.0 ],
 													"source" : [ "obj-3", 0 ]
 												}
 
@@ -4677,7 +4728,7 @@
 													"destination" : [ "obj-6", 3 ],
 													"disabled" : 0,
 													"hidden" : 0,
-													"midpoints" : [ 539.5, 204.0, 397.75, 204.0 ],
+													"midpoints" : [ 539.5, 204.0, 476.5, 204.0 ],
 													"source" : [ "obj-3", 0 ]
 												}
 
@@ -4709,21 +4760,22 @@
 												}
 
 											}
- ]
+ ],
+										"dependency_cache" : [  ]
 									}
 ,
 									"patching_rect" : [ 616.0, 147.0, 57.0, 20.0 ],
 									"saved_object_attributes" : 									{
+										"tags" : "",
 										"default_fontface" : 0,
+										"digest" : "",
+										"globalpatchername" : "",
 										"default_fontname" : "Verdana",
+										"fontname" : "Verdana",
 										"default_fontsize" : 10.0,
 										"description" : "",
-										"digest" : "",
 										"fontface" : 0,
-										"fontname" : "Verdana",
-										"fontsize" : 10.0,
-										"globalpatchername" : "",
-										"tags" : ""
+										"fontsize" : 10.0
 									}
 ,
 									"text" : "p ITU5.1"
@@ -4928,21 +4980,36 @@
 								}
 
 							}
+ ],
+						"dependency_cache" : [ 							{
+								"name" : "jcom.thru.maxpat",
+								"bootpath" : "/Users/nilspeters/Documents/gits/Jamoma/Modules/Modular/Max/library/components/thru",
+								"type" : "JSON",
+								"implicit" : 1
+							}
+, 							{
+								"name" : "jcom.loader.mxo",
+								"type" : "iLaX"
+							}
+, 							{
+								"name" : "jcom.loader.mxo",
+								"type" : "iLaX"
+							}
  ]
 					}
 ,
 					"patching_rect" : [ 21.0, 458.0, 74.0, 17.0 ],
 					"saved_object_attributes" : 					{
+						"tags" : "",
 						"default_fontface" : 0,
+						"digest" : "",
+						"globalpatchername" : "",
 						"default_fontname" : "Arial",
+						"fontname" : "Arial",
 						"default_fontsize" : 12.0,
 						"description" : "",
-						"digest" : "",
 						"fontface" : 0,
-						"fontname" : "Arial",
-						"fontsize" : 12.0,
-						"globalpatchername" : "",
-						"tags" : ""
+						"fontsize" : 12.0
 					}
 ,
 					"text" : "p equal_distro"
@@ -4953,7 +5020,7 @@
 				"box" : 				{
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
-					"frgb" : 0.0,
+					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"id" : "obj-89",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -4967,7 +5034,7 @@
 				"box" : 				{
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
-					"frgb" : 0.0,
+					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"id" : "obj-9",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -4996,7 +5063,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 18.0,
-					"frgb" : 0.0,
+					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"id" : "obj-99",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -5011,6 +5078,7 @@
 				"box" : 				{
 					"border" : 1,
 					"id" : "obj-7",
+					"ignoreclick" : 1,
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -5024,6 +5092,7 @@
 					"background" : 1,
 					"border" : 1,
 					"id" : "obj-29",
+					"ignoreclick" : 1,
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -5036,6 +5105,7 @@
 					"background" : 1,
 					"border" : 1,
 					"id" : "obj-18",
+					"ignoreclick" : 1,
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -5048,6 +5118,7 @@
 					"background" : 1,
 					"border" : 1,
 					"id" : "obj-31",
+					"ignoreclick" : 1,
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -5060,6 +5131,7 @@
 					"background" : 1,
 					"border" : 1,
 					"id" : "obj-35",
+					"ignoreclick" : 1,
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
