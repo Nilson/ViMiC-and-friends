@@ -462,7 +462,7 @@
     <item name='microphones/amount' type='integer' priority='301'>3</item>
     <item name='microphones/directivity/power' type='integer' priority='0'>1</item>
   </preset>
-  <preset number='15' name='4 Mics - Ambisonics 1st Order A-format (WXYZ)'>
+  <preset number='15' name='4 Mics - Ambisonics 1st Order B-format (WXYZ)'>
     <item name='microphone.1/active' type='boolean' priority='4'>1</item>
     <item name='microphone.1/directivity/preset' type='string' priority='3'>omni</item>
     <item name='microphone.1/gain' type='decimal' priority='5'>100.000000</item>
@@ -471,12 +471,12 @@
     <item name='microphone.2/active' type='boolean' priority='14'>1</item>
     <item name='microphone.2/directivity/preset' type='string' priority='13'>figure-eight</item>
     <item name='microphone.2/gain' type='decimal' priority='15'>100.000000</item>
-    <item name='microphone.2/orientation' type='array' priority='12'>90.000000 0.000000 </item>
+    <item name='microphone.2/orientation' type='array' priority='12'>0.000000 0.000000 </item>
     <item name='microphone.2/position' type='array' priority='11'>0.000000 0.000000 0.000000 </item>
     <item name='microphone.3/active' type='boolean' priority='24'>1</item>
     <item name='microphone.3/directivity/preset' type='string' priority='23'>figure-eight</item>
     <item name='microphone.3/gain' type='decimal' priority='25'>100.000000</item>
-    <item name='microphone.3/orientation' type='array' priority='22'>0.000000 0.000000 </item>
+    <item name='microphone.3/orientation' type='array' priority='22'>-90.000000 0.000000 </item>
     <item name='microphone.3/position' type='array' priority='21'>0.000000 0.000000 0.000000 </item>
     <item name='microphone.4/active' type='boolean' priority='34'>1</item>
     <item name='microphone.4/directivity/preset' type='string' priority='33'>figure-eight</item>
