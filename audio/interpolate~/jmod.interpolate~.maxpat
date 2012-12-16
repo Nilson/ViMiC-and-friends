@@ -733,7 +733,7 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.matrix≈.mxo",
+				"name" : "jcom.mixer≈.mxo",
 				"type" : "iLaX"
 			}
 , 			{
