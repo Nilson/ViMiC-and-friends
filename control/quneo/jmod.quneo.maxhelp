@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 5
+			"revision" : 8
 		}
 ,
 		"rect" : [ 144.0, 54.0, 969.0, 696.0 ],
@@ -40,7 +40,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 5
+							"revision" : 8
 						}
 ,
 						"rect" : [ 25.0, 69.0, 640.0, 480.0 ],
@@ -141,26 +141,21 @@
 								}
 
 							}
- ],
-						"dependency_cache" : [ 							{
-								"name" : "jcom.oscroute.mxo",
-								"type" : "iLaX"
-							}
  ]
 					}
 ,
 					"patching_rect" : [ 348.333374, 566.0, 96.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
-						"digest" : "",
 						"default_fontname" : "Arial",
 						"default_fontsize" : 12.0,
 						"description" : "",
-						"fontname" : "Arial",
-						"tags" : "",
-						"globalpatchername" : "",
+						"digest" : "",
 						"fontface" : 0,
-						"fontsize" : 12.0
+						"fontname" : "Arial",
+						"fontsize" : 12.0,
+						"globalpatchername" : "",
+						"tags" : ""
 					}
 ,
 					"text" : "p vslider-to-gain"
@@ -181,7 +176,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 5
+							"revision" : 8
 						}
 ,
 						"rect" : [ 25.0, 69.0, 640.0, 480.0 ],
@@ -461,26 +456,21 @@
 								}
 
 							}
- ],
-						"dependency_cache" : [ 							{
-								"name" : "jcom.oscroute.mxo",
-								"type" : "iLaX"
-							}
  ]
 					}
 ,
 					"patching_rect" : [ 251.333374, 566.0, 97.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
-						"digest" : "",
 						"default_fontname" : "Arial",
 						"default_fontsize" : 12.0,
 						"description" : "",
-						"fontname" : "Arial",
-						"tags" : "",
-						"globalpatchername" : "",
+						"digest" : "",
 						"fontface" : 0,
-						"fontsize" : 12.0
+						"fontname" : "Arial",
+						"fontsize" : 12.0,
+						"globalpatchername" : "",
+						"tags" : ""
 					}
 ,
 					"text" : "p hslider-to-filter"
@@ -513,7 +503,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 5
+							"revision" : 8
 						}
 ,
 						"rect" : [ 25.0, 69.0, 640.0, 480.0 ],
@@ -549,7 +539,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 0,
-											"revision" : 5
+											"revision" : 8
 										}
 ,
 										"rect" : [ 592.0, 158.0, 640.0, 480.0 ],
@@ -641,7 +631,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 0,
-															"revision" : 5
+															"revision" : 8
 														}
 ,
 														"rect" : [ 50.0, 94.0, 640.0, 480.0 ],
@@ -797,22 +787,21 @@
 																}
 
 															}
- ],
-														"dependency_cache" : [  ]
+ ]
 													}
 ,
 													"patching_rect" : [ 96.5, 100.0, 34.0, 20.0 ],
 													"saved_object_attributes" : 													{
 														"default_fontface" : 0,
-														"digest" : "",
 														"default_fontname" : "Arial",
 														"default_fontsize" : 12.0,
 														"description" : "",
-														"fontname" : "Arial",
-														"tags" : "",
-														"globalpatchername" : "",
+														"digest" : "",
 														"fontface" : 0,
-														"fontsize" : 12.0
+														"fontname" : "Arial",
+														"fontsize" : 12.0,
+														"globalpatchername" : "",
+														"tags" : ""
 													}
 ,
 													"text" : "p up"
@@ -833,7 +822,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 0,
-															"revision" : 5
+															"revision" : 8
 														}
 ,
 														"rect" : [ 50.0, 94.0, 640.0, 480.0 ],
@@ -989,22 +978,21 @@
 																}
 
 															}
- ],
-														"dependency_cache" : [  ]
+ ]
 													}
 ,
 													"patching_rect" : [ 334.77774, 100.0, 49.0, 20.0 ],
 													"saved_object_attributes" : 													{
 														"default_fontface" : 0,
-														"digest" : "",
 														"default_fontname" : "Arial",
 														"default_fontsize" : 12.0,
 														"description" : "",
-														"fontname" : "Arial",
-														"tags" : "",
-														"globalpatchername" : "",
+														"digest" : "",
 														"fontface" : 0,
-														"fontsize" : 12.0
+														"fontname" : "Arial",
+														"fontsize" : 12.0,
+														"globalpatchername" : "",
+														"tags" : ""
 													}
 ,
 													"text" : "p down"
@@ -1053,7 +1041,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 0,
-															"revision" : 5
+															"revision" : 8
 														}
 ,
 														"rect" : [ 50.0, 94.0, 640.0, 480.0 ],
@@ -1209,22 +1197,21 @@
 																}
 
 															}
- ],
-														"dependency_cache" : [  ]
+ ]
 													}
 ,
 													"patching_rect" : [ 285.77774, 100.0, 49.0, 20.0 ],
 													"saved_object_attributes" : 													{
 														"default_fontface" : 0,
-														"digest" : "",
 														"default_fontname" : "Arial",
 														"default_fontsize" : 12.0,
 														"description" : "",
-														"fontname" : "Arial",
-														"tags" : "",
-														"globalpatchername" : "",
+														"digest" : "",
 														"fontface" : 0,
-														"fontsize" : 12.0
+														"fontname" : "Arial",
+														"fontsize" : 12.0,
+														"globalpatchername" : "",
+														"tags" : ""
 													}
 ,
 													"text" : "p down"
@@ -1245,7 +1232,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 0,
-															"revision" : 5
+															"revision" : 8
 														}
 ,
 														"rect" : [ 50.0, 94.0, 640.0, 480.0 ],
@@ -1401,22 +1388,21 @@
 																}
 
 															}
- ],
-														"dependency_cache" : [  ]
+ ]
 													}
 ,
 													"patching_rect" : [ 50.0, 100.0, 34.0, 20.0 ],
 													"saved_object_attributes" : 													{
 														"default_fontface" : 0,
-														"digest" : "",
 														"default_fontname" : "Arial",
 														"default_fontsize" : 12.0,
 														"description" : "",
-														"fontname" : "Arial",
-														"tags" : "",
-														"globalpatchername" : "",
+														"digest" : "",
 														"fontface" : 0,
-														"fontsize" : 12.0
+														"fontname" : "Arial",
+														"fontsize" : 12.0,
+														"globalpatchername" : "",
+														"tags" : ""
 													}
 ,
 													"text" : "p up"
@@ -1596,26 +1582,21 @@
 												}
 
 											}
- ],
-										"dependency_cache" : [ 											{
-												"name" : "jcom.oscroute.mxo",
-												"type" : "iLaX"
-											}
  ]
 									}
 ,
 									"patching_rect" : [ 218.88887, 107.0, 187.888885, 20.0 ],
 									"saved_object_attributes" : 									{
 										"default_fontface" : 0,
-										"digest" : "",
 										"default_fontname" : "Arial",
 										"default_fontsize" : 12.0,
 										"description" : "",
-										"fontname" : "Arial",
-										"tags" : "",
-										"globalpatchername" : "",
+										"digest" : "",
 										"fontface" : 0,
-										"fontsize" : 12.0
+										"fontname" : "Arial",
+										"fontsize" : 12.0,
+										"globalpatchername" : "",
+										"tags" : ""
 									}
 ,
 									"text" : "p inc/dec"
@@ -1900,26 +1881,21 @@
 								}
 
 							}
- ],
-						"dependency_cache" : [ 							{
-								"name" : "jcom.oscroute.mxo",
-								"type" : "iLaX"
-							}
  ]
 					}
 ,
 					"patching_rect" : [ 117.000031, 566.0, 134.333344, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
-						"digest" : "",
 						"default_fontname" : "Arial",
 						"default_fontsize" : 12.0,
 						"description" : "",
-						"fontname" : "Arial",
-						"tags" : "",
-						"globalpatchername" : "",
+						"digest" : "",
 						"fontface" : 0,
-						"fontsize" : 12.0
+						"fontname" : "Arial",
+						"fontsize" : 12.0,
+						"globalpatchername" : "",
+						"tags" : ""
 					}
 ,
 					"text" : "p sample-region"
@@ -1939,7 +1915,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 5
+							"revision" : 8
 						}
 ,
 						"rect" : [ 25.0, 69.0, 640.0, 480.0 ],
@@ -2054,36 +2030,21 @@
 								}
 
 							}
- ],
-						"dependency_cache" : [ 							{
-								"name" : "jcom.initialized.maxpat",
-								"bootpath" : "/Users/nilspeters/Documents/gits/Jamoma/Modules/Modular/Max/library/components/initialized",
-								"type" : "JSON",
-								"implicit" : 1
-							}
-, 							{
-								"name" : "jcom.loader.mxo",
-								"type" : "iLaX"
-							}
-, 							{
-								"name" : "jcom.loader.mxo",
-								"type" : "iLaX"
-							}
  ]
 					}
 ,
 					"patching_rect" : [ 639.333374, 653.5, 36.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
-						"digest" : "",
 						"default_fontname" : "Arial",
 						"default_fontsize" : 12.0,
 						"description" : "",
-						"fontname" : "Arial",
-						"tags" : "",
-						"globalpatchername" : "",
+						"digest" : "",
 						"fontface" : 0,
-						"fontsize" : 12.0
+						"fontname" : "Arial",
+						"fontsize" : 12.0,
+						"globalpatchername" : "",
+						"tags" : ""
 					}
 ,
 					"text" : "p init"
@@ -2104,7 +2065,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 5
+							"revision" : 8
 						}
 ,
 						"rect" : [ 25.0, 69.0, 640.0, 480.0 ],
@@ -2359,26 +2320,21 @@
 								}
 
 							}
- ],
-						"dependency_cache" : [ 							{
-								"name" : "jcom.oscroute.mxo",
-								"type" : "iLaX"
-							}
  ]
 					}
 ,
 					"patching_rect" : [ 28.0, 566.0, 93.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
-						"digest" : "",
 						"default_fontname" : "Arial",
 						"default_fontsize" : 12.0,
 						"description" : "",
-						"fontname" : "Arial",
-						"tags" : "",
-						"globalpatchername" : "",
+						"digest" : "",
 						"fontface" : 0,
-						"fontsize" : 12.0
+						"fontname" : "Arial",
+						"fontsize" : 12.0,
+						"globalpatchername" : "",
+						"tags" : ""
 					}
 ,
 					"text" : "p Transport bar"
@@ -2411,7 +2367,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 5
+							"revision" : 8
 						}
 ,
 						"rect" : [ 218.0, 67.0, 747.0, 586.0 ],
@@ -2448,28 +2404,21 @@
 
 							}
  ],
-						"lines" : [  ],
-						"dependency_cache" : [ 							{
-								"name" : "scheme.png",
-								"bootpath" : "/Users/nilspeters/Documents/gits/Jamoma/UserLib/ViMiC/control/quneo",
-								"type" : "PNG ",
-								"implicit" : 1
-							}
- ]
+						"lines" : [  ]
 					}
 ,
 					"patching_rect" : [ 608.0, 100.0, 217.0, 29.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
-						"digest" : "",
 						"default_fontname" : "Arial",
 						"default_fontsize" : 12.0,
 						"description" : "",
-						"fontname" : "Arial",
-						"tags" : "",
-						"globalpatchername" : "",
+						"digest" : "",
 						"fontface" : 0,
-						"fontsize" : 12.0
+						"fontname" : "Arial",
+						"fontsize" : 12.0,
+						"globalpatchername" : "",
+						"tags" : ""
 					}
 ,
 					"text" : "p QuNeo OSC scheme"
@@ -2802,7 +2751,7 @@
 					"destination" : [ "obj-2", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 37.5, 553.0, 357.833374, 553.0 ],
+					"midpoints" : [ 37.5, 549.5, 357.833374, 549.5 ],
 					"source" : [ "obj-42", 0 ]
 				}
 
@@ -2832,7 +2781,7 @@
 					"destination" : [ "obj-36", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-42", 3 ]
+					"source" : [ "obj-42", 2 ]
 				}
 
 			}
@@ -2931,35 +2880,35 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "jmod.quneo.maxpat",
-				"bootpath" : "/Users/nilspeters/Documents/gits/Jamoma/UserLib/ViMiC/control/quneo",
+				"bootpath" : "/Users/nilspeters/Documents/gits/JamomaUserLibraries/ViMiC/control/quneo",
 				"patcherrelativepath" : "",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jalg.quneo.maxpat",
-				"bootpath" : "/Users/nilspeters/Documents/gits/Jamoma/UserLib/ViMiC/control/quneo",
+				"bootpath" : "/Users/nilspeters/Documents/gits/JamomaUserLibraries/ViMiC/control/quneo",
 				"patcherrelativepath" : "",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.quneo.slider.maxpat",
-				"bootpath" : "/Users/nilspeters/Documents/gits/Jamoma/UserLib/ViMiC/control/quneo/components",
+				"bootpath" : "/Users/nilspeters/Documents/gits/JamomaUserLibraries/ViMiC/control/quneo/components",
 				"patcherrelativepath" : "../quneo/components",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.quneo.pad.maxpat",
-				"bootpath" : "/Users/nilspeters/Documents/gits/Jamoma/UserLib/ViMiC/control/quneo/components",
+				"bootpath" : "/Users/nilspeters/Documents/gits/JamomaUserLibraries/ViMiC/control/quneo/components",
 				"patcherrelativepath" : "../quneo/components",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.quneo.button.maxpat",
-				"bootpath" : "/Users/nilspeters/Documents/gits/Jamoma/UserLib/ViMiC/control/quneo/components",
+				"bootpath" : "/Users/nilspeters/Documents/gits/JamomaUserLibraries/ViMiC/control/quneo/components",
 				"patcherrelativepath" : "../quneo/components",
 				"type" : "JSON",
 				"implicit" : 1
@@ -2967,90 +2916,90 @@
 , 			{
 				"name" : "jcom.maxhelpui.maxpat",
 				"bootpath" : "/Users/nilspeters/Documents/gits/Jamoma/Modules/Modular/Max/library/components/maxhelpui",
-				"patcherrelativepath" : "../../../../Modules/Modular/Max/library/components/maxhelpui",
+				"patcherrelativepath" : "../../../../Jamoma/Modules/Modular/Max/library/components/maxhelpui",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.maxhelpuiButton.png",
 				"bootpath" : "/Users/nilspeters/Documents/gits/Jamoma/Modules/Modular/Max/library/components/maxhelpui",
-				"patcherrelativepath" : "../../../../Modules/Modular/Max/library/components/maxhelpui",
+				"patcherrelativepath" : "../../../../Jamoma/Modules/Modular/Max/library/components/maxhelpui",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.maxhelpuiResize.js",
 				"bootpath" : "/Users/nilspeters/Documents/gits/Jamoma/Modules/Modular/Max/library/components/maxhelpui",
-				"patcherrelativepath" : "../../../../Modules/Modular/Max/library/components/maxhelpui",
+				"patcherrelativepath" : "../../../../Jamoma/Modules/Modular/Max/library/components/maxhelpui",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.jamomaPath.maxpat",
 				"bootpath" : "/Users/nilspeters/Documents/gits/Jamoma/Modules/Modular/Max/library/components/jamomaPath",
-				"patcherrelativepath" : "../../../../Modules/Modular/Max/library/components/jamomaPath",
+				"patcherrelativepath" : "../../../../Jamoma/Modules/Modular/Max/library/components/jamomaPath",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.thru.maxpat",
 				"bootpath" : "/Users/nilspeters/Documents/gits/Jamoma/Modules/Modular/Max/library/components/thru",
-				"patcherrelativepath" : "../../../../Modules/Modular/Max/library/components/thru",
+				"patcherrelativepath" : "../../../../Jamoma/Modules/Modular/Max/library/components/thru",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jmod.samplePlayer~.maxpat",
 				"bootpath" : "/Users/nilspeters/Documents/gits/Jamoma/Modules/Modular/Max/modules/audio/samplePlayer~",
-				"patcherrelativepath" : "../../../../Modules/Modular/Max/modules/audio/samplePlayer~",
+				"patcherrelativepath" : "../../../../Jamoma/Modules/Modular/Max/modules/audio/samplePlayer~",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jalg.sampleplayer~.maxpat",
 				"bootpath" : "/Users/nilspeters/Documents/gits/Jamoma/Modules/Modular/Max/modules/audio/samplePlayer~",
-				"patcherrelativepath" : "../../../../Modules/Modular/Max/modules/audio/samplePlayer~",
+				"patcherrelativepath" : "../../../../Jamoma/Modules/Modular/Max/modules/audio/samplePlayer~",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "wfmodes.pct",
 				"bootpath" : "/Applications/Max6/patches/picts",
-				"patcherrelativepath" : "../../../../../../../../../Applications/Max6/patches/picts",
+				"patcherrelativepath" : "../../../../../../../../Applications/Max6/patches/picts",
 				"type" : "PICT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "wfknob.pct",
 				"bootpath" : "/Applications/Max6/patches/picts",
-				"patcherrelativepath" : "../../../../../../../../../Applications/Max6/patches/picts",
+				"patcherrelativepath" : "../../../../../../../../Applications/Max6/patches/picts",
 				"type" : "PICT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.meter_receive.maxpat",
 				"bootpath" : "/Users/nilspeters/Documents/gits/Jamoma/Modules/Modular/Max/library/components/meter_receive",
-				"patcherrelativepath" : "../../../../Modules/Modular/Max/library/components/meter_receive",
+				"patcherrelativepath" : "../../../../Jamoma/Modules/Modular/Max/library/components/meter_receive",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jmod.filter~.maxpat",
 				"bootpath" : "/Users/nilspeters/Documents/gits/Jamoma/Modules/Modular/Max/modules/audio/filter~",
-				"patcherrelativepath" : "../../../../Modules/Modular/Max/modules/audio/filter~",
+				"patcherrelativepath" : "../../../../Jamoma/Modules/Modular/Max/modules/audio/filter~",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jalg.filter~.maxpat",
 				"bootpath" : "/Users/nilspeters/Documents/gits/Jamoma/Modules/Modular/Max/modules/audio/filter~",
-				"patcherrelativepath" : "../../../../Modules/Modular/Max/modules/audio/filter~",
+				"patcherrelativepath" : "../../../../Jamoma/Modules/Modular/Max/modules/audio/filter~",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "scheme.png",
-				"bootpath" : "/Users/nilspeters/Documents/gits/Jamoma/UserLib/ViMiC/control/quneo",
+				"bootpath" : "/Users/nilspeters/Documents/gits/JamomaUserLibraries/ViMiC/control/quneo",
 				"patcherrelativepath" : "",
 				"type" : "PNG ",
 				"implicit" : 1
@@ -3058,7 +3007,7 @@
 , 			{
 				"name" : "jcom.initialized.maxpat",
 				"bootpath" : "/Users/nilspeters/Documents/gits/Jamoma/Modules/Modular/Max/library/components/initialized",
-				"patcherrelativepath" : "../../../../Modules/Modular/Max/library/components/initialized",
+				"patcherrelativepath" : "../../../../Jamoma/Modules/Modular/Max/library/components/initialized",
 				"type" : "JSON",
 				"implicit" : 1
 			}
