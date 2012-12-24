@@ -7,7 +7,7 @@
 			"revision" : 8
 		}
 ,
-		"rect" : [ 397.0, 44.0, 856.0, 822.0 ],
+		"rect" : [ 0.0, 44.0, 1280.0, 706.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -57,17 +57,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-32",
-					"maxclass" : "button",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 224.0, 62.0, 20.0, 20.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 11.595187,
 					"id" : "obj-15",
@@ -102,8 +91,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 365.0, 790.0, 433.0, 19.0 ],
-					"text" : "jcom.test.assert.equal.old \"TEST AudioGraph NoErrorsRunningDSPinHelpPatchers\" 0"
+					"patching_rect" : [ 365.0, 790.0, 447.0, 19.0 ],
+					"text" : "jcom.test.assert.equal.old \"TEST ViMiC+friends NoErrorsRunningDSPinHelpPatchers\" 0"
 				}
 
 			}
