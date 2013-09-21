@@ -196,7 +196,7 @@ CUE setup1
 /vimic/room/distance/power 1.000
 /vimic/room/size/xyz 20.000 30.000 8.000
 #/vimic/source/orientation/yaw 0.000
-# /vimic/source/position/aed -81.119 0.000 6.413
+# /vimic/source/position -81.119 0.000 6.413 aed
 /vimic/room/temperature 21.000
 /vimic/updaterate 20
 /vimic/warning 0

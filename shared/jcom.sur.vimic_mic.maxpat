@@ -3,11 +3,12 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 7
+			"minor" : 1,
+			"revision" : 4,
+			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 71.0, 44.0, 1280.0, 706.0 ],
+		"rect" : [ 0.0, 44.0, 1280.0, 706.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -583,8 +584,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 7
+							"minor" : 1,
+							"revision" : 4,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 543.0, 275.0, 667.0, 308.0 ],
@@ -1008,13 +1010,13 @@
 					"fontname" : "Geneva",
 					"fontsize" : 9.0,
 					"id" : "obj-13",
-					"linecount" : 2,
+					"linecount" : 3,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 441.0, 616.0, 590.0, 29.0 ],
-					"text" : "jcom.parameter microphone.1/position @type decimalArray @repetitions/allow 0 @description \"Position in xyz coodinate of the Nth microphone\" @priority 1 @dataspace position @dataspace/unit xyz",
+					"patching_rect" : [ 441.0, 616.0, 602.0, 40.0 ],
+					"text" : "jcom.parameter microphone.1/position @type decimalArray @repetitions/allow 0 @description \"Position in cart. coordinates of the Nth microphone, add 'aed'  or 'opengl' as a 4th argument to define spherical or openGL coordinates respectively\" @priority 1 @dataspace position @dataspace/unit xyz",
 					"varname" : "parameter"
 				}
 
@@ -1088,12 +1090,12 @@
 					"fontname" : "Geneva",
 					"fontsize" : 9.0,
 					"id" : "obj-19",
-					"linecount" : 3,
+					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 750.0, 364.0, 581.0, 40.0 ],
+					"patching_rect" : [ 750.0, 364.0, 582.0, 29.0 ],
 					"text" : "jcom.message microphone.1/orientation/pitch @type decimal @range/bounds -180. 180. @ramp/drive scheduler @range/clipmode wrap @repetitions/allow 0 @description \"Pitch angle of the Nth microphone\" @dataspace angle @dataspace/unit deg",
 					"varname" : "message_ele"
 				}
@@ -1172,15 +1174,6 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-12", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-48", 10 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-13", 0 ]
 				}
 
 			}
@@ -1289,15 +1282,6 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-24", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-13", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-26", 0 ]
 				}
 
 			}
@@ -1464,15 +1448,6 @@
 					"hidden" : 0,
 					"midpoints" : [ 636.5, 556.0, 645.5, 556.0 ],
 					"source" : [ "obj-44", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-13", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-48", 10 ]
 				}
 
 			}
@@ -1724,6 +1699,33 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-48", 10 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-13", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-13", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-26", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-13", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-48", 10 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-15", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -1743,22 +1745,22 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "jcom.thru.maxpat",
-				"bootpath" : "/Users/nilspeters/Documents/gits/Jamoma/Modules/Modular/Max/library/components/thru",
-				"patcherrelativepath" : "../../../Modules/Modular/Max/library/components/thru",
+				"bootpath" : "/Users/nilspeters/Documents/Max/Packages/Jamoma-0.5.7/patchers/library/components/thru",
+				"patcherrelativepath" : "../../../../Max/Packages/Jamoma-0.5.7/patchers/library/components/thru",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.list2parameter.maxpat",
-				"bootpath" : "/Users/nilspeters/Documents/gits/Jamoma/Modules/Modular/Max/library/components/list2parameter",
-				"patcherrelativepath" : "../../../Modules/Modular/Max/library/components/list2parameter",
+				"bootpath" : "/Users/nilspeters/Documents/Max/Packages/Jamoma-0.5.7/patchers/library/components/list2parameter",
+				"patcherrelativepath" : "../../../../Max/Packages/Jamoma-0.5.7/patchers/library/components/list2parameter",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.meter_receive.maxpat",
-				"bootpath" : "/Users/nilspeters/Documents/gits/Jamoma/Modules/Modular/Max/library/components/meter_receive",
-				"patcherrelativepath" : "../../../Modules/Modular/Max/library/components/meter_receive",
+				"bootpath" : "/Users/nilspeters/Documents/Max/Packages/Jamoma-0.5.7/patchers/library/components/meter_receive",
+				"patcherrelativepath" : "../../../../Max/Packages/Jamoma-0.5.7/patchers/library/components/meter_receive",
 				"type" : "JSON",
 				"implicit" : 1
 			}
