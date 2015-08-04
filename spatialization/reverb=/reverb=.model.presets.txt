@@ -1,0 +1,31 @@
+#################################
+- preset "default"
+# "edit a comment"
+#################################
+
+audio/gain 100.0
+fdn/delaylength 30.000000 76.000000 
+fdn/filtergain 1.0
+fdn/filtertype bandpass
+fdn/frequency 732.000000
+fdn/modulation/active 1
+fdn/modulation/amplitude 0.350000 5.060000 
+fdn/modulation/frequency 0.320000 1.400000 
+fdn/q 0.054497
+input/filtergain 1.0
+input/filtertype lowpass
+input/frequency 2548.000000
+input/q 0.606826
+interpolationtime 20.000000
+numInputs 8
+numOutputs 8
+output.1/gain 100.0
+output.2/gain 100.0
+output.3/gain 100.0
+output.4/gain 100.0
+output.5/gain 100.0
+output.6/gain 100.0
+output.7/gain 100.0
+output.8/gain 100.0
+predelay 0.000000
+t60 1.700000
