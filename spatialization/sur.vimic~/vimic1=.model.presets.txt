@@ -1,0 +1,105 @@
+#################################
+- preset "default"
+# "edit a comment"
+#################################
+
+microphones/amount 8
+microphone.1/active 1
+microphone.1/directivity/ratio 0.5
+microphone.1/gain' type='decimal 100.0
+microphone.1/orientation 0.0 0.0 
+microphone.1/position 0.0 0.0 0.0 
+microphone.2/active 1
+microphone.2/directivity/ratio 0.5
+microphone.2/gain 100.0
+microphone.2/orientation 45.0 0.0 
+microphone.2/position 0.0 0.0 0.0 
+microphone.3/active 1
+microphone.3/directivity/ratio 0.5
+microphone.3/gain 100.0
+microphone.3/orientation 90.0 0.0 
+microphone.3/position 0.0 0.0 0.0 
+microphone.4/active 1
+microphone.4/directivity/ratio 0.5
+microphone.4/gain 100.0
+microphone.4/orientation 135.0 0.0 
+microphone.4/position 0.0 0.0 0.0 
+microphone.5/active 1
+microphone.5/directivity/ratio 0.5
+microphone.5/gain 100.0
+microphone.5/orientation 180.0 0.0 
+microphone.5/position 0.0 0.0 0.0 
+microphone.6/active 1
+microphone.6/directivity/ratio 0.5
+microphone.6/gain 100.0
+microphone.6/orientation 225.0 0.0 
+microphone.6/position 0.0 0.0 0.0 
+microphone.7/active 1
+microphone.7/directivity/ratio 0.5
+microphone.7/gain 100.0
+microphone.7/orientation 270.0 0.0 
+microphone.7/position 0.0 0.0 0.0 
+microphone.8/active 1
+microphone.8/directivity/ratio 0.5
+microphone.8/gain 100.0
+microphone.8/orientation 315.0 0.0 
+microphone.8/position 0.0 0.0 0.0 
+
+microphones/directivity/power 1
+microphones/polarity 1
+rendermode/interval 50
+rendermode/minimizeDelay/active 1
+rendermode/normalizeGain/active 0
+rendermode/threshold/active 0
+rendermode/threshold 0
+rendermode/xfade/fadefunction 0
+rendermode/xfade/fadelength 3200
+rendermode/xfade/threshold 2
+rendermode ViMiC_lite
+report 0
+room/absorption.ceiling/high 99.900002
+room/absorption.ceiling/low_mid_frequency 500
+room/absorption.ceiling/low 99.900002
+room/absorption.ceiling/mid_high_frequency 3500
+room/absorption.ceiling/mid 99.900002
+room/absorption.floor/high 99.900002
+room/absorption.floor/low_mid_frequency 500
+room/absorption.floor/low 99.900002
+room/absorption.floor/mid_high_frequency 3500
+room/absorption.floor/mid 99.900002
+room/absorption.front/high 99.900002
+room/absorption.front/low_mid_frequency 500
+room/absorption.front/low 99.900002
+room/absorption.front/mid_high_frequency 3500
+room/absorption.front/mid 99.900002
+room/absorption.left/high 99.900002
+room/absorption.left/low_mid_frequency 500
+room/absorption.left/low 99.900002
+room/absorption.left/mid_high_frequency 3500
+room/absorption.left/mid 99.900002
+room/absorption.rear/high 99.900002
+room/absorption.rear/low_mid_frequency 500
+room/absorption.rear/low 99.900002
+room/absorption.rear/mid_high_frequency 3500
+room/absorption.rear/mid 99.900002
+room/absorption.right/high 99.900002
+room/absorption.right/low_mid_frequency 500
+room/absorption.right/low 99.900002
+room/absorption.right/mid_high_frequency 3500
+room/absorption.right/mid 99.900002
+room/distance/dbunit 3.0
+room/distance/mode inverse
+room/distance/power 1.0
+room/reflection/airfilter 10000
+room/reflection/gain.0 100.0
+room/reflection/gain.1 0.0
+room/reflection/gain.2 0.0
+room/size/xyz 20.0 30.0 8.0 
+room/temperature 21.0
+source.1/orientation/active 0
+source.1/orientation/mode static
+source.1/orientation/yaw 0
+updaterate 20
+warning 0
+ 
+
