@@ -6,7 +6,7 @@
 microphones/amount 8
 microphone.1/active 1
 microphone.1/directivity/ratio 0.5
-microphone.1/gain' type='decimal 100.0
+microphone.1/gain 100.0
 microphone.1/orientation 0.0 0.0 
 microphone.1/position 0.0 0.0 0.0 
 microphone.2/active 1
