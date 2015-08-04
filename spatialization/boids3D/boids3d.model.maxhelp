@@ -138,7 +138,7 @@
 			}
 , 			{
 				"box" : 				{
-					"frozen_box_attributes" : [ "point_size", "ignoreclick" ],
+					"frozen_box_attributes" : [ "ignoreclick", "point_size" ],
 					"grid" : 2,
 					"group_name_color" : 1,
 					"id" : "obj-17",
@@ -173,7 +173,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 648.0, 236.0, 604.0, 456.0 ],
+						"rect" : [ 578.0, 270.0, 604.0, 456.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 10.0,
@@ -193,6 +193,21 @@
 						"digest" : "",
 						"tags" : "",
 						"boxes" : [ 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"hidden" : 1,
+									"id" : "obj-3",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 3,
+									"outlettype" : [ "", "", "" ],
+									"patching_rect" : [ 379.0, 192.0, 167.0, 20.0 ],
+									"text" : "j.receive /boids3d/attractpoint"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"fontname" : "Verdana",
 									"fontsize" : 10.0,
@@ -558,11 +573,11 @@
 									"fontsize" : 10.0,
 									"id" : "obj-8",
 									"maxclass" : "newobj",
-									"numinlets" : 3,
-									"numoutlets" : 3,
-									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 217.0, 65.0, 309.0, 19.0 ],
-									"text" : "route number attractpoint"
+									"numinlets" : 2,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
+									"patching_rect" : [ 217.0, 65.0, 79.0, 19.0 ],
+									"text" : "route number"
 								}
 
 							}
@@ -674,6 +689,15 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-12", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-3", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-20", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -707,15 +731,6 @@
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-6", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-12", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-8", 1 ]
 								}
 
 							}
@@ -778,7 +793,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 19.0, 243.0, 186.0, 17.0 ],
-					"text" : "attractpoint 0.1875 0.635 0."
+					"text" : "attractpoint 0.103125 -0.235 0."
 				}
 
 			}
@@ -1104,7 +1119,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "@name", "jmod.boids3d", "@description", "bird flight and animal flock simulator. © 1995-98 Eric L. Singer (eric@ericsinger.com)" ],
+					"args" : [ "@name", "boids3d.module", "@description", "bird flight and animal flock simulator. © 1995-98 Eric L. Singer (eric@ericsinger.com)" ],
 					"bgmode" : 1,
 					"id" : "obj-5",
 					"maxclass" : "bpatcher",
@@ -1206,15 +1221,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-18", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-7", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-19", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -1283,13 +1289,6 @@
 				"name" : "jcom.list2parameter.maxpat",
 				"bootpath" : "/Users/nilspeters/Documents/gits/JamomaUserLibraries/GMEA/Projects/CP.interface/patchers",
 				"patcherrelativepath" : "../../../GMEA/Projects/CP.interface/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "boids3d-extended_settings.view.maxpat",
-				"bootpath" : "/Users/nilspeters/Documents/gits/JamomaUserLibraries/ViMiC/spatialization/boids3D",
-				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
