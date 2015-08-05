@@ -237,7 +237,7 @@ microphones/amount 3
 microphones/directivity/power 1
   
 #################################
-- preset " Mics - Decca Tree"
+- preset “3 Mics - Decca Tree"
 ################################# 
 microphone.1/active 1
 microphone.1/directivity/preset omni
