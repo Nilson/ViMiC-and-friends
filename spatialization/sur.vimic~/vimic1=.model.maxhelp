@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 99.0, 73.0, 1145.0, 677.0 ],
+		"rect" : [ 71.0, 45.0, 1145.0, 677.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -2505,7 +2505,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 541.0, 339.0, 266.0, 18.0 ],
-					"text" : "microphone.2/directivity/ratio 0.513514"
+					"text" : "microphone.3/orientation -30. 0."
 				}
 
 			}
@@ -4747,7 +4747,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 21.0, 458.0, 74.0, 17.0 ],
+					"patching_rect" : [ 21.0, 458.0, 40.0, 17.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -4761,7 +4761,7 @@
 						"tags" : ""
 					}
 ,
-					"text" : "p equal_distro"
+					"text" : "p distro"
 				}
 
 			}
@@ -5147,29 +5147,29 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-23::obj-1::obj-24" : [ "Master Gain", "Master Gain", 0 ],
-			"obj-23::obj-1::obj-108" : [ "live.text[7]", "live.text[4]", 0 ],
-			"obj-23::obj-1::obj-4" : [ "live.text[4]", "live.text[1]", 0 ],
-			"obj-23::obj-1::obj-1::obj-5" : [ "Preamp", "Preamp", 0 ],
-			"obj-23::obj-1::obj-1::obj-30" : [ "live.menu", "live.menu", 0 ],
-			"obj-23::obj-1::obj-62" : [ "live.text[5]", "live.text[3]", 0 ],
-			"obj-23::obj-1::obj-1::obj-27" : [ "Threshold", "Threshold", 0 ],
-			"obj-23::obj-1::obj-29::obj-48" : [ "live.menu[1]", "live.menu", 0 ],
-			"obj-23::obj-1::obj-1::obj-42" : [ "live.text[1]", "live.text", 0 ],
-			"obj-23::obj-1::obj-59" : [ "live.text[8]", "live.text[3]", 0 ],
-			"obj-23::obj-1::obj-1::obj-15" : [ "Postamp", "Postamp", 0 ],
 			"obj-23::obj-1::obj-1::obj-13" : [ "Release", "Release", 0 ],
+			"obj-23::obj-1::obj-58" : [ "live.text[6]", "live.text[4]", 0 ],
+			"obj-23::obj-1::obj-48" : [ "live.menu[2]", "live.menu", 0 ],
+			"obj-23::obj-1::obj-1::obj-12" : [ "Lookahead", "Lookahead", 0 ],
+			"obj-23::obj-1::obj-4" : [ "live.text[4]", "live.text[1]", 0 ],
+			"obj-23::obj-1::obj-1::obj-6" : [ "live.text", "live.text", 0 ],
+			"obj-23::obj-1::obj-82" : [ "pan", "Pan", 0 ],
+			"obj-23::obj-1::obj-74" : [ "live.dial[1]", "Transpose", 0 ],
+			"obj-23::obj-1::obj-62" : [ "live.text[5]", "live.text[3]", 0 ],
 			"obj-23::obj-1::obj-1::obj-45" : [ "live.text[2]", "live.text", 0 ],
+			"obj-23::obj-1::obj-111" : [ "live.numbox[2]", "live.numbox[2]", 0 ],
+			"obj-23::obj-1::obj-110" : [ "live.numbox[1]", "live.numbox[1]", 0 ],
 			"obj-23::obj-1::obj-47" : [ "live.numbox[3]", "live.numbox", 0 ],
 			"obj-23::obj-1::obj-45" : [ "live.text[3]", "live.text", 0 ],
-			"obj-23::obj-1::obj-82" : [ "pan", "Pan", 0 ],
-			"obj-23::obj-1::obj-1::obj-6" : [ "live.text", "live.text", 0 ],
-			"obj-23::obj-1::obj-58" : [ "live.text[6]", "live.text[4]", 0 ],
-			"obj-23::obj-1::obj-74" : [ "live.dial[1]", "Transpose", 0 ],
-			"obj-23::obj-1::obj-48" : [ "live.menu[2]", "live.menu", 0 ],
-			"obj-23::obj-1::obj-111" : [ "live.numbox[2]", "live.numbox[2]", 0 ],
-			"obj-23::obj-1::obj-1::obj-12" : [ "Lookahead", "Lookahead", 0 ],
-			"obj-23::obj-1::obj-110" : [ "live.numbox[1]", "live.numbox[1]", 0 ]
+			"obj-23::obj-1::obj-1::obj-30" : [ "live.menu", "live.menu", 0 ],
+			"obj-23::obj-1::obj-24" : [ "Master Gain", "Master Gain", 0 ],
+			"obj-23::obj-1::obj-108" : [ "live.text[7]", "live.text[4]", 0 ],
+			"obj-23::obj-1::obj-59" : [ "live.text[8]", "live.text[3]", 0 ],
+			"obj-23::obj-1::obj-1::obj-5" : [ "Preamp", "Preamp", 0 ],
+			"obj-23::obj-1::obj-29::obj-48" : [ "live.menu[1]", "live.menu", 0 ],
+			"obj-23::obj-1::obj-1::obj-42" : [ "live.text[1]", "live.text", 0 ],
+			"obj-23::obj-1::obj-1::obj-27" : [ "Threshold", "Threshold", 0 ],
+			"obj-23::obj-1::obj-1::obj-15" : [ "Postamp", "Postamp", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -5251,43 +5251,43 @@
 			}
 , 			{
 				"name" : "reverb=.module.maxpat",
-				"bootpath" : "/Users/nilspeters/Documents/gits/JamomaUserLibraries/ViMiC/spatialization/sur.reverb~",
-				"patcherrelativepath" : "../sur.reverb~",
+				"bootpath" : "/Users/nilspeters/Documents/gits/JamomaUserLibraries/ViMiC/spatialization/reverb=",
+				"patcherrelativepath" : "../reverb=",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "reverb=.model.maxpat",
-				"bootpath" : "/Users/nilspeters/Documents/gits/JamomaUserLibraries/ViMiC/spatialization/sur.reverb~",
-				"patcherrelativepath" : "../sur.reverb~",
+				"bootpath" : "/Users/nilspeters/Documents/gits/JamomaUserLibraries/ViMiC/spatialization/reverb=",
+				"patcherrelativepath" : "../reverb=",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "FDN16-16-16d.maxpat",
-				"bootpath" : "/Users/nilspeters/Documents/gits/JamomaUserLibraries/ViMiC/spatialization/sur.reverb~",
-				"patcherrelativepath" : "../sur.reverb~",
+				"bootpath" : "/Users/nilspeters/Documents/gits/JamomaUserLibraries/ViMiC/spatialization/reverb=",
+				"patcherrelativepath" : "../reverb=",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "FDN.gain.maxpat",
-				"bootpath" : "/Users/nilspeters/Documents/gits/JamomaUserLibraries/ViMiC/spatialization/sur.reverb~",
-				"patcherrelativepath" : "../sur.reverb~",
+				"bootpath" : "/Users/nilspeters/Documents/gits/JamomaUserLibraries/ViMiC/spatialization/reverb=",
+				"patcherrelativepath" : "../reverb=",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "vary_unit.maxpat",
-				"bootpath" : "/Users/nilspeters/Documents/gits/JamomaUserLibraries/ViMiC/spatialization/sur.reverb~",
-				"patcherrelativepath" : "../sur.reverb~",
+				"bootpath" : "/Users/nilspeters/Documents/gits/JamomaUserLibraries/ViMiC/spatialization/reverb=",
+				"patcherrelativepath" : "../reverb=",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "reverb=.view.maxpat",
-				"bootpath" : "/Users/nilspeters/Documents/gits/JamomaUserLibraries/ViMiC/spatialization/sur.reverb~",
-				"patcherrelativepath" : "../sur.reverb~",
+				"bootpath" : "/Users/nilspeters/Documents/gits/JamomaUserLibraries/ViMiC/spatialization/reverb=",
+				"patcherrelativepath" : "../reverb=",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -5417,6 +5417,14 @@
 				"type" : "iLaX"
 			}
 , 			{
+				"name" : "j.unsig=.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.return_array.mxo",
+				"type" : "iLaX"
+			}
+, 			{
 				"name" : "j.ui.mxo",
 				"type" : "iLaX"
 			}
@@ -5430,6 +5438,10 @@
 			}
 , 			{
 				"name" : "j.textslider.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.oscroute.mxo",
 				"type" : "iLaX"
 			}
 , 			{
@@ -5457,10 +5469,6 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "j.oscroute.mxo",
-				"type" : "iLaX"
-			}
-, 			{
 				"name" : "j.oscinstance.mxo",
 				"type" : "iLaX"
 			}
@@ -5482,10 +5490,6 @@
 			}
 , 			{
 				"name" : "j.panorama~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.return_array.mxo",
 				"type" : "iLaX"
 			}
 , 			{
