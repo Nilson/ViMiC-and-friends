@@ -1,0 +1,10 @@
+#################################
+- preset "default"
+# "edit a comment"
+#################################
+
+dimensions 2
+numDestinations 8
+numSources 3
+rolloff 6.0
+
