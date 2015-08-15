@@ -1,0 +1,12 @@
+#################################
+- preset "default"
+# "edit a comment"
+#################################
+
+a 3.700000
+active 0
+iterationdepth 1
+seed 0.469040
+updaterate 10
+ 
+
